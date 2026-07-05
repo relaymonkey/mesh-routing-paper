@@ -64,3 +64,10 @@ paper.
   field measurements — rankings and ratios are the robust findings (see paper §8, Threats to
   validity).
 - Node identifiers and names appear as broadcast publicly by the nodes themselves.
+
+## AI assistance
+
+This work was produced with substantial AI assistance (Cursor agents): the simulation and
+experiment code, analysis, figures and paper text were AI-drafted under the author's direction
+and review. The full disclosure is in the paper. Everything is reproducible from the code and
+data in this repository.

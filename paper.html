@@ -58,7 +58,8 @@
 <h1>An Empirically Calibrated Evaluation of Flood, Source-Path, Next-Hop
 and Gradient-Corridor Forwarding on Real Meshtastic Networks</h1>
 <div class="authors">Alen Zubic &middot; <a href="https://www.relaymonkey.com/relaymesh/">RelayMesh</a></div>
-<div class="date">July 4, 2026 &middot; Data window: 2026-06-27 to 2026-07-04 (UTC)</div>
+<div class="date">July 4, 2026 &middot; Data window: 2026-06-27 to 2026-07-04 (UTC) &middot;
+Produced with AI assistance (see disclosure before References)</div>
 
 <div class="abstract">
 <span class="lbl">Abstract.</span> Meshtastic carries broadcast traffic &mdash; and, before
@@ -1112,6 +1113,15 @@ extend already exists (<code>RadioInterface::getTxDelayMsecWeighted</code>, re-k
 gradient); the experiment to run is suppression reliability: how often does the losing
 candidate fail to hear the winner and forward a duplicate?</li>
 </ol>
+
+<h2>AI assistance disclosure</h2>
+<p>This work was produced with substantial AI assistance (Cursor agents). The AI wrote the
+simulation and experiment code, ran the data extraction and analysis, generated the figures and
+drafted the text. The author directed the research questions, supplied the production data
+access, reviewed intermediate results, challenged and corrected the methodology at several
+points (including the link-extraction fix of &sect;5.1 and the decision to ablate the state
+clocks), and takes full responsibility for the final content. All numbers are reproducible from
+the published code and data exports [5] independent of any AI involvement.</p>
 
 <h2>References</h2>
 <ol class="refs">

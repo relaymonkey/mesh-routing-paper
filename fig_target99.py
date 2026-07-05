@@ -8,15 +8,15 @@ GRAY = "#7f7f7f"
 RED = "#d62728"
 BLUE = "#1f77b4"
 
-fig = plt.figure(figsize=(12.6, 4.6))
-gs = fig.add_gridspec(1, 2, width_ratios=[1.9, 1.0], wspace=0.24)
+fig = plt.figure(figsize=(13.6, 4.6))
+gs = fig.add_gridspec(1, 2, width_ratios=[2.1, 1.0], wspace=0.22)
 
 # ---- (a) the ladder ----
 ax = fig.add_subplot(gs[0])
-labels = ["GradCor-R\n(published)", "+ fallback-flood\ncold start",
-          "+ rescue flood at\nlocal minimum", "+ e2e retries\nk=1",
-          "+ e2e retries\nk=3", "+ e2e retries\nk=5",
-          "+ custody\n(hold \u226424 h)"]
+labels = ["GradCor-R\n(published)", "+ cold-start\nfallback flood",
+          "+ rescue flood\nat dead end", "+ retries\nk=1",
+          "+ retries\nk=3", "+ retries\nk=5",
+          "+ custody\nhold \u226424 h"]
 dlv = [50.9, 55.1, 60.0, 75.3, 84.9, 88.0, 94.5]
 txd = [21.5, 22.9, 26.3, 31.0, 37.7, 42.7, 79.7]
 shades = ["#2ca02c", "#43ab43", "#5ab55a", "#71c071", "#88ca88", "#9fd49f", "#b6dfb6"]
@@ -26,8 +26,9 @@ for xi, d in zip(x, dlv):
     ax.text(xi, d + 1.2, f"{d:.1f}%", ha="center", fontsize=9, fontweight="bold")
 
 ax.axhline(93.2, color=RED, lw=1.8, ls="--")
-ax.text(0.02, 86.5, "93.2%  instant-reachability ceiling \u2014 no algorithm passes this",
-        fontsize=8.3, color=RED, transform=ax.get_yaxis_transform())
+ax.text(0.02, 89.0, "93.2%  instant-reachability ceiling\n(no algorithm passes this)",
+        fontsize=8.3, color=RED, va="top",
+        transform=ax.get_yaxis_transform())
 ax.axhline(95.6, color=RED, lw=1.2, ls=":")
 ax.text(0.02, 99.5, "95.6%  ceiling with 24 h patience (4.4% never see a path all week)",
         fontsize=8.3, color="#a04040", transform=ax.get_yaxis_transform())

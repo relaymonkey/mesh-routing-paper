@@ -301,6 +301,8 @@ race on the time axis.
                        |  g(v) &le; g_holder            (EQUAL)
                        |  v decoded the frame         (ANY)
           <span class="kw">if</span> any eligible: winner &larr; contention race (min g, then best SNR); <span class="kw">break</span>
+              <span class="cm"># losers mute on overhearing the winner &mdash; its forward</span>
+              <span class="cm"># is the holder's implicit ack (Figure 3d)</span>
       <span class="kw">if</span> no winner: <span class="kw">drop</span> deterministically  <span class="cm"># local minimum; RERR toward src (&sect;3.5)</span>
       visited &larr; visited &cup; {winner};  holder &larr; winner</pre>
 <div class="caption"><b>Algorithm 1.</b> GradCor v1 forwarding, evaluated head-to-head against

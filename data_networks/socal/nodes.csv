@@ -1,0 +1,1352 @@
+"id","short","long","role","hw","hasPos","lat","lon"
+"!ccfc64c","c64c","SGV__Shredder__1w LF20 SOCALMESH.org","CLIENT_BASE","RAK3401","false",0,0
+"!6b539b08","","","CLIENT_BASE","","false",0,0
+"!e4311c47","LOM1","Lomita West","CLIENT","RAK4631","false",0,0
+"!2ee0590","","","CLIENT","","false",0,0
+"!ac9ef78","","","CLIENT","","false",0,0
+"!ebaf0790","","","CLIENT_MUTE","","false",0,0
+"!fc2daeaf","","","CLIENT","","false",0,0
+"!a6964cf4","","","CLIENT_MUTE","","false",0,0
+"!74bb969d","","","CLIENT","","false",0,0
+"!6a044b79","","","CLIENT","","false",0,0
+"!1126ede8","1WT2","1W Test2 ede8 (Check out socalmesh.org)","CLIENT_MUTE","NRF52_PROMICRO_DIY","false",0,0
+"!f68aceb","","","CLIENT_BASE","","false",0,0
+"!5b62513d","","","ROUTER_CLIENT","","false",0,0
+"!8fe3d507","d908","Meshtastic 908Mesh","CLIENT","RAK4631","false",0,0
+"!8f04407d","407d","Solar 407d","CLIENT","RAK4631","false",0,0
+"!cd193aa","","","CLIENT_MUTE","","false",0,0
+"!335c20a8","20a8","Meshtastic 20a8","CLIENT","HELTEC_V3","false",0,0
+"!7e412ad5","","","CLIENT","","false",0,0
+"!849a88f0","TED1","Temecula EDC 1 C_M","CLIENT","HELTEC_V3","false",0,0
+"!a5c23bf","B4SE","BASEDstation - SocalMesh.org","CLIENT_BASE","RAK4631","false",0,0
+"!433cef10","ef10","Meshtastic ef10","CLIENT","HELTEC_V3","false",0,0
+"!4c576f4","AMBR","AMBER","CLIENT","HELTEC_V4","false",0,0
+"!698321fc","","","CLIENT","","false",0,0
+"!da63e168","TBSM","T-Beam Supreme Meshtastic e168","CLIENT_MUTE","LILYGO_TBEAM_S3_CORE","false",0,0
+"!9a15518f","518f","Meshtastic SRB1","CLIENT","RAK4631","false",0,0
+"!7fd30a1c","NPSK","Knapsack37","CLIENT","T_ECHO","false",0,0
+"!f937dcb8","rgdc","roguedecoy","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!d3caa58c","","","CLIENT","","false",0,0
+"!485d096c","","","CLIENT","","false",0,0
+"!5a6c59fa","","","CLIENT","","false",0,0
+"!48cf6d98","","","CLIENT_MUTE","","false",0,0
+"!a20a0f38","KI6G","KB81 G2 Base","CLIENT","STATION_G2","false",0,0
+"!7ed236f4","","","ROUTER_CLIENT","","false",0,0
+"!ba1a7abf","AGRF","AG Roof Base","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!7c5b1780","1780","Meshtastic 1780","CLIENT","HELTEC_V3","false",0,0
+"!49b5e350","","","CLIENT_MUTE","","false",0,0
+"!6520f3bf","Tiki","The Tiki Room","CLIENT_MUTE","THINKNODE_M1","false",0,0
+"!8fa67c14","cat1","catz 01","CLIENT","HELTEC_V4","false",0,0
+"!b4ba746d","SGVP","SGV Fixed Pigeon","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!8e3cb8e1","RAD3","RAD Three","CLIENT_MUTE","HELTEC_MESH_NODE_T114","false",0,0
+"!df47fd7d","","","CLIENT","","false",0,0
+"!9ee99fec","","","CLIENT","","false",0,0
+"!816f03cc","","","CLIENT","","false",0,0
+"!38c90763","⚛","Valley Village ⚛","CLIENT","RAK4631","false",0,0
+"!433ade18","","","CLIENT_MUTE","","false",0,0
+"!9e762108","2108","CM 2108","CLIENT","HELTEC_V3","false",0,0
+"!a9efb3c","✝","SGV_Shredder__Azusa","ROUTER","RAK4631","false",0,0
+"!aeba3dfb","3dfb","Meshtastic 3dfb","CLIENT","HELTEC_MESH_POCKET","false",0,0
+"!e1712d55","2d55","Hrohopar - Card","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!1fe1f937","Cin","Cin M3","CLIENT","THINKNODE_M3","false",0,0
+"!90dd4a0d","","","CLIENT","","false",0,0
+"!8816d3ac","BEAN","BigBeanSupreme","CLIENT_MUTE","THINKNODE_M1","false",0,0
+"!f7089770","Roof","91790-Roof-solar","CLIENT_BASE","RAK4631","false",0,0
+"!41833c6d","","","CLIENT","","false",0,0
+"!b3bb4032","","","CLIENT","","false",0,0
+"!712ce2dc","COYO","COYOTE HILLS ","ROUTER","RAK4631","false",0,0
+"!9fd6b48c","","","CLIENT","","false",0,0
+"!f1247645","","","CLIENT_MUTE","","false",0,0
+"!49b441a4","41a4","Meshtastic 41a4","CLIENT","HELTEC_V4","false",0,0
+"!1fa06eec","","","CLIENT","","false",0,0
+"!9883c5f1","📡","Meshticles-1w-LF","CLIENT","RAK3401","false",0,0
+"!8a2ff389","f389","Meshtastic f389","CLIENT","NRF52_UNKNOWN","false",0,0
+"!af877543","","","CLIENT","","false",0,0
+"!70cf5a31","Mbus","Uptown Mobius","CLIENT","SEEED_SOLAR_NODE","false",0,0
+"!2aea6135","🛸","UFO","CLIENT","THINKNODE_M1","false",0,0
+"!da539ac4","GIP2","KO6GIP Node2","CLIENT","TLORA_T3_S3","false",0,0
+"!63400120","DR80","Desert_Rat","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!98db66fa","HAC","🛰️ Hughes Aircraft","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!22f53e04","🦍","Guerilla Radio","CLIENT_MUTE","RAK4631","false",0,0
+"!27cb8540","GP45","GP MF45","CLIENT","T_DECK","false",0,0
+"!aad56b81","","","TRACKER","","false",0,0
+"!c2b7bced","","","CLIENT","","false",0,0
+"!1d5aa584","txrF","Emitter Foxtrot","CLIENT_MUTE","WISMESH_TAG","false",0,0
+"!69827524","","","CLIENT","","false",0,0
+"!a982fa8","JAN","Just Another Node 🏡","CLIENT_BASE","M5STACK_CARDPUTER_ADV","false",0,0
+"!807be8e0","","","TRACKER","","false",0,0
+"!400a4c4","KG-S","KG-Sun","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!d34c4d70","egp","egpocket ","CLIENT","HELTEC_MESH_POCKET","false",0,0
+"!5b328805","1277","1277","CLIENT_BASE","RAK4631","false",0,0
+"!7d086c70","","","CLIENT","","false",0,0
+"!c977e299","e299","HP e299","CLIENT","SEEED_SOLAR_NODE","false",0,0
+"!52f8e6c5","","","CLIENT_MUTE","","false",0,0
+"!60f1b60b","LKWD","Lakewood Solar Node","CLIENT","RAK4631","false",0,0
+"!699b8214","GHST","Ghost","CLIENT_BASE","HELTEC_V4","false",0,0
+"!f150effd","","","CLIENT_BASE","","false",0,0
+"!934feb36","","","CLIENT","","false",0,0
+"!ca3ad0c6","SHN4","SheepdogShaun","CLIENT","TRACKER_T1000_E","false",0,0
+"!433d30d4","30d4","🤷 30d4 🚙","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!b29f6fdc","","","CLIENT_BASE","","false",0,0
+"!a02dfb37","CFI9","K0CFI Gateway","CLIENT_BASE","RAK4631","false",0,0
+"!43c589c","CAST","29CastHour","CLIENT","HELTEC_V3","false",0,0
+"!3d948919","","","CLIENT","","false",0,0
+"!9e786e40","6e40","Meshtastic 6e40","CLIENT","HELTEC_V3","false",0,0
+"!ba605c90","🍺","Hop Limit","CLIENT","HELTEC_V3","false",0,0
+"!a43e8c47","","","CLIENT","","false",0,0
+"!9e759930","","","CLIENT_BASE","","false",0,0
+"!543ae870","VSBS","Vaseball ☀","CLIENT_BASE","RAK4631","false",0,0
+"!a2e19d30","","","CLIENT","","false",0,0
+"!c819fc5b","","","CLIENT","","false",0,0
+"!c255844b","","","CLIENT","","false",0,0
+"!6c73cbb4","cbb4","SunlandSneek","CLIENT","TBEAM","false",0,0
+"!9e9d1b80","","","CLIENT","","false",0,0
+"!a8923b66","","","CLIENT_BASE","","false",0,0
+"!bc6021e6","eRNa","eR.tony •nano•","CLIENT","NANO_G2_ULTRA","false",0,0
+"!9a094b79","4b79","Meshtastic 4b79","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!f384d2c9","Mnod","Menifee Node","CLIENT_BASE","RAK4631","false",0,0
+"!49b66f44","","","CLIENT","","false",0,0
+"!81cb81a3","","","CLIENT_MUTE","","false",0,0
+"!f6623eb4","BRT","Albert","CLIENT","HELTEC_V4","false",0,0
+"!6ee0ee94","","","CLIENT_BASE","","false",0,0
+"!a2e952ec","MM1","March Madness Node 1","CLIENT_MUTE","T_DECK","false",0,0
+"!71e4bee","4bee","RepeatingMyself","CLIENT_BASE","RAK4631","false",0,0
+"!ba0cac94","ac94","WSJT425-Bravo","CLIENT","HELTEC_V3","false",0,0
+"!3369eb00","","","ROUTER","","false",0,0
+"!2e5ddac","tw","TW","CLIENT","HELTEC_V3","false",0,0
+"!8c779b88","🤖","Rover🪐","CLIENT","TRACKER_T1000_E","false",0,0
+"!98dcd20c","ZhnB","ZahnBase","CLIENT","TLORA_V2_1_1P6","false",0,0
+"!336751c0","","","CLIENT","","false",0,0
+"!63c2b0de","OSD1","Oceanside 1","CLIENT","RAK4631","false",0,0
+"!b29fa5e8","a5e8","Meshtastic a5e8","CLIENT","HELTEC_V4","false",0,0
+"!406c9d0","👾","Gleep MQTT LF - SoCalMesh.org","CLIENT_MUTE","HELTEC_WSL_V3","false",0,0
+"!69842210","","","CLIENT","","false",0,0
+"!e2d0ec5b","GRIM","Grim","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!f1a7e17c","","","CLIENT","","false",0,0
+"!db2b68dc","68dc","Meshtastic 68dc","CLIENT","HELTEC_V3","false",0,0
+"!db587874","","","CLIENT","","false",0,0
+"!69858510","Rgr2","Ranger2 WSJN937","CLIENT","HELTEC_V4","false",0,0
+"!a3c1e888","","","CLIENT_BASE","","false",0,0
+"!3bc12f26","","","TRACKER","","false",0,0
+"!ea8f668c","668c","Meshtastic 668c","CLIENT_MUTE","SENSECAP_INDICATOR","false",0,0
+"!fac790a6","JCLB","W2JCL Base","CLIENT_BASE","RAK4631","false",0,0
+"!43b57890","xar1","xarbase1","CLIENT_BASE","HELTEC_V3","false",0,0
+"!f669cce0","👾","Gleep Base","CLIENT_BASE","HELTEC_V4","false",0,0
+"!3638bb5d","","","CLIENT","","false",0,0
+"!4064344","4344","progdotgay_4344","CLIENT","HELTEC_V3","false",0,0
+"!433c806c","","","CLIENT","","false",0,0
+"!10f3e792","MOON","DistantMoonBase","CLIENT","RAK4631","false",0,0
+"!dacbd4f6","FLNK","Field Link 1W","CLIENT_BASE","RAK4631","false",0,0
+"!da45e278","SCSJ","SCSJ","ROUTER_LATE","SEEED_XIAO_S3","false",0,0
+"!4c58abc","8abc","Meshtastic 8abc","CLIENT","HELTEC_V4","false",0,0
+"!9e75d4b0","CAv3","CASEv3","CLIENT","HELTEC_V3","false",0,0
+"!99382ba6","","","CLIENT","","false",0,0
+"!b413ba77","MeMo","MeshMom","CLIENT","TRACKER_T1000_E","false",0,0
+"!39ead377","d377","Meshtastic d377","CLIENT_MUTE","HELTEC_MESH_NODE_T114","false",0,0
+"!e5e607b2","ABM","All By Myself","CLIENT","RAK4631","false",0,0
+"!eb2c488d","txrL","Emitter Lima","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!a0ccd810","TBOT","TBOT-AI-RPTR - Sahara & Nellis d810","CLIENT","HELTEC_V3","false",0,0
+"!634044a8","KANO","HOME","CLIENT","SEEED_SOLAR_NODE","false",0,0
+"!7f98ef96","FLNT","Flint-Solar-Ka6vha","CLIENT_BASE","RAK4631","false",0,0
+"!7c5b0974","CMQ2","Coop MQTT 2","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!b8042812","","","CLIENT","","false",0,0
+"!1ad102e1","","","CLIENT","","false",0,0
+"!a9332e0d","2e0d","2e0d","CLIENT","TRACKER_T1000_E","false",0,0
+"!3e912a08","2a08","Torrance Rooftop","CLIENT_BASE","RAK4631","false",0,0
+"!69843334","Ty1","TyBase","CLIENT_BASE","HELTEC_V4","false",0,0
+"!da574f04","","","ROUTER_CLIENT","","false",0,0
+"!a0352680","","","CLIENT_BASE","","false",0,0
+"!4a26432a","432a","Meshtastic 432a","CLIENT","RAK4631","false",0,0
+"!bd4fa974","DebS","Meshtastic a974","CLIENT","HELTEC_V3","false",0,0
+"!69859434","9072","ROOFTOP KOREAN","CLIENT_BASE","HELTEC_V4","false",0,0
+"!ef581b8d","@UAG","Urban Armor Gear Base ","CLIENT_BASE","SEEED_WIO_TRACKER_L1","false",0,0
+"!f40b8e4d","","","CLIENT","","false",0,0
+"!49b79a3c","","","CLIENT","","false",0,0
+"!433ad51c","","","CLIENT","","false",0,0
+"!fd8e66d9","66d9","Meshtastic 66d9","CLIENT","RAK4631","false",0,0
+"!9ee2d046","","","CLIENT","","false",0,0
+"!a1ccf610","","","CLIENT","","false",0,0
+"!37374fa9","","","CLIENT","","false",0,0
+"!69857068","","","CLIENT","","false",0,0
+"!cf03b8db","","","CLIENT","","false",0,0
+"!d45b5328","BLDY","Baldy Village West","CLIENT_BASE","SEEED_XIAO_S3","false",0,0
+"!c976080d","GSOM","GSOM","CLIENT","RAK4631","false",0,0
+"!943d87a0","🪃","Outback","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!d890626","","","CLIENT_BASE","","false",0,0
+"!a0cb6924","6924","Meshtastic 6924","CLIENT","HELTEC_V3","false",0,0
+"!db51fb58","","","CLIENT","","false",0,0
+"!598ff302","f302","Aslan's Meshtastic Solar Node f302","CLIENT","SEEED_SOLAR_NODE","false",0,0
+"!7d1432fd","","","CLIENT","","false",0,0
+"!3f1db8d1","RM24","R Mesh 24","CLIENT","T_ECHO","false",0,0
+"!9f600d47","🃏","JOKER","CLIENT_MUTE","WISMESH_TAG","false",0,0
+"!64324ca6","33NB","33North-Base Relay","CLIENT_BASE","SEEED_WIO_TRACKER_L1","false",0,0
+"!ac9e670","","","CLIENT_BASE","","false",0,0
+"!7db3be91","","","CLIENT","","false",0,0
+"!eba0d49b","42TF","Tustin Fruits","CLIENT","RAK4631","false",0,0
+"!95ea7ebb","","","CLIENT","","false",0,0
+"!bd4f9c9c","mbot","MeshBot AI Chatbot","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!51b48a52","SR01","Thousand Oaks Solar relay 01☀️","CLIENT_BASE","THINKNODE_M6","false",0,0
+"!b03d31f4","Woo3","Woolio 03","CLIENT","HELTEC_V3","false",0,0
+"!be14dbf8","TSRN","Temecula Solar Remote Node","CLIENT","RAK4631","false",0,0
+"!f6f6d42c","Mnod","Menifee Node","CLIENT_BASE","HELTEC_WIRELESS_PAPER","false",0,0
+"!b03cf6b4","","","CLIENT","","false",0,0
+"!a1e0666d","","","CLIENT","","false",0,0
+"!75e1c1bc","","","ROUTER","","false",0,0
+"!b1e8b476","b476","Meshtastic b476","CLIENT","TRACKER_T1000_E","false",0,0
+"!1ba11624","VOYR","Voyager","CLIENT","HELTEC_V4","false",0,0
+"!849a85e0","TED2","Temecula EDC 2 C_M","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!1b2ac7a2","CHUG","Chugathon","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!16ced228","","","CLIENT","","false",0,0
+"!aca3bec","3bec","Meshtastic 3bec","CLIENT","HELTEC_V4","false",0,0
+"!e4df8ce4","8ce4","Fulcrum 09","CLIENT","TRACKER_T1000_E","false",0,0
+"!6c70ccee","🌤","DryBone Alex 🌤","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!a48f896f","","","CLIENT","","false",0,0
+"!849a6960","🥸","Glendale Packet Dealer 🥸","CLIENT_BASE","HELTEC_WIRELESS_PAPER","false",0,0
+"!69831854","GNU6","GNU6 Base","CLIENT","HELTEC_V4","false",0,0
+"!a20a1188","PL","Placentia Station G2","CLIENT_BASE","STATION_G2","false",0,0
+"!7fe0b131","","","CLIENT","","false",0,0
+"!a36a4284","","","CLIENT","","false",0,0
+"!9d821fc0","👍","Vault-Tec-Service-Rep","CLIENT_MUTE","HELTEC_MESH_NODE_T114","false",0,0
+"!e9743b11","","","CLIENT_MUTE","","false",0,0
+"!638d74ad","","","CLIENT_BASE","","false",0,0
+"!2ee4874","VRGL","Virgil (Mobile)","CLIENT","HELTEC_V3","false",0,0
+"!433b9750","9750","WayUpDown","CLIENT","HELTEC_WIRELESS_PAPER","false",0,0
+"!a948dd72","CAT","CATHEDRAL CITY","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!bd6de3b0","","","CLIENT","","false",0,0
+"!76b43fad","EFN","Meshtastic EFN","CLIENT","RAK4631","false",0,0
+"!7a6bf7cc","KSLc","KSLocal_HDMesh.org","CLIENT_BASE","TBEAM","false",0,0
+"!87ab7fc","UPAT","Upland Attic","CLIENT","RAK11200","false",0,0
+"!4069c4c","ET","Etiwanda","CLIENT_BASE","HELTEC_V3","false",0,0
+"!49b67248","","","CLIENT","","false",0,0
+"!f63921ca","","","CLIENT","","false",0,0
+"!db51e710","","","CLIENT","","false",0,0
+"!da5771e8","71e8","Meshtastic 71e8","CLIENT","LILYGO_TBEAM_S3_CORE","false",0,0
+"!311c0994","","","CLIENT","","false",0,0
+"!64bd4c7d","","","CLIENT","","false",0,0
+"!ba5876fc","","","CLIENT_HIDDEN","","false",0,0
+"!db51d9a4","","","CLIENT","","false",0,0
+"!f96aad58","","","TAK","","false",0,0
+"!7263b687","P1W","Peninsula1w","CLIENT","RAK3401","false",0,0
+"!8e992962","2962","Fredric ","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!33603710","SR42","SINGER42","CLIENT","LILYGO_TBEAM_S3_CORE","false",0,0
+"!2134d6c8","TPSB","Trash Panda 🦝 Solar Base","CLIENT_BASE","RAK4631","false",0,0
+"!68311603","","","CLIENT_BASE","","false",0,0
+"!63be0fa0","","","CLIENT","","false",0,0
+"!826e531","CVN1","CV Nebra 1  (check out socalmesh.org)","CLIENT_BASE","PORTDUINO","false",0,0
+"!83f9f49a","DRGN","🐉Stellario","CLIENT","RAK4631","false",0,0
+"!2fbcb216","ECHO","Echo Park Roof","CLIENT_BASE","RAK4631","false",0,0
+"!79857b30","","","CLIENT_MUTE","","false",0,0
+"!68281566","WLT1","WiL1Tra1","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!48373c3c","","","CLIENT_MUTE","","false",0,0
+"!da543578","3578","Meshtastic 3578","CLIENT","HELTEC_V3","false",0,0
+"!b40665b8","🏰","Kingdom 🏰","ROUTER","SEEED_SOLAR_NODE","false",0,0
+"!43589364","","","CLIENT","","false",0,0
+"!92fdfa60","=S1=","LMS1 SoCalMesh.org","ROUTER","RAK4631","false",0,0
+"!33697e18","SMCA","W6JLK Santa Monica","CLIENT","HELTEC_V3","false",0,0
+"!2e87478","JAN","Just Another Node🏹","CLIENT_MUTE","M5STACK_CARDPUTER_ADV","false",0,0
+"!d70f274b","","","CLIENT","","false",0,0
+"!c35a7704","6CIO","KB6CIO-HOME-hAP-ac3","CLIENT_MUTE","254","false",0,0
+"!acab7cb8","GTRB","GuitarBuilder 🎸","CLIENT","HELTEC_V3","false",0,0
+"!f8b06e50","","","CLIENT","","false",0,0
+"!e2e4f980","","","CLIENT","","false",0,0
+"!69859f58","9f58","Mobile 9f58","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!a20a0e60","msl2","mmca msol2","CLIENT","STATION_G2","false",0,0
+"!86b29b6e","","","CLIENT","","false",0,0
+"!6678c226","","","CLIENT","","false",0,0
+"!69826d38","","","CLIENT_MUTE","","false",0,0
+"!99d4521e","","","CLIENT","","false",0,0
+"!9e78ae8c","","","CLIENT_BASE","","false",0,0
+"!9ea1fa68","","","CLIENT","","false",0,0
+"!49c6a672","","","CLIENT_BASE","","false",0,0
+"!8c9810b3","NRBB","North Redondo Beach Base","CLIENT_BASE","RAK4631","false",0,0
+"!83ce67f8","T114","CN-T114-MUZI","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!da57569c","TXTY","Toxxity","CLIENT","LILYGO_TBEAM_S3_CORE","false",0,0
+"!67b1e0f","🧀","Charge-E-Cheese","CLIENT","HELTEC_MESH_POCKET","false",0,0
+"!8e0f1370","RPA2","RPA2 1370","CLIENT","SEEED_SOLAR_NODE","false",0,0
+"!9045c90c","🌆","SKYNET Central ","CLIENT","RAK4631","false",0,0
+"!b5813f40","","","CLIENT","","false",0,0
+"!6985f258","f258","Meshtastic f258","CLIENT","HELTEC_V4","false",0,0
+"!2ead264","d264","Meshtastic d264","TRACKER","HELTEC_V3","false",0,0
+"!5a5daaad","","","CLIENT_BASE","","false",0,0
+"!bd8cfd60","JO37","AE5JO El Mundo 🌎 WSIF442","CLIENT","T_DECK","false",0,0
+"!c6a522b8","","","CLIENT","","false",0,0
+"!67e01225","","","CLIENT_BASE","","false",0,0
+"!2eddbc0","Dwy","Dewey","CLIENT","HELTEC_V3","false",0,0
+"!433c3dec","","","CLIENT","","false",0,0
+"!493f37da","37da","Meshtastic 37da","ROUTER","RAK4631","false",0,0
+"!814c52a6","","","CLIENT_BASE","","false",0,0
+"!b3cf7dc2","","","TRACKER","","false",0,0
+"!e13c640f","","","CLIENT","","false",0,0
+"!6b299665","ONZO","ONZO","CLIENT","HELTEC_MESH_POCKET","false",0,0
+"!ea030528","6939","ASN-6939-ARIN","CLIENT","T_DECK","false",0,0
+"!ba76ec7c","SEED","SEED","CLIENT","SEEED_XIAO_S3","false",0,0
+"!2ed6900","RM2","Reckless Mesh 2","CLIENT","HELTEC_V3","false",0,0
+"!336021c0","SR41","SINGERF&F41","CLIENT","LILYGO_TBEAM_S3_CORE","false",0,0
+"!91e36959","3v7","mmca LiFePo4 (.14)","CLIENT","RAK4631","false",0,0
+"!cca38e95","","","CLIENT","","false",0,0
+"!549d7203","RoHi","RowlandHeights - SoCalMesh.org","ROUTER","RAK4631","false",0,0
+"!75366c81","CGRY","Coop Gray","CLIENT_MUTE","HELTEC_MESH_NODE_T114","false",0,0
+"!1de929d4","RSLB","ResoluteBase","CLIENT","SEEED_XIAO_S3","false",0,0
+"!228fa6c0","a6c0","PAC0 a6c0","CLIENT","TRACKER_T1000_E","false",0,0
+"!9a433ba6","","","CLIENT_MUTE","","false",0,0
+"!33698e70","FORM","FairOaksRanchMobile","CLIENT","HELTEC_V3","false",0,0
+"!2ecb5f8","","","CLIENT","","false",0,0
+"!1e2257d4","","","CLIENT","","false",0,0
+"!cf7af81e","","","CLIENT","","false",0,0
+"!b110e38e","","","CLIENT","","false",0,0
+"!3c7d2d74","","","CLIENT","","false",0,0
+"!b634aec5","ESMN","El Segundo Mesh Node","CLIENT_MUTE","RAK4631","false",0,0
+"!f1b92b08","","","CLIENT","","false",0,0
+"!87ac91c","IG01","iwvmesh.net Gateway 01","ROUTER","RAK11200","false",0,0
+"!433d2a2c","2a2c","🤷 2a2c BBS","CLIENT_BASE","HELTEC_V3","false",0,0
+"!2ec2eac","","","CLIENT","","false",0,0
+"!9e764278","4278","chicken_coop_4278","CLIENT_BASE","HELTEC_V3","false",0,0
+"!1fa04c94","W6TB","W6BAC T-Beam","CLIENT","TBEAM","false",0,0
+"!331ca5bf","","","CLIENT","","false",0,0
+"!e7e5f0f9","APL","AmputiLayag_MeshNodeQTHlab","CLIENT","RAK4631","false",0,0
+"!595e1274","","","CLIENT","","false",0,0
+"!da63ea54","","","CLIENT_MUTE","","false",0,0
+"!2572f637","cthu","R'lyeh","CLIENT","RAK4631","false",0,0
+"!43560730","","","CLIENT_MUTE","","false",0,0
+"!849b5d40","","","CLIENT_BASE","","false",0,0
+"!acaa5ef8","SAW","SAW Meshtastic","CLIENT","HELTEC_V3","false",0,0
+"!8a9caec9","TWM7","TWEM07 www.twem.net","CLIENT","SEEED_SOLAR_NODE","false",0,0
+"!ba0c7ce4","","","CLIENT","","false",0,0
+"!f7df8e80","OS-4","NG6B Old_Skool-4","CLIENT","HELTEC_MESH_POCKET","false",0,0
+"!1ba1e7a0","23b2","23b Shop Loaner","CLIENT","HELTEC_V4","false",0,0
+"!ddd0e3fb","TPM1","Tobey PeakMesh e3fb","CLIENT","RAK4631","false",0,0
+"!8fa78da4","PC-1","PC-8da4","CLIENT_BASE","HELTEC_V4","false",0,0
+"!7a88dee1","","","CLIENT","","false",0,0
+"!68a153e5","JAK1","JAK-white","CLIENT","T_ECHO","false",0,0
+"!a1f8fc48","📸","GirlsGoneWireless-MF","CLIENT","SEEED_XIAO_S3","false",0,0
+"!43596574","SHOP","KM6MCI NODE 1 🦜","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!2eaa1cb6","SCSJ","SCSJ","ROUTER_LATE","XIAO_NRF52_KIT","false",0,0
+"!1a269ab0","","","CLIENT","","false",0,0
+"!4789e0ac","","","TRACKER","","false",0,0
+"!39d4f9f9","","","CLIENT_BASE","","false",0,0
+"!219dfec1","8647","DJT IS A PEDOPHILE","CLIENT","RAK4631","false",0,0
+"!82680694","N0DU","nodu","CLIENT","THINKNODE_M1","false",0,0
+"!16d7fd14","👃","HAND_JOB","CLIENT","T_DECK","false",0,0
+"!49b79c8c","","","CLIENT","","false",0,0
+"!6983e444","e444","Meshtastic e444","CLIENT_BASE","HELTEC_V4","false",0,0
+"!be2ec595","","","CLIENT","","false",0,0
+"!a2eb4094","MMMM","MARK'S MOBILE NODE","CLIENT_MUTE","STATION_G2","false",0,0
+"!bee8af95","","","CLIENT_BASE","","false",0,0
+"!6c879dc","79dc","Meshtastic 79dc","CLIENT","TLORA_V2_1_1P6","false",0,0
+"!da5eccec","","","CLIENT","","false",0,0
+"!40649b8","MHB1","MMTCHB1","CLIENT","HELTEC_V3","false",0,0
+"!637a8656","","","CLIENT","","false",0,0
+"!1a5fcf2b","CRD1","Craner Duo 1","CLIENT_MUTE","MUZI_BASE","false",0,0
+"!9d15cad8","","","CLIENT","","false",0,0
+"!4c5abe4","WW10","Woolio 10","CLIENT","HELTEC_V4","false",0,0
+"!1ba16fe4","","","CLIENT","","false",0,0
+"!e2e1922c","","","CLIENT","","false",0,0
+"!ea24768c","","","CLIENT","","false",0,0
+"!eb0493d","👾","Gleep Card","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!aa38094d","UNDR","undefined router","ROUTER","SEEED_SOLAR_NODE","false",0,0
+"!604091af","🚌","Mobile Nodeile","CLIENT","RAK4631","false",0,0
+"!f6fb4410","BPIE","WA6KDS","ROUTER","HELTEC_V3","false",0,0
+"!5f2b7253","7253","Meshtastic 7253","CLIENT","RAK4631","false",0,0
+"!9a928715","DTQ","KO6DTQ","CLIENT","TRACKER_T1000_E","false",0,0
+"!a3f1557c","RXZB","RXZ Base","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!df70017c","017c","Meshtastic 017c","CLIENT","TRACKER_T1000_E","false",0,0
+"!db58f338","","","CLIENT","","false",0,0
+"!f66adfac","dfac","Meshtastic dfac","CLIENT","HELTEC_V4","false",0,0
+"!1c7e6617","6RKY","K6RKY-hAPac2","CLIENT_MUTE","254","false",0,0
+"!119d6d21","SR","Sneaker Router","CLIENT","RAK4631","false",0,0
+"!c5c044d5","","","CLIENT","","false",0,0
+"!35019827","Card","BBD-Card","CLIENT","TRACKER_T1000_E","false",0,0
+"!eb377ac5","","","CLIENT","","false",0,0
+"!da577254","","","CLIENT","","false",0,0
+"!4c57eb8","GOOB","GOOB","CLIENT","HELTEC_V4","false",0,0
+"!16d3ef94","","","CLIENT","","false",0,0
+"!7a41f8c9","","","CLIENT","","false",0,0
+"!98fe09b4","L619","L619 T1000E","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!1e29689f","Lex2","DryBone Alex 689f","CLIENT_MUTE","SEEED_WIO_TRACKER_L1","false",0,0
+"!b15adcf4","mala","malatesta","CLIENT_MUTE","RAK4631","false",0,0
+"!31289b4a","Tbey","Tobey Base - Placentia 9b4a","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!3def1e62","🛶","OngAnaheimRidgeSolar-SoCalMesh.org","ROUTER","RAK4631","false",0,0
+"!d20e87d2","","","CLIENT","","false",0,0
+"!6c73b728","","","CLIENT","","false",0,0
+"!c0c30c2c","0c2c","Meshtastic 0c2c","CLIENT_BASE","TBEAM","false",0,0
+"!a2e9724c","","","CLIENT_BASE","","false",0,0
+"!da634e68","4e68","Meshtastic 4e68","CLIENT","HELTEC_V3","false",0,0
+"!96623c56","DalK","DualKMF","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!6c741960","","","CLIENT","","false",0,0
+"!a3b10b5","10b5","Meshtastic 10b5","CLIENT","HELTEC_MESH_POCKET","false",0,0
+"!1ba2e6d8","ARCL","Arclight (23b Shop)","CLIENT","HELTEC_V4","false",0,0
+"!f66f13a4","13a4","AK4FD 13a4","CLIENT","HELTEC_V4","false",0,0
+"!d4a71224","","","CLIENT","","false",0,0
+"!a0c3b6db","SOLA","SGV_Shredder__SouthLA_MF45","CLIENT_BASE","RAK4631","false",0,0
+"!1bd8d98e","","","CLIENT","","false",0,0
+"!da577414","CMQT","Coop MQTT - also see LF20","CLIENT_MUTE","LILYGO_TBEAM_S3_CORE","false",0,0
+"!9ea0e964","e964","FDK","CLIENT","HELTEC_V3","false",0,0
+"!9e77ed44","4SBU","squelch | base 2 | lf20 mqtt","CLIENT","HELTEC_V3","false",0,0
+"!464919b2","Ziti","ZitiBake","CLIENT_MUTE","HELTEC_MESH_POCKET","false",0,0
+"!c949e0d","HzT2","Meshtastic 9e0d","TRACKER","TRACKER_T1000_E","false",0,0
+"!2bb4bf4e","SCT1","PHM-T1000E","CLIENT","TRACKER_T1000_E","false",0,0
+"!43b57c98","7c98","Meshtastic 7c98","CLIENT","HELTEC_V3","false",0,0
+"!658ed221","","","CLIENT","","false",0,0
+"!1443f530","","","CLIENT","","false",0,0
+"!8d2d5564","GHrt","Granada Hills MESH","CLIENT","RAK4631","false",0,0
+"!da39ba27","","","CLIENT","","false",0,0
+"!49b549d0","49d0","Peach","CLIENT","HELTEC_V4","false",0,0
+"!49b64160","","","CLIENT","","false",0,0
+"!98dcd0f4","d0f4","Mesh_ d0f4🍒","CLIENT","TLORA_V2_1_1P6","false",0,0
+"!db2f6b28","6b28","Meshtastic 6b28","CLIENT","HELTEC_WSL_V3","false",0,0
+"!433e085c","085c","Meshtastic 085c","CLIENT","HELTEC_V3","false",0,0
+"!56e03aba","ANM1","AlecNetMobile1","CLIENT_MUTE","HELTEC_MESH_NODE_T114","false",0,0
+"!a3f5ca08","","","CLIENT","","false",0,0
+"!186fb3e8","","","CLIENT_MUTE","","false",0,0
+"!689184c2","","","CLIENT","","false",0,0
+"!a1549abd","","","CLIENT_BASE","","false",0,0
+"!6e09a086","","","CLIENT","","false",0,0
+"!f66f10d0","2061","2061-7","CLIENT","HELTEC_V4","false",0,0
+"!b3506a87","","","CLIENT","","false",0,0
+"!c335a7f3","","","CLIENT","","false",0,0
+"!a0cab684","b684","🤷 b684 bbs","CLIENT_BASE","HELTEC_V3","false",0,0
+"!849b5178","vine","vine ","CLIENT","HELTEC_V3","false",0,0
+"!43b7b388","","","CLIENT","","false",0,0
+"!433dec48","BIRD","Birdhouse ","CLIENT_BASE","HELTEC_WSL_V3","false",0,0
+"!ac9faa8","","","CLIENT","","false",0,0
+"!c7f8ab72","","","CLIENT_BASE","","false",0,0
+"!7aad1435","🪦","retr0h","ROUTER","RAK2560","false",0,0
+"!f3858a1b","","","CLIENT","","false",0,0
+"!a952da70","","","CLIENT_MUTE","","false",0,0
+"!48ebf255","YCH","SolarStation YCH","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!16ced25c","DOQ1","Pasadena Radio MF45","CLIENT","STATION_G2","false",0,0
+"!433e4484","","","CLIENT","","false",0,0
+"!a1cf4d14","","","CLIENT","","false",0,0
+"!9e75f2c4","","","CLIENT","","false",0,0
+"!6c86650","MBTL","MBinNC TLora 6650 [NCMesh.net]","CLIENT_MUTE","TLORA_V2_1_1P6","false",0,0
+"!a2e19d24","K6NL","K6NL 9d24","CLIENT","STATION_G2","false",0,0
+"!e0ce19ac","","","CLIENT","","false",0,0
+"!a2e955f4","=LM=","Laguna Mesh Base","CLIENT_BASE","STATION_G2","false",0,0
+"!75e98bd0","wlnd","Wasteland","CLIENT","HELTEC_V3","false",0,0
+"!433b47b4","","","CLIENT","","false",0,0
+"!1f4f1e7a","ppc","peninsulapirates","CLIENT","PORTDUINO","false",0,0
+"!d2e4382","RedS","Red Squirrel","CLIENT_MUTE","RAK4631","false",0,0
+"!f33dd481","","","CLIENT","","false",0,0
+"!875dd720","","","ROUTER","","false",0,0
+"!4d3cf3b7","","","CLIENT","","false",0,0
+"!6b138363","","","CLIENT","","false",0,0
+"!19fd0d3b","","","CLIENT","","false",0,0
+"!408488c","Keys","Keyssa's Mesh","CLIENT","HELTEC_V3","false",0,0
+"!a0cb72b4","72b4","🤷 72b4 🏡","CLIENT","HELTEC_WIRELESS_TRACKER","false",0,0
+"!5c1a0bc9","PagA","Pager A","CLIENT","T_LORA_PAGER","false",0,0
+"!ab92196e","YAKI","Teriyaki","CLIENT","RAK4631","false",0,0
+"!69844904","255A","255A Solar Node","CLIENT","HELTEC_V4","false",0,0
+"!6984c64c","","","CLIENT_MUTE","","false",0,0
+"!ae829908","","","ROUTER_CLIENT","","false",0,0
+"!274bd034","AdvM","AdventureMarcMesh","CLIENT","HELTEC_MESH_POCKET","false",0,0
+"!f66fb488","","","CLIENT_MUTE","","false",0,0
+"!57206c1b","6BRO","WO6BRO-Node2","CLIENT_MUTE","254","false",0,0
+"!989395cd","XRAY","XRAY_Dolphin","CLIENT","RAK4631","false",0,0
+"!da63e900","","","CLIENT","","false",0,0
+"!acab87dc","6QTH","W6BAC - QTH","CLIENT","HELTEC_V3","false",0,0
+"!a2e4ff28","FUL","Fullerton Station G2","ROUTER","STATION_G2","false",0,0
+"!8bca2807","2807","VDub_Tag_1","CLIENT_MUTE","WISMESH_TAG","false",0,0
+"!1446413e","TsT9","NCC-1701-T9 San Benito Co,California","CLIENT","RAK4631","false",0,0
+"!1ba2a228","a228","Meshtastic a228","CLIENT","HELTEC_V4","false",0,0
+"!433b8e50","M459","Major459","CLIENT","HELTEC_WIRELESS_PAPER","false",0,0
+"!9e9c1140","🏠","Running Springs ","CLIENT","HELTEC_V3","false",0,0
+"!ba65565c","","","CLIENT","","false",0,0
+"!56bd8308","Bix1","Bixby Slough Mobile 1","CLIENT","RAK4631","false",0,0
+"!6d6dea15","ea15","Meshtastic ea15","CLIENT","RAK4631","false",0,0
+"!a20a0e78","","","CLIENT_BASE","","false",0,0
+"!b84529c4","=L1=","LMT1","CLIENT","TRACKER_T1000_E","false",0,0
+"!a7c5bede","","","CLIENT_BASE","","false",0,0
+"!c338c4c5","sdew","Stardew Valley 🐄 🐖 🐓","CLIENT","RAK4631","false",0,0
+"!280fb53b","","","CLIENT_MUTE","","false",0,0
+"!9ea044dc","44dc","Meshtastic 44dc","CLIENT","HELTEC_V3","false",0,0
+"!e4669682","","","CLIENT","","false",0,0
+"!f77e3db9","","","CLIENT","","false",0,0
+"!a947c688","TZPI","TechZack Mesh Point","CLIENT","PORTDUINO","false",0,0
+"!43b79480","YuC3","K6SPK","CLIENT","HELTEC_V3","false",0,0
+"!739aa7fd","MBB2","Mount Bliss Base Sub","CLIENT","RAK4631","false",0,0
+"!2e5d97c","d97c","Meshtastic d97c","CLIENT","HELTEC_V3","false",0,0
+"!99e2652b","LK07","Even More MF Nachos","CLIENT_BASE","RAK4631","false",0,0
+"!14de1cc8","","","TRACKER","","false",0,0
+"!bddf61af","JUN0","JUN0_61","CLIENT","RAK4631","false",0,0
+"!584d817","","","CLIENT","","false",0,0
+"!db2b2d2c","BDN1","Brodie_Node1","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!a617a1ca","SN02","SN02 - ⚡Black Mountain ⚡","ROUTER","RAK4631","false",0,0
+"!55c76f2c","🪵","🪵 Log","CLIENT","TBEAM","false",0,0
+"!4ff624fc","","","CLIENT_MUTE","","false",0,0
+"!a2e97324","KSG2","KO6JOY SG2","CLIENT","STATION_G2","false",0,0
+"!c6b89b7f","","","CLIENT","","false",0,0
+"!11c2e0e5","🌐","Najar Muzi Duo","CLIENT","MUZI_BASE","false",0,0
+"!1ed5c8b6","","","CLIENT","","false",0,0
+"!3bfa0e09","","","ROUTER","","false",0,0
+"!c56614ba","","","CLIENT","","false",0,0
+"!a6962530","","","CLIENT","","false",0,0
+"!9ea137d4","","","CLIENT_MUTE","","false",0,0
+"!aca9de49","","","CLIENT","","false",0,0
+"!b68107a3","MTS","Maintenance Of Wayside (MOW)","CLIENT_MUTE","RAK4631","false",0,0
+"!33646864","","","CLIENT","","false",0,0
+"!bc5a21e","","","CLIENT","","false",0,0
+"!700cf529","HRCC","HRCC Solar","CLIENT_BASE","RAK4631","false",0,0
+"!84888ab0","","","CLIENT","","false",0,0
+"!1edca2b6","DEN","DansEdcNode a2b6","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!a0cc5750","5750","Meshtastic 5750 🤷","CLIENT","HELTEC_WIRELESS_TRACKER","false",0,0
+"!9e9d1bf4","","","CLIENT","","false",0,0
+"!e5ec8bd","","","CLIENT","","false",0,0
+"!16ced690","d690","Meshtastic d690","CLIENT_MUTE","STATION_G2","false",0,0
+"!6b9eb490","b490","Meshtastic b490","CLIENT","RAK4631","false",0,0
+"!14ce7ba5","","","CLIENT","","false",0,0
+"!a1cc6c5c","33N1","33N1","CLIENT_MUTE","SEEED_WIO_TRACKER_L1","false",0,0
+"!2edc450","","","CLIENT","","false",0,0
+"!d148af18","af18","Meshtastic af18","CLIENT","RAK4631","false",0,0
+"!a2ebd588","ACS1","ACS 14-334 | LC-ECT","CLIENT_BASE","STATION_G2","false",0,0
+"!83d7c1d7","🚐","KM6MCI NODE 22 🦜🦩","CLIENT","RAK4631","false",0,0
+"!7ef33814","TRD8","JMesh TRD8","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!8e3cae9e","SOLR","DanSolar","CLIENT","RAK4631","false",0,0
+"!144058cb","SGdM","Sun God Mesh","CLIENT","RAK4631","false",0,0
+"!13ad6d28","6d28","Meshtastic 6d28","CLIENT","HELTEC_MESH_POCKET","false",0,0
+"!43b7c048","BLUH","BlueFur Home Node","CLIENT","HELTEC_V3","false",0,0
+"!cc511767","1767","Meshtastic 1767","CLIENT","XIAO_NRF52_KIT","false",0,0
+"!521744c2","","","CLIENT","","false",0,0
+"!79190f26","","","CLIENT","","false",0,0
+"!849ad828","","","CLIENT","","false",0,0
+"!b03bc5d8","c5d8","Meshtastic c5d8","CLIENT","HELTEC_V3","false",0,0
+"!33637570","OSD3","Oceanside 3","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!8a91b67b","","","CLIENT","","false",0,0
+"!66c485ad","SHS","SignalHillSouth","CLIENT","T_ECHO","false",0,0
+"!1ba3a85c","CAT2","CATHEDRAL CITY 2","CLIENT","HELTEC_V4","false",0,0
+"!409cd18","cd18","Meshtastic cd18","CLIENT","HELTEC_V3","false",0,0
+"!f1b76e68","","","CLIENT","","false",0,0
+"!9e772c48","2c48","Meshtastic 2c48","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!87ab4a8","","","CLIENT","","false",0,0
+"!3fdfabd9","buzz","Meshtastic abd9","CLIENT","TRACKER_T1000_E","false",0,0
+"!75a3e57c","","","CLIENT","","false",0,0
+"!a2ebd5ac","","","CLIENT_BASE","","false",0,0
+"!e4d970dc","70dc","Meshtastic 70dc","CLIENT","TRACKER_T1000_E","false",0,0
+"!e08f6afb","","","CLIENT","","false",0,0
+"!ee6a1671","1671","Meshtastic 1671","CLIENT","PORTDUINO","false",0,0
+"!f3559674","TWM5","TWEM05 www.twem.net","CLIENT","SEEED_SOLAR_NODE","false",0,0
+"!77e3c622","HOOK","CapitaineCrochet","CLIENT_MUTE","NOMADSTAR_METEOR_PRO","false",0,0
+"!5ac46d03","TSUN","ThToom StickUpNode - SoCalMesh.org","CLIENT_BASE","RAK4631","false",0,0
+"!6984d060","","","CLIENT_MUTE","","false",0,0
+"!9e75ed5c","UAG2","UAG Desktop Client ","CLIENT","HELTEC_V3","false",0,0
+"!7a31efe8","SPUD","Potato Mountain - SoCalMesh.org","ROUTER","RAK4631","false",0,0
+"!c77ceebd","MPe","MeshPocket_eebd","CLIENT","HELTEC_MESH_POCKET","false",0,0
+"!43ccbfc","","","CLIENT","","false",0,0
+"!da6fce54","MEOW","here kitty kitty","CLIENT_MUTE","T_DECK","false",0,0
+"!9ea0bb4c","SALZ","Salzkammergut","CLIENT","HELTEC_V3","false",0,0
+"!da5af6cc","","","CLIENT","","false",0,0
+"!7a6bf6d0","KSMT","KS_T-HACH-Mtn","CLIENT_BASE","TBEAM","false",0,0
+"!84573695","EBC","EvBaseCamp","CLIENT","RAK4631","false",0,0
+"!849c4ad0","4ad0","Meshtastic 4ad0","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!6c080505","BLIP","Blip 0505","CLIENT","RAK4631","false",0,0
+"!cb92791b","","","CLIENT_MUTE","","false",0,0
+"!2ee19a4","19a4","Meshtastic 19a4","CLIENT","HELTEC_V3","false",0,0
+"!5c200238","0238","Meshtastic 0238","CLIENT","RAK11200","false",0,0
+"!b628d48a","🌞","Najar Roof Node","CLIENT","RAK4631","false",0,0
+"!698379b8","NRMN","Norman","CLIENT_BASE","HELTEC_V4","false",0,0
+"!699be51c","ROXY","Trash Panda 🦝 Two Mobile","CLIENT","HELTEC_V4","false",0,0
+"!239c7a66","lsvR","lsvrouter8","ROUTER","RAK4631","false",0,0
+"!43398a60","","","CLIENT","","false",0,0
+"!1dd298c8","","","CLIENT","","false",0,0
+"!2f364aa7","","","CLIENT","","false",0,0
+"!fa9ff8ac","","","CLIENT","","false",0,0
+"!94fd062f","4SBU","squelch | rooftop 2 | lf20 legacy","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!125a8754","DUAL","DualD 8754","CLIENT","TRACKER_T1000_E","false",0,0
+"!254b27fa","27fa","Mira Mesa 27fa","CLIENT_BASE","RAK4631","false",0,0
+"!2988fd28","fd28","Mesh_ fd28 🌶","CLIENT","THINKNODE_M1","false",0,0
+"!ba0caab8","","","CLIENT_MUTE","","false",0,0
+"!64a9d9ef","YoFH","Yo Fair Oaks Hilltop 1W","CLIENT","RAK4631","false",0,0
+"!c4611678","SCB2","SCB2 1678","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!da5093cc","","","CLIENT_BASE","","false",0,0
+"!e6ad0d95","F2F3","FemToFox 3 0d95","CLIENT_MUTE","PORTDUINO","false",0,0
+"!2a3282d7","82d7","VDub_Tag_2","CLIENT_MUTE","WISMESH_TAG","false",0,0
+"!69824504","MM42","MadMartigan","CLIENT","HELTEC_V4","false",0,0
+"!fc6258a6","","","ROUTER","","false",0,0
+"!205da124","","","CLIENT","","false",0,0
+"!30d54d6e","","","CLIENT_MUTE","","false",0,0
+"!dd9f6633","GDR","Grey Dragon's Reach","CLIENT_BASE","PORTDUINO","false",0,0
+"!c528cb19","MKP2","Tierrasanta - mk23 prime v2","CLIENT","RAK4631","false",0,0
+"!2aeef0d6","TsT3","NCC-1701-T3 San Benito Co,California","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!afd756c","RASH","Rakintosh 4.2.0","CLIENT_BASE","RAK4631","false",0,0
+"!c8bf6d5d","teck","teck","CLIENT_MUTE","RAK4631","false",0,0
+"!909ebfec","CIND","Coop Indicator","CLIENT_MUTE","SENSECAP_INDICATOR","false",0,0
+"!f0fe5ee6","BAHH","BrandonRAK","CLIENT","RAK4631","false",0,0
+"!2edcf08","BUOY","Buoy","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!d42ab947","","","CLIENT","","false",0,0
+"!698570f8","","","CLIENT","","false",0,0
+"!5a6a977e","","","CLIENT","","false",0,0
+"!916b535e","RATS","RATS","CLIENT_BASE","RAK4631","false",0,0
+"!433dbfa8","","","CLIENT","","false",0,0
+"!72ca28ab","","","CLIENT","","false",0,0
+"!419d0e04","","","CLIENT","","false",0,0
+"!7c5ab4e0","","","CLIENT","","false",0,0
+"!64a2c514","c514","CV Base","CLIENT_BASE","RAK4631","false",0,0
+"!5c23ac4a","","","CLIENT","","false",0,0
+"!7c868db4","8db4","VDub_Studio","CLIENT_MUTE","RAK4631","false",0,0
+"!d33aee27","ee27","Meshtastic ee27","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!2ee1160","1160","Meshtastic 1160","CLIENT","HELTEC_V3","false",0,0
+"!55c5f9c0","","","CLIENT","","false",0,0
+"!faea723e","723e","VDub 723e","CLIENT_MUTE","RAK4631","false",0,0
+"!9641ed0b","DEEZ","Meshtastic ed0b","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!bd50351c","","","CLIENT","","false",0,0
+"!698526c8","26c8","Meshtastic 26c8","CLIENT","HELTEC_V4","false",0,0
+"!3c8474af","SGP2","SAG2","CLIENT_MUTE","SEEED_WIO_TRACKER_L1","false",0,0
+"!9e9b4fe4","","","CLIENT_MUTE","","false",0,0
+"!db2b704c","EmbJ","embjun473","CLIENT","HELTEC_V3","false",0,0
+"!7f02661b","","","CLIENT","","false",0,0
+"!699c7ec4","","","CLIENT","","false",0,0
+"!e0f75b0c","","","CLIENT","","false",0,0
+"!33686d48","","","CLIENT","","false",0,0
+"!29429179","","","CLIENT","","false",0,0
+"!30bdd655","ROOF","DV SOLAR ROOF","CLIENT","SEEED_SOLAR_NODE","false",0,0
+"!4359389c","","","CLIENT","","false",0,0
+"!69854cc4","","","CLIENT_BASE","","false",0,0
+"!19e71d96","λ","Lambda Complex ","CLIENT_MUTE","XIAO_NRF52_KIT","false",0,0
+"!cda1f1cf","SHRB","SGV_Shredder__Base","CLIENT_BASE","RAK4631","false",0,0
+"!336458a4","","","CLIENT_BASE","","false",0,0
+"!493d346c","MWAL","Mesh Wallet","CLIENT","TRACKER_T1000_E","false",0,0
+"!5ff2c64f","","","CLIENT","","false",0,0
+"!d3d7084d","084d","TRUCK  MNodeOne ","CLIENT","RAK4631","false",0,0
+"!f6963c20","xrl1","xarlilydeck1","CLIENT","T_DECK","false",0,0
+"!699cb59c","","","CLIENT","","false",0,0
+"!abed26db","26db","VDub Solar 2","CLIENT_MUTE","RAK4631","false",0,0
+"!db2b3504","","","CLIENT_BASE","","false",0,0
+"!8fa61af8","","","CLIENT","","false",0,0
+"!d88e7d74","7d74","Meshtastic 7d74","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!4927830b","830b","Meshtastic 830b","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!4ef0749c","","","CLIENT","","false",0,0
+"!1d262280","GCAP","GSHOCK","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!a20a1950","","","CLIENT","","false",0,0
+"!2522d102","","","CLIENT","","false",0,0
+"!b5f0b072","❌","Base Station X","CLIENT_BASE","HELTEC_MESH_NODE_T114","false",0,0
+"!435a298c","","","CLIENT","","false",0,0
+"!43569760","SHN2","SheepdogShaun - Mobile ","CLIENT","LILYGO_TBEAM_S3_CORE","false",0,0
+"!db295db8","","","CLIENT","","false",0,0
+"!e0acc561","yblr","yblaser roof 1W","CLIENT","RAK4631","false",0,0
+"!1dd2962c","","","CLIENT","","false",0,0
+"!4ed1ae50","TyGO","TyDeck1","CLIENT","T_DECK","false",0,0
+"!2e635a0","0670","Meshtastic 0670","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!a2eb4130","","","CLIENT","","false",0,0
+"!4355f5a4","KyKt","KittyKat","CLIENT","HELTEC_V3","false",0,0
+"!1de9244c","itsy","Itsy Bitsy Teeny Weeny Packet Repeatey","ROUTER_LATE","SEEED_XIAO_S3","false",0,0
+"!433d1894","AHH1","KK6AHH Heltech v3","CLIENT","HELTEC_V3","false",0,0
+"!433cdd4c","🪄","BlackMagic","CLIENT","HELTEC_V3","false",0,0
+"!b21a40ac","","","CLIENT","","false",0,0
+"!ba6a91dc","91dc","Meshtastic 91dc","CLIENT","HELTEC_V3","false",0,0
+"!bce23c48","","","CLIENT_MUTE","","false",0,0
+"!c28ea5b4","SACC","SantaAnaCivicCenter","CLIENT_BASE","RAK4631","false",0,0
+"!bd4a7074","GMDP","📟GilgaMesh DPR T-DECK 7074","CLIENT_MUTE","T_DECK","false",0,0
+"!2ec7930","Red2","Red2PoppyD 7930","CLIENT","HELTEC_V3","false",0,0
+"!2ee0740","","","CLIENT","","false",0,0
+"!1c1db9e1","CONY","Coop Onyx","CLIENT_MUTE","RAK3401","false",0,0
+"!db579ca8","","","CLIENT","","false",0,0
+"!4c671d0","","","CLIENT_MUTE","","false",0,0
+"!6983ce14","ce14","Meshtastic ce14","CLIENT_BASE","HELTEC_V4","false",0,0
+"!9e77751c","4SBU","squelch | base 1 | mf45 mqtt","CLIENT","HELTEC_V3","false",0,0
+"!3b685099","","","CLIENT_BASE","","false",0,0
+"!1bbec828","AH24","AgedHydroxyzine","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!3079bc24","","","CLIENT","","false",0,0
+"!fa6bfe74","","","ROUTER_CLIENT","","false",0,0
+"!6842fccb","","","CLIENT","","false",0,0
+"!d031ad0d","📸","TestShoot-nrf-solar-MF","CLIENT","XIAO_NRF52_KIT","false",0,0
+"!9eb5c749","c749","VDub_ThinkNode_M6","CLIENT_BASE","THINKNODE_M6","false",0,0
+"!f6969840","","","CLIENT","","false",0,0
+"!6c73d884","","","CLIENT_MUTE","","false",0,0
+"!ba0c877c","ALP1","ALPINE 1","CLIENT","HELTEC_V3","false",0,0
+"!bd367437","LGNA","Laguna Home Base - Palisades","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!730c6370","FN3T","FL00N3T","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!2ecda04","FLNR","TG DT Long Beach da04","CLIENT","HELTEC_V3","false",0,0
+"!7c5a5eb0","","","CLIENT","","false",0,0
+"!b29fac1c","ac1c","Meshtastic ac1c","CLIENT","HELTEC_V4","false",0,0
+"!581ab61a","","","ROUTER","","false",0,0
+"!699c3038","","","CLIENT","","false",0,0
+"!1adec5c","DOQ5","W6DOQ Muzi 1","CLIENT","RAK4631","false",0,0
+"!2829ae0c","DCR","Diamond City Radio","CLIENT","SEEED_SOLAR_NODE","false",0,0
+"!63718199","","","CLIENT","","false",0,0
+"!4097840","DarB","DarMesh","CLIENT","HELTEC_V3","false",0,0
+"!37108cc9","SANA","SA Router","ROUTER","HELTEC_MESH_NODE_T114","false",0,0
+"!438e6468","","","CLIENT_MUTE","","false",0,0
+"!28749f21","🌱","El Seedo","CLIENT","TRACKER_T1000_E","false",0,0
+"!9e754ed4","","","CLIENT","","false",0,0
+"!60ed9f6c","","","ROUTER","","false",0,0
+"!23057de4","ZBog","Bodger Gutter 1","CLIENT","RAK4631","false",0,0
+"!2e7d52c","by2k","bubbingtenyy2k","CLIENT","HELTEC_V3","false",0,0
+"!2f87bee0","","","CLIENT_MUTE","","false",0,0
+"!536d4b22","23b","23b-shop-node1-FUL (Socal Mesh)","CLIENT_BASE","RAK11310","false",0,0
+"!699b3570","","","CLIENT_BASE","","false",0,0
+"!676eb740","SGVI","SGV Fixed Ibis","CLIENT_MUTE","PORTDUINO","false",0,0
+"!f4413990","","","CLIENT_BASE","","false",0,0
+"!6984241c","CRNB","Craner Base","CLIENT_BASE","HELTEC_V4","false",0,0
+"!116ee20","R4MA","rPi 4 MeshAdv (Check out socalmesh.org)","CLIENT_MUTE","PORTDUINO","false",0,0
+"!da5ebc78","GPGW","GP Gateway","CLIENT","HELTEC_WIRELESS_TRACKER","false",0,0
+"!ed7d1576","SLTS","SLTS RP","CLIENT","RAK4631","false",0,0
+"!b2a794cc","","","CLIENT_MUTE","","false",0,0
+"!e2c373ac","MSM","MidSantaMonica","CLIENT","RAK4631","false",0,0
+"!66a1c276","c276","RedScare c276","CLIENT","RAK4631","false",0,0
+"!841097f9","🦊","Psylence","CLIENT","TRACKER_T1000_E","false",0,0
+"!ba409523","CZER","Coop Zero","CLIENT_MUTE","RAK4631","false",0,0
+"!cdc760d0","","","CLIENT","","false",0,0
+"!bc9697f","ACS3","ACS 5-321 LC-ECT","CLIENT_BASE","RAK4631","false",0,0
+"!5b7ae6a8","e6a8","Meshtastic e6a8","CLIENT_BASE","XIAO_NRF52_KIT","false",0,0
+"!934bae6b","1981","WeatherTop⚔","CLIENT_BASE","RAK4631","false",0,0
+"!f3782180","Sol1","GBH_Solar","CLIENT","RAK4631","false",0,0
+"!d1c042b","MoB1","TTMobile1W - SoCalMesh.org","CLIENT_BASE","RAK3401","false",0,0
+"!521efeeb","SLIM","SLIMthicc","CLIENT_BASE","RAK4631","false",0,0
+"!7ed23860","","","CLIENT","","false",0,0
+"!433a6f38","6f38","Meshtastic 6f38","CLIENT","HELTEC_V3","false",0,0
+"!1d09666","","","CLIENT","","false",0,0
+"!336874dc","","","CLIENT_BASE","","false",0,0
+"!9d78765","BACM","W6BAC - Mobile","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!86c0ed65","","","CLIENT","","false",0,0
+"!f3b23b22","EN_T","EN_T818","CLIENT_MUTE","HELTEC_MESH_NODE_T114","false",0,0
+"!a2ebdb90","🐢","KR6AUL","CLIENT","STATION_G2","false",0,0
+"!2f4bbd8","","","ROUTER","","false",0,0
+"!6984ea10","🤷","Slut Snatcher","CLIENT","HELTEC_V4","false",0,0
+"!6c73ded8","","","CLIENT","","false",0,0
+"!17611dc5","","","CLIENT_BASE","","false",0,0
+"!3369e53c","","","ROUTER_CLIENT","","false",0,0
+"!2c3161b5","🟥","🟥","CLIENT","RAK4631","false",0,0
+"!3370f115","CATS","Rooftop Cats f115","CLIENT_BASE","RAK4631","false",0,0
+"!42af6cdc","","","CLIENT","","false",0,0
+"!87f06360","TWM1","TWEM01 www.twem.net","ROUTER","SEEED_SOLAR_NODE","false",0,0
+"!8485b671","","","CLIENT","","false",0,0
+"!433ac930","","","CLIENT","","false",0,0
+"!433c5928","","","CLIENT","","false",0,0
+"!72db8031","BEAR","Bear Creek Base","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!387fba76","","","CLIENT","","false",0,0
+"!756f9724","","","CLIENT_BASE","","false",0,0
+"!9e75e394","mvg","MadVikingGod","CLIENT","HELTEC_V3","false",0,0
+"!a0cbf5f0","SET2","SETORR02","CLIENT","HELTEC_V3","false",0,0
+"!9c40f375","WSOL","Whittier Solar-SoCalMesh.org","CLIENT_BASE","RAK4631","false",0,0
+"!67cfc9d8","DH","Dana Hills (2.7.26)","CLIENT_MUTE","PORTDUINO","false",0,0
+"!ba6a84b8","84b8","Meshtastic 84b8","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!e12bc099","MSHN","Just Meshin Around","CLIENT_BASE","RAK4631","false",0,0
+"!6ea161f0","","","CLIENT","","false",0,0
+"!f98df9ca","K1ND","K1ND4.Base","CLIENT","RAK4631","false",0,0
+"!758161af","HVly","Hidden Valley","CLIENT_BASE","RAK4631","false",0,0
+"!34291463","","","CLIENT","","false",0,0
+"!e5c7ca5d","Sky","SkyNet","CLIENT_BASE","HELTEC_MESH_NODE_T114","false",0,0
+"!49b659a4","Birb","Birbnet","CLIENT_BASE","HELTEC_V4","false",0,0
+"!69826b54","WQ6P","WQ6P Cobalt","CLIENT_BASE","HELTEC_V4","false",0,0
+"!66cb1b03","GZT1"," GZ TAP1 68-C","CLIENT","WISMESH_TAP","false",0,0
+"!8e91bd62","bd62","Meshtastic bd62","CLIENT","HELTEC_MESH_POCKET","false",0,0
+"!bb55b579","📸","TestShoot-nrf-solar-LF","CLIENT","XIAO_NRF52_KIT","false",0,0
+"!cf5c9ef2","","","CLIENT","","false",0,0
+"!1ba5faec","NV1","Night Vision ","CLIENT","HELTEC_V4","false",0,0
+"!e2e37cb8","cxla","charliex-dtla1","CLIENT","HELTEC_V3","false",0,0
+"!7b51588b","","","CLIENT","","false",0,0
+"!b87950d3","WLAX","JMesh WLAX","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!6e8b34af","","","CLIENT","","false",0,0
+"!db51d254","","","CLIENT","","false",0,0
+"!7854b4c3","","","CLIENT","","false",0,0
+"!6c73026c","026c","Meshtastic 026c","CLIENT","TBEAM","false",0,0
+"!756f2840","prov","proving grounds","CLIENT_BASE","RAK3312","false",0,0
+"!da62878c","vsl1","link1-llehs","CLIENT","HELTEC_V3","false",0,0
+"!33696ba4","WGG0","IP-Base WGG","CLIENT","HELTEC_V3","false",0,0
+"!5282e9d8","RMV9","Sendero - RMV9","CLIENT","WISMESH_TAG","false",0,0
+"!9e9f2420","","","CLIENT","","false",0,0
+"!400c240","Ryzt","Ryztan’s mesh","CLIENT","HELTEC_V3","false",0,0
+"!c36cf4d4","Woo1","Woolio 01","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!47901588","1588","Meshtastic 1588","CLIENT","RAK4631","false",0,0
+"!e2e511e8","","","CLIENT","","false",0,0
+"!a20a1010","","","CLIENT","","false",0,0
+"!adc3df31","df31","Meshtastic df31","CLIENT","HELTEC_MESH_POCKET","false",0,0
+"!fcd4317d","","","CLIENT","","false",0,0
+"!433eab98","ab98","Meshtastic ab98","CLIENT","HELTEC_V3","false",0,0
+"!a0391bc4","1bc4","Meshtastic 1bc4","CLIENT_BASE","STATION_G2","false",0,0
+"!1fa04c50","KBTB","KB81 TBEAM","CLIENT_MUTE","TBEAM","false",0,0
+"!ca6d093f","","","CLIENT","","false",0,0
+"!fbef07a2","SCDP","SCDP","ROUTER_LATE","XIAO_NRF52_KIT","false",0,0
+"!a2ebd248","PTSB","PTS Base","CLIENT","STATION_G2","false",0,0
+"!f3055689","BOX","Juicebox","CLIENT","T_ECHO","false",0,0
+"!95e0c1e7","👁","EyeofSauron - SoCalMesh.org","ROUTER","RAK4631","false",0,0
+"!9ea67550","JFRL","JF Relay","CLIENT","SEEED_WIO_TRACKER_L1_EINK","false",0,0
+"!d3a2b969","ACME","ACME-ALCHEMY ","CLIENT_BASE","RAK4631","false",0,0
+"!19a9453f","","","CLIENT","","false",0,0
+"!fa6a4664","","","CLIENT","","false",0,0
+"!2c79a9a0","","","CLIENT","","false",0,0
+"!ba73c418","","","CLIENT","","false",0,0
+"!49b5dd4c","dd4c","Meshtastic dd4c","CLIENT","HELTEC_V4","false",0,0
+"!15c86f2e","","","CLIENT","","false",0,0
+"!2d4b4c70","","","CLIENT","","false",0,0
+"!e33bbb6c","","","CLIENT","","false",0,0
+"!f6fba278","J☘","Meshtastic a278","CLIENT","HELTEC_V3","false",0,0
+"!9ef0c9d0","","","CLIENT","","false",0,0
+"!5fd3da97","TEH1","☀Tehachapi 5150 Repeater","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!a1cd2e98","J776","iatrochemist ","CLIENT","T_DECK","false",0,0
+"!16ced2d4","","","CLIENT","","false",0,0
+"!43575220","ECO5","ECHO 5","CLIENT","LILYGO_TBEAM_S3_CORE","false",0,0
+"!15a77da","BLHL","BlueberryHill","CLIENT","PORTDUINO","false",0,0
+"!2e975d0","","","CLIENT","","false",0,0
+"!e2e4b610","DSUK","Dodgers Suck","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!1ba61888","gkts","gockets","CLIENT","HELTEC_V4","false",0,0
+"!e79e5a5b","5a5b","zerOCOde | Anaheim Hills","CLIENT_BASE","RAK2560","false",0,0
+"!698244b0","","","CLIENT","","false",0,0
+"!43c4e94","","","CLIENT","","false",0,0
+"!2504f038","MTZ","MtzDigital","CLIENT_MUTE","TBEAM","false",0,0
+"!bed70ee9","","","CLIENT","","false",0,0
+"!699b8060","h2o2","1337 v4","CLIENT","HELTEC_V4","false",0,0
+"!a93e3974","🤖","CyberdyneSystems","CLIENT","T_ECHO","false",0,0
+"!dfcf7d03","","","CLIENT","","false",0,0
+"!a2e50b54","dman","dillonjerryAP","CLIENT","STATION_G2","false",0,0
+"!a6963fe8","","","CLIENT_BASE","","false",0,0
+"!fb1d43c1","","","CLIENT","","false",0,0
+"!25050088","","","CLIENT","","false",0,0
+"!6d265b22","","","CLIENT","","false",0,0
+"!75e997b8","","","CLIENT","","false",0,0
+"!4ddc51b0","","","CLIENT","","false",0,0
+"!4303aa6d","CCC","Higher Education (Socalmesh.org)","CLIENT_BASE","RAK4631","false",0,0
+"!435ad83c","","","CLIENT","","false",0,0
+"!c73cfa6d","fa6d","Dronegeek fa6d","CLIENT","HELTEC_MESH_POCKET","false",0,0
+"!ec719391","","","CLIENT","","false",0,0
+"!24d5ad1d","","","CLIENT_BASE","","false",0,0
+"!9e77a064","SHIT","Super Hidden Individual Tracker","TRACKER","HELTEC_WIRELESS_TRACKER","false",0,0
+"!2b95ca85","","","CLIENT","","false",0,0
+"!7c5cbf5c","","","CLIENT","","false",0,0
+"!8f821aa5","","","CLIENT","","false",0,0
+"!adbae0f0","31d8","k4nsy_31d8","CLIENT","T_LORA_PAGER","false",0,0
+"!95a57660","NSL","Nullspace Labs 1","CLIENT","TLORA_V2_1_1P6","false",0,0
+"!6651193a","193a","MSCRIP","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!49b66934","","","CLIENT","","false",0,0
+"!7bf8ad8f","B6","BanHQ","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!a2ebdac4","","","CLIENT","","false",0,0
+"!204ac9cc","","","CLIENT","","false",0,0
+"!b2a73078","","","CLIENT","","false",0,0
+"!1ba11604","","","CLIENT","","false",0,0
+"!da8bf77c","","","CLIENT_MUTE","","false",0,0
+"!49b3d89c","","","CLIENT_BASE","","false",0,0
+"!49b5db88","FOX2","F-14 🦊 FOX2","CLIENT_BASE","HELTEC_V4","false",0,0
+"!433e3f84","Rg_M","Rogue_Mobile","CLIENT","HELTEC_V3","false",0,0
+"!ba3bba64","L9","Lobster 9","SENSOR","HELTEC_VISION_MASTER_E290","false",0,0
+"!3960d7c0","d7c0","Meshtastic GP4","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!9b09f182","toad","toadmaster420","TRACKER","TRACKER_T1000_E","false",0,0
+"!b9d54de","","","CLIENT","","false",0,0
+"!7d9ac98d","NS","NYX SOLAR","CLIENT","RAK4631","false",0,0
+"!f1a6b3a4","b3a4","THANOS b3a4","CLIENT_MUTE","T_DECK","false",0,0
+"!b933ecbb","Jmb0","Jimb0 T114","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!c88e5f5f","chya","Charlie Yankee 23","CLIENT","HELTEC_MESH_POCKET","false",0,0
+"!60c7c7a9","c7a9","FredBase","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!f66b7e94","Bkin","Edoras","CLIENT","HELTEC_V4","false",0,0
+"!28242c55","","","CLIENT","","false",0,0
+"!e0d382bf","","","CLIENT_MUTE","","false",0,0
+"!9e76ad4c","","","CLIENT","","false",0,0
+"!ba6a8c18","","","CLIENT","","false",0,0
+"!32fcc32c","","","CLIENT","","false",0,0
+"!171fe120","","","CLIENT","","false",0,0
+"!13c42c9","MXD2","mixdown.ca - 002 - lorawatt test bed","ROUTER_LATE","PORTDUINO","false",0,0
+"!4064710","PHSH","hellphish","CLIENT","HELTEC_V3","false",0,0
+"!588b2f9e","RADB","RAD Base","CLIENT_BASE","RAK4631","false",0,0
+"!c6b66df8","HSB","Hot Set Base ","CLIENT","RAK4631","false",0,0
+"!6c73d560","RPVH","RPV Hill","CLIENT","TBEAM","false",0,0
+"!7808ab0a","ELBC","Long Beach HQ","CLIENT_BASE","RAK4631","false",0,0
+"!9e755b04","5b04","Meshtastic 5b04","CLIENT","HELTEC_V3","false",0,0
+"!38f8fb18","HRCC","HRCC 1W","CLIENT","RAK3401","false",0,0
+"!60faae68","im03","img-03","CLIENT_BASE","PORTDUINO","false",0,0
+"!1ba631d4","","","CLIENT","","false",0,0
+"!6fddc18d","📡","📡 Apple Valley East - hdmesh.org","ROUTER","RAK4631","false",0,0
+"!87ab410","🦜","KM6MCI GATEWAY 1 🦜","CLIENT","RAK11200","false",0,0
+"!1ba1aa5c","","","CLIENT_BASE","","false",0,0
+"!335d9b14","FL4G","ForLiberty4","CLIENT","HELTEC_V3","false",0,0
+"!1ba1ad20","","","CLIENT","","false",0,0
+"!29545c55","5c55","Meshtastic 5c55","CLIENT","SEEED_SOLAR_NODE","false",0,0
+"!336a1644","","","ROUTER","","false",0,0
+"!49c5d27a","","","CLIENT","","false",0,0
+"!2ee6008","","","CLIENT","","false",0,0
+"!433db2e0","MobR","MobR - SoCalMesh.org","CLIENT_BASE","HELTEC_WSL_V3","false",0,0
+"!891e8dfe","🎆","Fireworks View","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!9d156f86","<<>>","sfv_rhll","CLIENT","RAK4631","false",0,0
+"!aa1f83df","LUCT","LUCY Travel","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!3b1992d","TTCD","ThToom_Card - SoCalMesh.org","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!a6963b58","","","CLIENT","","false",0,0
+"!e23b51a0","💀","RadioQuiet","CLIENT","XIAO_NRF52_KIT","false",0,0
+"!16ced618","","","ROUTER","","false",0,0
+"!da6ff3a8","SOL4","SOL4 T-DECK MOBILE","CLIENT","T_DECK","false",0,0
+"!69849dcc","Home","Mi Casa","CLIENT_BASE","HELTEC_V4","false",0,0
+"!15ca8255","CAKE","Pancake Portable","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!f1b89378","9378","Meshtastic 9378","CLIENT","T_DECK","false",0,0
+"!fa5b38c6","BEN","Ka6vha-mobile ","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!acaac318","","","CLIENT_BASE","","false",0,0
+"!dbf58950","","","CLIENT_BASE","","false",0,0
+"!a2e7ff3c","4SBU","squelch | mobile 1","CLIENT","T_DECK","false",0,0
+"!40592d8","ABHT","AutoBrewing Heltec","CLIENT","HELTEC_V3","false",0,0
+"!eae025db","","","CLIENT","","false",0,0
+"!63a2fc2b","BCN1","BCN1","CLIENT","RAK4631","false",0,0
+"!4860b0e","","","CLIENT","","false",0,0
+"!69857c90","7c90","SoCal_MeshCore_927_875/SF7/BW62_5/CR5","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!3af31d9f","TONH","TonHome","CLIENT","RAK4631","false",0,0
+"!9eecb34c","","","CLIENT","","false",0,0
+"!a031bb80","🌐","Squidward TCP Node","CLIENT","THINKNODE_M5","false",0,0
+"!a1cbef54","","","CLIENT","","false",0,0
+"!69854ebc","","","CLIENT","","false",0,0
+"!433dcd40","","","CLIENT","","false",0,0
+"!e2e26ac0","","","CLIENT","","false",0,0
+"!2ee511c","huey","huey","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!ee9aa9af","","","ROUTER","","false",0,0
+"!44d4abd4","🌵","🌵","CLIENT","RAK4631","false",0,0
+"!b2a7414c","JAVA","Caffeinated  [HamPals.org]","CLIENT_BASE","HELTEC_V4","false",0,0
+"!c97ab7c5","b7c5","WIO Tracker L1","ROUTER_LATE","SEEED_WIO_TRACKER_L1","false",0,0
+"!c23212dd","","","CLIENT","","false",0,0
+"!2683586","","","CLIENT","","false",0,0
+"!9eeb314c","SGP1","SAG1","CLIENT_BASE","HELTEC_V3","false",0,0
+"!b4f28176","","","CLIENT","","false",0,0
+"!7191588","","","CLIENT_MUTE","","false",0,0
+"!390182f4","n3rd","n3rdT4st1c ","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!7c5b4dac","","","CLIENT_MUTE","","false",0,0
+"!25c0e130","Tiki","Meshima _e130 🌶","CLIENT","TLORA_V2_1_1P6","false",0,0
+"!abddd90c","","","CLIENT","","false",0,0
+"!21b99a7","","","CLIENT","","false",0,0
+"!b2a6fcf8","","","CLIENT","","false",0,0
+"!699baca8","","","CLIENT","","false",0,0
+"!fb6c7240","","","CLIENT_MUTE","","false",0,0
+"!ee78153f","23b3","23bshop-FUL-GH (SocalMesh)","CLIENT_BASE","RAK4631","false",0,0
+"!26ec6b90","","","CLIENT","","false",0,0
+"!e1dde68d","","","CLIENT","","false",0,0
+"!520d9307","","","CLIENT","","false",0,0
+"!33643b3c","Wtfc","SigmaWolf ","CLIENT","HELTEC_V3","false",0,0
+"!8c587804","7804","Jean-Luc 7804 🖖","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!127b91fd","RTKB","Rooftop Korean Inside","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!4083e0c","BaCa","Base Camp (MQTT)","CLIENT","HELTEC_V3","false",0,0
+"!3369ecc4","ecc4","GVDub-1","CLIENT","HELTEC_V3","false",0,0
+"!e08cb330","ZULU","ZULU_MESH","CLIENT","RAK4631","false",0,0
+"!de56f0aa","Leto","Leto f0aa","TAK_TRACKER","TRACKER_T1000_E","false",0,0
+"!18a53c4f","Hīc","Beignet","CLIENT","RAK4631","false",0,0
+"!295b875f","GMSH","Gilgamesh","CLIENT","RAK4631","false",0,0
+"!3a39dd15","dd15","Meshtastic dd15","CLIENT","RAK4631","false",0,0
+"!b62610a7","TTMP","TTMeshPoint - SoCalMesh.org","CLIENT","PORTDUINO","false",0,0
+"!43971b0","71b0","Meshtastic 71b0","CLIENT","HELTEC_V3","false",0,0
+"!bf606057","🍣","SUSHI","CLIENT_BASE","NANO_G2_ULTRA","false",0,0
+"!8117b438","Buoy","Node-tice me Senpai","CLIENT","RAK4631","false",0,0
+"!d75b102c","🐙","Friend","CLIENT","SEEED_SOLAR_NODE","false",0,0
+"!54a53c23","3c23","VDub_Solar","CLIENT","RAK4631","false",0,0
+"!433e385c","tHom","tHome","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!6d6add9a","CCCB","CC CLIENT BASE","CLIENT_BASE","RAK4631","false",0,0
+"!84886823","","","ROUTER","","false",0,0
+"!e0d750e0","50e0","Meshtastic 50e0","CLIENT","RADIOMASTER_900_BANDIT_NANO","false",0,0
+"!3b7714cd","","","CLIENT","","false",0,0
+"!56156f83","IPD","DRK-1 | SoCalMesh.org","CLIENT_MUTE","RAK4631","false",0,0
+"!3ab351b6","1WT1","1W Test1 51b6 (Check out socalmesh.org)","CLIENT","NRF52_PROMICRO_DIY","false",0,0
+"!6c8b63e2","","","CLIENT","","false",0,0
+"!9e75f860","f860","Meshtastic f860","CLIENT","HELTEC_V3","false",0,0
+"!1ba30010","0010","Meshtastic 0010","CLIENT_BASE","HELTEC_V4","false",0,0
+"!c9a8946","RYLO","Rylo Node","CLIENT","RAK4631","false",0,0
+"!adcabffe","Bubs","BUBBLES God Of The Wastes","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!2644b4f4","RS1","Up_RS1","CLIENT","THINKNODE_M1","false",0,0
+"!9ea06fc8","","","CLIENT","","false",0,0
+"!ba50a06f","ReyR","Reyes RPT","ROUTER_LATE","RAK4631","false",0,0
+"!1bf92cc7","Xiao","Konichiwa","CLIENT","XIAO_NRF52_KIT","false",0,0
+"!aca707c","","","CLIENT","","false",0,0
+"!110471b1","","","CLIENT","","false",0,0
+"!dcbf9324","9324","Old Scripps 9324 🌐","CLIENT","NOMADSTAR_METEOR_PRO","false",0,0
+"!3c472a2b","","","CLIENT_MUTE","","false",0,0
+"!4aa09809","Doot","Paper Street Soap Co.","CLIENT","RAK4631","false",0,0
+"!33665e9c","","","CLIENT","","false",0,0
+"!699c10e0","","","CLIENT_MUTE","","false",0,0
+"!a2e1a17c","","","CLIENT","","false",0,0
+"!7a889073","KKT","Kevin K Truck (2.7.26)","CLIENT","RAK4631","false",0,0
+"!849b6bfc","AS_1","Awesomesauce Inc.","CLIENT","HELTEC_V3","false",0,0
+"!a69627d4","Ty2","TyTastic#2","CLIENT","HELTEC_V4","false",0,0
+"!9d024363","TFK3","W6TFK Sensecap 4363","CLIENT","TRACKER_T1000_E","false",0,0
+"!6c73b7e4","","","CLIENT","","false",0,0
+"!3369cbbc","cbbc","Meshtastic cbbc","CLIENT","HELTEC_V3","false",0,0
+"!acaa8d78","","","CLIENT","","false",0,0
+"!69842f2c","2f2c","Meshtastic 2f2c","CLIENT","HELTEC_V4","false",0,0
+"!8fa71980","","","CLIENT_BASE","","false",0,0
+"!2eda1ec","paco","Meshtastic a1ec","CLIENT","HELTEC_V3","false",0,0
+"!45bda7b0","","","CLIENT_MUTE","","false",0,0
+"!f69780e0","👻","John Stocazzo","CLIENT","T_DECK","false",0,0
+"!ccc1847e","TORS","WD9DUI ","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!8e47826","","","CLIENT","","false",0,0
+"!9e77d228","👻","Ghost","CLIENT_BASE","HELTEC_V3","false",0,0
+"!e2e5c140","LAGW","LAFP_GW (.15)","CLIENT","HELTEC_WSL_V3","false",0,0
+"!f29b3a3a","","","CLIENT","","false",0,0
+"!49b3d44c","","","CLIENT","","false",0,0
+"!84f379d4","TWM6","TWEM06 www.twem.net","CLIENT","SEEED_SOLAR_NODE","false",0,0
+"!3edccb79","","","CLIENT","","false",0,0
+"!8c06f815","f815","LT sense","CLIENT","TRACKER_T1000_E","false",0,0
+"!a88a9b68","rom","ROM Solar","CLIENT","SEEED_SOLAR_NODE","false",0,0
+"!698555cc","ohv1","ohv1_55cc","CLIENT","HELTEC_V4","false",0,0
+"!bf4d2e75","","","CLIENT","","false",0,0
+"!e6a9fa71","HMRS","Hutch Mountain Resort & Spa Rooftop","CLIENT","RAK4631","false",0,0
+"!4e455e37","5e37","Zakymomo","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!a2e4ff48","YL","Yorba Linda Station G2","CLIENT_BASE","STATION_G2","false",0,0
+"!1a58d7a7","SRM1","Meshtastic d7a7","CLIENT","RAK4631","false",0,0
+"!1bcca440","","","CLIENT","","false",0,0
+"!677ab7fc","OXB1","iOMXtastic Comms Base:ALH01","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!33602928","ECOB","Echo-Black","CLIENT","LILYGO_TBEAM_S3_CORE","false",0,0
+"!a25824b4","","","CLIENT","","false",0,0
+"!ee2468e5","4SBU","squelch | rooftop 2 | mf45","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!e2494a69","142*","Echo Bravo Tango","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!433c7b90","KEYS","KEYS","CLIENT","HELTEC_V3","false",0,0
+"!4b6389d2","📡","Meshticles2-1w","CLIENT","RAK4631","false",0,0
+"!2e60b3c","0b3c","Meshtastic 0b3c","CLIENT","HELTEC_V3","false",0,0
+"!2eca9f0","","","CLIENT","","false",0,0
+"!986b90c0","","","CLIENT","","false",0,0
+"!99bc0464","POP","Poplar","CLIENT","T_DECK","false",0,0
+"!de2b5c37","5c37","k4nsy_5c37","CLIENT","TRACKER_T1000_E","false",0,0
+"!4360f5a1","LKWD","Lakewood Solar Node","CLIENT","RAK4631","false",0,0
+"!2eaf174","f174","Meshtastic f174","","HELTEC_V3","false",0,0
+"!7bbbbd0f","bd0f","Meshtastic bd0f","CLIENT","THINKNODE_M1","false",0,0
+"!43fccf4f","Seed","Seeed Solar Brandon","CLIENT","SEEED_SOLAR_NODE","false",0,0
+"!3369f488","f488","GVDub-2","CLIENT","HELTEC_V3","false",0,0
+"!849c3870","CARL","CRWLRCARL","CLIENT","HELTEC_V3","false",0,0
+"!849b5408","5408","5408","CLIENT","HELTEC_V3","false",0,0
+"!f66af858","","","CLIENT","","false",0,0
+"!84954776","","","CLIENT_MUTE","","false",0,0
+"!2b0282d6","NTB","Nanotech Base","CLIENT","RAK4631","false",0,0
+"!457e7ee2","1979","Rosie1979","CLIENT","RAK4631","false",0,0
+"!4c579a8","tofu","soyboi","CLIENT","HELTEC_V4","false",0,0
+"!3c4457f1","","","CLIENT","","false",0,0
+"!857495f3","","","CLIENT","","false",0,0
+"!a2eb4058","HBG2","HOME Base G2 (Check out socalmesh.org)","CLIENT","STATION_G2","false",0,0
+"!c7d11d0a","1W42","MoorparkGW","CLIENT_BASE","RAK3401","false",0,0
+"!639a685d","OS-5","NG6B Old_Skool-5","CLIENT","TRACKER_T1000_E","false",0,0
+"!69827e64","","","CLIENT_BASE","","false",0,0
+"!85c5edab","","","CLIENT","","false",0,0
+"!add99f6","MRSH","Marshmallnode","CLIENT","RAK4631","false",0,0
+"!a2d2cdf4","df94","k4nsy_df94","CLIENT","HELTEC_WSL_V3","false",0,0
+"!9f285898","OS-3","NG6B Old_Skool-3","CLIENT","THINKNODE_M1","false",0,0
+"!aa5160e8","APOL","Apollo","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!89bc8e9","JPRT","JRBP0RT","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!e073cd5a","cd5a","Meshtastic cd5a","CLIENT","XIAO_NRF52_KIT","false",0,0
+"!4330e48","🐔","Rooster Base","CLIENT","HELTEC_V3","false",0,0
+"!b2a7e4d4","","","CLIENT","","false",0,0
+"!a2eb4254","📡","Mira Mesa Base ⚡️","CLIENT","STATION_G2","false",0,0
+"!2ad31071","TRCK","Truck MnodeZero","CLIENT_MUTE","RAK4631","false",0,0
+"!6985bd38","","","CLIENT","","false",0,0
+"!a0cafed4","Woo2","Woolio 02","CLIENT","HELTEC_V3","false",0,0
+"!bd4a6fcc","CV02","Cyberdyne_Systems👾📡","CLIENT","T_DECK","false",0,0
+"!a2ebd830","","","CLIENT","","false",0,0
+"!8c672f9","BACH","Obergrenzebach","CLIENT","RAK4631","false",0,0
+"!2ecd1d0","d1d0","Meshtastic d1d0","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!9e8b805d","805d","k4nsy_805d","CLIENT_BASE","PORTDUINO","false",0,0
+"!9e755b54","","","CLIENT","","false",0,0
+"!e10cab19","WTMa","Will's T-Echo Meshtastic ab19","CLIENT_MUTE","T_ECHO","false",0,0
+"!849b85f4","85f4","Meshtastic 85f4","CLIENT","HELTEC_V3","false",0,0
+"!f1d3a9cb","OngH","OrangeHillSolar - SoCalMesh.org","ROUTER","RAK4631","false",0,0
+"!9e3b1888","1888","VDubHeltecT190","CLIENT","HELTEC_VISION_MASTER_T190","false",0,0
+"!250601ac","01ac","Meshtastic 01ac","CLIENT","TBEAM","false",0,0
+"!9634255","SAS3","SAS3","CLIENT","RAK4631","false",0,0
+"!96a4ef3e","","","CLIENT","","false",0,0
+"!69824620","SCMB","SilentConnectMobileBase","CLIENT_BASE","HELTEC_V4","false",0,0
+"!8bbb281b","","","ROUTER","","false",0,0
+"!6984be40","HHT7","HHT7","CLIENT","HELTEC_V4","false",0,0
+"!74517357","6CCC","K6CCC-hAPac3-at-Home","CLIENT_MUTE","254","false",0,0
+"!e9c1c60b","🕷","FranklinBase","CLIENT","RAK4631","false",0,0
+"!1487d388","HzT1","Hoz Traker 1  d388","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!5916e284","","","CLIENT","","false",0,0
+"!4359b8a8","","","CLIENT","","false",0,0
+"!d173648c","Y3LL","I WILL be heard","CLIENT_BASE","RAK4631","false",0,0
+"!daa0ddec","","","CLIENT_BASE","","false",0,0
+"!186fb3dc","","","CLIENT_MUTE","","false",0,0
+"!a3d02dd8","txrB","Emitter Bravo","CLIENT_MUTE","HELTEC_MESH_NODE_T114","false",0,0
+"!a0cab540","TSCN","Temecula Solar 🏠 Node","CLIENT_BASE","HELTEC_V3","false",0,0
+"!2752d712","","","CLIENT","","false",0,0
+"!b03d22dc","RT01","RBTDEV 001","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!435a7db8","2ndG","SecondGear","CLIENT","LILYGO_TBEAM_S3_CORE","false",0,0
+"!56cad65f","","","CLIENT_BASE","","false",0,0
+"!cdd95748","AJ6o","AJ6O longfast","CLIENT","RAK4631","false",0,0
+"!e2e385b0","cxlb","charliex-dtla2","CLIENT","HELTEC_V3","false",0,0
+"!743fda25","da25","GVDub_T1000exp","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!9ea67200","JSR1","JS Recon 2-1","CLIENT","THINKNODE_M5","false",0,0
+"!6e8b9dab","","","CLIENT_MUTE","","false",0,0
+"!9a99b890","BRRY","Blueberry b890","CLIENT","HELTEC_MESH_POCKET","false",0,0
+"!7c5cb0a0","","","CLIENT","","false",0,0
+"!f5b5fce3","","","CLIENT","","false",0,0
+"!920f28ae","Hhel","Hud hel1","CLIENT","HELTEC_MESH_POCKET","false",0,0
+"!a0cc4b98","","","CLIENT","","false",0,0
+"!2e7364c","","","CLIENT","","false",0,0
+"!68943c6","","","CLIENT","","false",0,0
+"!dcc57c67","RT05","RBTDEV 005","CLIENT_BASE","RAK4631","false",0,0
+"!677df4fa","BP01","Buena Park 1W","CLIENT_MUTE","PORTDUINO","false",0,0
+"!9e3c17c8","DB19","DB HelTec 190","CLIENT_MUTE","HELTEC_VISION_MASTER_T190","false",0,0
+"!11b36a94","tcat","🦝 trash.cat 🐈","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!43571874","1874","GVDub LR","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!a0cb687c","687c","Meshtastic 687c","CLIENT","HELTEC_V3","false",0,0
+"!12d455c0","","","CLIENT","","false",0,0
+"!29e0c89e","c89e","Meshtastic c89e","CLIENT","HELTEC_MESH_POCKET","false",0,0
+"!33647860","","","CLIENT_MUTE","","false",0,0
+"!9e77a394","","","CLIENT","","false",0,0
+"!f6709bd4","LK10","Hels Nachos","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!65c93b05","CCR3","SCVCCFR3","CLIENT_MUTE","XIAO_NRF52_KIT","false",0,0
+"!6104ea74","CARd","Tobey Mobile - ea74","CLIENT","TRACKER_T1000_E","false",0,0
+"!b50b8942","8942","VDub_4631_8942","CLIENT_MUTE","RAK4631","false",0,0
+"!435a8484","","","CLIENT","","false",0,0
+"!1ffe8c42","staG","Granite Station","ROUTER","RAK2560","false",0,0
+"!a6e4bb98","@JRB","JRBC@RD","CLIENT","TRACKER_T1000_E","false",0,0
+"!9224b16","🚁","HICOCO","CLIENT","RAK4631","false",0,0
+"!76b323a3","LAIN","The Wired","ROUTER","RAK4631","false",0,0
+"!f6623730","cat2","catz 02","CLIENT","HELTEC_V4","false",0,0
+"!f6901b28","","","CLIENT","","false",0,0
+"!2f8173e4","","","CLIENT","","false",0,0
+"!3a6857fe","","","CLIENT_MUTE","","false",0,0
+"!8be8fa99","fa99","Meshtastic fa99","CLIENT","RAK4631","false",0,0
+"!292e2ee7","RED1","Redlands 🍊 Actual","CLIENT_BASE","RAK4631","false",0,0
+"!f47880f4","CEQN","Coop Equinox","CLIENT_BASE","RAK3401","false",0,0
+"!337902e0","H0M3","Home Base T190 Meshtastic 02e0","CLIENT","HELTEC_VISION_MASTER_T190","false",0,0
+"!cd972ffa","","","CLIENT","","false",0,0
+"!e2e59084","","","CLIENT","","false",0,0
+"!19df8ca7","8ca7","ATAK 8ca7","TAK","RAK4631","false",0,0
+"!909e876c","SKP","Skinny Penis","CLIENT","SEEED_XIAO_S3","false",0,0
+"!298cf8ee","Dirt","Dirtbag","CLIENT","TRACKER_T1000_E","false",0,0
+"!6521a320","","","CLIENT","","false",0,0
+"!b496a728","","","CLIENT_BASE","","false",0,0
+"!1ba1b078","X1X1","Hellion","CLIENT","HELTEC_V4","false",0,0
+"!f66ff2ac","","","TAK","","false",0,0
+"!db29ca5c","MOW8","MiniOfficeWolf-8a","CLIENT","HELTEC_V3","false",0,0
+"!7f55bd0a","bd0a","KK6NOW","CLIENT","SEEED_SOLAR_NODE","false",0,0
+"!c0c42679","2679","VDub_T1000e","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!9e7599bc","Fra1","KO6EAN—1","CLIENT_BASE","HELTEC_V3","false",0,0
+"!57a54e8d","4e8d","Meshtastic 4e8d","CLIENT","RAK4631","false",0,0
+"!1ec7d8e6","DTLM","DOWNTOWN LA MESA","CLIENT","RAK4631","false",0,0
+"!b2a6fb34","EEK0","CRANKMEISTER BASE","CLIENT_BASE","HELTEC_V4","false",0,0
+"!33678068","","","ROUTER_CLIENT","","false",0,0
+"!c1b199c6","CMPD","The Compound","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!a20a0ebc","DAV2","davie base [MF45] (2.7.17)","CLIENT","STATION_G2","false",0,0
+"!5d11f444","","","CLIENT","","false",0,0
+"!b31de2f2","","","CLIENT","","false",0,0
+"!c4fc24a8","","","CLIENT_BASE","","false",0,0
+"!94e2ce6a","","","CLIENT_BASE","","false",0,0
+"!ba51039d","","","CLIENT_MUTE","","false",0,0
+"!79cd256c","MBB","Mount Bliss Base","ROUTER","RAK4631","false",0,0
+"!a2ebb2ec","COOP","Coop SoCalMesh.org","CLIENT_BASE","STATION_G2","false",0,0
+"!439290c","1221","PEB37_1221","CLIENT","HELTEC_V3","false",0,0
+"!bd4fb514","WWmq","Westminster West MQTT Connected MF45","CLIENT","HELTEC_V3","false",0,0
+"!780c9e7d","GodZ","GoDZilla","CLIENT","RAK4631","false",0,0
+"!db51e670","TTst","Telem Test e670","CLIENT","HELTEC_V3","false",0,0
+"!db587626","7626","wakkow 7626","CLIENT","RAK4631","false",0,0
+"!fc3f4c3a","ꬁ","Ansible 4c3a","CLIENT","WISMESH_TAG","false",0,0
+"!b2a74b00","","","CLIENT","","false",0,0
+"!28cb548f","","","CLIENT","","false",0,0
+"!49b2cc20","0100","342#0100","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!7b2a7f6c","SHR2","SGV_Shredder__02ThinkNode","CLIENT","THINKNODE_M1","false",0,0
+"!9bae1137","","","CLIENT","","false",0,0
+"!6fde84d2","TZMB","techzack_mobile","CLIENT","RAK4631","false",0,0
+"!ba445110","","","CLIENT","","false",0,0
+"!708b4fb","CZUC","CharlesZUCI","CLIENT_BASE","RAK4631","false",0,0
+"!6984c27c","","","CLIENT","","false",0,0
+"!5ff01602","1602","Meshtastic 1602","CLIENT","TRACKER_T1000_E","false",0,0
+"!b2a743ac","43ac","Meshtastic 43ac","CLIENT","HELTEC_V4","false",0,0
+"!2504f1f8","","","CLIENT","","false",0,0
+"!500dd716","d716","Fullerton d716","CLIENT_BASE","HELTEC_MESH_NODE_T114","false",0,0
+"!2115cc74","🐔","Ranch Roof ","CLIENT","RAK4631","false",0,0
+"!4083000","","","CLIENT","","false",0,0
+"!fb805597","","","ROUTER","","false",0,0
+"!b8e9a353","Kopy","Koppy Hawthorne","CLIENT","RAK4631","false",0,0
+"!67b61ff3","","","CLIENT","","false",0,0
+"!90625e67","LK08","Nachos_Galore_MF","CLIENT_MUTE","RAK4631","false",0,0
+"!43579914","","","CLIENT","","false",0,0
+"!2350d13f","📺","Red R1","CLIENT","RAK4631","false",0,0
+"!699a85f4","LYNX","LynxTastic_V4","CLIENT","HELTEC_V4","false",0,0
+"!11fb12ac","LION","Lion's Head Base 🦁","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!4c9ca571","NWAN","30 Minutes to Midnight","CLIENT","RAK4631","false",0,0
+"!590272e7","","","CLIENT","","false",0,0
+"!d90390bc","","","CLIENT_MUTE","","false",0,0
+"!435695e8","","","CLIENT_MUTE","","false",0,0
+"!49b55688","KC-0","KC0YRK-0","CLIENT","HELTEC_V4","false",0,0
+"!849ad0c0","d0c0","Meshtastic d0c0","CLIENT","HELTEC_V3","false",0,0
+"!49b70e5c","","","CLIENT","","false",0,0
+"!4c261a21","GZ1","Ground Zero","CLIENT","RAK4631","false",0,0
+"!8757aa98","","","CLIENT","","false",0,0
+"!335c1f20","zIma","zImage Base","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!9efae3f2","T114","Truck T114 (Check out socalmesh.org)","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!b2a70c68","","","CLIENT","","false",0,0
+"!8a763668","W6BI","W6BI-SHACK-NODE","CLIENT","254","false",0,0
+"!e55757cf","📸","TestShot-M1","CLIENT","THINKNODE_M1","false",0,0
+"!1ba18c28","8c28","Meshtastic 8c28","CLIENT","HELTEC_V4","false",0,0
+"!f1ab56a8","👽","Gleep LH Solar","CLIENT_BASE","RAK4631","false",0,0
+"!4c3a19f9","","","CLIENT","","false",0,0
+"!1144c837","🪩","Disco Stick","CLIENT","MUZI_BASE","false",0,0
+"!698322c8","22c8","Meshtastic 22c8","CLIENT_BASE","HELTEC_V4","false",0,0
+"!1327ec08","","","CLIENT","","false",0,0
+"!e51568d","568d","VCV","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!4029fec","","","CLIENT","","false",0,0
+"!12497392","7392","Valencia Mesh","CLIENT","SEEED_SOLAR_NODE","false",0,0
+"!43572594","nrwl","narwhalroam","CLIENT","HELTEC_V3","false",0,0
+"!a0cc2c6c","","","CLIENT","","false",0,0
+"!c3b105f1","","","CLIENT","","false",0,0
+"!38cc3b07","DROS","Drosera","CLIENT","PORTDUINO","false",0,0
+"!2ed822c","822c","Meshtastic 822c","CLIENT","HELTEC_V3","false",0,0
+"!33644370","","","CLIENT","","false",0,0
+"!2f77fd32","","","CLIENT","","false",0,0
+"!da5ed8d4","","","CLIENT","","false",0,0
+"!58ca1c2d","DTXY","DATAXY","CLIENT","RAK4631","false",0,0
+"!f6cc7e44","swzy","sweeznode","CLIENT","T_DECK","false",0,0
+"!33468ce4","S5RM","S5 RANGER MAGNUM","ROUTER_LATE","T_DECK","false",0,0
+"!28eec90","🪚","Chainsaw","CLIENT","RAK4631","false",0,0
+"!77af1d21","","","CLIENT","","false",0,0
+"!b29f9cec","9cec","Meshtastic 9cec","CLIENT","HELTEC_V4","false",0,0
+"!d44239d6","SHR1","SGV_Shredder__01MeshPocket","CLIENT_MUTE","HELTEC_MESH_POCKET","false",0,0
+"!3841c527","altR","Alta Loma RTR","CLIENT","SEEED_SOLAR_NODE","false",0,0
+"!439543c","","","CLIENT","","false",0,0
+"!43b73ed4","bv","bv 3ed4","CLIENT","HELTEC_V3","false",0,0
+"!918861d","GXO","KN6GXO","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!1b299c12","OXP1","iOMXtastic Comm Pocket Node01","CLIENT_MUTE","HELTEC_MESH_POCKET","false",0,0
+"!11fe257a","KATT","KATT BASE","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!ca1c7362","PANC","Pancake Solar Base","CLIENT_BASE","NRF52_UNKNOWN","false",0,0
+"!9dfafe67","RPA1","RPA1 fe67","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!95ef57b4","RPA6","RPA6 57b4","CLIENT","SEEED_SOLAR_NODE","false",0,0
+"!3cc36742","","","CLIENT","","false",0,0
+"!e2012d12","wait","Meshtastic WOR","CLIENT","THINKNODE_M1","false",0,0
+"!2e8b5cc","b5cc","Meshtastic b5cc","CLIENT","HELTEC_V3","false",0,0
+"!2fb625bc","","","CLIENT_MUTE","","false",0,0
+"!433d2450","poop","MONSTER 👻 ","CLIENT","HELTEC_V3","false",0,0
+"!52135f02","⚡","Thundercracker","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!57a5ec29","","","CLIENT","","false",0,0
+"!7adc0e28","RY4N","Meshtastic KM6DFD","CLIENT","RAK4631","false",0,0
+"!a2ebd23c","ND1","Node 1 - Private Tier Solutions ","TAK","STATION_G2","false",0,0
+"!9e9d0fb0","xox","maggot","CLIENT","HELTEC_V3","false",0,0
+"!43308f8","SFSR","Starfleet Subspace Relay 📡","CLIENT","HELTEC_V3","false",0,0
+"!6677df04","BELL","Bellflower Node","ROUTER","THINKNODE_M6","false",0,0
+"!699cad30","ad30","Bobbydrano ad30","CLIENT","HELTEC_V4","false",0,0
+"!aff311d3","","","CLIENT","","false",0,0
+"!2ecff10","LOUY","Louie","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!1de92eac","👙","GirlsGoneWireless-LF","CLIENT","SEEED_XIAO_S3","false",0,0
+"!9ea138e4","","","CLIENT","","false",0,0
+"!d91989f1","","","CLIENT","","false",0,0
+"!f349f78","9f78","Skinwalker 👽","CLIENT","RAK4631","false",0,0
+"!ccf565a0","Bix3","Bixby Slough Roofer","CLIENT","SEEED_SOLAR_NODE","false",0,0
+"!75c800c8","","","CLIENT","","false",0,0
+"!24edfe60","PPG","PenPacGray","CLIENT","HELTEC_MESH_POCKET","false",0,0
+"!54900352","RPA3","RPA3-0352","CLIENT","SEEED_SOLAR_NODE","false",0,0
+"!348688e6","DHMF","Dana Hills Solar (2.7.25)","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!32f53852","SASR","SantaAnaSolarRouter - SoCalMesh.org","ROUTER","RAK3401","false",0,0
+"!5a6f7a4","Bell","Belle","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!ba663288","3288","Meshtastic 3288","CLIENT","HELTEC_V3","false",0,0
+"!da9ebf40","MF45","Herald of MF45 (socalmesh.org)","CLIENT","TLORA_V2_1_1P6","false",0,0
+"!1b112224","","","ROUTER","","false",0,0
+"!b1c74674","","","CLIENT","","false",0,0
+"!b0ba84f","rg","Ranger4 WSJN937","ROUTER","RAK4631","false",0,0
+"!dc0cd20f","6LX","AJ6LX ","CLIENT","TRACKER_T1000_E","false",0,0
+"!954c3f4b","ING1","INGUS SoCalmesh.org","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!56483a5","WW","Westminster West","CLIENT","SEEED_SOLAR_NODE","false",0,0
+"!433d4f2c","4f2c","Meshtastic 4f2c","TRACKER","HELTEC_V3","false",0,0
+"!9ea1e874","AVHW","AVHB-W","CLIENT","HELTEC_V3","false",0,0
+"!b6699e8a","MTM2","Mesh Tracker Matrix2","CLIENT","TRACKER_T1000_E","false",0,0
+"!a20a0ea4","zIG2","zImage G2","CLIENT","STATION_G2","false",0,0
+"!c3a6d18","MPL","Maple Leaf","CLIENT","T_DECK","false",0,0
+"!7c5b02b0","send","SentIt","CLIENT","HELTEC_V3","false",0,0
+"!1ba60cfc","G&B","Green Goblin ","CLIENT","HELTEC_V4","false",0,0
+"!c0c31560","","","CLIENT","","false",0,0
+"!a0cc6f74","LUCM","LUCY Monitor","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!ab7384ec","42LP","Lost Pines","ROUTER","RAK4631","false",0,0
+"!433e8894","8894","Meshtastic 8894","CLIENT","HELTEC_V3","false",0,0
+"!43568ebc","","","CLIENT","","false",0,0
+"!938c045c","","","CLIENT","","false",0,0
+"!6caebe1e","","","CLIENT_MUTE","","false",0,0
+"!7c108eca","","","CLIENT","","false",0,0
+"!3d8dbbcd","","","CLIENT_BASE","","false",0,0
+"!3907b969","4720","k4nsy_4720","CLIENT_BASE","HELTEC_V3","false",0,0
+"!39df4db1","🫏","Donkey punch","CLIENT","T_ECHO","false",0,0
+"!ba0c81ec","","","CLIENT_MUTE","","false",0,0
+"!732a2c29","MBO","N6QIR","CLIENT","TRACKER_T1000_E","false",0,0
+"!fc5eb1d9","BFB2","BFB Net Upland","ROUTER","SEEED_SOLAR_NODE","false",0,0
+"!43561ee8","","","ROUTER","","false",0,0
+"!854fadce","m","mmca m1","CLIENT_MUTE","RAK4631","false",0,0
+"!5fed7529","DRoo","DizzleRoof","CLIENT_BASE","RAK4631","false",0,0
+"!433c698c","","","CLIENT","","false",0,0
+"!43b585fc","khs","k6gte ham shack 📻","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!25d741ac","","","CLIENT","","false",0,0
+"!b318cc9c","","","CLIENT","","false",0,0
+"!785fe022","TNA","TNA","CLIENT","RAK4631","false",0,0
+"!b03b3900","","","CLIENT","","false",0,0
+"!c5b8d25c","CLAM","SGV_Shredder__Clamshell Peak","ROUTER","RAK4631","false",0,0
+"!43d41ac","","","CLIENT","","false",0,0
+"!530373d8","F2F1","FemToFox 1 (Check out socalmesh.org)","CLIENT_MUTE","PORTDUINO","false",0,0
+"!ca0f9602","","","CLIENT_HIDDEN","","false",0,0
+"!661da64b","","","CLIENT","","false",0,0
+"!7cbd8df2","","","CLIENT","","false",0,0
+"!40648b8","🤖","Bakersfield Mesh Bot","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!b2a784f8","HMBS","HOME BASE","CLIENT","HELTEC_V4","false",0,0
+"!1335fee4","fee4","K4nsy_fee4","CLIENT","CROWPANEL","false",0,0
+"!49b58514","8547","Domino 8547","CLIENT_BASE","HELTEC_V4","false",0,0
+"!866fe826","","","CLIENT_BASE","","false",0,0
+"!69829f84","DUCT","Central Services","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!9e756c94","LGN1","Laguna Client Home / socalmesh.org","CLIENT","HELTEC_V3","false",0,0
+"!d82e1ec8","Sol2","GBH_Solar2","CLIENT","RAK4631","false",0,0
+"!ae6135b4","TDG3","TDWG-3 35b4","CLIENT","SEEED_XIAO_S3","false",0,0
+"!9ea04a84","BWTV","BlkWgn - TVC","CLIENT","HELTEC_V3","false",0,0
+"!814ffe18","fe18","WOPR-KN6YLD","CLIENT","M5STACK_C6L","false",0,0
+"!f4d4dced","","","CLIENT","","false",0,0
+"!43e8ca81","","","CLIENT_BASE","","false",0,0
+"!43a8a10","RD01","RubberDucky1","CLIENT","HELTEC_V3","false",0,0
+"!b03d5524","5524","Meshtastic 5524","CLIENT","HELTEC_V3","false",0,0
+"!e3284cd7","msol","mmca solar test ","CLIENT","RAK4631","false",0,0
+"!da57724c","FD21","F.D21","CLIENT","LILYGO_TBEAM_S3_CORE","false",0,0
+"!9e756658","","","CLIENT","","false",0,0
+"!1f9fe6a8","","","CLIENT","","false",0,0
+"!9f5ee213","","","CLIENT","","false",0,0
+"!d998749a","","","CLIENT","","false",0,0
+"!f1896d04","","","CLIENT","","false",0,0
+"!1ba695ec","tdmp","trash.cat.dumpster","CLIENT_BASE","HELTEC_V4","false",0,0
+"!6c73b454","","","CLIENT","","false",0,0
+"!1ba38bd4","n3k0","srvrguy","CLIENT","HELTEC_V4","false",0,0
+"!9e75c6d0","c6d0","Meshtastic c6d0","CLIENT_HIDDEN","HELTEC_V3","false",0,0
+"!a2893c38","TWM2","TWEM02 (www.twem.net)","CLIENT","T_ECHO","false",0,0
+"!bfca1cee","","","CLIENT_BASE","","false",0,0
+"!698291fc","CHB","👑Crown Hill☀️Base📡","CLIENT_BASE","HELTEC_V4","false",0,0
+"!b03ccf4c","CR M","CeeRed MQTT","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!db2b1b14","🚘","BcozimaznMobile","CLIENT","HELTEC_V3","false",0,0
+"!9e786ff8","","","CLIENT","","false",0,0
+"!3c259073","JF07","HtechJF","CLIENT","HELTEC_MESH_POCKET","false",0,0
+"!1f2ef438","J6GZ","AJ6GZ-1-x86-2","CLIENT_MUTE","254","false",0,0
+"!f193472","RAKM","RAK Miner Meshtastic 2462","CLIENT_MUTE","PORTDUINO","false",0,0
+"!13b2f883","NODU","Nodu Balcony","CLIENT","NRF52_UNKNOWN","false",0,0
+"!9705acfb","jxdR","jxd base","CLIENT_BASE","RAK4631","false",0,0
+"!27eef2d8","DKND","DakineNode","CLIENT","T_DECK","false",0,0
+"!8fa59d60","Lux2","Lux2","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!a1cd4498","Geo","Geologist","CLIENT_MUTE","T_DECK","false",0,0
+"!84565a44","C4K3","1S 4 L1E","CLIENT","TRACKER_T1000_E","false",0,0
+"!e00ce5e0","e5e0","Meshtastic e5e0","CLIENT","HELTEC_V3","false",0,0
+"!8fa7c748","","","CLIENT","","false",0,0
+"!548f3d88","KKC","KevinK Card (2.7.26)","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!c1906e8","","","CLIENT","","false",0,0
+"!4050e74","","","CLIENT","","false",0,0
+"!e77b1d88","1d88","CESCSD","CLIENT_MUTE","SEEED_WIO_TRACKER_L1","false",0,0
+"!af1c4f4c","🦅","KM6MCI NODE 15 🦜","CLIENT","RAK4631","false",0,0
+"!49b5db4c","","","ROUTER_LATE","","false",0,0
+"!6984fcb0","","","CLIENT","","false",0,0
+"!8fce8654","","","CLIENT","","false",0,0
+"!ea1b5d44","5d44","Meshtastic 5d44","CLIENT_MUTE","T_DECK","false",0,0
+"!46fa154e","NXL5","Meshtastic 154e","CLIENT","RAK4631","false",0,0
+"!734ab05d","","","ROUTER","","false",0,0
+"!9e75e130","e130","Meshtastic e130","CLIENT","HELTEC_V3","false",0,0
+"!a8019a04","9a04","MABUHAYmesh QTHLab 9a04","CLIENT","RAK4631","false",0,0
+"!c7f09e50","JPL","JPLARC","CLIENT","RAK4631","false",0,0
+"!8bb8e64","RBF1","RB Fixed 1","CLIENT","TLORA_V2_1_1P6","false",0,0
+"!5766ca97","","","CLIENT_BASE","","false",0,0
+"!f68e1534","","","CLIENT","","false",0,0
+"!ce5818a0","18a0","Mesh _18a0 🌶","CLIENT","RAK4631","false",0,0
+"!6ceacf1b","SASR","SantaAnaSolarRouter - SoCalMesh.org","ROUTER","RAK4631","false",0,0
+"!9a2e552","TS1W","Temecula Solar Node 1W","ROUTER","RAK4631","false",0,0
+"!30148b0b","","","CLIENT","","false",0,0
+"!ca6adb53","","","CLIENT","","false",0,0
+"!4cc69b60","🚙","☢️🚙☢️","CLIENT","RAK4631","false",0,0
+"!435bb2d8","","","CLIENT_BASE","","false",0,0
+"!117d94a9","TSZr","QHCERT ROUTER","ROUTER","NOMADSTAR_METEOR_PRO","false",0,0
+"!1de91e54","1e54","Meshtastic 1e54","CLIENT","SEEED_XIAO_S3","false",0,0
+"!3b0559d5","GTM5","Genesis Tracker Meshtastic 59d5","CLIENT","TRACKER_T1000_E","false",0,0
+"!409347c","MTSD","MountainShadow","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!a0cb1ba0","","","CLIENT","","false",0,0
+"!6982389c","","","CLIENT","","false",0,0
+"!e16dbf32","","","CLIENT","","false",0,0
+"!8fa0cadc","","","CLIENT","","false",0,0
+"!4c5b564","","","CLIENT","","false",0,0
+"!227928b2","👽","619er","CLIENT","RAK4631","false",0,0
+"!435ad848","AMHS","AgileMesh HQ","CLIENT_MUTE","LILYGO_TBEAM_S3_CORE","false",0,0
+"!6925c686","c686","DLSc686SoCal","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!849b886c","886c","Meshtastic 886c","CLIENT","HELTEC_V3","false",0,0
+"!335d925c","HomR","HomeR - SoCalMesh.org","CLIENT_BASE","HELTEC_V3","false",0,0
+"!878651f8","GR1M","Grim_Mobile","CLIENT","TRACKER_T1000_E","false",0,0
+"!1de915b4","ENCF","Enchanted Forest","CLIENT","SEEED_XIAO_S3","false",0,0
+"!7df0488","MBGY","Mr. Bagly","CLIENT_MUTE","SEEED_WIO_TRACKER_L1","false",0,0
+"!fb73a858","a858","Meshtastic a858","CLIENT","RAK4631","false",0,0
+"!857ccdfe","","","CLIENT_MUTE","","false",0,0
+"!7c5b0f44","ennr","enneract","ROUTER","HELTEC_V3","false",0,0
+"!a0cc67fc","67fc","Mesh_67fc🟥","CLIENT","HELTEC_V3","false",0,0
+"!db2b2240","2240","🤷 2240 🏡","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!b2a7d9d0","VD","Vivian Dang","CLIENT","HELTEC_V4","false",0,0
+"!6a618e62","SLIb","Seal Beach VOR Base","CLIENT","SEEED_SOLAR_NODE","false",0,0
+"!4489650f","eg0n","eg0n_meshtastic ","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!53dda9cc","","","CLIENT_BASE","","false",0,0
+"!4aeb396b","SPRT","SPROUT","CLIENT","XIAO_NRF52_KIT","false",0,0
+"!27cb0974","da0d","darkdeck","CLIENT","T_DECK","false",0,0
+"!9eeca448","a448","Meshtastic a448","CLIENT","HELTEC_V3","false",0,0

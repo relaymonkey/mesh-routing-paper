@@ -1,0 +1,6 @@
+proto,delivery_pct,tx_per_pkt,tx_per_delivered
+FLOOD,25.26,17.94,71.01
+PATH,3.98,18.86,473.20
+NEXTHOP,30.41,18.23,59.94
+GRADCOR,48.60,10.40,21.40
+GRADCOR-R,50.71,10.82,21.33

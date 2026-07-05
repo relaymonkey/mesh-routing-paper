@@ -1,0 +1,1395 @@
+"id","short","long","role","hw","hasPos","lat","lon"
+"!4058d2c","8d2c","Meshtastic 8d2c","CLIENT","HELTEC_V3","false",0,0
+"!69858260","8260","Heltec AIO Touch 8260","CLIENT_BASE","HELTEC_V4","false",0,0
+"!6c72f7d4","PB1","K1EDZ Base Node","CLIENT","TBEAM","false",0,0
+"!5a4cead","AES","KG1AES LowMesh","CLIENT","RAK4631","false",0,0
+"!e243e69","3e69","netskillz_rover","CLIENT","RAK4631","false",0,0
+"!1ba677b0","4SFR","WD4SFR_Port","CLIENT","HELTEC_V4","false",0,0
+"!befce703","DD01","KN4YDL-1","CLIENT","T_ECHO","false",0,0
+"!99baac44","SFR1","WD4SFR_rov1","CLIENT","T_DECK","false",0,0
+"!ca166aa0","6AA0","DA6AA0","CLIENT","T_ECHO","false",0,0
+"!43b5a0d8","HV3M","HeltecV3Mobile","CLIENT","HELTEC_V3","false",0,0
+"!662b5918","AS1W","WV4AS-1W","CLIENT","RAK4631","false",0,0
+"!e2c7a5d","7a5d","Meshtastic 7a5d","CLIENT","NRF52_UNKNOWN","false",0,0
+"!87a6060","6060","Meshtastic 6060","CLIENT","RAK11200","false",0,0
+"!2fd9d717","D1BS","DA1BSN","CLIENT_MUTE","RAK4631","false",0,0
+"!a5733a6c","GLAS","Glaser Solar","CLIENT_BASE","RAK4631","false",0,0
+"!d11a4fb","DOE2","K3DO Echo-2","CLIENT","T_ECHO","false",0,0
+"!67fecef5","79UC","david79-uconsole","CLIENT","PORTDUINO","false",0,0
+"!16cfa17c","SMT4","EARC-G2-Tower","ROUTER","STATION_G2","false",0,0
+"!b56336d5","PMT1","PeakMesh1","CLIENT","TRACKER_T1000_E","false",0,0
+"!16cec9ac","c9ac","netskillz_relay","CLIENT_BASE","STATION_G2","false",0,0
+"!49b54b0c","XGEN","73797374726F6E78","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!16ced214","TRON","JUP G2","ROUTER","STATION_G2","false",0,0
+"!a634b9ce","🍻","Sandbar Sports Grill Cutler Bay ","CLIENT","RAK4631","false",0,0
+"!9e3e08bc","Lana","Lana Zebra Duo","CLIENT_BASE","PORTDUINO","false",0,0
+"!ba0604f4","FRNT","HOMEBASE","CLIENT_HIDDEN","SENSECAP_INDICATOR","false",0,0
+"!1c49618c","SHDW","Meshtastic SHDW","CLIENT","TBEAM","false",0,0
+"!9e9f30a8","30a8","Meshtastic 30a8","CLIENT","HELTEC_V3","false",0,0
+"!ee1c4eed","4eed","JDHPB 4eed","CLIENT","RAK4631","false",0,0
+"!30327644","B","B","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!9e7565bc","65bc","DuMeshy65bc","CLIENT","HELTEC_V3","false",0,0
+"!6984f974","🚀","SKY-2","CLIENT","HELTEC_V4","false",0,0
+"!a20a0ea8","TRON","STUART G2","ROUTER","STATION_G2","false",0,0
+"!1ba34778","4wpi","KI4WPI-Heltec v4","CLIENT","HELTEC_V4","false",0,0
+"!45d7ccb6","MMR","Mitch Mobile Ranger","CLIENT","RAK4631","false",0,0
+"!62424879","4879","beanie weenie 4879","CLIENT","MUZI_R1_NEO","false",0,0
+"!b07b309b","🦇","Fishbone BAT","CLIENT_MUTE","HELTEC_MESH_NODE_T114","false",0,0
+"!7dfd123b","1874","Mesh 1874 B1","CLIENT_BASE","RAK4631","false",0,0
+"!3d6a4223","T114","T114-Mobile","CLIENT_MUTE","HELTEC_MESH_NODE_T114","false",0,0
+"!e642e3bd","MFBs","MoulierFam Base","CLIENT_BASE","RAK4631","false",0,0
+"!a85c2ba5","4GJB","KE4GJB","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!7c5ab854","OOB","KQ4OOB - Ø","CLIENT_HIDDEN","HELTEC_V3","false",0,0
+"!49b710ac","LA","NF6P Shack","CLIENT","HELTEC_V4","false",0,0
+"!a35baa40","","","CLIENT","","false",0,0
+"!b03e0244","0244","CartoMesh","CLIENT","HELTEC_V3","false",0,0
+"!49b5eba4","ksv4","KQ4UJQ BASE V4","CLIENT_BASE","HELTEC_V4","false",0,0
+"!fa6c5cd8","KWP1","K3DO Wireless Paper 1","CLIENT_MUTE","HELTEC_WIRELESS_PAPER","false",0,0
+"!69828594","BOOM","Boomtastic 8594 📡","CLIENT","HELTEC_V4","false",0,0
+"!db295bd0","5bd0","Meshtastic 5bd0","CLIENT","HELTEC_V3","false",0,0
+"!e51aca4d","🕷","Nephilinae","CLIENT_MUTE","RAK4631","false",0,0
+"!a0a5eaa8","LW03","LWS ARC Shaun T-Deck Plus","CLIENT_MUTE","T_DECK","false",0,0
+"!91e42f22","PK1W","PeakMesh Watts Up","CLIENT","RAK4631","false",0,0
+"!db2fa3f4","d0ug","d0ug-W","CLIENT","HELTEC_V3","false",0,0
+"!a50660f4","gry","8715-gry","CLIENT_MUTE","HELTEC_MESH_NODE_T114","false",0,0
+"!a4ee2753","IYN","KC3IYN","CLIENT_MUTE","RAK4631","false",0,0
+"!435ae450","e450","The Swamp Mafia - Base - e450","CLIENT_BASE","LILYGO_TBEAM_S3_CORE","false",0,0
+"!a0352700","2700","MattG2 2700","CLIENT","STATION_G2","false",0,0
+"!433bf108","AV-0","AV Base Station ","CLIENT","HELTEC_WIRELESS_PAPER","false",0,0
+"!dd5c2f28","NY2S","NY2S-4🗼🏝West Palm Beach 2f28","CLIENT","TRACKER_T1000_E","false",0,0
+"!4060728","TANK","Tank (discord.gg/floridamesh)","CLIENT","HELTEC_WIRELESS_PAPER","false",0,0
+"!73c97471","MSUN","MB Solar Node ","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!cc0ce3d5","e3d5","Meshtastic e3d5","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!6985b254","b254","Meshtastic b254","CLIENT","HELTEC_V4","false",0,0
+"!a2e1a008","TRON","FXE G2","ROUTER","STATION_G2","false",0,0
+"!5fdd3e10","NT4P","NT4AL Portable ","CLIENT_MUTE","T_ECHO","false",0,0
+"!69826124","🏍","av8or","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!9eecc2e8","KQ4T","AL KQ4TDQ  Mobile F-150  c2e8","CLIENT","HELTEC_V3","false",0,0
+"!69850b84","MoBi","AA_Mobile","CLIENT","HELTEC_V4","false",0,0
+"!852c488","PGW1","Parrish Gateway","CLIENT_MUTE","PORTDUINO","false",0,0
+"!3cb1cbf1","ch13","Meshtastic ch13","CLIENT","TRACKER_T1000_E","false",0,0
+"!a038f664","TRON","LANTANA G2","ROUTER","STATION_G2","false",0,0
+"!b03daa98","BD69","Beemer Dreamer","CLIENT","HELTEC_V3","false",0,0
+"!698576e8","W8GH","Gary W8GLL Base","CLIENT","HELTEC_V4","false",0,0
+"!a2ed9648","WALB","WALBase*https://discord.gg/floridamesh","CLIENT","STATION_G2","false",0,0
+"!433aa27c","ViV","ViVSoft.live 🇺🇸","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!73e5a22f","SunT","Suntree Router","CLIENT","RAK4631","false",0,0
+"!f6979f04","deck","ondeck","CLIENT","T_DECK","false",0,0
+"!e1cbb4a5","1-2","Hammer Seed","CLIENT","TRACKER_T1000_E","false",0,0
+"!25944a6b","Het","Het","ROUTER_CLIENT","RAK4631","false",0,0
+"!26c4f03f","AGS","Meshtastic f03f","CLIENT","TRACKER_T1000_E","false",0,0
+"!13280154","X808","53797374726f6e54","CLIENT_MUTE","SEEED_XIAO_S3","false",0,0
+"!375dc2f9","Hopp","Hopper HM","CLIENT","RAK4631","false",0,0
+"!aca4f1c","TRON","ORL V4","ROUTER","HELTEC_V4","false",0,0
+"!1c496518","Flnt","Flintstone-US-CC-415","CLIENT","TBEAM","false",0,0
+"!a1ea3392","BrUh","Trinity-roof","CLIENT_BASE","RAK4631","false",0,0
+"!6984e4c8","e4c8","Twk_MTSolar3-e4c8","CLIENT_BASE","HELTEC_V4","false",0,0
+"!435778d0","78d0","Meshtastic 78d0","CLIENT","HELTEC_V3","false",0,0
+"!f68de4f0","e4f0","Meshtastic e4f0","CLIENT","THINKNODE_M5","false",0,0
+"!961899ec","FAUm","FAU Mobile","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!433e7624","JsnO","Json18 Office ","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!2e60094","THVR","THV Relay","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!45f8457c","🥭","Mango 🥭 Mesh3","CLIENT_BASE","NRF52_PROMICRO_DIY","false",0,0
+"!8b9a4cf2","HOPP","Hopp SenseCAP","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!a0ccd718","d718","Sunshine ","CLIENT","HELTEC_V3","false",0,0
+"!9bb2d9d8","DA53","WD4VID - Aardvark","TRACKER","WISMESH_TAG","false",0,0
+"!1f76a3ac","ZDIO","ZEDINOUT","CLIENT","PRIVATE_HW","false",0,0
+"!e9772ccf","KVVR","KO4KVV Rooftop 2ccf","CLIENT","SEEED_SOLAR_NODE","false",0,0
+"!d5454a66","TZ1W","TheZoo2-1W","CLIENT","RAK4631","false",0,0
+"!acaba7e0","SunG","Sunrise Gateway (MQTT)","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!32372daf","KBAS","Knight-Base","CLIENT","PORTDUINO","false",0,0
+"!6985747c","🤖","Maurice Junker01","CLIENT","HELTEC_V4","false",0,0
+"!caf90","Κ","Karpo","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!69857100","7100","Meshtastic 7100","CLIENT","HELTEC_V4","false",0,0
+"!aca3b1c","Rok","RocketCar 3b1c","CLIENT","HELTEC_V4","false",0,0
+"!4f3df73f","f73f","R1rl R1BL","CLIENT","RAK4631","false",0,0
+"!2504cfe4","KTB2","K3DO T-Beam 2","CLIENT_MUTE","TBEAM","false",0,0
+"!8fdee7fc","KRo1","KRoy904a","CLIENT","T_DECK","false",0,0
+"!39563e5b","d0ug","d0ug-Bike","TRACKER","XIAO_NRF52_KIT","false",0,0
+"!dc2e902f","W1N3","W1N3 📱 Wismesh Portable","CLIENT_MUTE","RAK4631","false",0,0
+"!24c17b27","R1G","SCR1G","CLIENT","RAK4631","false",0,0
+"!92549e0b","ECO1","aECHO 1","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!a1d75ebc","5ebc","Meshtastic 5ebc","CLIENT","SEEED_XIAO_S3","false",0,0
+"!da53de80","🦖","fractal_roof","CLIENT","HELTEC_V3","false",0,0
+"!7b2a7f6c","SHR2","SGV_Shredder__02ThinkNode","CLIENT","THINKNODE_M1","false",0,0
+"!59a939d","🌩","Tesla 2 ⛈","CLIENT","RAK4631","false",0,0
+"!69844a80","FORD","KQ4TDQ 4a80","CLIENT","HELTEC_V4","false",0,0
+"!7c5ab850","sm-0","sm Attic Heltec v3 b850","CLIENT","HELTEC_V3","false",0,0
+"!24623329","JSL2","JBSolar2","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!4c5a8e8","🛩","KEC Traveler 2       a8e8","CLIENT","HELTEC_V4","false",0,0
+"!cd32e2f7","🦂","CAVE-GAT562","CLIENT_MUTE","RAK4631","false",0,0
+"!42b6c34c","c34c","SnowDogg_c34c","","SEEED_WIO_TRACKER_L1","false",0,0
+"!435b5bec","5bec","Meshtastic 5bec","CLIENT","LILYGO_TBEAM_S3_CORE","false",0,0
+"!8ab98cb0","GSKW","Gator Solar KW","CLIENT","RAK4631","false",0,0
+"!343b5673","🚀","Icarus1W","CLIENT","RAK4631","false",0,0
+"!16ced144","PKN1","WParkland1","CLIENT","STATION_G2","false",0,0
+"!3148ea24","🗼","SBD The Falls","CLIENT_BASE","RAK4631","false",0,0
+"!33643294","HOME","KF4LZA HOME","CLIENT_MUTE","HELTEC_WSL_V3","false",0,0
+"!a2e1a8c4","TRON","POMP G2","ROUTER","STATION_G2","false",0,0
+"!db2a9bdc","BOR9","BORICUAS-9","CLIENT","HELTEC_V3","false",0,0
+"!43b15f8","🥷","Trinity","CLIENT","HELTEC_V3","false",0,0
+"!7a6d7944","HAMN","K3DO HA Monitor","CLIENT_MUTE","TBEAM","false",0,0
+"!2eb2148","BTrv","Blues Traveler","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!7bbe997a","MQTT","CommGuy Base - MeshAdv","CLIENT_BASE","PORTDUINO","false",0,0
+"!55bcfa17","fa17","Meshtastic fa17","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!9f4ac708","zL02","zLoggDeck c708","CLIENT","T_DECK","false",0,0
+"!9e754f78",",","W1INE 4f78","CLIENT","HELTEC_V3","false",0,0
+"!1ba2818c","Lumi","LuminousElements","CLIENT","HELTEC_V4","false",0,0
+"!77af3b4d","QM1W","KE4JQ MOB1W ","CLIENT_BASE","RAK3401","false",0,0
+"!10623335","ELMP","Elvis MeshPocket","CLIENT_MUTE","HELTEC_MESH_POCKET","false",0,0
+"!43b58b0c","8b0c","Meshtastic 8b0c","CLIENT","HELTEC_V3","false",0,0
+"!b2a7bd94","JBXb","K1JBX-Base","CLIENT","HELTEC_V4","false",0,0
+"!60bfb1d9","FSU2","KC4FSU RAK","CLIENT","RAK4631","false",0,0
+"!ddb1c8c1","c8c1","Meshtastic c8c1","CLIENT","XIAO_NRF52_KIT","false",0,0
+"!69857058","y0sh","yoshimi","CLIENT","HELTEC_V4","false",0,0
+"!63dc1981","FIRE","Fire Basecamp","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!1ba16bb4","B762","Joy NA4DN/WSMB762","CLIENT","HELTEC_V4","false",0,0
+"!f3b7e9cb","e9cb","Car Node","CLIENT","RAK4631","false",0,0
+"!87ba05c","a05c","FamiLAB Longwood","CLIENT","RAK11200","false",0,0
+"!335d846c","WGH1","WGH1 Arcadia Base","CLIENT","HELTEC_V3","false",0,0
+"!435730e4","DKFR","Dickfer-3","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!2fbeba1a","NOD1","Superbase 1","CLIENT","MUZI_BASE","false",0,0
+"!14e3a34d","BSA6","WS4BSA SamW BSA6 Solar6 a34d","ROUTER","RAK4631","false",0,0
+"!b2a73a04","P1","K471 Portable 1","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!d45b9eb4","HC01","HC-REPT-01","CLIENT_BASE","SEEED_XIAO_S3","false",0,0
+"!ac80","Λ","Auxo","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!570dc4e3","4KSC","K4KSC-2 TARC www.k4ksc.com","ROUTER","RAK4631","false",0,0
+"!2c675b82","CC","Cocoacabana","CLIENT_BASE","RAK4631","false",0,0
+"!f6cb80b8","WEEB","Weeb Mobile","CLIENT","T_DECK","false",0,0
+"!e64244a6","Alfa","Waypoint Alfa","CLIENT","RAK4631","false",0,0
+"!41d6cf81","NSKJ","MeshKCJ","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!49b58204","8204","Meshtastic 8204","CLIENT","HELTEC_V4","false",0,0
+"!9e9fbb3c","Zigg","Ziggy Node","CLIENT","HELTEC_V3","false",0,0
+"!eeee65dd","AB1W","Atlantic Bch Rak 1W","CLIENT","RAK4631","false",0,0
+"!b2a74624","4624","Myst MQTT Gateway","CLIENT","HELTEC_V4","false",0,0
+"!5a0f6f1d","DOMO","K3DO Moko","CLIENT_MUTE","RAK4631","false",0,0
+"!1ba5fd70","fd70","Zeno1 fd70","CLIENT","HELTEC_V4","false",0,0
+"!a2e1a91c","TRON","CS G2","ROUTER","STATION_G2","false",0,0
+"!b1c9679b","LW11","LWS ARC Shaun Rak Card (1)","CLIENT","WISMESH_TAG","false",0,0
+"!d9643dcb","🐦","Bradley","CLIENT","TRACKER_T1000_E","false",0,0
+"!f68bb878","RLK2","Thinknode M6 RLK52  b878","CLIENT","THINKNODE_M6","false",0,0
+"!927632cc","RMF1","KX4XR BobF T1000E🦊","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!1ba13c98","CRST","RazorCrest","CLIENT","HELTEC_V4","false",0,0
+"!c924510a","510a","W Tampa RAK 510a","CLIENT","RAK4631","false",0,0
+"!66d9d4f","NOD3","Superbase 3","TRACKER","MUZI_BASE","false",0,0
+"!241fcaca","JPRA","JPR - A","CLIENT","TRACKER_T1000_E","false",0,0
+"!699cdab4","dab4","Meshtastic dab4","CLIENT","HELTEC_V4","false",0,0
+"!6b57a6a3","BenM","Ben Mobile","CLIENT","RAK4631","false",0,0
+"!7ab8979c","BTHH","BroncoTurbo Heritage Hills Node","CLIENT","TBEAM","false",0,0
+"!2eb8848","8848","Meshtastic 8848","CLIENT","HELTEC_V3","false",0,0
+"!83baadb2","adb2","Meshtastic adb2","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!b43705f4","N4MO","N4ADE mobile 096","CLIENT","NRF52_UNKNOWN","false",0,0
+"!a49f6655","VLG1","VILLAGES01","CLIENT","RAK4631","false",0,0
+"!a6963538","ELV4","Elvis Meshnology V4","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!33637148","Nwrk","Network Access ","CLIENT","HELTEC_V3","false",0,0
+"!c3abf62c","kala","greystoke","CLIENT_BASE","RAK4631","false",0,0
+"!b29f6dd8","🤖","0dayBot","CLIENT","HELTEC_V4","false",0,0
+"!9fd54229","N428","Peter WSMN428","","HELTEC_MESH_NODE_T114","false",0,0
+"!618573a6","73a6","S_VL 73a6","CLIENT","RAK3401","false",0,0
+"!9f4bb8bc","b8bc","RAMGarden b8bc","CLIENT","T_DECK","false",0,0
+"!f9eea1c6","PNG1","PersonaNonGrata [RAK 1]","CLIENT","RAK4631","false",0,0
+"!a2e9d908","7MCG","Systron base","CLIENT_BASE","STATION_G2","false",0,0
+"!1ba37f24","GRGU","GroguBlast","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!da564378","1wzr","1wizard","CLIENT","HELTEC_V3","false",0,0
+"!b03c9efc","7MCG","53 79 73 74 72 6F 6E 6C 6C 63","CLIENT","HELTEC_V3","false",0,0
+"!43b67b2c","TSA","The Station","CLIENT","HELTEC_V3","false",0,0
+"!484241c3","RLMX","RLMX-BASE","CLIENT_BASE","RAK4631","false",0,0
+"!4f5e4bc9","🫣","VISION","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!85683f60","🍆","KO4HXD-DICKS1W discord.dd/floridamesh","CLIENT","RAK4631","false",0,0
+"!f670a860","TNK1","Tank 1 (discord.gg/floridamesh)","CLIENT","HELTEC_V4","false",0,0
+"!e7b7e4ca","N8","N8-EDC","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!1eb87574","SNSW","☀️ Sacred Water","CLIENT_BASE","RAK4631","false",0,0
+"!849ad800","d800","Ocoee MQTT bridge","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!d9179f98","🍑","Discord.gg/FloridaMesh HT T190 (1)","CLIENT_HIDDEN","HELTEC_VISION_MASTER_T190","false",0,0
+"!785dd413","LIME","Limetree AirDrop 🏠🌞🔋","CLIENT_BASE","RAK4631","false",0,0
+"!f661e7fc","🥋","Morpheus","CLIENT_BASE","HELTEC_V4","false",0,0
+"!f66f9608","BcoN","SolarBasedBcoN","CLIENT_BASE","HELTEC_V4","false",0,0
+"!49b55680","📺","Discord.gg/FloridaMesh V4 EXP KIT (1)","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!eea2f056","LBlu","LBlu","CLIENT_MUTE","T_ECHO","false",0,0
+"!646870d9","70d9","Dcchill Home","CLIENT","RAK4631","false",0,0
+"!54c1df6f","JsnG","Json18-XiaoGator_Vist Fl-Mesh.org","CLIENT_BASE","XIAO_NRF52_KIT","false",0,0
+"!ef7a68a5","68a5","Park West - jaxmesh.org","CLIENT","RAK4631","false",0,0
+"!b2a79040","9040","ViVSoft.live 🇺🇸 9040","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!88f8a486","N1Ab","N1AVI Base (Rooftop Solar)","CLIENT_BASE","RAK4631","false",0,0
+"!760f614f","614f","T1000-E 614f","CLIENT","TRACKER_T1000_E","false",0,0
+"!8389adca","adca","Meshtastic adca","CLIENT","RAK4631","false",0,0
+"!1328016c","NFMC","T-TIME CL not monitored","ROUTER","SEEED_XIAO_S3","false",0,0
+"!b91f0ada","T4T","KZ4NG - Actual","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!c3e97b7d","ANGR","Tigerflyer_jaxmesh.org","CLIENT","RAK4631","false",0,0
+"!9456bf09","bf09","Meshtastic bf09","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!d4a46b1c","ATK1","KT4ATK Mobile 01","CLIENT","XIAO_NRF52_KIT","false",0,0
+"!b2a70bb0","Paul","KN4CLX (MQTT)","CLIENT","HELTEC_V4","false",0,0
+"!4064248","WDH6","WDH6224-mesh","CLIENT","HELTEC_V3","false",0,0
+"!1fcff30a","🦖","obi-wan-kemeshi","CLIENT","XIAO_NRF52_KIT","false",0,0
+"!433e481c","BB-B","BB-BBS","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!688d122d","A4SN","ADS4☀️🏠","CLIENT","RAK4631","false",0,0
+"!9ea0cf34","PB2","K1EDZ Mobile1","CLIENT","HELTEC_WIRELESS_PAPER","false",0,0
+"!3fc3b920","JFM9","TippyTappy28","CLIENT","TRACKER_T1000_E","false",0,0
+"!e46fac2a","GREN","GreenBox","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!28cad065","zL","zLogg","CLIENT","T_ECHO","false",0,0
+"!c1fc9188","9188","Meshtastic 9188","CLIENT","SEEED_XIAO_S3","false",0,0
+"!69842024","OOB","KQ4OOB - 1","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!f66aa944","SPRA","SPRA-SBCH","CLIENT_BASE","HELTEC_V4","false",0,0
+"!b29faa00","🌭","Frank","CLIENT","HELTEC_V4","false",0,0
+"!f5eb4802","JAKE","W9JWB","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!cca43240","🔆","Solar Node North Beach","ROUTER_CLIENT","RAK4631","false",0,0
+"!43b6e464","RJAR","RJA/ROOFTOP","CLIENT","HELTEC_V3","false",0,0
+"!20396b79","Bret","I95 Palm Beach Lakes 🌴🌞🔋","ROUTER_CLIENT","RAK4631","false",0,0
+"!543865c9","LEB","Meshtastic LEB","CLIENT","T_ECHO","false",0,0
+"!16f5629c","629c","Meshtastic Watch","CLIENT","T_WATCH_S3","false",0,0
+"!f1a7cff8","SWC0","Steve - W6SWC","CLIENT","T_DECK","false",0,0
+"!435947d8","47d8","Meshtastic 47d8","CLIENT","HELTEC_V3","false",0,0
+"!9e786924","AXP1","AXP Node1","CLIENT","HELTEC_V3","false",0,0
+"!b5025e5e","5e5e","Trashburner","CLIENT","RAK4631","false",0,0
+"!4397bac","MM-1","Makoto discord.gg/floridamesh","CLIENT","HELTEC_V3","false",0,0
+"!57d6da9d","FSU3","KC4FSU GPS","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!aca2eb8","WTF8","WSCR226 V4a","CLIENT","HELTEC_V4","false",0,0
+"!b03d0194","KE4q","K4EX_MQTT","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!49b57b54","BasE","AA_MeshPoint_V4","CLIENT_BASE","HELTEC_V4","false",0,0
+"!fd6a13ba","Roof","🐝 Roof Antenna 🐝","CLIENT","T_ECHO_PLUS","false",0,0
+"!82768cb7","JeAt","W4JEA - Tower","CLIENT","SEEED_SOLAR_NODE","false",0,0
+"!49b67560","CTBM","KM4CTB-Mobile","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!22997679","7679","Adept WisMesh Card","CLIENT","WISMESH_TAG","false",0,0
+"!49b77010","G427","SAMUEL WSFG427","CLIENT","HELTEC_V4","false",0,0
+"!d51a07fd","FSU1","KC4FSU Base","CLIENT","RAK4631","false",0,0
+"!81abda0b","295D","295 and Duval  jaxmesh.com","CLIENT","RAK4631","false",0,0
+"!439ccac","MM-2","Makoto discord.gg/FloridaMesh","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!49b54ef8","iBox","IgorBox Mike","CLIENT","HELTEC_V4","false",0,0
+"!df1e9741","Jeep","Jeeptastic","CLIENT_BASE","RAK4631","false",0,0
+"!b01bbe48","4wpi","KI4WPI-BASE ","CLIENT_BASE","RAK4631","false",0,0
+"!ab757526","7526","Meshtastic 7526","CLIENT","RAK4631","false",0,0
+"!cd061077","DnD1","CASA_DandD","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!2e74d68","CWPN","CWP3Node","CLIENT_BASE","HELTEC_V3","false",0,0
+"!e00cec60","Sol2","Solron78II","CLIENT","HELTEC_V3","false",0,0
+"!795ccb32","cb32","Meshtastic cb32","CLIENT","RAK4631","false",0,0
+"!a0cbba98","AS02","AS | 02","CLIENT_MUTE","HELTEC_WIRELESS_PAPER","false",0,0
+"!2ecb17c","ADST","Adrastea","CLIENT","HELTEC_V3","false",0,0
+"!43594c70","Yble","Yeraze BLE Sandbox","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!2e5ea80","ea80","Meshtastic ea80","CLIENT","HELTEC_V3","false",0,0
+"!67ccec91","ATLS","Atlas (Solar)","CLIENT_BASE","RAK4631","false",0,0
+"!6b4e3204","BLK0","Bl4ck0ut_0","CLIENT","RAK4631","false",0,0
+"!a4e58a59","0371","Meshtastic_0371","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!d521cb3a","LS01","W4SMA Lab Station 1","CLIENT","RAK4631","false",0,0
+"!699c5814","YGVp","BOMBERO_PORTABLE","CLIENT_BASE","HELTEC_V4","false",0,0
+"!19f5c6d3","SBK1","K4EX_MESH2 eparsonline.org","CLIENT_BASE","RAK3401","false",0,0
+"!688297a","🐧","🐧297a","CLIENT","RAK3401","false",0,0
+"!9ee6f958","🧽","Scrubdaddy 🧽","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!a907be9a","SXA2","SolarXiao Advanced E22-900M33S","CLIENT_MUTE","XIAO_NRF52_KIT","false",0,0
+"!da659a18","9a18","Meshtastic 9a18","CLIENT","HELTEC_V3","false",0,0
+"!8b8d9008","P559","PEWNET A-dale 559","CLIENT_BASE","RAK4631","false",0,0
+"!7772d0db","AERT","AeroRouter","ROUTER","RAK4631","false",0,0
+"!9ee845dc","45dc","Meshtastic 45dc","CLIENT","HELTEC_V3","false",0,0
+"!2e610dc","10dc","Meshtastic 10dc","CLIENT","HELTEC_V3","false",0,0
+"!ab9019c5","🚎","K06 🚎🌞🛰🔋","CLIENT","RAK4631","false",0,0
+"!cad58850","NORY","MoulierFam Node2","CLIENT_MUTE","RAK4631","false",0,0
+"!6985bd1c","Lana","Lana V4 Exp","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!acb085c","BJBQ","Billy Jacks BBQ  Heckscher Drive","CLIENT","HELTEC_V4","false",0,0
+"!b03b36dc","aj02","Meshtastic 36dc","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!4397554","7554","FCR/48","CLIENT","HELTEC_V3","false",0,0
+"!7d1d4b36","Blk1","Bl4ck0ut 1","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!f53f441f","a825","Mesh853b-a825","CLIENT","RAK4631","false",0,0
+"!9e75dd30","PERK","PerkMesh2","CLIENT","HELTEC_V3","false",0,0
+"!fe1f093e","SENG","shipeng","CLIENT_BASE","RAK4631","false",0,0
+"!6982b59c","TFRG","Tree Frog, the highest of Frogs","CLIENT","HELTEC_V4","false",0,0
+"!699cb680","b680","Meshtastic b680","CLIENT","HELTEC_V4","false",0,0
+"!a6963c48","Test","CommGuy Test","CLIENT","HELTEC_V4","false",0,0
+"!d72209d","","","CLIENT","","false",0,0
+"!f6f78bf8","8bf8","ViVSoft.live 🇺🇸 Tracker","CLIENT_MUTE","HELTEC_WIRELESS_TRACKER_V2","false",0,0
+"!5f0ebc50","tvrd","tvrd bc50 🗼","ROUTER","RAK4631","false",0,0
+"!4f11c1d5","ZDRK","ZEDRAK","CLIENT","RAK4631","false",0,0
+"!1dd2fa7d","SLVR","SILVER_fa7d","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!4c57894","JHF","🇺🇸JHF PCDC 7894","CLIENT","HELTEC_V4","false",0,0
+"!6985c75c","🚒","BOMBERO_🚒","CLIENT","HELTEC_V4","false",0,0
+"!b1b6bb9c","bb9c","Meshtastic bb9c","TAK","RAK4631","false",0,0
+"!fc39e603","💥","MERICA","CLIENT_MUTE","SEEED_WIO_TRACKER_L1","false",0,0
+"!87e32338","VOT","Tequesta ","CLIENT","RAK4631","false",0,0
+"!10ae6330","LPNM","Lake Parker Not Monitored ","CLIENT","RAK4631","false",0,0
+"!e4dce0f5","🚛","🫛Router","CLIENT","RAK4631","false",0,0
+"!4048928","8928","Cardputer","CLIENT","M5STACK_CARDPUTER_ADV","false",0,0
+"!a0ca4234","XIA3","N0XIA DT Orl","CLIENT","HELTEC_V3","false",0,0
+"!1acba805","a805","KQ4VDZ SeedStudio a805","CLIENT","SEEED_SOLAR_NODE","false",0,0
+"!acb4f1c","BVL","Buenaventura Lakes","ROUTER","HELTEC_V4","false",0,0
+"!3f74065d","☀","Southport ☀ discord.gg/floridamesh","CLIENT","RAK4631","false",0,0
+"!25b9e776","🎀","Pink Pony Club","CLIENT","RAK4631","false",0,0
+"!2eccff8","","","CLIENT_BASE","","false",0,0
+"!f1a7b584","AES","AES_Cypher-M8K","CLIENT","T_DECK","false",0,0
+"!3157e0aa","EZNM","KB2EZN M","CLIENT_BASE","RAK4631","false",0,0
+"!69844d98","OP","Orange Park jaxmesh.com","CLIENT","HELTEC_V4","false",0,0
+"!fa689d64","BM9d","BM9d64","CLIENT","HELTEC_V3","false",0,0
+"!27b5d117","d117","JimMakesStuff d117","CLIENT","RAK4631","false",0,0
+"!42e5017f","🤖","Mondas","CLIENT","HELTEC_V4","false",0,0
+"!5e71b4cf","NS1W","N4ADE_1w solar test","CLIENT_BASE","RAK3401","false",0,0
+"!23eb69e1","Doon","Doon Boca","CLIENT_BASE","RAK4631","false",0,0
+"!f1b896f0","blly","heybilly1","CLIENT","T_DECK","false",0,0
+"!7033d775","🌳","Fangorn","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!f34f20b9","RakR","RakSolarRepeater34668","CLIENT_BASE","RAK4631","false",0,0
+"!433ccf58","Posm","Meshtastic Posm","CLIENT","HELTEC_V3","false",0,0
+"!2eac0c0","GM03","GeneralMotors-Cyan","CLIENT","HELTEC_V3","false",0,0
+"!a2eba344","TRON","BOCA G2","ROUTER","STATION_G2","false",0,0
+"!db527be0","N8VI","Craig N8VIU Meshtastic 7be0","CLIENT","HELTEC_V3","false",0,0
+"!5965ca81","d0ug","d0ug-T1","CLIENT","TRACKER_T1000_E","false",0,0
+"!f694b01c","FSU5","KC4FSU TDeck","CLIENT","T_DECK","false",0,0
+"!433b5564","VDCE","ViDCE","CLIENT","HELTEC_V3","false",0,0
+"!2eb833c","Suga","Sugar","CLIENT","HELTEC_V3","false",0,0
+"!9dfbb0ad","b0ad","LoRa the Explora - LoraMeshDevices.com","CLIENT_MUTE","SEEED_WIO_TRACKER_L1","false",0,0
+"!74a110","Θ","Thallo","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!acb5f6c","🐼","🐼5f6c","CLIENT","HELTEC_V4","false",0,0
+"!c7156e1e","6e1e","Meshtastic 6e1e","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!a8996f07","KQ4S","KQ4LJB - seeedy node","CLIENT","TRACKER_T1000_E","false",0,0
+"!248e0245","RepZ","SolarRepeterZhills","CLIENT_BASE","RAK4631","false",0,0
+"!11e7ecc4","G847","Allen WROG847 (Solar)","CLIENT_BASE","THINKNODE_M6","false",0,0
+"!8aa27f61","JSol","JabSolar1","CLIENT","RAK4631","false",0,0
+"!5e31b3d1","WHB","World Hopper Bob","CLIENT","TRACKER_T1000_E","false",0,0
+"!ebfc74d6","RASP","Pi3 MeshtasticD","CLIENT_MUTE","PORTDUINO","false",0,0
+"!aca74426","MP2","Wismesh Repeater Mini","CLIENT","RAK4631","false",0,0
+"!6814dd36","OMNI","Attic","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!7968ce51","MiR1","MiMesh R1","CLIENT_BASE","RAK4631","false",0,0
+"!b29fb148","TRON","NMIA (WEST SECTOR) V4","ROUTER","HELTEC_V4","false",0,0
+"!610df707","F707","Meshtastic f707","CLIENT","RAK4631","false",0,0
+"!9e58702a","702a","ViVSoft.live 🇺🇸 T096","CLIENT_MUTE","NRF52_UNKNOWN","false",0,0
+"!c8e632b2","32b2","Meshtastic 32b2","CLIENT","RAK4631","false",0,0
+"!f670a4e4","🤔","0","CLIENT","HELTEC_V4","false",0,0
+"!698594cc","😎","quiXilver09","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!433a593c","593c","WZ4JM_Mobile ","CLIENT","HELTEC_V3","false",0,0
+"!7a4ebad6","","","CLIENT","","false",0,0
+"!7ec22381","SING","Singer Island","CLIENT_BASE","RAK4631","false",0,0
+"!faf27e66","ULTF","ULTRA-FOXTROT","CLIENT_MUTE","SEEED_WIO_TRACKER_L1","false",0,0
+"!52c1901a","🚶","★N4ODB★ Portable ","CLIENT_MUTE","T_ECHO","false",0,0
+"!f6916180","KPAt","KPA T Deck","CLIENT","T_DECK","false",0,0
+"!f9b218f8","KQ4H","KQ4 - home","CLIENT_BASE","RAK4631","false",0,0
+"!ba0cbb64","N1Ah","N1AVI Heltec v3","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!1ba60fe0","NewN","NewNodeWhoDis?","CLIENT","HELTEC_V4","false",0,0
+"!8af80cde","FSR1","Fresh/local solar roof","CLIENT_BASE","RAK4631","false",0,0
+"!a9011013","𓏢","Apollo","CLIENT","HELTEC_V3","false",0,0
+"!a035281c","TRON","WPB G2","ROUTER","STATION_G2","false",0,0
+"!ae0604a7","ALE","MoulierFam Node1 ","CLIENT","MUZI_BASE","false",0,0
+"!a0cb6be8","6be8","TC2-BBS 6be8","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!bd4f0b24","KDMY","KD9MY attic","CLIENT","HELTEC_V3","false",0,0
+"!b2a74d3c","ys0","W9ETC attic HeltecV4 4d3c","CLIENT","HELTEC_V4","false",0,0
+"!da65b298","O906","Orlando906","CLIENT","HELTEC_V3","false",0,0
+"!9e758dac","8dac","Meshtastic 8dac","CLIENT_BASE","HELTEC_V3","false",0,0
+"!435ad850","d850","Meshtastic d850","CLIENT","LILYGO_TBEAM_S3_CORE","false",0,0
+"!433e70c0","IPX2","IPX BASE ","CLIENT","HELTEC_V3","false",0,0
+"!69858904","🦂","CAVE","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!7ed998e9","MBC2","MBC2 Mob","CLIENT","RAK4631","false",0,0
+"!ead4b838","Cap2","MagTastic ","CLIENT_MUTE","HELTEC_MESH_POCKET","false",0,0
+"!e4c625df","25df","Meshtastic 25df","CLIENT","RAK4631","false",0,0
+"!77b54f3d","🚚","KEC 1w Truck Mobile Jaxmesh.com 4f3d","CLIENT_BASE","RAK4631","false",0,0
+"!6984f600","f600","Meshtastic f600","CLIENT","HELTEC_V4","false",0,0
+"!648e413e","JNSN","JensenReaper","CLIENT","RAK4631","false",0,0
+"!16ce0d54","EEB3","K4EEB T-Deck","CLIENT","T_DECK","false",0,0
+"!1fa04798","K-BS","KRUZE 🌴 BASE STATION","CLIENT","TBEAM","false",0,0
+"!66a7ceb6","R446","Richard WSMR446","","TRACKER_T1000_E","false",0,0
+"!6982411c","W1N4","W1N4 📡 Heltec v4 Base","CLIENT_BASE","HELTEC_V4","false",0,0
+"!2e605a4","OT","OT Meshtastic","CLIENT","HELTEC_V3","false",0,0
+"!e86698cf","98cf","SenseCAP T1000-E","CLIENT","TRACKER_T1000_E","false",0,0
+"!c21f2c51","2c51","papa 2c51","CLIENT","XIAO_NRF52_KIT","false",0,0
+"!1e31fd84","👾","Enygma","CLIENT","T_ECHO","false",0,0
+"!f1a7b720","C451","Cypher C451","CLIENT","T_DECK","false",0,0
+"!1ea3cca7","CUMM","Cummins Node","CLIENT","RAK4631","false",0,0
+"!d45aa1dc","NEWT","Chillin' With Tha Frogs","CLIENT","SEEED_XIAO_S3","false",0,0
+"!41de6d40","🦚","BIRD P1","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!1ba21f70","KVVM","KO4KVV Mobile HV4 1f70","CLIENT","HELTEC_V4","false",0,0
+"!49b54b98","Baz2","Meshtastic 4b98","CLIENT_BASE","HELTEC_V4","false",0,0
+"!6985b244","Grz2","GrizMesh 2","CLIENT","HELTEC_V4","false",0,0
+"!b2a78738","TNI","KF4TNI","CLIENT","HELTEC_V4","false",0,0
+"!184ed56d","4WLE","KD4WLE-MCT","CLIENT_MUTE","254","false",0,0
+"!d8c8330f","AMT","AMTMesh 330f","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!5a44a3b1","SMT","W1HQL-CH","CLIENT","RAK4631","false",0,0
+"!c4c49610","BRF1","N4BRF Club RAK 1W","CLIENT","RAK3401","false",0,0
+"!c5919bf2","9bf2","WioT","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!9a7f4546","LoRa","LoRa the Explora Tracker 🇺🇸","CLIENT_MUTE","THINKNODE_M1","false",0,0
+"!da64aa10","QRO2","QRO2 at Traviss Tech College","CLIENT","HELTEC_V3","false",0,0
+"!555d2ebf","BFNG","Beanfield Nano G2 Ultra 🚶‍♂️","CLIENT_MUTE","NANO_G2_ULTRA","false",0,0
+"!a88a6ece","🐻","Smokey The Node","CLIENT","SEEED_SOLAR_NODE","false",0,0
+"!e2e37748","227E","EDC Orange 227","CLIENT","HELTEC_V3","false",0,0
+"!813a8992","Spel","Mr Spell ","CLIENT","RAK4631","false",0,0
+"!b2a7be34","CRE","N4CRE Charlie","CLIENT","HELTEC_V4","false",0,0
+"!e4317099","WD4C","WD4AGF Card","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!d5ace13c","LOW","KQ4CCW LowMesh","CLIENT","RAK4631","false",0,0
+"!4152947a","IBBS","IgorBox Base | discord.igorbox.com","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!7a6d7634","KTB3","K3DO T-Beam 3","CLIENT_MUTE","TBEAM","false",0,0
+"!f661a074","RGAT","Rufus Gateway","CLIENT","HELTEC_V4","false",0,0
+"!2e58d84","sq1d","Meshtastic 8d84","CLIENT","HELTEC_V3","false",0,0
+"!ba0dd24e","3EFJ","PSJ West - EFJ's Tree","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!34b476aa","WSO","WSO Pocket Ranger","CLIENT","RAK4631","false",0,0
+"!f0efe7b","SN2","Meshtastic Snode2","ROUTER","SEEED_SOLAR_NODE","false",0,0
+"!69844bf8","NEM","Nemours Router - jaxmesh.com ","ROUTER","HELTEC_V4","false",0,0
+"!9d9d98cc","KMSG","K3DO Meshenger","CLIENT_MUTE","RAK4631","false",0,0
+"!1942331f","DevN","Mobile_DevNull","CLIENT","HELTEC_MESH_POCKET","false",0,0
+"!4421de6c","KVVS","KO4KVV Shop de6c","CLIENT_MUTE","SEEED_WIO_TRACKER_L1","false",0,0
+"!ec2bb8c2","b8c2","Meshtastic b8c2","CLIENT","TRACKER_T1000_E","false",0,0
+"!169ef57e","jdrh","jdr_home","ROUTER_LATE","SEEED_SOLAR_NODE","false",0,0
+"!8612e220","AMT","ATMMesh e220","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!30321dfc","kmn1","Kami Mesh N1","CLIENT","HELTEC_V3","false",0,0
+"!9e9c1538","1538","Meshtastic 1538","CLIENT","HELTEC_V3","false",0,0
+"!b29fa8a4","🍊","Fresh v4","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!2eca9ec","play","Meshymoor (DM /play)","CLIENT","HELTEC_V3","false",0,0
+"!94f6046b","Baz3","Meshtastic BazRoof","CLIENT_BASE","RAK4631","false",0,0
+"!ac9f864","Od0B","Odus base","CLIENT","HELTEC_V4","false",0,0
+"!e5a467d4","67d4","Meshtastic 67d4","CLIENT","T_ECHO","false",0,0
+"!9e3c4f48","KE29","K3DO E290","CLIENT_MUTE","HELTEC_VISION_MASTER_E290","false",0,0
+"!e46dba33","OTR2","Otter Mesh 2","CLIENT_MUTE","HELTEC_MESH_NODE_T114","false",0,0
+"!433ce450","HZU3","KF4HZU e450","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!9ee6703c","CULW","Curlew Solar Node","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!575123b","123b","TheTimeBeing 123b","CLIENT","TRACKER_T1000_E","false",0,0
+"!2481dc19","Rvox","Ryans ATLAVOX","CLIENT","RAK4631","false",0,0
+"!849a0b78","FDEN","KF7GRE FDE-N","CLIENT","HELTEC_V3","false",0,0
+"!1e1a157b","🔊","PumpUpTheVolume","ROUTER_LATE","RAK4631","false",0,0
+"!3b46b9f8","G20D","0day G2","CLIENT_BASE","STATION_G2","false",0,0
+"!f5b1c8e3","Ozi2","Ozi2-Solar-Starkey-6db-Omni-Node","CLIENT","RAK4631","false",0,0
+"!db29ab34","ab34","Meshtastic ab34","CLIENT","HELTEC_V3","false",0,0
+"!c38107c3","4z1p","Hertz When IP","CLIENT","RAK4631","false",0,0
+"!3fe70605","0605","Meshtastic 0605","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!296aac46","PA","PEWNET Auburndale","CLIENT_BASE","RAK4631","false",0,0
+"!6e86a943","AFYt","KQ4AFY Tracker","TRACKER","TRACKER_T1000_E","false",0,0
+"!16ced2a8","Lana","Lana G2","CLIENT_BASE","STATION_G2","false",0,0
+"!a2eb408c","408c","Meshtastic 408c","CLIENT","STATION_G2","false",0,0
+"!b39d2da","NOD2","Superbase 2","CLIENT","MUZI_BASE","false",0,0
+"!c9da7678","JKR","_jokerWio1","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!d23131a0","4URG","Unifiedradiogroup.org","CLIENT","RAK4631","false",0,0
+"!dbef615d","MPU","Mitch Pickup","CLIENT","RAK4631","false",0,0
+"!1ba1f000","f000","Meshtastic f000","CLIENT","HELTEC_V4","false",0,0
+"!c055f6c4","🔨","⚒️Hephaestus🔥-DT10","CLIENT_MUTE","RAK4631","false",0,0
+"!3a504217","N4MF","N4ADE test node","CLIENT_BASE","HELTEC_MESH_NODE_T114","false",0,0
+"!cacdf092","RobJ","RobJ Meshtastic f092","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!cd46b954","Ken2","Ken Mobile 2","CLIENT","T_ECHO","false",0,0
+"!1ba5d1d4","RAVE","RaveTastic","CLIENT","HELTEC_V4","false",0,0
+"!beb0be93","KTAP","K3DO TAP","CLIENT_MUTE","WISMESH_TAP","false",0,0
+"!3ddd66a2","HZU2","KF4HZU 66a2 Mobile","CLIENT_MUTE","HELTEC_MESH_NODE_T114","false",0,0
+"!69859a5c","9a5c","Meshtastic 9a5c","CLIENT","HELTEC_V4","false",0,0
+"!b2a7c5f0","SMT5","W1HQL-Mobile","CLIENT","HELTEC_V4","false",0,0
+"!1d9d3843","YGVb","BOMBERO_BASE","CLIENT_BASE","RAK4631","false",0,0
+"!2e58320","8320","tarz","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!a6960e74","0e74","SutNetV4 KQ4SNE WORK 2","CLIENT","HELTEC_V4","false",0,0
+"!cfca4c10","JsnE","Json18-T1000e","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!eb03dffb","theo","theorie Pi 🏠🐧☀️🔋","ROUTER_LATE","PORTDUINO","false",0,0
+"!849acde4","YC1","Young Circle","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!9e781a24","1a24","Bob's 1a24","CLIENT","HELTEC_V3","false",0,0
+"!a89c7584","PKF1","PKF1","CLIENT_MUTE","RAK4631","false",0,0
+"!dbe2fc3d","SAXA","Meshtastic SAXA","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!3517d475","m4","m4tters@tutanota.com","CLIENT","RAK4631","false",0,0
+"!1ba28b78","TRON","KEY WEST V4","ROUTER","HELTEC_V4","false",0,0
+"!9e9f2c08","G847","Allen WROG847 Portable","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!a03526e4","🏡","KQ4NID G2","CLIENT_BASE","STATION_G2","false",0,0
+"!a2ebd37c","N8G2","N8 Solar G2","CLIENT","STATION_G2","false",0,0
+"!5071eb29","BEE","🐝 Pocket V2","CLIENT_MUTE","RAK4631","false",0,0
+"!49b76da4","SPHY","SPHY","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!a2e175b8","🚚","KF4LZA GMC G2","CLIENT_BASE","STATION_G2","false",0,0
+"!433b0124","STCL","Steven Plantation ST. Cloud","CLIENT","HELTEC_V3","false",0,0
+"!9fe05737","RVNS","Base 01","CLIENT_BASE","RAK4631","false",0,0
+"!e02c247f","SOL1","SOLNet","CLIENT_BASE","RAK4631","false",0,0
+"!849a63b0","🥭","WILL_1_HLWD","CLIENT_MUTE","HELTEC_WIRELESS_PAPER","false",0,0
+"!fe5ad8c8","KO4S","KO4HXD-RAK SLR discord.gg/floridamesh","CLIENT_BASE","RAK3401","false",0,0
+"!f66b7a68","K4","KO4HXD-4 discord.gg/floridamesh","CLIENT","HELTEC_V4","false",0,0
+"!4cb7db13","AUBS","Auburndale South","CLIENT_BASE","XIAO_NRF52_KIT","false",0,0
+"!b157969f","AMT","AMTMesh 969f","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!cd4752ba","M1A1","ATLAVOX M1A1 52ba","CLIENT_MUTE","RAK4631","false",0,0
+"!b29fa390","🍊","Fresh MQTT v4","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!17da3af","⚡","Tesla ⚡","CLIENT","RAK4631","false",0,0
+"!e39f5f33","🏝","OT Base 5f33 Melbourne Fla","CLIENT_BASE","RAK4631","false",0,0
+"!16cd7f5c","BBRN","Boca Bearing Roof Node","CLIENT_BASE","STATION_G2","false",0,0
+"!409d2f0","d2f0","Meshtastic d2f0","CLIENT","HELTEC_V4","false",0,0
+"!756bdc96","SCOP","Scopoletus","TRACKER","TRACKER_T1000_E","false",0,0
+"!8a3b966a","966a","Meshtastic 966a","CLIENT_MUTE","SEEED_WIO_TRACKER_L1","false",0,0
+"!1d843e05","3e05","Meshtastic 3e05","CLIENT","RAK4631","false",0,0
+"!1ba303cc","GG01","GG0103cc","CLIENT","HELTEC_V4","false",0,0
+"!c1fc8618","SD-2","Seeed-2","CLIENT","SEEED_XIAO_S3","false",0,0
+"!952db015","AFY","KQ4AFY https://discord.gg/floridamesh","CLIENT","WISMESH_TAG","false",0,0
+"!9e75d81c","KVVW","KO4KVV WiFi Client d81c","CLIENT","HELTEC_V3","false",0,0
+"!db5161d8","2MMY","WA2MMY 61d8","CLIENT","HELTEC_V3","false",0,0
+"!f20b4a47","SXM2","SolarXiao MPPT E22-900M33S","CLIENT_MUTE","XIAO_NRF52_KIT","false",0,0
+"!cc79db10","🚀","KEC Traveler 1      jaxmesh.com db10","CLIENT","RAK4631","false",0,0
+"!f6620aac","4wpi","KI4WPI-V4 3k battery ","CLIENT","HELTEC_V4","false",0,0
+"!76611be2","AMT","AMTMesh 1be2","CLIENT","HELTEC_MESH_POCKET","false",0,0
+"!aae2a435","aj06","Meshtastic a435","CLIENT_BASE","RAK4631","false",0,0
+"!a852d50d","d50d","College Park Solar Node","CLIENT","RAK4631","false",0,0
+"!16cd737c","SMT2","W1HQL-Shack","CLIENT","STATION_G2","false",0,0
+"!4c59f04","TWEE","TWEE","CLIENT","HELTEC_V4","false",0,0
+"!d55a5476","EL00","EL Attic","CLIENT_BASE","PORTDUINO","false",0,0
+"!52b531bc","DA02","WD4VID - Mini","CLIENT","RAK4631","false",0,0
+"!2ec7b80","7b80","Meshtastic 7b80","CLIENT","HELTEC_V3","false",0,0
+"!25368ea0","AST8","AS | T8","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!d7e6d4c9","BREZ","Solar Mini Breeeeeze","CLIENT","RAK4631","false",0,0
+"!7ed74a25","4a25","Meshtastic 4a25","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!21f5718","SU01","Sentry | 01","CLIENT_BASE","SEEED_WIO_TRACKER_L1","false",0,0
+"!b0b8c794","WZV1","The King ","CLIENT","TRACKER_T1000_E","false",0,0
+"!9e779e80","RM2","RM2-02","CLIENT","HELTEC_V3","false",0,0
+"!32166f07","🏚","CAVE-Base","ROUTER_LATE","RAK4631","false",0,0
+"!6984a458","🍊","Beimini","CLIENT_BASE","HELTEC_V4","false",0,0
+"!9ea3dfb0","ES1","EasyStreet1","CLIENT","HELTEC_V3","false",0,0
+"!a2216cf7","JRD2","Jurrd Ethernet Bridge Node","CLIENT_MUTE","RAK4631","false",0,0
+"!f1f9e947","Colt","W1CLT Rak Attic","CLIENT","RAK4631","false",0,0
+"!6c72e088","★","Solron78","CLIENT","TBEAM","false",0,0
+"!f210af87","POMA","PocketMash","CLIENT","HELTEC_MESH_POCKET","false",0,0
+"!b27653e4","53e4","R1N rl 53e4","CLIENT","MUZI_R1_NEO","false",0,0
+"!a0317610","Desk","OfficeDeskNode7610","CLIENT","THINKNODE_M2","false",0,0
+"!d6ab7ca7","Mini","MiniRakHandheld","CLIENT","RAK4631","false",0,0
+"!5595a9f3","T1k","T1k","CLIENT","TRACKER_T1000_E","false",0,0
+"!a0cb6294","6294","Brickell","ROUTER","HELTEC_V3","false",0,0
+"!404f5c0","MQTT","UnifiedTechs","CLIENT_BASE","HELTEC_V3","false",0,0
+"!9726fef3","🦅","Thorondor discord.gg/floridamesh","CLIENT_BASE","RAK3401","false",0,0
+"!a68bebb6","ebb6","IstvanMesh","","SEEED_WIO_TRACKER_L1","false",0,0
+"!a35a732c","732c","Papa's mesh 732c","CLIENT","HELTEC_V4","false",0,0
+"!f5503d6b","GRFE","Giraffe","CLIENT","RAK4631","false",0,0
+"!f686c6b8","MELB","MelBeachMesh","CLIENT_BASE","DIY_V1","false",0,0
+"!fd10fe7b","3437","W4CGX Repeater ","CLIENT","RAK4631","false",0,0
+"!b7e1ccef","TRB4","TapRackBang_Xiao","CLIENT","XIAO_NRF52_KIT","false",0,0
+"!9b9fb175","tvr4","tvr4 b175 🗼","ROUTER","RAK4631","false",0,0
+"!69013750","JCD0","KO4IDA Tower","CLIENT","RAK4631","false",0,0
+"!329adcdf","FAUs","FAU Solar","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!5fde2c75","AHH!","WaffleStompin'","CLIENT_BASE","RAK4631","false",0,0
+"!b2a7334c","3d73","3Delta73","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!433c53a0","DIRK","W4MSN Fixed Node","CLIENT","HELTEC_V3","false",0,0
+"!7219ce7c","APV2","Avalon Village 2","CLIENT_BASE","RAK4631","false",0,0
+"!16c3f4b0","G2","K471 Mobile G2","CLIENT","STATION_G2","false",0,0
+"!f69792dc","DTJX","DT JAX Aegis AI/Vault (Offline)","CLIENT_BASE","T_DECK","false",0,0
+"!16cd73e8","TRON","SMIA G2","ROUTER","STATION_G2","false",0,0
+"!fb896341","PS01","Polk Schools Radio Shop Bartow","CLIENT","RAK4631","false",0,0
+"!16c3f730","🗼","SDGMRS Brickell ","ROUTER","STATION_G2","false",0,0
+"!521359db","59db","Meshtastic 59db","CLIENT","RAK4631","false",0,0
+"!66b2f6a0","CJ1","CrackerJack Mobile ","CLIENT","RAK4631","false",0,0
+"!6984bf8c","PYKQ","KO4PYK QTH","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!e7d04af4","SOL1","ARC SOLAR 1","ROUTER","SEEED_SOLAR_NODE","false",0,0
+"!8c3cb0b4","RINO","rhino b0b4","CLIENT_BASE","RAK4631","false",0,0
+"!8fa21abc","ORL1","WR4B Client Base SE ORL","CLIENT_BASE","HELTEC_V4","false",0,0
+"!336920a0","Mk_R","Mike_Rpt","ROUTER","HELTEC_V3","false",0,0
+"!7818c8bd","drp1","derpanet1","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!a0352644","NT4B","NT4AL Base","CLIENT_BASE","STATION_G2","false",0,0
+"!17449919","RNmb","Rogers-Net Mobile","CLIENT_MUTE","SEEED_WIO_TRACKER_L1","false",0,0
+"!b2a77bf0","7bf0","Meshtastic 7bf0","CLIENT_BASE","HELTEC_V4","false",0,0
+"!87a5a9c","LWGW","LWS ARC Shaun Gateway 📵","CLIENT","RAK11200","false",0,0
+"!26a4e0c0","cr0w","cr0w_tracker","TRACKER","TRACKER_T1000_E","false",0,0
+"!e69e84e7","84e7","Meshtastic 84e7","CLIENT","RAK4631","false",0,0
+"!9d4b194","K2B","K2ELI BASE","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!49b3dabc","🛸","Moth3rship","","HELTEC_V4","false",0,0
+"!97e2fce7","fce7","Meshtastic fce7","ROUTER","RAK4631","false",0,0
+"!a47c100f","LWMB","LWS MeshBOT","","PORTDUINO","false",0,0
+"!d0efcd42","DOJO","DOJO","ROUTER","RAK4631","false",0,0
+"!aa38fc27","QV","KX4QV-1","CLIENT","WISMESH_TAG","false",0,0
+"!acb68b0","68b0","Mo 68b0","CLIENT","HELTEC_V4","false",0,0
+"!4b8362f8","J517","Luis WQYJ517 (Base)","CLIENT","RAK4631","false",0,0
+"!16c3f40c","W4RL","W4RRL G2 MAV","CLIENT","STATION_G2","false",0,0
+"!18f9e1c","KRR2","Knight-Rak4631-Rtr2","CLIENT","RAK4631","false",0,0
+"!7afb8db5","JGZ1","JGZ Solar Node","CLIENT","RAK4631","false",0,0
+"!da65a930","DWTN","DWTN","CLIENT","HELTEC_V3","false",0,0
+"!698570fc","K3","KO4HXD-3 https://discord.gg/floridamesh","CLIENT","HELTEC_V4","false",0,0
+"!495f14dc","Hyla","Gray Tree Frog","CLIENT","SEEED_SOLAR_NODE","false",0,0
+"!8fa47190","🗼","OverWatch-6","CLIENT","HELTEC_V4","false",0,0
+"!75ceea7a","RV01","RELK-VEH-01","CLIENT","RAK4631","false",0,0
+"!20b0471e","YKC1","KB4YKC Solar","CLIENT_MUTE","SEEED_SOLAR_NODE","false",0,0
+"!57cb721d","ECHO","ECHO","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!a2ebd29c","🛰","SutMesh Base KQ4SNE ","CLIENT","STATION_G2","false",0,0
+"!22cb40a6","40a6","Meshtastic 40a6","CLIENT","HELTEC_MESH_POCKET","false",0,0
+"!acb0d5c","0d5c","JeffVader","CLIENT","HELTEC_V4","false",0,0
+"!d2027e45","LWM1","LWS ARC Shaun Mobile 1","CLIENT","RAK4631","false",0,0
+"!d98169f9","RP4E","RP4E Mobile 1","CLIENT_MUTE","SEEED_WIO_TRACKER_L1","false",0,0
+"!f1a7b1b8","b1b8","Sierra_Bradley_Cypher","CLIENT","T_DECK","false",0,0
+"!2900ee0c","LGC2","Legacy-1","SENSOR","RAK4631","false",0,0
+"!f0e05f34","Nek2","Neko 2","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!954e8b62","OTPo","OT Portable8b62","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!a2ebd930","🛰","K3DO FL GW 🛰","CLIENT","STATION_G2","false",0,0
+"!69827f34","7f34","Meshtastic 7f34","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!6fefc116","N1Am","N1AVI Mobile","CLIENT","RAK4631","false",0,0
+"!16ced100","349G","🏠349G2A","CLIENT_BASE","STATION_G2","false",0,0
+"!a2ebd980","EBN1","ECM-BN-Turquoise","CLIENT","STATION_G2","false",0,0
+"!e942d8e8","d8e8","ViVSoft.live Solar 🇺🇸","CLIENT","RAK4631","false",0,0
+"!a2e1a980","🛻","KQ4NID G2","CLIENT","STATION_G2","false",0,0
+"!699b3288","🌖","MoonBase Alpha","CLIENT_BASE","HELTEC_V4","false",0,0
+"!2eaff98","ff98","Meshtastic ff98","CLIENT","HELTEC_V3","false",0,0
+"!5b9584da","Po0p","Base01","CLIENT_MUTE","RAK4631","false",0,0
+"!6afc6902","BFR1","Beanfield Roof ☀️","CLIENT_BASE","RAK3401","false",0,0
+"!3b46c328","TFAB","TF-ApolloBeach-G2 (Not Monitored)","CLIENT","STATION_G2","false",0,0
+"!216538fc","🏠","VISION ROOF NODE","CLIENT","SEEED_SOLAR_NODE","false",0,0
+"!570328d5","Bret","NPB router 🌴🌞🔋","ROUTER_CLIENT","RAK4631","false",0,0
+"!b1e51d95","MP","Dover Manor MP","CLIENT","RAK4631","false",0,0
+"!f6acb04f","BASE","AA_MeshPoint_Pi","CLIENT","PORTDUINO","false",0,0
+"!a6965010","5010","Meshtastic 5010","CLIENT","HELTEC_V4","false",0,0
+"!9e78b2b0","WSKJ","WSKJ819#1","CLIENT","HELTEC_V3","false",0,0
+"!45bf4d07","QLX2","KC3QLX-2","CLIENT_MUTE","HELTEC_MESH_NODE_T114","false",0,0
+"!40973b0","ATTC","Grandma's Attic","CLIENT_BASE","HELTEC_V3","false",0,0
+"!49b5adb4","BRWD","adb4","CLIENT","HELTEC_V4","false",0,0
+"!b03bb2a4","VIVH","ViVSoft.live HB 🇺🇸","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!8088527a","AHHB","AH_HOMEBASE_MQTT","CLIENT_BASE","RAK4631","false",0,0
+"!76d8d39c","🛩","Friendly neighborhood flight attendant ","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!8c4b5792","sm-1","sm-1 RAK WisBlock","CLIENT","RAK4631","false",0,0
+"!8410faa6","📡","Brickell Node","CLIENT","SEEED_SOLAR_NODE","false",0,0
+"!43587514","K2","KO4HXD- 2","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!a0cafda8","fda8","Meshtastic fda8","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!1f9d2266","📻","Apopka Base 📻","CLIENT","RAK4631","false",0,0
+"!af5c23c4","Joe2","Joe 2","CLIENT","RAK4631","false",0,0
+"!37d4c2b7","Maka","Makai Solar Node c2b7","CLIENT_MUTE","RAK4631","false",0,0
+"!1227aad8","📡","SKY-1","CLIENT_BASE","RAK4631","false",0,0
+"!7f8ad554","GNN1","Ghost Node 01","CLIENT_BASE","RAK4631","false",0,0
+"!8738c9cd","c9cd","Meshtastic c9cd","CLIENT","TRACKER_T1000_E","false",0,0
+"!db5279e8","🦖","No_Jay v4","CLIENT","HELTEC_V3","false",0,0
+"!3b4693e8","S02G","Base Station","CLIENT_BASE","STATION_G2","false",0,0
+"!b2a77f84","😈","HTV4 Discord.gg/FloridaMesh","CLIENT","HELTEC_V4","false",0,0
+"!69852ab4","E46c","BMWTastic E46c","CLIENT","HELTEC_V4","false",0,0
+"!b2a77cc8","KO4X","KO4XL 7cc8","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!9fde946f","946f","Meshtastic 946f","CLIENT","SEEED_SOLAR_NODE","false",0,0
+"!d0735db0","🫪","Twin","CLIENT","RAK4631","false",0,0
+"!49b67724","TaCo","RAA_Tacoma","CLIENT","HELTEC_V4","false",0,0
+"!b226b31d","b31d","Meshtastic b31d","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!a20a0e44","JsnB","Json18 Base","CLIENT","STATION_G2","false",0,0
+"!7a6bf75c","WT","Will's T-Beam","CLIENT_BASE","TBEAM","false",0,0
+"!4fb9ce52","YEAT","YEAT Beach Pi 🏠🐧☀️🔋","ROUTER","PORTDUINO","false",0,0
+"!16c3f630","📻","Base G2 📻","ROUTER_LATE","STATION_G2","false",0,0
+"!698272e0","🍷","Winethirty","CLIENT","HELTEC_V4","false",0,0
+"!dd78c45e","FBI?","Not FBI Surveillance","CLIENT","PORTDUINO","false",0,0
+"!72f658a9","💍","KQ4AFY YL Tracker","TRACKER","TRACKER_T1000_E","false",0,0
+"!699a9614","AR1","Andy Roof 1","CLIENT","HELTEC_V4","false",0,0
+"!b2a7824c","🐷","Spanky Ham","CLIENT_BASE","HELTEC_V4","false",0,0
+"!f661e984","MNDO","MandoBase","CLIENT_BASE","HELTEC_V4","false",0,0
+"!53d0bfd7","SWCC","discord.gg/floridamesh 🏠☀️📵 ","CLIENT_BASE","RAK4631","false",0,0
+"!4097924","7924","Meshtastic 7924","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!69844c90","🍒","Maraschino","CLIENT","HELTEC_V4","false",0,0
+"!ca43e52d","OLB2","OL BOY 2","CLIENT_MUTE","RAK4631","false",0,0
+"!49b67598","7598","Meshtastic 7598","CLIENT","HELTEC_V4","false",0,0
+"!5e02693a","🌶","RHCP","CLIENT_MUTE","RAK4631","false",0,0
+"!43c5b28","5b28","Meshtastic 5b28","CLIENT","HELTEC_V3","false",0,0
+"!5a56f3ea","LCTK","LegacyTrkr1","CLIENT","WISMESH_TAG","false",0,0
+"!392a7a97","7a97","DadeCity D5 Node KQ4VDZ","CLIENT","RAK4631","false",0,0
+"!7ffbe8d6","ABCX","ABCX","ROUTER_CLIENT","RAK4631","false",0,0
+"!20f3eda3","mrt2","Merritt Island 2","CLIENT","RAK4631","false",0,0
+"!336469bc","69bc","Meshtastic 69bc","CLIENT","HELTEC_V3","false",0,0
+"!2389a644","💠","Rivendell","CLIENT_BASE","RAK3401","false",0,0
+"!b03d9c7c","KA1","KA1KG Node 1","CLIENT_BASE","HELTEC_V3","false",0,0
+"!49393e5f","N4SS","N4ADE_seed_solar","CLIENT_MUTE","SEEED_SOLAR_NODE","false",0,0
+"!336908b8","DOH3","K3DO H3","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!af19cd7d","pubr","WestVARS Router","ROUTER","RAK4631","false",0,0
+"!afa0d98b","S5VY","Meshtastic d98b","CLIENT","RAK4631","false",0,0
+"!4abd50a9","CMG2","CMGNG2 discord.gg/floridamesh","CLIENT","NANO_G2_ULTRA","false",0,0
+"!ac8976b2","76b2","Meshtastic 76b2","CLIENT","TRACKER_T1000_E","false",0,0
+"!8025c0de","DD10","KN4YDL-10","CLIENT","RAK4631","false",0,0
+"!6984b228","b228","BBS","CLIENT","HELTEC_V4","false",0,0
+"!abf87f7c","WTSC","WTS Milk District","CLIENT","TBEAM","false",0,0
+"!55e6a35d","VBNb","VBN Tampa Beacon","CLIENT_BASE","RAK4631","false",0,0
+"!f661f324","📚","🦉Athena🏛️ - DT07-Enviromental","CLIENT","HELTEC_V4","false",0,0
+"!382b0410","HB-5","WF4RT-5","CLIENT","RAK4631","false",0,0
+"!7deea276","a276","N-VL a276","CLIENT","RAK3401","false",0,0
+"!5003969d","🏝","KO4HXD-RAK VACA discord.gg/floridamesh ","CLIENT","RAK4631","false",0,0
+"!1ccc3900","4WLE","KD4WLE-Titusville-NVR","CLIENT","254","false",0,0
+"!59257581","JMX2","JMX2 - Solar K4JMX","CLIENT_BASE","RAK4631","false",0,0
+"!49b7a51c","Mobi","RA_Mobile","CLIENT","HELTEC_V4","false",0,0
+"!43e98ede","8ede","ViVSoft.live 🇺🇲 LoRa the Explora","TRACKER","SEEED_WIO_TRACKER_L1","false",0,0
+"!b2a74274","🚛","N4ODB Work Truck ","CLIENT_BASE","HELTEC_V4","false",0,0
+"!433c1e48","RTA0","RTA Fixed Heltec V3","CLIENT","HELTEC_V3","false",0,0
+"!698429e0","BSA2","WS4BSA2 SamW 29e0","CLIENT","HELTEC_V4","false",0,0
+"!69827c24","NJ4","No_Jay_v4","CLIENT","HELTEC_V4","false",0,0
+"!b2a7eb74","CODE","CERBERUS","CLIENT","HELTEC_V4","false",0,0
+"!b2b6338d","MRLo","Merlowe_base","CLIENT_BASE","RAK4631","false",0,0
+"!435c4f64","🛜","Enygma BASE","CLIENT","LILYGO_TBEAM_S3_CORE","false",0,0
+"!fa0b6cf2","PXLT","PXL T1000-E","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!af671570","🐐","🐐1570","CLIENT","RAK3401","false",0,0
+"!2ece894","KF4I","KF4IZH SOLAR","CLIENT","HELTEC_V3","false",0,0
+"!9e7596f4","DM01","W0ZPX ","CLIENT","HELTEC_V3","false",0,0
+"!9722be28","be28","Meshtastic be28","CLIENT","RAK4631","false",0,0
+"!ba61d64c","td1","Trogdor1","CLIENT","HELTEC_V3","false",0,0
+"!49b687e0","LIME","Limetree Attic 🏠","CLIENT_BASE","HELTEC_V4","false",0,0
+"!a6961ae0","CTBB","KM4CTB Solar Node","CLIENT_BASE","HELTEC_V4","false",0,0
+"!99bb50d4","beeq","toolharborshed","CLIENT","T_DECK","false",0,0
+"!335c1b14","1b14","Meshtastic 1b14","CLIENT","HELTEC_V3","false",0,0
+"!d24eb7c8","Blue","beanie average b7c8","CLIENT","MUZI_R1_NEO","false",0,0
+"!957ad4b7","PAPN","KO4OPE","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!a6962584","USA1","USA1 GATE-WAY KQ4TDQ ","CLIENT_BASE","HELTEC_V4","false",0,0
+"!7398f355","CB","CB TTB tEcho f355","CLIENT","T_ECHO","false",0,0
+"!16cd8044","JQG2","KE4JQ G2 Base","CLIENT_BASE","STATION_G2","false",0,0
+"!849c49e8","FGC2","FGC2","CLIENT","HELTEC_V3","false",0,0
+"!43569680","usaR","W4USA RELAY ","CLIENT","LILYGO_TBEAM_S3_CORE","false",0,0
+"!b3c0bf56","EARC","W4SVI-Shack","CLIENT","RAK4631","false",0,0
+"!402897ac","BTA2","M1A2 BTA Mobile🎇","CLIENT","RAK4631","false",0,0
+"!43574e9c","BTM1","BroncoTurbo Mobile 1","CLIENT","LILYGO_TBEAM_S3_CORE","false",0,0
+"!ba654e70","Joe","KZ4QC JOE","CLIENT","HELTEC_WIRELESS_TRACKER","false",0,0
+"!9e9b5cc0","5cc0","Meshtastic 5cc0","CLIENT","HELTEC_V3","false",0,0
+"!ab96ae2","6ae2","Country Walk T1000E","CLIENT","TRACKER_T1000_E","false",0,0
+"!1ba58be4","WR4B","WR4B-2 V4 Portable","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!749508d2","TOAD","MeshToad 🐸","CLIENT_MUTE","PORTDUINO","false",0,0
+"!8113b68","FGW3","FLWDG Gateway 3 (Public) 🌐 ☎️ ","CLIENT","RAK11200","false",0,0
+"!89897b81","7b81","KE4RL 7b81","TRACKER","RAK4631","false",0,0
+"!bd323e27","🛥","KO4HXD-STAMASYT discord.gg/floridamesh","CLIENT","XIAO_NRF52_KIT","false",0,0
+"!b2a7113c","113c","Meshtastic 113c","CLIENT","HELTEC_V4","false",0,0
+"!da4e950c","N1Ad","N1AVI T-Deck Complete","CLIENT_MUTE","T_DECK","false",0,0
+"!8fa805c8","WHT","White_05c8","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!43b1d0c","GM02","GeneralMotors-Grey","CLIENT","HELTEC_V3","false",0,0
+"!bcee1e16","W0Z1","W0ZPX TREE","CLIENT","RAK4631","false",0,0
+"!54e7f887","FSG1","K4FSG TallBoi discord.gg/floridamesh","ROUTER","PORTDUINO","false",0,0
+"!ae9cfab7","WD4A","WD4AGF Mobile ","CLIENT_MUTE","T_ECHO","false",0,0
+"!b29bf7cc","EM","Echo Mobile","CLIENT","RAK4631","false",0,0
+"!48cc2b7b","NULL","AlephNull PeakMesh","CLIENT","RAK4631","false",0,0
+"!a20afde8","LWSB","LWS ARC Shaun BASE 📵","CLIENT_BASE","STATION_G2","false",0,0
+"!aa76fe36","TWMB","Thetwam Base","CLIENT_BASE","RAK4631","false",0,0
+"!49b3d3d0","☀","Jatibonicu","CLIENT_BASE","HELTEC_V4","false",0,0
+"!2e702f4","MAMO","Manatee Mobile","CLIENT","HELTEC_V3","false",0,0
+"!549a51c7","XSGT","XAIO-Solar-GPS-I2C-Test","CLIENT","XIAO_NRF52_KIT","false",0,0
+"!746ef493","BFS1","Beanfield Sensor 1","SENSOR","RAK4631","false",0,0
+"!433ac078","theo","theorie V3 🚗🛰️🔋","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!457f886c","886c","Meshtastic 886c","TRACKER","TRACKER_T1000_E","false",0,0
+"!313c272d","GFCB","Gracie Farms Client Base","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!436dc25","SOL1","Solberg-1","CLIENT","RAK3401","false",0,0
+"!56b3bf7e","⚡","Thunder Runner","CLIENT","NRF52_UNKNOWN","false",0,0
+"!cd59957f","🏹","🏹Artemis🦌-DT05-Mav","CLIENT","RAK4631","false",0,0
+"!a2e175d0","TRON","DELRAY G2","ROUTER","STATION_G2","false",0,0
+"!b03bdcc4","dcc4","Meshtastic dcc4","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!1de92574","Lily","Lily O’ Stones","CLIENT","SEEED_XIAO_S3","false",0,0
+"!9083a868","a868","Draggen a868","CLIENT","RAK4631","false",0,0
+"!e605e1dd","KRTR","Knight-Rak4631-Rtr","ROUTER","RAK4631","false",0,0
+"!8b21fda4","SRSL","Solar Repeater Suncoast Landing","CLIENT","SEEED_SOLAR_NODE","false",0,0
+"!822f3922","BHBH","Workside Tower","CLIENT_BASE","RAK3401","false",0,0
+"!9d1c1cf6","DMM3","DaMeshMode3","CLIENT","RAK4631","false",0,0
+"!433d3cc4","3cc4","Meshtastic 3cc4","CLIENT","HELTEC_V3","false",0,0
+"!d9ebad52","ad52","Meshtastic ad52","CLIENT","RAK4631","false",0,0
+"!1fcb3356","TCP1","Himura_3356 (TCP1)","ROUTER","SEEED_SOLAR_NODE","false",0,0
+"!43583cb8","🦉","🦉3cb8","CLIENT","LILYGO_TBEAM_S3_CORE","false",0,0
+"!408e7c4","DRLq","DRRL_MQTT","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!16cd802c","📻","Meshtastic 802c","CLIENT","STATION_G2","false",0,0
+"!400b2dc","AIR1","FLWDG Air 1 🛸","CLIENT","HELTEC_V3","false",0,0
+"!43577058","7058","Meshtastic 7058","CLIENT","HELTEC_V3","false",0,0
+"!c8563e13","WAVE","BREAK","CLIENT","TRACKER_T1000_E","false",0,0
+"!ea0a7803","DA54","WD4VID - Hornet","TRACKER","WISMESH_TAG","false",0,0
+"!c676c632","JBXs","K1JBX-Solar","CLIENT_BASE","RAK4631","false",0,0
+"!f739dc1e","PSC1","PaulC WA2FOF CERT 1 dc1e","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!15ba95e9","9c58","AB4OD bench test","CLIENT","PRIVATE_HW","false",0,0
+"!df06d810","CP01","Cool Pocket 01","CLIENT_MUTE","RAK4631","false",0,0
+"!87a3508","3508","Meshtastic 3508","CLIENT","RAK11200","false",0,0
+"!f661ac78","WKEN","WestKendallSolarColorsNode","CLIENT","HELTEC_V4","false",0,0
+"!d1804160","XMXa","RtA Base","CLIENT","RAK4631","false",0,0
+"!48a29f30","tvrn","tvrn 9f30","CLIENT","RAK4631","false",0,0
+"!a038f5e4","🧀","🧀","CLIENT","STATION_G2","false",0,0
+"!1920884f","884f","ViVSoft 🇺🇸 LoraMeshDevices.com","CLIENT_MUTE","HELTEC_MESH_NODE_T114","false",0,0
+"!1c176e50","HZU4","KF4HZU Test","CLIENT_MUTE","HELTEC_MESH_NODE_T114","false",0,0
+"!acb5f00","TGRI","🟦🟧🐢🐢🐢🐢🟪🟥","","HELTEC_V4","false",0,0
+"!294bbe5e","AS01","AS | 01","CLIENT","RAK4631","false",0,0
+"!3369ed54","S539","Rene WRKS539","CLIENT","HELTEC_V3","false",0,0
+"!8fab05cb","YGVz","BOMBERO_ZHILLS","CLIENT_BASE","RAK3401","false",0,0
+"!29a43e6f","3e6f","K2BUI/M","CLIENT","RAK4631","false",0,0
+"!f6708c6c","d8dd","cpmesh","CLIENT","HELTEC_V4","false",0,0
+"!9e760fc0","0fc0","Meshtastic 0fc0","CLIENT","HELTEC_V3","false",0,0
+"!433f1e50","SNGW","SN MQTT Gateway","CLIENT_HIDDEN","HELTEC_V3","false",0,0
+"!efae6a55","AP4","AP4 6a55🇮🇹","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!6984f378","BUD5","Meshtastic f378","CLIENT","HELTEC_V4","false",0,0
+"!70c20af7","TREE","TreeTop Solar Alfa","CLIENT_BASE","RAK4631","false",0,0
+"!43b63b04","🪐","Ashe-Mobile","CLIENT","HELTEC_V3","false",0,0
+"!1ba63134","CLR","Clear_3134","CLIENT","HELTEC_V4","false",0,0
+"!6984fea4","🛰","VoidRunner","CLIENT","HELTEC_V4","false",0,0
+"!4b087cf7","BSKR","BeskarBase","CLIENT_BASE","HELTEC_MESH_NODE_T114","false",0,0
+"!95fa458a","🪶","Indian Rocks Solar","CLIENT_BASE","NOMADSTAR_METEOR_PRO","false",0,0
+"!b2a748dc","🛺","Durango RLK Jaxmesh.com","CLIENT","HELTEC_V4","false",0,0
+"!21e56d7a","GOBR","Goob Repeater","CLIENT_BASE","RAK4631","false",0,0
+"!433efea4","📡","BPS_fixed","CLIENT","HELTEC_V3","false",0,0
+"!2d5b4b3a","CCN1","Cyberdyne Comm Node T-1000e","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!a0cbc608","🧻","K03🧻🪫_c608","CLIENT","HELTEC_WIRELESS_PAPER","false",0,0
+"!4b761507","JEEP","EILJ85 🚗☀️📵","CLIENT_BASE","RAK4631","false",0,0
+"!b2a747bc","bpp1","beanie purple portable1","CLIENT","HELTEC_V4","false",0,0
+"!8e76c5c5","TRB3","TapRackBang_Mobile","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!efd3b637","ODB","💳 N4ODB EDC","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!402406a4","6wat","6wattsTurbo","CLIENT_MUTE","RAK4631","false",0,0
+"!2412e4ec","e4ec","Meshtastic e4ec","CLIENT","RAK4631","false",0,0
+"!2ec56cc","WMX","Wyattnode","CLIENT","HELTEC_V3","false",0,0
+"!822f9719","🦊","Foxtrot Fixed","CLIENT_BASE","RAK4631","false",0,0
+"!83822c76","SASb","SAStastic Solar Base Node","CLIENT","RAK4631","false",0,0
+"!433cdeec","WH1B","WP4TNV H1 Base","CLIENT_BASE","HELTEC_V3","false",0,0
+"!a6963058","3058","Meshtastic 3058","CLIENT","HELTEC_V4","false",0,0
+"!f69142cc","BBM3","Boca  Bearing Mobile 3","CLIENT_MUTE","T_DECK","false",0,0
+"!7c5b57e0","57e0","WA4TUX 57e0","CLIENT","HELTEC_V3","false",0,0
+"!a2e1a954","TRON","TRPK G2","ROUTER","STATION_G2","false",0,0
+"!d36ca9b1","SECC","SECC🔋📵","CLIENT_BASE","RAK4631","false",0,0
+"!9ebce6c8","KQ4","KQ4TDQ SOLAR e6c8","CLIENT","THINKNODE_M2","false",0,0
+"!ab116365","HOak","Holly Oaks - TTB 6365","CLIENT_BASE","RAK3401","false",0,0
+"!8f9468c2","b34r","BearNET b34r","CLIENT_BASE","RAK4631","false",0,0
+"!f6f90254","LWM4","LWS ARC Shaun Mobile 4 HT TRK V2 (2)","CLIENT","HELTEC_WIRELESS_TRACKER_V2","false",0,0
+"!4328be4","RSR2","RSR2 Repeater 8be4","ROUTER","HELTEC_V3","false",0,0
+"!6985f32c","US-1","KQ4TDQ f32c","CLIENT","HELTEC_V4","false",0,0
+"!a1b721b6","TW5","ATLAVOX BCN1 21b6 TW5","CLIENT","RAK4631","false",0,0
+"!a1f7f59c","f59c","Meshtastic f59c","CLIENT","SEEED_XIAO_S3","false",0,0
+"!f3b49674","I95O","I95 Old St.Augustine Router jaxmesh.com","ROUTER","RAK4631","false",0,0
+"!8abf5678","FRCL","Fractal5678","CLIENT_MUTE","RAK4631","false",0,0
+"!9ecfaa52","UCDF","uConsole DataFort","CLIENT","PORTDUINO","false",0,0
+"!a0ccc324","AXSV","Axiom-Labs-Server","CLIENT","HELTEC_V3","false",0,0
+"!408e7e0","PNGM","PersonaNonGrata [MQTT]","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!db510500","🚙","K02🚙🪫_0500","CLIENT","HELTEC_V3","false",0,0
+"!f6faae20","ae20","Meshtastic ae20","CLIENT","HELTEC_V3","false",0,0
+"!433f2014","ART1","WB2ART KenK 1 Garage","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!64edbccf","ARC2","ARC Wio Card","CLIENT","TRACKER_T1000_E","false",0,0
+"!a8082db4","IDR","I95 Donald Ross🌴 🌞 🔋","ROUTER_CLIENT","RAK4631","false",0,0
+"!49b55350","T@Z","Taz_Mesh","CLIENT","HELTEC_V4","false",0,0
+"!f10c257","EY03","Emir Y 3","CLIENT_MUTE","HELTEC_MESH_POCKET","false",0,0
+"!f1a7bf4c","bf4c","Meshtastic bf4c","CLIENT","TBEAM_1_WATT","false",0,0
+"!4ecd2a84","Pyle","Pyle","CLIENT","T_DECK","false",0,0
+"!63a44f07","79TE","david79-T_Echo","CLIENT","T_ECHO","false",0,0
+"!3c9ff0bc","EEB1","Earl 1 ","CLIENT","RAK4631","false",0,0
+"!45d4416d","416d","JWD GolfCart 🛺 416d","CLIENT_MUTE","HELTEC_MESH_NODE_T114","false",0,0
+"!c7dcdc13","MSS","MeadowSolarSystem🌞","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!cce5b101","BT1k","Beanfield T1000e discord.gg/floridamesh","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!2be6f703","ACU1","ACU-1 Duval ARES ","CLIENT","RAK4631","false",0,0
+"!129688bc","moka","Moka","CLIENT","TBEAM","false",0,0
+"!966e7731","0day","Ryan Montgomery","CLIENT_MUTE","HELTEC_MESH_NODE_T114","false",0,0
+"!b29fb04c","b04c","Meshtastic b04c","CLIENT","HELTEC_V4","false",0,0
+"!7d2d32e0","Dugn","Dugan_Doesright","CLIENT","T_LORA_PAGER","false",0,0
+"!c1583a4","JBS","JaxBeacon.com Support","CLIENT","T_DECK","false",0,0
+"!dfa47fab","KMhn","KMahan mobile","CLIENT","RAK4631","false",0,0
+"!dde92dd0","CB","Central Beach","CLIENT","PORTDUINO","false",0,0
+"!27cc5c5c","🌎","GlobalBob","CLIENT","T_DECK","false",0,0
+"!9e9d180c","180c","Meshtastic 180c","CLIENT","HELTEC_V3","false",0,0
+"!1ba2f4b0","f4b0","Meshtastic f4b0","CLIENT","HELTEC_V4","false",0,0
+"!92bdbe5b","be5b","Relay JDH be5b","CLIENT","RAK4631","false",0,0
+"!757031a4","MBRs","MoulierFam Mqtt Router","CLIENT","RAK3312","false",0,0
+"!49056cae","🍋","Citrus Woods","CLIENT","RAK4631","false",0,0
+"!432bc00","BF00","BeeFox BF00","CLIENT","HELTEC_V3","false",0,0
+"!7a6d6334","K3DT","K3DO-T1","CLIENT","TBEAM","false",0,0
+"!c55e850e","RB01","Remote Base 01","CLIENT","RAK4631","false",0,0
+"!a2e1a198","FRG2","FR G2","CLIENT","STATION_G2","false",0,0
+"!8e532f6","RMF2","KX4XR BobF Solar1","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!8fa0d6ac","G427","Samuel WSFG427-1","","HELTEC_V4","false",0,0
+"!a6962530","T2AT","TminusTwo Attic 🏠","CLIENT","HELTEC_V4","false",0,0
+"!27c2ad64","KVV1","KO4KVV T1000-E 01 MT ad64","CLIENT","TRACKER_T1000_E","false",0,0
+"!8232a393","FLE1","KQ4VCG-S5TD","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!a2eb4064","DH01","DavesHangar SG2","CLIENT_BASE","STATION_G2","false",0,0
+"!69823e84","3e84","Meshtastic 3e84","CLIENT","HELTEC_V4","false",0,0
+"!c32fc6dd","🃏","_joker2","CLIENT","RAK4631","false",0,0
+"!d72776fa","SWC1","Steve - W6SWC","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!ad79fb5c","🐩","OLAF Bondurant Way","CLIENT","XIAO_NRF52_KIT","false",0,0
+"!109de5f0","🏎","KTC pocket e5f0","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!f524bbef","bbef","Meshtastic bbef","CLIENT_MUTE","RAK4631","false",0,0
+"!5b054b5f","SWWH","SpiderWeb","ROUTER","RAK2560","false",0,0
+"!69824454","SMT7","W1HQL-Roof","ROUTER","HELTEC_V4","false",0,0
+"!4086a48","FETT","SAMIAM_FETT","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!20bb30bb","","","CLIENT","","false",0,0
+"!5012a0ce","YGVn","BOMBERO_NORTH","CLIENT_BASE","RAK4631","false",0,0
+"!76f9ab48","A52 ","KB4SYU Area 52 BKV","CLIENT","RAK4631","false",0,0
+"!8846fc58","K-I5","Kruze 🌴 Ioniq 5","CLIENT","RAK4631","false",0,0
+"!b03c8cbc","8cbc","Meshtastic 8cbc","CLIENT","HELTEC_V3","false",0,0
+"!eb926a0d","6a0d","Nimble Echo","CLIENT","T_ECHO","false",0,0
+"!4ef077e0","ECR6","KK4ECR_6","CLIENT","T_DECK","false",0,0
+"!fe30d620","Vode","Vinny's Thinknode","CLIENT","THINKNODE_M1","false",0,0
+"!6985b0c0","IZHA","IZHA KF4IZH","CLIENT","HELTEC_V4","false",0,0
+"!fbeedf45","🥎","Discord.gg/FloridaMesh HT T096 (2)","CLIENT","NRF52_UNKNOWN","false",0,0
+"!433c08d4","08d4","Meshtastic 08d4","CLIENT","HELTEC_WIRELESS_TRACKER","false",0,0
+"!9e755cb0","Red","Oophaga","CLIENT","HELTEC_V3","false",0,0
+"!702bedab","🦚","👑Hera🦚-DT11-Env","CLIENT_MUTE","RAK4631","false",0,0
+"!16cd7fd8","OziG","Ozi0-Starkey-G2-Station","CLIENT","STATION_G2","false",0,0
+"!1ba30d58","IBLB","IgorBox Lab","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!cb5bc29f","WGA","KB4WGA_L1_John","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!47a92331","2331","Ortega Farms ","CLIENT_BASE","RAK4631","false",0,0
+"!9e75dde0","🏚","Southport K4GDJ Solar node","CLIENT","HELTEC_V3","false",0,0
+"!f01cfc53","🍷","🍷Dionysos🍇-DT08-L","CLIENT","XIAO_NRF52_KIT","false",0,0
+"!b3ce5f86","TWMT","Thetwam Tag","CLIENT","WISMESH_TAG","false",0,0
+"!4391a50","🗼","Meshtastic Dio1","CLIENT","HELTEC_V3","false",0,0
+"!51b8a56","8a56","KQ4TWA-1 Solar","CLIENT","SEEED_SOLAR_NODE","false",0,0
+"!557b60ad","60ad","Meshtastic 60ad","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!e3a25923","HZU1","KF4HZU 5923 Solar","CLIENT_BASE","RPI_PICO","false",0,0
+"!6982b560","b560","Meshtastic b560","CLIENT","HELTEC_V4","false",0,0
+"!4c53e00","ODG","WB-ODGreen-GPS","CLIENT","HELTEC_V4","false",0,0
+"!c0e90275","THVB","THV Base","CLIENT_BASE","RAK4631","false",0,0
+"!4e88ca4","MM-A","Makoto discord.gg/floridamesh","CLIENT_BASE","THINKNODE_M2","false",0,0
+"!8b50e469","DHB","Dog House Base","CLIENT","RAK4631","false",0,0
+"!d4f20514","PEAK","PeakMesh","CLIENT","RAK4631","false",0,0
+"!232eb1d1","b1d1","Meshtastic b1d1","CLIENT_BASE","RAK4631","false",0,0
+"!4b3aa0cf","JUPI","Jupiter Island 🏝📡","CLIENT","RAK4631","false",0,0
+"!76c9dbf1","dbf1","Meshtastic dbf1","CLIENT","RAK4631","false",0,0
+"!1af49961","🏠","K01🏠🌞🔋 06e6","CLIENT","139","false",0,0
+"!f66aff88","ff88","Meshtastic ff88","CLIENT","HELTEC_V4","false",0,0
+"!f6e2823b","HPT1","HPS-PRT-01","CLIENT_MUTE","RAK4631","false",0,0
+"!d1c17916","🪣","🪣","CLIENT","RAK4631","false",0,0
+"!1de92388","MAY1","KZ4NG - FLMesh","CLIENT_MUTE","SEEED_XIAO_S3","false",0,0
+"!60ae91da","🏇","KQ4LJB - horse node","CLIENT","RAK4631","false",0,0
+"!49b5a634","E331","Jim wrwe331","CLIENT","HELTEC_V4","false",0,0
+"!a0391278","1278","Meshtastic 1278","ROUTER_LATE","STATION_G2","false",0,0
+"!8ace6006","-10","KC3CJU","CLIENT","RAK4631","false",0,0
+"!c9cb5c2e","🥤","5c2e - Shake-Zula","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!698290b4","🪠","Skaro","CLIENT","HELTEC_V4","false",0,0
+"!a035261c","URG2","Unifiedradiogroup.org","CLIENT","STATION_G2","false",0,0
+"!f75ee57b","EYHQ","EY HHC","CLIENT","RAK4631","false",0,0
+"!b2a70b18","AR2","Andy Roof 2","CLIENT","HELTEC_V4","false",0,0
+"!94c8a528","LW15","LWS ARC Shaun ACOS MeshPack HAM","CLIENT","XIAO_NRF52_KIT","false",0,0
+"!1ba1b81c","I621","Simon WSKI621","CLIENT","HELTEC_V4","false",0,0
+"!69843228","Grz1","GrizMesh 1","CLIENT","HELTEC_V4","false",0,0
+"!3fb0128a","🥭","Mango Mesh","CLIENT","RAK4631","false",0,0
+"!ec9fe522","e522","Meshtastic e522","CLIENT_BASE","RAK4631","false",0,0
+"!8b12c1e8","SSS2","SSS Test2","CLIENT","RAK4631","false",0,0
+"!435a7b00","PKN2","WParkland2","CLIENT_MUTE","LILYGO_TBEAM_S3_CORE","false",0,0
+"!7b4f2413","JQ","KE4JQ EDC JohnQ","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!bd50430c","430c","Meshtastic 430c","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!ceb749e5","MAN2","Mandarin 49e5 🚨","CLIENT","RAK4631","false",0,0
+"!74b3f77d","SunP","SunrisePlazaStation","CLIENT_BASE","RAK3401","false",0,0
+"!2e69ecc","9ecc","GreenTestRepeter34653","CLIENT_BASE","HELTEC_V4","false",0,0
+"!82c3d230","🐀","Cybermat","CLIENT","T_ECHO","false",0,0
+"!bc744a9a","MM1W","MangoMesh 1W","CLIENT","NRF52_PROMICRO_DIY","false",0,0
+"!a2c7e454","349T","349 T1000 e454","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!1b06edd3","edd3","Meshtastic edd3","CLIENT","RAK4631","false",0,0
+"!25c77a62","7a62","Ffej4ord 7a62","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!3bed91d8","🦏","🦏91d8","CLIENT","NRF52_UNKNOWN","false",0,0
+"!58d19311","9311","Meshtastic 9311","CLIENT","NRF52_UNKNOWN","false",0,0
+"!9b4ea678","LWM3","LWS ARC Shaun Mobile 3 HT T096(1)","CLIENT","NRF52_UNKNOWN","false",0,0
+"!6985aa94","aa94","Meshtastic aa94","CLIENT","HELTEC_V4","false",0,0
+"!8b1c48a","NOKO","NOKOMIS BASE STATION SRQ-RSW CONNECTOR","CLIENT_BASE","RAK4631","false",0,0
+"!bc42ce9e","9A83","South Volusia 9A83","CLIENT","RAK4631","false",0,0
+"!7eb3709a","🆎","AB Rak 1W Roof Node","CLIENT","RAK4631","false",0,0
+"!49b707f4","BurB","AA_Burban","CLIENT","HELTEC_V4","false",0,0
+"!2f0ef9cc","🧢","mesh-pi5-1w-Grove","CLIENT_MUTE","PORTDUINO","false",0,0
+"!2edc600","c600","Meshtastic c600","CLIENT","HELTEC_V3","false",0,0
+"!6984972c","J4D3","Jade Prism","CLIENT_BASE","HELTEC_V4","false",0,0
+"!da5cbfb8","bfb8","Meshtastic bfb8","CLIENT","HELTEC_V3","false",0,0
+"!408d208","d208","KQ4TLF Base","CLIENT","HELTEC_V3","false",0,0
+"!f661d978","🛰","SKY-3","CLIENT","HELTEC_V4","false",0,0
+"!b2a78cf0","TRON","CS (SW SECTOR) V4","ROUTER","HELTEC_V4","false",0,0
+"!435a9ed8","SBSM","SNB Santa MQTT","CLIENT","LILYGO_TBEAM_S3_CORE","false",0,0
+"!aec8aba1","RTD1","GXR Condo Node","ROUTER","RAK4631","false",0,0
+"!b3f90328","PAP2","KO4OPE","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!b4984fae","🐭","Peewee Herman","CLIENT","WISMESH_TAG","false",0,0
+"!257c25df","hf13","Meshtastic hf13","CLIENT","TRACKER_T1000_E","false",0,0
+"!69855ee0","HERM","Hermes","CLIENT","HELTEC_V4","false",0,0
+"!406e06c","WP6c","Paper_NK2E","CLIENT","HELTEC_WIRELESS_PAPER","false",0,0
+"!b03d5d80","5d80","Meshtastic 5d80","CLIENT","HELTEC_V3","false",0,0
+"!433aed94","TTBB","TTB Base ed94","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!16cd7534","fjs6","fjs_G2","CLIENT","STATION_G2","false",0,0
+"!68b34e9d","LnRn","LoneRanger-RAK-9-CC","CLIENT","RAK4631","false",0,0
+"!2ec52d4","WSO","WSO Home Base","CLIENT_BASE","HELTEC_V3","false",0,0
+"!53b02456","L322","L322 Mobile","CLIENT","RAK4631","false",0,0
+"!699c9a1c","🪽","Pegasus","CLIENT_BASE","HELTEC_V4","false",0,0
+"!a0cb0364","KmMp","KM Mesh Portable","CLIENT","HELTEC_V3","false",0,0
+"!165e9c87","BCH1","Beach 01","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!6c72e714","e714","KM4OVK","CLIENT","TBEAM","false",0,0
+"!b8f7a99a","a99a","Meshtastic a99a","CLIENT","HELTEC_MESH_POCKET","false",0,0
+"!d3cc666f","🔼","Delta1B","CLIENT_BASE","RAK4631","false",0,0
+"!69844b7c","BenB","BenBase","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!2bb1564a","GLFN","Gum Lake Fixed Node(Not Monitored)","CLIENT","RAK4631","false",0,0
+"!cc429d42","INWD","Inwood","CLIENT_BASE","XIAO_NRF52_KIT","false",0,0
+"!a1cbf278","f278","The Swamp Mafia - no1warr1or","CLIENT","T_DECK","false",0,0
+"!22e5b2e5","PAPP","PeterPanPR#2","CLIENT","HELTEC_MESH_POCKET","false",0,0
+"!f4b42233","BASE","KF7GRE BASE","CLIENT_BASE","RAK4631","false",0,0
+"!8b5e56c8","EKO1","EDKO Van 6 dBi","CLIENT","RAK4631","false",0,0
+"!ce62f574","CB","ChuckBuilds Solar","CLIENT","SEEED_SOLAR_NODE","false",0,0
+"!744e19bc","19bc","Meshtastic 19bc","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!120f175f","Rak","Hambone Rak","CLIENT","RAK4631","false",0,0
+"!4c59fb0","GrzB","GrizMesh Base","CLIENT_BASE","HELTEC_V4","false",0,0
+"!43580844","0844","Don 0844","CLIENT","LILYGO_TBEAM_S3_CORE","false",0,0
+"!4c5b85c","🐢","🐢Maturin🐢-DT01-Base","CLIENT","HELTEC_V4","false",0,0
+"!81500824","0824","ViVSoft.live MQTT Gateway","CLIENT","M5STACK_C6L","false",0,0
+"!33603040","IMD1","IMD1 ","CLIENT","LILYGO_TBEAM_S3_CORE","false",0,0
+"!a2ebd958","DBSG","D Base, Station G2","CLIENT","STATION_G2","false",0,0
+"!ef7bb3b5","ATK1","KT4ATK Base","CLIENT","SEEED_SOLAR_NODE","false",0,0
+"!43560330","ART2","WB2ART KenK 2 Attic","CLIENT","HELTEC_V3","false",0,0
+"!10a8e8d6","4wpi","KI4WPI-base","CLIENT","RAK4631","false",0,0
+"!50556d5","MfS1","Misfit Solar 1","CLIENT_BASE","RAK4631","false",0,0
+"!14fb0363","Br00","Bri_pocket02","CLIENT","RAK4631","false",0,0
+"!9e9d82d0","SN#1","Number 1","CLIENT","HELTEC_V3","false",0,0
+"!da7a5f3f","🏚","Dvynsoul BASE","ROUTER_LATE","RAK4631","false",0,0
+"!b29fa834","Lana","Lana V4 Black","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!df6ab854","K4FA","K4FAU (de N1AVI)","CLIENT","RAK4631","false",0,0
+"!4251da1f","LWT1","LWS ARC Shaun Seeed T1K (1)","CLIENT","TRACKER_T1000_E","false",0,0
+"!9e9bba84","ba84","Meshtastic ba84","CLIENT","HELTEC_V3","false",0,0
+"!3526ee98","HB-4","WF4RT-4","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!a2e1a8bc","TRON","COQUINA G2","ROUTER","STATION_G2","false",0,0
+"!fd255b24","🏠","Glenn KO4MDY Solar Homebase","","RAK4631","false",0,0
+"!b03cf6f4","f6f4","Meshtastic f6f4","CLIENT","HELTEC_V3","false",0,0
+"!a038f714","f714","Meshtastic f714","CLIENT","STATION_G2","false",0,0
+"!69046b8b","ST1","Sonic T1","TAK","TRACKER_T1000_E","false",0,0
+"!a2e4ff4c","Yrze","Yeraze StationG2 🚉","CLIENT_BASE","STATION_G2","false",0,0
+"!e2e2d7b4","Ant1","KC6KIM Anthonator","CLIENT","HELTEC_V3","false",0,0
+"!69f3221f","221f","Meshtastic 221f","CLIENT","NRF52_UNKNOWN","false",0,0
+"!f9b8f32d","⌚","KF4LZA EDC T1000","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!1fa00844","JS1","Josh Stationary Node","CLIENT_BASE","TBEAM","false",0,0
+"!bf448eca","8eca","Meshtastic 8eca","CLIENT_BASE","RAK4631","false",0,0
+"!db2abd44","bd44","MUC4R0-JAX-2 🦉","CLIENT_BASE","HELTEC_V3","false",0,0
+"!9e755b88","AW02","AW-Node-02","CLIENT","HELTEC_V3","false",0,0
+"!e2e512c4","DTO","CSTS - DTO - FMSH (MQTT)  🍊⛪","CLIENT_BASE","HELTEC_V3","false",0,0
+"!a6965530","DTV4","Vandris","CLIENT","HELTEC_V4","false",0,0
+"!d0305351","NekB","Neko Base","CLIENT_BASE","RAK4631","false",0,0
+"!72802469","BWK","ROUTER😁","ROUTER","RAK4631","false",0,0
+"!1d433e3b","WiMe","CMG_WMP_https://discord.gg/floridamesh","CLIENT","RAK4631","false",0,0
+"!2ec1904","1904","Meshtastic 1904","CLIENT","HELTEC_V3","false",0,0
+"!ddc74f5","OTR1","OTTER 1W ","CLIENT","RAK3401","false",0,0
+"!1ba34cc0","RZRL","RazorLink","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!7c5a4330","4330","Shane Attic 4330","CLIENT_BASE","HELTEC_V3","false",0,0
+"!251c59e4","🚙","Luis  Mobile","CLIENT_BASE","RAK3401","false",0,0
+"!db51d574","JBH3","JBHeltec3","CLIENT","HELTEC_V3","false",0,0
+"!f1a76094","RUNN","(RU2759)","CLIENT_BASE","T_DECK","false",0,0
+"!a2e50b5c","🚗","CMG_Car","CLIENT","STATION_G2","false",0,0
+"!84f891bb","LW16","LWS ARC Shaun HT T114 (3)","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!6b156dce","☠","KZ4HQ 🧟‍♀","CLIENT","RAK4631","false",0,0
+"!77c9121","TT01","Tadpole Tracker 01","CLIENT","TRACKER_T1000_E","false",0,0
+"!33482d04","2d04","Boomtastic 2d04 💥","CLIENT","TRACKER_T1000_E","false",0,0
+"!9eb5a8cc","X-33","X-33","CLIENT_MUTE","T_DECK","false",0,0
+"!33790278","KT19","K3DO T190","CLIENT_MUTE","HELTEC_VISION_MASTER_T190","false",0,0
+"!db529208","HB_3","WF4RT-3","ROUTER","HELTEC_V3","false",0,0
+"!49b78f34","TRON","MARATHON V4","ROUTER","HELTEC_V4","false",0,0
+"!4f2275f5","75f5","Meshtastic 75f5","CLIENT","RAK4631","false",0,0
+"!9b37c1b8","d0ug","d0ug-ClientBase","CLIENT_BASE","XIAO_NRF52_KIT","false",0,0
+"!b2a74928","M1","K471 Mobile 1 ","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!31195b17","🍓","Beimini-Tracker","TRACKER","TRACKER_T1000_E","false",0,0
+"!f11f9da6","RPC","RPC 9da6","CLIENT","TRACKER_T1000_E","false",0,0
+"!3369d5a0","3US0","W3US-0 Df garage  attic","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!9e9b52a0","ARCN","Arcyn - K4JMX","CLIENT","HELTEC_V3","false",0,0
+"!7acf2588","J K","The Meshia - Portable Wismesh","CLIENT","RAK4631","false",0,0
+"!69823924","CTBC","KM4CTB-C","CLIENT","HELTEC_V4","false",0,0
+"!e5cb9bf2","V420","Meshtastic 9bf2","CLIENT","RAK4631","false",0,0
+"!5c7be33","🟡","RP4E Yellow","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!a2e1a00c","🏠","KZ4DE Home G2","CLIENT_BASE","STATION_G2","false",0,0
+"!7a7ef95e","f95e","KO4KVV T1000-E f95e","CLIENT","TRACKER_T1000_E","false",0,0
+"!4356fddc","👽","SUPER87","CLIENT","LILYGO_TBEAM_S3_CORE","false",0,0
+"!3e5334db","ATSO","Atlantic Solar ☀","CLIENT_BASE","RAK4631","false",0,0
+"!86eb1991","NT4C","NT4AL Card","CLIENT","TRACKER_T1000_E","false",0,0
+"!9ea67b6c","ELM5","Elvis ThinkNode M5","CLIENT_MUTE","THINKNODE_M5","false",0,0
+"!c027a508","a508","Meshtastic a508","ROUTER","RAK4631","false",0,0
+"!a2b65f5f","5f5f","Bob’s 5f5f","CLIENT","TRACKER_T1000_E","false",0,0
+"!9e9edb8c","db8c","Meshtastic db8c","CLIENT","HELTEC_V3","false",0,0
+"!9bb447c0","PKXJ","PKXJ","CLIENT_MUTE","RAK4631","false",0,0
+"!e0114e69","📟","GZX4E69 🏠🔆🔋📵","CLIENT","RAK4631","false",0,0
+"!a6964860","RFN1","WW4RFN Mobile","CLIENT","HELTEC_V4","false",0,0
+"!4c59f14","Base","Base Lutz W9TCR","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!317bd2a1","RCPB","RJ Conlan","ROUTER_CLIENT","RAK4631","false",0,0
+"!da56ae34","ENE","ENE 227 🦮🦮","CLIENT","HELTEC_V3","false",0,0
+"!e3ab8f84","KVVT","KO4KVV Tracker 8f84","CLIENT_MUTE","SEEED_WIO_TRACKER_L1","false",0,0
+"!49b7a9ac","🎙","Glenn KO4MDY Heltec V4","CLIENT","HELTEC_V4","false",0,0
+"!49b2cce0","🔅","Agueybana","CLIENT_BASE","HELTEC_V4","false",0,0
+"!1ba2f188","🦉","Dan 1022","CLIENT","HELTEC_V4","false",0,0
+"!49b7a980","RaV4","RA_Rav4","CLIENT","HELTEC_V4","false",0,0
+"!5ec5","↯","Zeus","CLIENT_BASE","STATION_G2","false",0,0
+"!84b89613","🧊","Bluey","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!f6f90cf8","🫦","Discord.gg/FloridaMesh HT TKR V2 (1)","CLIENT","HELTEC_WIRELESS_TRACKER_V2","false",0,0
+"!11449e5b","9e5b","Solar Node 9e5b","CLIENT","SEEED_SOLAR_NODE","false",0,0
+"!7a44bd6a","PoE","KQ4CCW PoE","CLIENT","RAK4631","false",0,0
+"!6983d3c0","Tree","Tree-Repeater","CLIENT_BASE","HELTEC_V4","false",0,0
+"!d77a638e","myc1","mycelium_1","CLIENT","NRF52_PROMICRO_DIY","false",0,0
+"!16ced098","349H","349 G2B","CLIENT","STATION_G2","false",0,0
+"!335bd4e4","PNGY","PersonaNonGrata [Yagi]","CLIENT","RAK4631","false",0,0
+"!16ced1f8","🍊","FreshG2","CLIENT_BASE","STATION_G2","false",0,0
+"!8fa479c4","DTJM","DT Jax Mobile","CLIENT","HELTEC_V4","false",0,0
+"!49dac1a0","B333","BASE 333","CLIENT_BASE","RAK4631","false",0,0
+"!9c26979","SMT3","W1HQL-Pocket","CLIENT","NANO_G2_ULTRA","false",0,0
+"!a0cb01c4","KMMB","KM Mesh Base","CLIENT","HELTEC_V3","false",0,0
+"!9ea3e654","ES2","EasyStreet2","CLIENT","HELTEC_V3","false",0,0
+"!a20a1810","SSG2","Squid’s Base G2 ","CLIENT","STATION_G2","false",0,0
+"!eaeac534","ORQ","KG4ORQ RAK","CLIENT","RAK4631","false",0,0
+"!76b4356b","SMT1","W1HQL-Portable ","CLIENT","RAK4631","false",0,0
+"!e0d03404","3404","Meshtastic 3404","CLIENT","TBEAM","false",0,0
+"!10e9ac0f","Wlbr","Oriole by the Sea","ROUTER","RAK4631","false",0,0
+"!4339d300","JsnJ","Just-a-mere Node 📵","CLIENT","HELTEC_V3","false",0,0
+"!433ac288","GRKH","Meshtastic c288","CLIENT","HELTEC_V3","false",0,0
+"!d6045608","KEVN","Kevin - RF Only - Solar","","RAK4631","false",0,0
+"!9e757c0c","R10T","R10T","CLIENT","HELTEC_V3","false",0,0
+"!8d50eaea","LTSR","quiX_Solar","CLIENT","SEEED_SOLAR_NODE","false",0,0
+"!2a5d5bc","Mike","Mike’s Mesh","CLIENT","RAK4631","false",0,0
+"!42f47909","7909","Meshtastic 7909","CLIENT","THINKNODE_M1","false",0,0
+"!b2a79764","6061","Kyo Station","","HELTEC_V4","false",0,0
+"!c3c28cc","W948","WRZL948 T-Deck","CLIENT","T_DECK","false",0,0
+"!9fd8ef2f","BEN","🚶Ben","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!c6f793e9","JSo3","JBSolar-3","CLIENT_BASE","RAK3401","false",0,0
+"!49b54578","Dave","KG4ORQ","CLIENT","HELTEC_V4","false",0,0
+"!49b6605c","Baz","Meshtastic 605c","CLIENT","HELTEC_V4","false",0,0
+"!aca5850","XTRA","WAZAHB","CLIENT","HELTEC_V4","false",0,0
+"!14ed4184","BF05","Beanfield 🐊 Lite | flme.sh","CLIENT","XIAO_NRF52_KIT","false",0,0
+"!a0391c08","Joe","Joe_Fire","CLIENT","STATION_G2","false",0,0
+"!2e611c0","bats","scypher_base","CLIENT_BASE","HELTEC_V3","false",0,0
+"!bb6d0cd4","BSA4","WS4BSA SamW BSA4 Solar4 Boca 0cd4","CLIENT","SEEED_SOLAR_NODE","false",0,0
+"!698542d4","ECHO","ECHO ONE","ROUTER","HELTEC_V4","false",0,0
+"!1fed50e7","MERC","Mercury","CLIENT","T_ECHO","false",0,0
+"!3369e778","🌎","N4ODB Office Node","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!9eb134a1","34a1","W⚓","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!697b04d7","🎉","Welcome MeshBot","CLIENT_MUTE","HELTEC_MESH_NODE_T114","false",0,0
+"!cee5bbeb","bbso","beanie biggie solar","CLIENT_BASE","RAK4631","false",0,0
+"!406335c","DOG1","KQ4TDQ 335c","CLIENT","HELTEC_V3","false",0,0
+"!e144eaac","eaac","Meshtastic eaac","CLIENT","MUZI_BASE","false",0,0
+"!b2a73548","OOB","KQ4OOB - Base","CLIENT_BASE","HELTEC_V4","false",0,0
+"!16ced390","TRON","FTL G2","ROUTER","STATION_G2","false",0,0
+"!598f538f","538f","Meshtastic 538f","CLIENT","NRF52_UNKNOWN","false",0,0
+"!eb26ca56","PXLR","PXL Router","ROUTER","PORTDUINO","false",0,0
+"!6984f794","1999","LakeSide_SFR","CLIENT","HELTEC_V4","false",0,0
+"!436a5a8","c1c3","JustMeshinAround","CLIENT","WISMESH_TAG","false",0,0
+"!9e755a74","AW03","AW-Node-03","CLIENT","HELTEC_V3","false",0,0
+"!9e9fb878","YGVq","BOMBERO_MQTT","CLIENT","HELTEC_V3","false",0,0
+"!1de92394","CC","CoachC","CLIENT","SEEED_XIAO_S3","false",0,0
+"!a696332c","Mi","Mike","CLIENT","HELTEC_V4","false",0,0
+"!16ced5dc","📻","mobile 📻","CLIENT","STATION_G2","false",0,0
+"!acb4fec","4fec","Ocita 4fec","CLIENT","HELTEC_V4","false",0,0
+"!4557a7aa","ANG2","Tigerflyer2_jaxmesh.org","CLIENT_BASE","RAK4631","false",0,0
+"!aa91e873","e873","Meshtastic e873","CLIENT","TRACKER_T1000_E","false",0,0
+"!d8ba9a43","9a43","Meshtastic 9a43","TRACKER","SEEED_WIO_TRACKER_L1","false",0,0
+"!49b54810","IZHB","KF4IZH B Bruce","CLIENT","HELTEC_V4","false",0,0
+"!7a54f739","👻","👻👀 Discord.gg/FloridaMesh","CLIENT_HIDDEN","HELTEC_MESH_POCKET","false",0,0
+"!e828e472","YkYt","Yukon_Yeti","CLIENT","THINKNODE_M1","false",0,0
+"!f9a3fcf1","fcf1","Meshtastic fcf1","CLIENT","HELTEC_MESH_POCKET","false",0,0
+"!e38e3455","MJES","Eye of Sauron Solar","CLIENT","RAK4631","false",0,0
+"!9abe2f24","Mrl0","Merlowe","CLIENT","TRACKER_T1000_E","false",0,0
+"!9d324635","8647","Meshtastic 8647","CLIENT","TRACKER_T1000_E","false",0,0
+"!f66a7160","BcoN","MobileBcoN","CLIENT","HELTEC_V4","false",0,0
+"!3264ca9c","ca9c","KQ4SNEPiHat","CLIENT","PORTDUINO","false",0,0
+"!7e2a709f","BOOM","BabyBoom 709f","CLIENT_MUTE","HELTEC_MESH_POCKET","false",0,0
+"!a2e1a944","TRON","NMIA G2","ROUTER","STATION_G2","false",0,0
+"!2eac95c","KV4","Khuv4🇨🇺","CLIENT","HELTEC_V3","false",0,0
+"!87175d0c","Drk2","W4MSN portable","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!a0352850","Lana","Lana Truck G2","CLIENT_MUTE","STATION_G2","false",0,0
+"!9e779ca4","9ca4","Meshtastic 9ca4","CLIENT","HELTEC_V3","false",0,0
+"!e1a59a93","9a93","Meshtastic 9a93","CLIENT_MUTE","RAK4631","false",0,0
+"!3b564412","ERA1","Echo-1WRAK","CLIENT","RAK4631","false",0,0
+"!435bb8e8","🛰","SatBeachMan","CLIENT","LILYGO_TBEAM_S3_CORE","false",0,0
+"!4ca8d5e5","🛰","YR (Mobile)","CLIENT_MUTE","RAK4631","false",0,0
+"!1ba3cb28","Q543","Jason WSMQ543","CLIENT","HELTEC_V4","false",0,0
+"!49b54770","4770","Meshtastic 4770","CLIENT","HELTEC_V4","false",0,0
+"!f68ddea8","dea8","Meshtastic dea8","CLIENT","THINKNODE_M5","false",0,0
+"!400ae6c","🦆","yellow duck human","CLIENT","HELTEC_V3","false",0,0
+"!6983cf00","DMM5","DaMeshMode5","CLIENT","HELTEC_V4","false",0,0
+"!c1fb21b0","SD-1","Seeed-1 test","CLIENT","SEEED_XIAO_S3","false",0,0
+"!886b6ec8","srs","Meshtastic 6ec8","CLIENT","RAK4631","false",0,0
+"!2292a553","WTL1","Wio Tracker L1","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!a20a1034","CWG2","Parrish G2","CLIENT_BASE","STATION_G2","false",0,0
+"!f6d76ad9","🏡","KEC Solar  JaxMesh.com","CLIENT_BASE","RAK4631","false",0,0
+"!e010b6f8","HXFT","Systron","CLIENT_MUTE","CROWPANEL","false",0,0
+"!ba620bcc","0bcc","RAMPART 0bcc","CLIENT","HELTEC_V3","false",0,0
+"!f6cbbd10","","","CLIENT","","false",0,0
+"!1d110ea3","JaLS","Just-A-Little-Solar","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!f993fc34","fc34","Meshtastic fc34","CLIENT_BASE","TLORA_V2_1_1P6","false",0,0
+"!2372c6c7","🛻","grease monkey 2","CLIENT","RAK4631","false",0,0
+"!24d66a64","6a64","makashi","CLIENT","RAK4631","false",0,0
+"!63d11cab","MAY0","KZ4NG - Treetops","CLIENT_BASE","RAK4631","false",0,0
+"!756e0283","0283","Roseville","CLIENT_BASE","RAK4631","false",0,0
+"!407e72c","4O4","Unauthorized Device","CLIENT","HELTEC_V3","false",0,0
+"!dada3246","9c58","AB4OD Bench Test 3","CLIENT","PRIVATE_HW","false",0,0
+"!8296015c","WSO2","WSO SenseCAP","TRACKER","TRACKER_T1000_E","false",0,0
+"!2ece388","DSK1","DESK NODE","CLIENT","HELTEC_V3","false",0,0
+"!2ecd5e0","JD","JupiterDad","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!81f3ba89","MAY9","CFL McRIB - Parramore","CLIENT","RAK4631","false",0,0
+"!aa42d3fd","KTAG","Kevin - RF Only - Tag","","WISMESH_TAG","false",0,0
+"!2e705b4","05b4","Meshtastic 05b4","CLIENT","HELTEC_V3","false",0,0
+"!80d6ca0d","PYKT","KO4PYK T114","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!811bb057","b057","Meshtastic b057","CLIENT","RAK4631","false",0,0
+"!b2a7705c","705c","MUC4R0-Mobile-1 🦉","CLIENT","HELTEC_V4","false",0,0
+"!f7420c39","0c39","ViVSoft.live 🇺🇲 WH4 Solar","CLIENT_BASE","XIAO_NRF52_KIT","false",0,0
+"!d91f8d50","🦍","🦍8d50","CLIENT","TBEAM_1_WATT","false",0,0
+"!9ea20198","RK01","LA BESTIA 👽 Is Back","CLIENT","HELTEC_V3","false",0,0
+"!b2a73d20","🥭","Mango 🥭 Base One","CLIENT_BASE","HELTEC_V4","false",0,0
+"!90a100b8","00b8","KF4CQ 00b8","CLIENT","SEEED_XIAO_S3","false",0,0
+"!2bc5aa0a","🔆","Solar Node","CLIENT","RAK4631","false",0,0
+"!6db89f3a","9f3a","Meshtastic 9f3a","CLIENT","RAK4631","false",0,0
+"!7aa17f0","HACK","Pentester Node 🤖","CLIENT_BASE","RAK4631","false",0,0
+"!d5d56f67","🛖","Josh Home","CLIENT","RAK4631","false",0,0
+"!8fa75b30","IBMK","IgorBox Mike","CLIENT","HELTEC_V4","false",0,0
+"!e54b9151","VB1","WA2FOF1 Valencia Bay CERT 9151","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!195b1921","🍺","kooziemike 1921","CLIENT","TRACKER_T1000_E","false",0,0
+"!69825a44","JeA2","W4JEA-Portable","CLIENT","HELTEC_V4","false",0,0
+"!1868f889","f889","Meshtastic f889","CLIENT","TRACKER_T1000_E","false",0,0
+"!3a8d50ef","LWM2","LWS ARC Shaun Mobile 2","CLIENT","RAK4631","false",0,0
+"!742ece4c","🔋","HPocket","CLIENT_MUTE","HELTEC_MESH_POCKET","false",0,0
+"!b29fa9c4","KZ","KZ4DE  V4","CLIENT","HELTEC_V4","false",0,0
+"!66ede218","😎","KEC pocket e218","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!9353700a","MM1","Mitch Mobile 1","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!43b7c058","RSF","RockStarFish","CLIENT","HELTEC_V3","false",0,0
+"!8f38b142","HB_1","WF4RT_1","CLIENT","RAK4631","false",0,0
+"!9e9deae8","eae8","MUC4R0-ORL 🦉","CLIENT","HELTEC_WSL_V3","false",0,0
+"!b4c782a3","AyER","AyER Quality ","CLIENT_MUTE","RAK4631","false",0,0
+"!db2fb398","2EZN","KB2EZN Outpost","CLIENT","HELTEC_V3","false",0,0
+"!52a9013c","DUDE","CAYEY-NORTE","ROUTER","RAK4631","false",0,0
+"!1e9bd1b2","LSFN","Lake Swoope Fixed Node(Not Monitored)","CLIENT_BASE","RAK4631","false",0,0
+"!562be058","🦅","Aviary 🦅 ","CLIENT","RAK4631","false",0,0
+"!f71e9ba0","KT1","Kin TBeam 1","CLIENT","TBEAM","false",0,0
+"!849b61d8","61d8","Meshtastic 61d8","CLIENT","HELTEC_V3","false",0,0
+"!db29db6c","roc0","rockosays","CLIENT","HELTEC_V3","false",0,0
+"!21865f0f","5f0f","Meshtastic 5f0f","CLIENT","RAK4631","false",0,0
+"!433112b4","XIAO","XAIO","CLIENT","XIAO_NRF52_KIT","false",0,0
+"!f670017c","017c","Meshtastic 017c Base Solar","CLIENT_BASE","HELTEC_V4","false",0,0
+"!16db2cd8","TRON","CUTLER G2","ROUTER","STATION_G2","false",0,0
+"!67bbc531","IBCD","IgorBox Deck","CLIENT","PORTDUINO","false",0,0
+"!c195092e","JB61","JBT06-1","CLIENT","NRF52_UNKNOWN","false",0,0
+"!5d13456e","CD","CDMT1","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!f697a168","Srvn","SlvrRvnActual","CLIENT","T_DECK","false",0,0
+"!756f8e18","🦔","Jake","CLIENT_MUTE","RAK3312","false",0,0
+"!17b92d98","KRBS","KR4CKW-BASE","CLIENT_BASE","RAK4631","false",0,0
+"!2c559745","👽","Tim’s repeater node","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!3369f644","📡","KG4LGO","CLIENT","HELTEC_V3","false",0,0
+"!cb53e7a5","CMGT","CMG_TEcho_BME","CLIENT","T_ECHO","false",0,0
+"!da73e1c8","e1c8","Papa's mesh e1c8","CLIENT","SEEED_XIAO_S3","false",0,0
+"!7d7b846f","CarN","CarNodeFromFlorida_","CLIENT_BASE","RAK4631","false",0,0
+"!d0d0efae","AFYm","KQ4AFY Mobile Base","CLIENT_BASE","RAK4631","false",0,0
+"!b03d33f8","33f8","Meshtastic 33f8","CLIENT","HELTEC_V3","false",0,0
+"!43c5ed4","5ed4","ko4mft 5ed4","CLIENT","HELTEC_V3","false",0,0
+"!11598c24","8c24","netskillz_edc","CLIENT_MUTE","RAK4631","false",0,0
+"!f66f275c","275c","HelTec v4 spare 275c","CLIENT","HELTEC_V4","false",0,0
+"!e7310924","YGVd","BOMBERO_🧑‍🚒_EDC","CLIENT_MUTE","SEEED_WIO_TRACKER_L1","false",0,0
+"!bf66e44d","KVCA","Brian ⚡ KV4CA ","CLIENT","TRACKER_T1000_E","false",0,0
+"!16db2d14","TRON","TAV G2","ROUTER","STATION_G2","false",0,0
+"!8dbbefee","LLM","Lou's Lowmesh","CLIENT","RAK4631","false",0,0
+"!67b4c837","Unix","c837 585H+26V Melbourne, Florida","CLIENT","RAK4631","false",0,0
+"!dd63d790","Saak","Saak","CLIENT","PORTDUINO","false",0,0
+"!4ef19ffc","LW12","LWS ARC Shaun T-Deck Plus EXT","CLIENT_MUTE","T_DECK","false",0,0
+"!9fb71ae","L1","It'sa me, MeshWio","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!16c3f67c","EYG2","Emir G2","CLIENT","STATION_G2","false",0,0
+"!b2a74978","TRON","MQTT V4 (meshtastic.liamcottle.net)","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!fb4d7a78","7a78","Meshtastic 7a78","TRACKER","WISMESH_TAG","false",0,0
+"!8b7051d5","💕","Gallifrey 51d5","CLIENT_BASE","RAK4631","false",0,0
+"!5eaebd79","🚙","Null Pocket","CLIENT","HELTEC_MESH_POCKET","false",0,0
+"!3c9102d1","EZN2","KB2EZN Node2","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!194086af","86af","LucidNight","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!67f4a71c","a71c","Mesh-TAG","CLIENT","WISMESH_TAG","false",0,0
+"!707a1cf0","BCCG","BC Campground 1cf0","CLIENT","RAK4631","false",0,0
+"!1a1b6571","SMA","W4SMA Mesh Router","ROUTER","RAK4631","false",0,0
+"!16ced688","👽","👽 LWS ARC Area 51 Gateway","CLIENT","STATION_G2","false",0,0
+"!9ea13e20","3e20","Meshtastic 3e20","CLIENT","HELTEC_V3","false",0,0
+"!43a8470","8470","Meshtastic 8470","CLIENT","HELTEC_V3","false",0,0
+"!698572ac","72ac","72ac","CLIENT_BASE","HELTEC_V4","false",0,0
+"!9ea07b30","TEST","TEST","CLIENT","HELTEC_V3","false",0,0
+"!1fdcc6a0","V246","MaxOffRoadin - WRUV246 (EDC III)","CLIENT_MUTE","THINKNODE_M1","false",0,0
+"!435a39dc","Ken1","Ken Base 1","CLIENT","LILYGO_TBEAM_S3_CORE","false",0,0
+"!1ba1b700","MH","MHeijmans","CLIENT","HELTEC_V4","false",0,0
+"!3348da2d","myc2","mycelium_2","CLIENT","NRF52_PROMICRO_DIY","false",0,0
+"!d090e958","🌊","Oceanway MT 1W","CLIENT_BASE","RAK4631","false",0,0
+"!afbea5e7","ATK3","KT4ATK Mobile 03","CLIENT","RAK4631","false",0,0
+"!91a1e2e4","🍑","Butthole","CLIENT","TLORA_V2_1_1P6","false",0,0
+"!b2a788c4","TRON","MQTT V4 (map.areyoumeshingwith.us)","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!9e761b04","Bosh","Boomer shop mqtt","CLIENT","HELTEC_V3","false",0,0
+"!f8e92570","trk1","8715-trk1","TRACKER","TRACKER_T1000_E","false",0,0
+"!e89cb431","WYNN","Wynwood","CLIENT","RAK4631","false",0,0
+"!6984a4ec","📬","a4ec Water Tower S&F","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!a1cc2764","BERY","MESHBERRY","CLIENT","T_DECK","false",0,0
+"!ba6553b0","🚍","Mystery Machine 268🇵🇷🐺","CLIENT","HELTEC_WIRELESS_TRACKER","false",0,0
+"!d127dd81","❎","KQ4LJB - Hilltop","CLIENT","RAK4631","false",0,0
+"!9e0a00b8","viv","ViVSoft.live TDeck 🇺🇸","CLIENT_MUTE","T_DECK","false",0,0
+"!49b5dc7c","HV4K","HeltecV4-K1MCO","CLIENT","HELTEC_V4","false",0,0
+"!3564694e","Rom2","KK4PQR T1000e x2","CLIENT","TRACKER_T1000_E","false",0,0
+"!acb13dc","BUD2","Buddy 02","CLIENT","HELTEC_V4","false",0,0
+"!16c3f3bc","LWAS","LWS ARC Altamonte Gateway","CLIENT","STATION_G2","false",0,0
+"!2495f268","TREE","TREElong","CLIENT","RAK4631","false",0,0
+"!9e7541ac","Sky1","SkyNode","CLIENT_BASE","HELTEC_V3","false",0,0
+"!b2a70914","📟","HTV4 Discord.gg/FloridaMesh","CLIENT","HELTEC_V4","false",0,0
+"!6690ddc6","ddc6","Meshtastic ddc6","CLIENT","SEEED_SOLAR_NODE","false",0,0
+"!16cd7424","HUL*","KN4YMY - Islamorada - Base","CLIENT","STATION_G2","false",0,0
+"!4d30ec61","WKN1","WestKendallSolarColors1wNode","CLIENT_MUTE","RAK3401","false",0,0
+"!e369213f","RMBS","RMBS Solar Base","CLIENT_BASE","RAK4631","false",0,0
+"!16cfa290","🌴","JUNGLE G2 Base","CLIENT_MUTE","STATION_G2","false",0,0
+"!69825f3c","KV4x","KACN V4x","CLIENT","HELTEC_V4","false",0,0
+"!32537869","FRIG","Frigga🧝‍♂️ Base ","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!82fa87d0","NCR1","Nature Coast Router 1","ROUTER","RAK4631","false",0,0
+"!c1fc83f0","SOLB","SOLB","CLIENT","SEEED_XIAO_S3","false",0,0
+"!fcaeba8f","☠","Dvynsoul-GAT562","CLIENT_MUTE","RAK4631","false",0,0
+"!c8aa26dc","🔆","Solar Node Edge Water","ROUTER_CLIENT","RAK4631","false",0,0
+"!b2a78cac","🔆","Jatibonicu-2","CLIENT","HELTEC_V4","false",0,0
+"!a2e227e8","Cret","Cret_G2","CLIENT","STATION_G2","false",0,0
+"!49b68684","Egal","Eagles Nest (8684)","CLIENT_BASE","HELTEC_V4","false",0,0
+"!da63b810","SBH3","KD4WLE Melbourne seanhaga@kd4wle.net","ROUTER_CLIENT","HELTEC_V3","false",0,0
+"!84c48b1b","BCL1","BC Loop 1_8b1b","CLIENT","RAK4631","false",0,0
+"!b2a7f054","ODB","The Bunker📍","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!43b5b7e0","b7e0","Meshtastic b7e0","CLIENT","HELTEC_V3","false",0,0
+"!f661a920","🌲","Lone Pine A920","CLIENT_BASE","HELTEC_V4","false",0,0
+"!433d30a4","30a4","Meshtastic 30a4","","HELTEC_V3","false",0,0
+"!66ea7ece","GOGO","KQ4TDQ Meshtastic 7ece","CLIENT","THINKNODE_M1","false",0,0
+"!89696df0","🚘","Mesh This!","CLIENT","RAK4631","false",0,0
+"!69849c28","🪽","🪽Hermes📡-DT02-ENV","CLIENT","HELTEC_V4","false",0,0
+"!db5838cc","🏡","Apopka Home Base","CLIENT_BASE","HELTEC_V3","false",0,0
+"!160b71c0","ARC1","ARC@UCF WIO NODE","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!7e55c08","Comm","CommGuy - K4HLW","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!69859b14","N4HT","N4ADE_hamheld","CLIENT_BASE","HELTEC_V4","false",0,0
+"!bfbb26ef","26ef","Meshtastic 26ef","CLIENT","SEEED_SOLAR_NODE","false",0,0
+"!2e5f220","Kays","Kays Place","CLIENT","HELTEC_V3","false",0,0
+"!ac9a770","ME-1","AL KQ4TDQ a770","CLIENT","HELTEC_V4","false",0,0
+"!69844624","🐬","Flagler_Beach_South","CLIENT_BASE","HELTEC_V4","false",0,0
+"!16c508c0","TRON","HMSTD G2","ROUTER","STATION_G2","false",0,0
+"!6769bb45","JDBa","JupiterDadBase","CLIENT_BASE","XIAO_NRF52_KIT","false",0,0
+"!9ea03ba8","💩","Country Walk V3","CLIENT","HELTEC_V3","false",0,0
+"!3d8675b","RLK5","RLK5 Thinknode M6","CLIENT","THINKNODE_M6","false",0,0
+"!699b3e68","CYRD","Chief_YARD","ROUTER","HELTEC_V4","false",0,0
+"!240f43dd","DRS2","Dontera-raksol-2","CLIENT_BASE","RAK4631","false",0,0
+"!4b9634e7","YGVf","BOMBERO-RED","CLIENT_BASE","RAK3401","false",0,0
+"!e1aaec8e","SMC4","Sonic Mesh Carry [Wisblock 4631]","CLIENT","RAK4631","false",0,0
+"!849b60a8","SS02","Strasis Node 2","CLIENT","HELTEC_V3","false",0,0
+"!3c668263","🐉","k4GDJ Ranger","CLIENT","RAK4631","false",0,0
+"!c3c3ed47","4077","M*A*S*H Discord.gg/FloridaMesh T114(2)","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!43c2f2c","2f2c","KB4VU","CLIENT","HELTEC_V3","false",0,0
+"!aca5544","Guus","Meshtastic 2554","CLIENT","HELTEC_V4","false",0,0
+"!4b6b1ce0","DNDS","KO4HXD-DUN SLR discord.gg/floridamesh","CLIENT","XIAO_NRF52_KIT","false",0,0
+"!55c7665c","E0","Echo Zero","CLIENT","TBEAM","false",0,0
+"!2ee2488","KVCA","Brian KV4CA ⚡","CLIENT","HELTEC_V3","false",0,0
+"!9e752bf4","Jb22","Jb22","CLIENT","HELTEC_V3","false",0,0
+"!9ab6f343","KMPR","KMHN PWR","CLIENT","HELTEC_MESH_POCKET","false",0,0
+"!c94ae0d8","SLU1","K4EX_MESH1 K4EX.0RG","CLIENT_BASE","RAK4631","false",0,0
+"!1ba3cc4c","WSO","WSO Heltec V4","CLIENT","HELTEC_V4","false",0,0
+"!93aae0e0","E0E0","KQ4TAY T1000E","CLIENT","TRACKER_T1000_E","false",0,0
+"!bcac9282","NBNB","NBN-Base","CLIENT","RAK4631","false",0,0
+"!43588558","8558","Yeraze Sandbox","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!49b5b448","b448","Meshtastic b448","CLIENT_BASE","HELTEC_V4","false",0,0
+"!40989e8","89e8","Meshtastic 89e8","CLIENT","HELTEC_V3","false",0,0
+"!bc1722ae","BTA","BTA Solar 22ae OP 🎇","CLIENT_BASE","RAK4631","false",0,0
+"!eab88cb","⛪","LifeChurchAG.net","ROUTER_LATE","RAK4631","false",0,0
+"!621e9cc9","MRET","SNB McRib East Tampa","CLIENT_BASE","RAK4631","false",0,0
+"!c5fc7ede","S5TD","S5 TREKKER DELTA","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!db296064","🏡","LWS DAVENPORT ","CLIENT","HELTEC_V3","false",0,0
+"!433b44ec","SOLM","SOLM","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!7c8d3190","Rept","AdamSolarRepeater34653","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!450b22c4","aj01","North PP Solar","CLIENT_BASE","RAK4631","false",0,0
+"!6984c760","Bird","W4BRD/Carry","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!c2169f44","BigE","Ethan-EP01","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!3c06b868","N4MP","N4ADE Meshpoint","CLIENT","PORTDUINO","false",0,0
+"!2f9148ec","RSR1","RSR1 48ec","CLIENT","T_DECK_PRO","false",0,0
+"!c081089f","0TTR","Otter Mesh H2T","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!8cce8fc","🐺","hbar98","CLIENT","TRACKER_T1000_E","false",0,0
+"!db579fd0","AD1I","Bulletin Board","CLIENT","HELTEC_V3","false",0,0
+"!49470953","EEBH","SHARC Relay","CLIENT","RAK4631","false",0,0
+"!a0cb62a8","Moon","Moonbase Alpha","CLIENT","HELTEC_V3","false",0,0
+"!7c5b3060","PTT","W3PTT","CLIENT","HELTEC_V3","false",0,0
+"!13462aa7","3Ks","KM6JZN","CLIENT","RAK4631","false",0,0
+"!9ea1c17c","c17c","Citrus Park Mesh ","CLIENT","HELTEC_V3","false",0,0
+"!f91b7b9a","vidI","vid T-Impulse-Plus ⌚","CLIENT_MUTE","135","false",0,0
+"!a6964458","JTv4","JT HeltecV4 (MQTT)","CLIENT","HELTEC_V4","false",0,0
+"!f6f8ea48","OTRB","Otter-B","CLIENT","HELTEC_WIRELESS_TRACKER_V2","false",0,0
+"!aeeabe6f","🦎","EREBUS01","CLIENT","TRACKER_T1000_E","false",0,0
+"!cd101b55","1b55","GPortPD","CLIENT","TRACKER_T1000_E","false",0,0
+"!d69140ec","40ec","Meshtastic 40ec","CLIENT","T_ECHO","false",0,0
+"!f10f4d64","4d64","yngling","CLIENT","THINKNODE_M1","false",0,0
+"!49b610b8","SPTS","SPTS","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!adfda712","Mrrt","MerrittIslandRouter","CLIENT","RAK4631","false",0,0
+"!3b46afac","Flos","Floss G2","CLIENT","STATION_G2","false",0,0
+"!49b65b88","ROBO","Robot v2","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!16cd7388","JOE","ICEICEBABY","CLIENT_BASE","STATION_G2","false",0,0
+"!fb86a07d","🫯","Rivermanor a07d","CLIENT","RAK4631","false",0,0
+"!da56e93c","CH1","CABARC HUB 1","CLIENT","HELTEC_V3","false",0,0
+"!485ca165","a165","Meshtastic a165","CLIENT","RAK3401","false",0,0
+"!49b3cddc","ulk1","Gilgamesh 1","CLIENT","HELTEC_V4","false",0,0
+"!ac3a5166","LIME","Limetree Solar 🏠🌞🔋","CLIENT_BASE","RAK4631","false",0,0
+"!39c6249a","W4DF","W4DFU Meshtastic - gatorradio.org","CLIENT","PORTDUINO","false",0,0
+"!f1bb6684","6684","Meshtastic 6684","CLIENT","T_DECK","false",0,0
+"!bcedfa0e","🗿","DA1PMN","CLIENT","RAK4631","false",0,0
+"!3098ef93","HDH1","HD Home 1w","CLIENT_BASE","RAK3401","false",0,0
+"!6d977da9","S5TD","S5 PC Car","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!b3f03f24","r4r1","Meshtastic r4r1","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!ac7f80ba","80ba","WA4TUX 80ba","CLIENT","RAK4631","false",0,0
+"!6985d880","FRep","Free-Repeater1","CLIENT","HELTEC_V4","false",0,0
+"!fe94ee34","🗼","N4ODB Base","CLIENT_BASE","RAK4631","false",0,0
+"!5b74bbb","USA2","Freedom Factory 2","CLIENT","RAK4631","false",0,0
+"!c95dc069","🏝","KO4HXD-ANCLOTE discord.dd/floridamesh","CLIENT","XIAO_NRF52_KIT","false",0,0
+"!4c5b004","mema","MemoryAlpha","CLIENT_BASE","HELTEC_V4","false",0,0
+"!4c8ee138","e138","Meshtastic e138","CLIENT_MUTE","T_ECHO","false",0,0
+"!698539ec","EHU2","KB0EHU-2","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!adcae5a6","ElJS","ElJer - Solar Light","CLIENT","RAK4631","false",0,0
+"!49b5dd54","WLE4","KD4WLE v4","CLIENT","HELTEC_V4","false",0,0
+"!2eb7c40","7c40","Meshtastic 7c40","CLIENT","HELTEC_V3","false",0,0
+"!49e91715","JXBR","Jax Beach RAK Router","ROUTER","RAK4631","false",0,0
+"!8ef301d8","🏠","Atlavox Cape Coral","CLIENT","RAK4631","false",0,0
+"!64515f9a","blly","heybilly2","CLIENT","TRACKER_T1000_E","false",0,0
+"!435792a8","MM9","Mag Mesh 92a8","CLIENT","HELTEC_V3","false",0,0
+"!4ed08073","YGVs","BOMBERO_SOLAR","CLIENT_BASE","139","false",0,0
+"!aca4f94","","","CLIENT","","false",0,0
+"!2ebf778","DKV3","DicksV3","CLIENT","HELTEC_V3","false",0,0
+"!8fa84316","BMAN","Chalupa_Batman","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!9ee71b54","d0ug","d0ug-R","CLIENT","HELTEC_V3","false",0,0
+"!500fc2cc","LBFN","New Rooftop Node @ SEU","ROUTER","RAK4631","false",0,0
+"!a2e1a8cc","a8cc","MeshyCheese G2 a8cc","ROUTER_LATE","STATION_G2","false",0,0
+"!6982bb58","WILL","KI4MJO portable ","CLIENT","HELTEC_V4","false",0,0
+"!4e76054","MAGA","KQ4TDQ 6054","CLIENT","THINKNODE_M2","false",0,0
+"!ba654e68","Tk1","Hammer truck","CLIENT","HELTEC_WIRELESS_TRACKER","false",0,0
+"!18d9eae5","Solr","SolarNode","CLIENT","RAK4631","false",0,0
+"!d29b60f0","60f0","KQ4SNE Raknode","CLIENT","RAK4631","false",0,0
+"!8a2c5e5e","5e5e","KQ4SNE mini","CLIENT","T_ECHO","false",0,0
+"!d20b6037","🃏","_jokerRak1w","CLIENT_BASE","RAK3401","false",0,0
+"!4306fcc6","HCPP","HC_PocketPixie","CLIENT_BASE","RAK4631","false",0,0
+"!c225a73d","KST1","KQ4UJQ T1000e","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!e0d01c60","👻","👻CypressGhost-Base","CLIENT_BASE","TBEAM","false",0,0
+"!16cd4c80","wsjc","SJC Mag","CLIENT","T_DECK","false",0,0
+"!5618abd1","abd1","Meshtastic abd1","CLIENT","RAK4631","false",0,0
+"!98eed4bc","🐶","Tobi","CLIENT","XIAO_NRF52_KIT","false",0,0
+"!c8e9227","NEM","Nemours Router Jaxmesh.com","ROUTER","RAK4631","false",0,0
+"!1984b671","GI24","NNY b671","CLIENT","RAK4631","false",0,0
+"!f6fbc550","MOU","KR4MOU","CLIENT","HELTEC_V3","false",0,0
+"!49b56be8","GLEN","N2MHJ whocaresradio.net","CLIENT","HELTEC_V4","false",0,0
+"!60b3a718","BBS","K3DO-BBS","CLIENT","HELTEC_V2_1","false",0,0
+"!da740f58","UCFa","UCF E1p","CLIENT","SEEED_XIAO_S3","false",0,0
+"!1de913e4","13e4","CFL Caligo","CLIENT","SEEED_XIAO_S3","false",0,0
+"!a2ea315c","315c","Meshtastic 315c","CLIENT_BASE","STATION_G2","false",0,0

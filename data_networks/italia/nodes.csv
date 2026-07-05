@@ -1,0 +1,2208 @@
+"id","short","long","role","hw","hasPos","lat","lon"
+"!d657111a","111a","Meshtastic 111a","CLIENT_BASE","RAK4631","false",0,0
+"!3c9e28b3","","","CLIENT_MUTE","","false",0,0
+"!33691bac","","","CLIENT","","false",0,0
+"!43569070","17","B2-17","CLIENT","LILYGO_TBEAM_S3_CORE","false",0,0
+"!acaa9018","HUNT","Hunt-----🗡️","CLIENT","HELTEC_V3","false",0,0
+"!b6fe9a1b","🌤","Solar Node Knappenberg","CLIENT","RAK4631","false",0,0
+"!3c224ccf","NOD2","NODO 2 FERMO MARCHE SGIE ","CLIENT_BASE","M5STACK_RESERVED","false",0,0
+"!438f83c","","","CLIENT","","false",0,0
+"!336a83c4","ThFr","TheFrog 🐸 Ladispoli (Rm) ","CLIENT","HELTEC_WSL_V3","false",0,0
+"!2eb77c8","","","ROUTER","","false",0,0
+"!1ba26940","6940","Meshtastic Riposto","CLIENT_BASE","HELTEC_V4","false",0,0
+"!9eeb1f1c","P300","ReteRadioPrepper300 - prepperitalia.com","CLIENT_BASE","HELTEC_V3","false",0,0
+"!aca3e98","MAST","MastAtti","CLIENT_BASE","HELTEC_V4","false",0,0
+"!db2b35d8","","","CLIENT","","false",0,0
+"!ce4d4fd6","GNNR","Gennaro","ROUTER","NRF52_PROMICRO_DIY","false",0,0
+"!40845c8","DGH","Colline Brianzole","CLIENT","HELTEC_V3","false",0,0
+"!43a01d0","Ubx2","Ubaldux2","CLIENT","HELTEC_V3","false",0,0
+"!849b8b68","","","CLIENT","","false",0,0
+"!f6f74914","","","CLIENT_BASE","","false",0,0
+"!9e763cbc","grn1","Gerano 🏞️ Centro Storico","CLIENT","HELTEC_V3","false",0,0
+"!feaaa96c","Um54","SOS Italia Castelluccio","ROUTER","SEEED_SOLAR_NODE","false",0,0
+"!b2a7e5b4","tcar","testcar","CLIENT_BASE","HELTEC_V4","false",0,0
+"!da9e9358","","","CLIENT","","false",0,0
+"!3ffadb37","D_37","Delta_db37📐","CLIENT_BASE","XIAO_NRF52_KIT","false",0,0
+"!49b58378","","","CLIENT","","false",0,0
+"!98da5c1b","VE51","SOS Italia Veneto 51","TRACKER","TRACKER_T1000_E","false",0,0
+"!aca9eaa8","BIT2","Bitritto-02/🧑‍🦲Antonio","CLIENT","HELTEC_V3","false",0,0
+"!2dd12909","2909","Meshtastic 2909","ROUTER","SEEED_WIO_TRACKER_L1","false",0,0
+"!2e60364","0364","Meshtastic 0364","CLIENT","HELTEC_V3","false",0,0
+"!49b76a70","","","CLIENT","","false",0,0
+"!b948fb1c","","","CLIENT","","false",0,0
+"!2ffe2edf","Um52","SOS Italia Pale","ROUTER_LATE","SEEED_SOLAR_NODE","false",0,0
+"!d45b9428","","","CLIENT","","false",0,0
+"!3edd99af","afa1","Meshtastic afa1","CLIENT","RAK4631","false",0,0
+"!db2b2720","CR99","CREM🌏","CLIENT","HELTEC_V3","false",0,0
+"!d6d91b35","Sdo7","Sdo7_1b35","CLIENT_BASE","XIAO_NRF52_KIT","false",0,0
+"!fc338672","","","CLIENT_BASE","","false",0,0
+"!5cb003bb","","","CLIENT","","false",0,0
+"!2afa84b8","","","CLIENT","","false",0,0
+"!6781f1c9","Sf","Sensecap f1c9","TRACKER","TRACKER_T1000_E","false",0,0
+"!5924bdc8","","","CLIENT","","false",0,0
+"!6c742b18","","","CLIENT","","false",0,0
+"!db51bc20","Ettr","IW3RBX ","CLIENT","HELTEC_V3","false",0,0
+"!f1b96cc8","TDek","Mauro Mobile","CLIENT","T_DECK","false",0,0
+"!9ea1c36c","","","CLIENT_BASE","","false",0,0
+"!c9999d38","😸","HappyCat","CLIENT","HELTEC_V2_1","false",0,0
+"!98a00558","c989","čispr_989","CLIENT","RAK4631","false",0,0
+"!6984c9e8","","","CLIENT","","false",0,0
+"!a6963bb4","","","CLIENT","","false",0,0
+"!4ec31c50","","","CLIENT_MUTE","","false",0,0
+"!db295658","","","CLIENT","","false",0,0
+"!f0444658","TOS3","TOS003","CLIENT","THINKNODE_M1","false",0,0
+"!9e76b518","","","CLIENT_MUTE","","false",0,0
+"!849b7790","biop","Biplop79","CLIENT","HELTEC_V3","false",0,0
+"!2edc924","","","CLIENT_MUTE","","false",0,0
+"!ea8fdf94","lou4","LOU","CLIENT","SEEED_XIAO_S3","false",0,0
+"!a25f01f5","MXT5","Consocio","CLIENT","RAK4631","false",0,0
+"!6c18f2fa","","","CLIENT","","false",0,0
+"!a1d8480c","","","SENSOR","","false",0,0
+"!a4bb1953","CR4","Cremona🗼1953","CLIENT_BASE","RAK4631","false",0,0
+"!e9f0078b","","","CLIENT","","false",0,0
+"!db2965ac","","","CLIENT","","false",0,0
+"!49a20bfe","","","CLIENT","","false",0,0
+"!498f65c4","","","CLIENT","","false",0,0
+"!6984a638","T119","TOS119 Vecchiano (PI)","CLIENT_BASE","HELTEC_V4","false",0,0
+"!8ba23a6d","","","ROUTER_LATE","","false",0,0
+"!2edfa68","GNZ1","Genzano1 Mesh","CLIENT","HELTEC_V3","false",0,0
+"!9e7564f4","AP3","AP3 64f4🏠","ROUTER","HELTEC_V3","false",0,0
+"!44a7cec4","GATE","🛸 Stargate 🛸","ROUTER","RAK4631","false",0,0
+"!f693bcb8","","","CLIENT","","false",0,0
+"!2ecf04c","","","CLIENT_MUTE","","false",0,0
+"!9ee98f10","","","CLIENT","","false",0,0
+"!d95351bb","G51b","IU8TQP_smcv_G51b","CLIENT","RAK4631","false",0,0
+"!57482bb0","MTE","Mannaggia TEcho","CLIENT","T_ECHO","false",0,0
+"!ba620030","0030","Meshtastic 0030","CLIENT","HELTEC_V3","false",0,0
+"!699be10c","e10c","Meshtastic e10c","CLIENT","HELTEC_V4","false",0,0
+"!69825948","OFGn","OFG-NODO","CLIENT_BASE","HELTEC_V4","false",0,0
+"!9ef0c3e4","","","CLIENT","","false",0,0
+"!16e83e09","06b9","Meshtastic 06b9","CLIENT","RAK11200","false",0,0
+"!80018e6a","TCNP","RM-TCNPL-HUB-02","ROUTER","RAK4631","false",0,0
+"!a6964ec8","","","CLIENT","","false",0,0
+"!2eb96d0","NRS","Nenad_NRS","CLIENT_BASE","HELTEC_V3","false",0,0
+"!9ee77300","TVN","TV Nord 7300","CLIENT","HELTEC_V3","false",0,0
+"!43c231c","231c","Meshtastic 231c","CLIENT","HELTEC_V3","false",0,0
+"!f98d5ae4","","","CLIENT","","false",0,0
+"!72fc9e7d","MiiS","IZ0MII tracker 2","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!88c3ee4","","","CLIENT","","false",0,0
+"!88c3e9c","","","CLIENT","","false",0,0
+"!2e67694","CMG2","IU7CMG MOBILE","CLIENT","HELTEC_V3","false",0,0
+"!db2b2e48","","","CLIENT","","false",0,0
+"!2ed51ec","51ec","Meshtastic 51ec","CLIENT","HELTEC_V3","false",0,0
+"!622fdfab","Xiao","IW1ESU Xiao","CLIENT","XIAO_NRF52_KIT","false",0,0
+"!38f63eb6","AQ40","AQ40_IK6DEN_RPT_monte ocre","ROUTER","XIAO_NRF52_KIT","false",0,0
+"!db29e28c","","","CLIENT_MUTE","","false",0,0
+"!22bafa1f","","","CLIENT_MUTE","","false",0,0
+"!da56ac5c","","","CLIENT_MUTE","","false",0,0
+"!4f55138a","c824","Meshtastic c824","CLIENT","HELTEC_V4","false",0,0
+"!f6fbf19c","YODA","YODA_RRP120📟","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!849a60a0","","","CLIENT","","false",0,0
+"!ec2a6a64","","","CLIENT","","false",0,0
+"!acb5628","","","CLIENT","","false",0,0
+"!f68f4d74","4d74","Meshtastic 4d74","CLIENT","THINKNODE_M5","false",0,0
+"!7502e062","","","CLIENT","","false",0,0
+"!edbc41c9","PU10","PU10 Cesane di Urbino","CLIENT","NRF52_PROMICRO_DIY","false",0,0
+"!6dd7ed08","BUD","Bud Spencer 🍌Giò","CLIENT_MUTE","HELTEC_MESH_POCKET","false",0,0
+"!b2a74cf8","AZ02","ponderano02","CLIENT_BASE","HELTEC_V4","false",0,0
+"!2ee0578","SA00","Salerno00","CLIENT","HELTEC_V3","false",0,0
+"!407f37c","casa","Meshtastic casa","CLIENT_BASE","HELTEC_V3","false",0,0
+"!2ecc148","","","CLIENT","","false",0,0
+"!2d717f2c","BS01","Boga26 Solar01 ","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!acb06a0","","","CLIENT","","false",0,0
+"!b2a78cc8","","","CLIENT_BASE","","false",0,0
+"!2e86340","","","CLIENT","","false",0,0
+"!ed2c667e","mb02","🏔️T1000-E🏔️","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!a8efc940","CRY2","CURIOSITY RRP002","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!386f082e","P.S.","BTS LoRa Mantova🇮🇹📡","CLIENT","PORTDUINO","false",0,0
+"!a1cbefb0","","","CLIENT","","false",0,0
+"!6984d4f8","d4f8","Meshtastic d4f8","CLIENT","HELTEC_V4","false",0,0
+"!9e762244","TmkH","Tomark Home (IU8UUV)","CLIENT","HELTEC_V3","false",0,0
+"!d4ae3fe9","","","CLIENT_BASE","","false",0,0
+"!6983bcc0","","","CLIENT","","false",0,0
+"!7d470785","AQ21","AQ21_IK6DEN_PORTABLE","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!4085068","Luk2","Luk2_5068","CLIENT_BASE","HELTEC_V3","false",0,0
+"!1704eacc","","","CLIENT_BASE","","false",0,0
+"!f19625a6","25a6","Meshtastic 25a6","ROUTER","NRF52_PROMICRO_DIY","false",0,0
+"!8fa02a98","","","CLIENT","","false",0,0
+"!435b0bcc","LPB1","BRUNO_1_MALO","CLIENT","LILYGO_TBEAM_S3_CORE","false",0,0
+"!8ad0bf8","PMVC","Pra Martino 🌲 Val Chisone","CLIENT","TLORA_V2_1_1P6","false",0,0
+"!9e9d5298","5298","Diego-base","CLIENT","HELTEC_V3","false",0,0
+"!2eb18f8","8ESP"," IZ8ESP  🚙","CLIENT","HELTEC_WIRELESS_TRACKER","false",0,0
+"!b2a7eb18","","","CLIENT","","false",0,0
+"!bb203142","🔆","BRB-868-SOLAR","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!6f64fdb1","","","CLIENT","","false",0,0
+"!c0ed2306","NTes","Nicco_Test_V2 🇮🇹","CLIENT_BASE","HELTEC_MESH_NODE_T114","false",0,0
+"!bba8394c","394c","IU3KGB 394c","CLIENT","TBEAM","false",0,0
+"!d55cb164","Wst","Whiskey_Solar_Test","CLIENT","RAK4631","false",0,0
+"!433c13a4","Fx01","Fasax1284-Tracker1","CLIENT","HELTEC_WIRELESS_TRACKER","false",0,0
+"!43a84ac","","","CLIENT","","false",0,0
+"!ee8f56ec","","","CLIENT","","false",0,0
+"!41c08b59","","","ROUTER","","false",0,0
+"!aca96d68","aeon","aeon_6d68","CLIENT","HELTEC_V3","false",0,0
+"!406b414","WJD","IZ2WJD /P","CLIENT","HELTEC_V3","false",0,0
+"!336924c4","GIU!","Giul  🌳🏠🌲","CLIENT_BASE","HELTEC_WSL_V3","false",0,0
+"!58adee53","8173","gw_capua_8173","CLIENT","RAK4631","false",0,0
+"!4059944","","","CLIENT_MUTE","","false",0,0
+"!2eafcac","","","CLIENT_BASE","","false",0,0
+"!db51cb54","👾","Space Invaders","CLIENT","HELTEC_V3","false",0,0
+"!a5284057","TCNP","RM-TCNPL-HUB-00 ","ROUTER","RAK4631","false",0,0
+"!c9f91c9c","La51","SOS Italia - Roma Brava (RM)","CLIENT_BASE","RAK4631","false",0,0
+"!8fa673c8","db","IK5XMK","CLIENT","HELTEC_V4","false",0,0
+"!c40047f6","","","CLIENT","","false",0,0
+"!2520722c","","","CLIENT","","false",0,0
+"!358a81f6","DIGO","DIGOS intercettazioni LoRa","CLIENT","MESHLINK","false",0,0
+"!4388510","DaMa","DaMa2026-1","CLIENT","HELTEC_V3","false",0,0
+"!bba83f80","RC 1","RC 1 Meshtastic 3f80 MQTT","ROUTER","TBEAM","false",0,0
+"!fb4c5a49","P.S.","Paolo MN","CLIENT_MUTE","SEEED_WIO_TRACKER_L1","false",0,0
+"!a0cc2f78","","","CLIENT_BASE","","false",0,0
+"!9ea0844c","iCor","SanMartinoInCasola","CLIENT","HELTEC_V3","false",0,0
+"!432bd5c","","","CLIENT","","false",0,0
+"!435732c0","","","CLIENT_BASE","","false",0,0
+"!433d85e0","FLR4","San Marino Meteo 1","CLIENT","HELTEC_V3","false",0,0
+"!4330fd4","0fd4","WhiteV3","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!9e779848","","","CLIENT_BASE","","false",0,0
+"!9ca2bc67","DYNA","🧨 Dynamite 🧨","CLIENT_MUTE","HELTEC_MESH_NODE_T114","false",0,0
+"!f6fcd2c0","","","CLIENT","","false",0,0
+"!baeed517","MshA","Padova Net Router","ROUTER","SEEED_SOLAR_NODE","false",0,0
+"!8fa473d4","","","CLIENT","","false",0,0
+"!da5af4d4","ULSS","Ulisse f4d4","CLIENT","TLORA_T3_S3","false",0,0
+"!3b5dabe","","","CLIENT_MUTE","","false",0,0
+"!43892dc","","","CLIENT_BASE","","false",0,0
+"!23d94631","","","CLIENT","","false",0,0
+"!4ece808c","808c","EHC 808c","CLIENT","T_DECK","false",0,0
+"!a1d97fc8","SMAE","M.Conero SMAE","CLIENT_BASE","SEEED_XIAO_S3","false",0,0
+"!56057df7","SILT","SilverLining 🌈 Tracker","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!4f538aef","GEN2","GENNERUXI 8aef","CLIENT_BASE","HELTEC_MESH_NODE_T114","false",0,0
+"!b29fb420","","","CLIENT","","false",0,0
+"!407d748","Mang","IU1OPQ","CLIENT_BASE","HELTEC_V3","false",0,0
+"!1ba2d430","","","CLIENT","","false",0,0
+"!433dfe24","psk1","petzi-station-klu1","CLIENT","HELTEC_WSL_V3","false",0,0
+"!8d33f36a","lin","KLine","CLIENT","TRACKER_T1000_E","false",0,0
+"!86c8f5c3","","","CLIENT_BASE","","false",0,0
+"!433d0e9c","","","CLIENT","","false",0,0
+"!335e3ac4","AoH2","ROMA NORD FIDENE 2","CLIENT","LILYGO_TBEAM_S3_CORE","false",0,0
+"!9ea1c37c","","","CLIENT","","false",0,0
+"!433df924","f924","Meshtastic f924","CLIENT","HELTEC_WSL_V3","false",0,0
+"!5e8a0575","","","CLIENT_BASE","","false",0,0
+"!43593ebc","NVV1","IZ8NVV Node 🇮🇹","CLIENT","HELTEC_V3","false",0,0
+"!849ba010","VL-O","Villa Lucini 1886 - Omni","CLIENT","HELTEC_V3","false",0,0
+"!3ad44058","4058","HIWA INSIDE","CLIENT_MUTE","TBEAM","false",0,0
+"!122a9dc2","bv2","Davide - BV2","ROUTER","RAK4631","false",0,0
+"!ccddeeff","","","CLIENT_MUTE","","false",0,0
+"!f6fd7614","i586","ita586 1FVG173","CLIENT","HELTEC_V3","false",0,0
+"!99415452","FAKE","FAKE 🎯","CLIENT_MUTE","CHATTER_2","false",0,0
+"!12b11b48","","","CLIENT","","false",0,0
+"!f6624968","6RIN","IU6RIN Monticchio ","CLIENT","HELTEC_V4","false",0,0
+"!97848d77","8d77","EHC 8d77","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!4058724","","","CLIENT_BASE","","false",0,0
+"!6984de04","","","CLIENT","","false",0,0
+"!b29f715c","R0FO","IR0FO ⁴ß","ROUTER","HELTEC_V4","false",0,0
+"!deaddec1","","","CLIENT","","false",0,0
+"!314c1a2c","d1a8","Meshtastic d1a8","CLIENT","HELTEC_V2_0","false",0,0
+"!9e777090","","","CLIENT_MUTE","","false",0,0
+"!a2084b85","MTN3","MTN3 Montevaccino","CLIENT_BASE","HELTEC_MESH_NODE_T114","false",0,0
+"!acb0268","","","CLIENT_BASE","","false",0,0
+"!433c1408","rTk1","ruzzoTracker 🚀","CLIENT","HELTEC_WIRELESS_TRACKER","false",0,0
+"!885e8da8","DUCK","DUCK 🦆🆘🇮🇹","CLIENT_BASE","HELTEC_MESH_SOLAR","false",0,0
+"!a1d76b48","","","CLIENT","","false",0,0
+"!9ea2118c","","","CLIENT","","false",0,0
+"!43cbe98","NVC","Velletri Centro","ROUTER","HELTEC_V3","false",0,0
+"!919bea0","GINO","GINO tracker","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!8fa67460","","","CLIENT","","false",0,0
+"!aca5160","CTdc","Caltagirone - CTdc","CLIENT","HELTEC_V4","false",0,0
+"!270c5e46","GEU1","GEUK1","TRACKER","TRACKER_T1000_E","false",0,0
+"!ba6aa9c0","","","CLIENT","","false",0,0
+"!f6965190","5190","Fiorentino 5190","CLIENT","T_DECK","false",0,0
+"!bba83884","IMJE","IZ0MJE-13","CLIENT","TBEAM","false",0,0
+"!cf915622","","","CLIENT_BASE","","false",0,0
+"!433cc1fc","MBtk","MarioBitTk🚐","CLIENT_MUTE","HELTEC_WIRELESS_TRACKER","false",0,0
+"!93858dfb","8dfb","MaukaMobile 8dfb","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!1c23c5d8","","","CLIENT","","false",0,0
+"!b03d23d0","rnz1","re-enza01-42027","CLIENT","HELTEC_V3","false",0,0
+"!408aae0","IGO","Meshtastic RN Igo-0","CLIENT","HELTEC_V3","false",0,0
+"!8fa7c7c8","IT02","www.meshtasticitalia.it","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!69853440","","","CLIENT","","false",0,0
+"!eef5b4da","","","CLIENT_BASE","","false",0,0
+"!d378ec10","6SVB","📡IU6SVB_T114_ec10","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!edf711bc","HACK","CONTAX 💀","CLIENT_MUTE","CHATTER_2","false",0,0
+"!13047234","MMIU","Meshtastic 7234","CLIENT","T_DECK","false",0,0
+"!29a5b116","STAR","SOLTARICHA Solar Node | Treviglio ","ROUTER","SEEED_SOLAR_NODE","false",0,0
+"!4083fa8","3fa8","MrBuc 3fa8","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!1c28f7aa","AP6","AP6 f7aa🚘","CLIENT_BASE","HELTEC_MESH_NODE_T114","false",0,0
+"!49b5ee28","La53","SOS-Italia Roma Talenti (Rm) GW","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!69858358","","","ROUTER","","false",0,0
+"!7da70716","NOW2","Libero Sassata_fisso 📡🇮🇹","CLIENT_BASE","HELTEC_MESH_NODE_T114","false",0,0
+"!698564a4","BOAR","BOAR-----V4 🐗 🆘🇮🇹","CLIENT","HELTEC_V4","false",0,0
+"!f6f8f938","","","CLIENT","","false",0,0
+"!69825534","5534","Electron 11","CLIENT","HELTEC_V4","false",0,0
+"!2e79320","ALPO","ALBY PORTATILE 🚗","CLIENT","HELTEC_V3","false",0,0
+"!da73e4b4","","","CLIENT","","false",0,0
+"!75e99a30","lgn","Logan (mobile)","CLIENT","HELTEC_V3","false",0,0
+"!943a2a55","ANG0","Anguillara Sabazia IU0RTE Base 0","ROUTER_LATE","SEEED_SOLAR_NODE","false",0,0
+"!6982be44","be44","Meshtastic be44 WFR-V4Test","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!75e998c8","mint","Meshtastic 98c8","CLIENT","HELTEC_V3","false",0,0
+"!9e786670","MF02","Roma Est MF02 📡","CLIENT_BASE","HELTEC_V3","false",0,0
+"!49b7a27c","One3","OnefHel4_3","CLIENT","HELTEC_V4","false",0,0
+"!ab247386","lore","Lorello 7386","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!1d198e26","","","ROUTER_LATE","","false",0,0
+"!3dd32665","","","CLIENT_MUTE","","false",0,0
+"!ba66fa80","","","CLIENT","","false",0,0
+"!1761d271","d271","Montesel - TrentinLora","CLIENT","XIAO_NRF52_KIT","false",0,0
+"!849b8cc4","","","CLIENT_MUTE","","false",0,0
+"!acb11f8","","","CLIENT_BASE","","false",0,0
+"!9ea1babc","babc","Meshtastic babc","CLIENT","HELTEC_WSL_V3","false",0,0
+"!f992dce8","P165","Santa Vittoria dce8","CLIENT","TLORA_V2_1_1P6","false",0,0
+"!a1cd2e04","Txtc","Tdeckxtc","CLIENT","T_DECK","false",0,0
+"!2e5975c","975c","Meshtastic 975c","CLIENT","HELTEC_V3","false",0,0
+"!69849934","","","CLIENT_BASE","","false",0,0
+"!75e789f7","oe","orsogiovi🐻 echo","CLIENT","T_ECHO","false",0,0
+"!9e7537f0","BebL","Bebbio🧑‍🔧Lab","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!4c58580","","","CLIENT","","false",0,0
+"!f6f78dd4","📡","Base IW5CBK 📡","CLIENT_BASE","HELTEC_WIRELESS_TRACKER_V2","false",0,0
+"!4e5947fc","RETE","CONTAX 💀","CLIENT","HELTEC_V4","false",0,0
+"!43579928","","","CLIENT","","false",0,0
+"!db2b2568","2568","Monserrato","CLIENT","HELTEC_V3","false",0,0
+"!f6f8fe38","SK1M","Sk1Mesh LS","CLIENT","HELTEC_WIRELESS_TRACKER_V2","false",0,0
+"!9e9f2960","FP3","SOS Italia city-gateway","CLIENT","HELTEC_V3","false",0,0
+"!2e81f50","BeTo","Bebbio🔧Toolbox","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!40e2f3e3","","","CLIENT","","false",0,0
+"!435ad644","","","CLIENT","","false",0,0
+"!234a9e3d","","","ROUTER","","false",0,0
+"!9e7546f8","OUT","Lorbu ","CLIENT","HELTEC_V3","false",0,0
+"!a0cb4b1c","brg","voller 2","CLIENT","HELTEC_V3","false",0,0
+"!abc4a9a9","Bab1","Babysun2Plt_1","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!694bf264","🚫","🆔️🔄⛔️","CLIENT","HELTEC_V3","false",0,0
+"!12b10cdc","LDGC","Bujaparnuia","CLIENT_BASE","TBEAM","false",0,0
+"!3ec9d8d0","🐺","Coyote -SOS ABRUZZO ","CLIENT","RAK4631","false",0,0
+"!4ee1ebc","Raf2","IW8DDV Montaguto","CLIENT","EBYTE_ESP32_S3","false",0,0
+"!ebf63821","P.S.","BTS LoRa Mantova🇮🇹📡","CLIENT","PORTDUINO","false",0,0
+"!9e766ee0","DINO","5RDX 🏍️","CLIENT","HELTEC_WIRELESS_TRACKER","false",0,0
+"!db5edb04","SLV1","SILVER 1 PORDENONE FVG","CLIENT","TLORA_T3_S3","false",0,0
+"!ba69b77c","TuxA","Tux_A","CLIENT","HELTEC_WIRELESS_TRACKER","false",0,0
+"!acaae48c","MSD","MeshDuo","CLIENT","HELTEC_V3","false",0,0
+"!9ea1c830","","","CLIENT","","false",0,0
+"!1e56c6f7","","","CLIENT_BASE","","false",0,0
+"!7c02400a","MG01","Marco🥾MTBBASSANO🚵GRAP.PA","CLIENT","T_ECHO","false",0,0
+"!4c6611c","Tr00","max","CLIENT","HELTEC_V4","false",0,0
+"!433dad24","","","CLIENT","","false",0,0
+"!aca59984","9984","iw2evh_M5","CLIENT","M5STACK_CARDPUTER_ADV","false",0,0
+"!bba82168","","","CLIENT","","false",0,0
+"!f66ae160","FeSu","Il Feudatario supremo","CLIENT_BASE","HELTEC_V4","false",0,0
+"!2bc55c78","SHDN","shodan","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!f6fab7bc","","","CLIENT_BASE","","false",0,0
+"!1ba1f29c","","","CLIENT","","false",0,0
+"!16cdf188","P003","ReteRadioPrepper003 - prepperitalia.com","CLIENT","T_DECK","false",0,0
+"!6d088448","","","CLIENT","","false",0,0
+"!698508c4","","","CLIENT_BASE","","false",0,0
+"!323d7d12","","","CLIENT","","false",0,0
+"!8fa479e8","","","CLIENT","","false",0,0
+"!aac13887","SedT","Meshtastic SedT","","SEEED_SOLAR_NODE","false",0,0
+"!4ed300e4","GOAT","GOAT-----TD 🐐 🆘🇮🇹","CLIENT","T_DECK","false",0,0
+"!d3efedeb","","","CLIENT","","false",0,0
+"!c157bcee","8QAH","SOS Italia - Brandy IZ8QAH","CLIENT","TRACKER_T1000_E","false",0,0
+"!46e4f940","READ","REAPER-DIRECTIVE ☠️","CLIENT_BASE","HELTEC_MESH_NODE_T114","false",0,0
+"!814fbaae","","","CLIENT_BASE","","false",0,0
+"!433def90","","","CLIENT","","false",0,0
+"!6bf3e7a9","","","ROUTER_LATE","","false",0,0
+"!a69632c4","LFT3","LFT3 - Rocca di Papa","CLIENT","HELTEC_V4","false",0,0
+"!9622cecb","BM54","Mauri T1000E","TRACKER","TRACKER_T1000_E","false",0,0
+"!fd8bf6c","bf6c","MrBuc bf6c","CLIENT_MUTE","TBEAM","false",0,0
+"!1ba3c094","Tr13","LoRaTOr13","CLIENT","HELTEC_V4","false",0,0
+"!1ba672ec","","","CLIENT_BASE","","false",0,0
+"!9ea20e64","RP02","Rete Radio Prepper BASE RRP02 🏡","CLIENT_BASE","HELTEC_V3","false",0,0
+"!49b70d5c","7MBL","MBL 🏠 MQTT Cassino 2","CLIENT_BASE","HELTEC_V4","false",0,0
+"!400c754","Bste","StegiorB","CLIENT","HELTEC_V3","false",0,0
+"!ba6a90e4","90e4","Sierra","CLIENT","HELTEC_V3","false",0,0
+"!e00cda44","ARM","AntonyRm","CLIENT","HELTEC_V3","false",0,0
+"!db29d9f8","","","CLIENT","","false",0,0
+"!54213c26","TS03","IV3KPX","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!1ba67800","","","CLIENT","","false",0,0
+"!699bcf14","","","CLIENT_BASE","","false",0,0
+"!7a9990e9","","","CLIENT","","false",0,0
+"!9e752fa4","","","CLIENT","","false",0,0
+"!8fe8c42d","6AMC","🗼🗼🗼IMIR TELECOM🗼🗼🗼","CLIENT_BASE","XIAO_NRF52_KIT","false",0,0
+"!295090b5","","","ROUTER","","false",0,0
+"!9ea1c464","","","CLIENT","","false",0,0
+"!db41724e","JEW2","IU8JEW 🆘🇮🇹","CLIENT_BASE","XIAO_NRF52_KIT","false",0,0
+"!2edb478","CRD1","CORDENONS1","CLIENT","HELTEC_V3","false",0,0
+"!5adeae27","tbot","Tbot_ae27","CLIENT","TRACKER_T1000_E","false",0,0
+"!2ed8460","BFH","IW6BFH Alessandro","CLIENT","HELTEC_V3","false",0,0
+"!2ea7964","GY49","Meshtastic 7964","CLIENT","HELTEC_V3","false",0,0
+"!49b6142c","","","CLIENT","","false",0,0
+"!4ef04f84","Mirc","Mirco mobile","CLIENT_MUTE","T_DECK","false",0,0
+"!a35b9c0c","Blab","BiplabV4","CLIENT","HELTEC_V4","false",0,0
+"!a9081e6e","","","CLIENT","","false",0,0
+"!40ca8b61","EMX","emix - IZØIJD","CLIENT_MUTE","SEEED_WIO_TRACKER_L1","false",0,0
+"!d64e35fd"," RR ","RiRo","CLIENT","NRF52_UNKNOWN","false",0,0
+"!f6621d48","FLVQ","FLV (Mobile)","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!ba0cb980","","","CLIENT","","false",0,0
+"!f847dd0b","","","CLIENT_BASE","","false",0,0
+"!acb1fe8","1fe8","Meshtastic 1fe8","CLIENT","HELTEC_V4","false",0,0
+"!db58b74c","CBK","IW5CBK Portatile 🚵‍♂","CLIENT","HELTEC_WIRELESS_TRACKER","false",0,0
+"!4a20af86","AOC1","IK0AOC-1","CLIENT","RAK4631","false",0,0
+"!b3aad09f","d09f","IZ0EMY_868_mob_d09f","CLIENT","T_ECHO","false",0,0
+"!f6920244","Bab3","Babysun2lt_3","CLIENT","T_DECK","false",0,0
+"!7b4926bf","Blix","BlixenITA","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!2eb08f0","08f0","Ioroberto portatile 08f0","CLIENT","HELTEC_WIRELESS_TRACKER","false",0,0
+"!3cdc6bdf","","","ROUTER","","false",0,0
+"!433cd460","d460","Meshtastic d460","CLIENT","HELTEC_WSL_V3","false",0,0
+"!945b8394","Masa","Masainas - SU","ROUTER","RAK4631","false",0,0
+"!2ecf448","","","CLIENT_BASE","","false",0,0
+"!2ec7efc","","","CLIENT","","false",0,0
+"!d48141d0","41d0","IW1DLL","","TLORA_T3_S3","false",0,0
+"!aca95f1c","","","ROUTER","","false",0,0
+"!43addc8","","","CLIENT","","false",0,0
+"!f980cc61","AVT3","AVT3-RPT","ROUTER","XIAO_NRF52_KIT","false",0,0
+"!68cb9b58","","","CLIENT","","false",0,0
+"!9ea61274","","","CLIENT","","false",0,0
+"!faa6d039","Cp60","SOS Italia - monti Lattari 🇮🇹","CLIENT_BASE","RAK4631","false",0,0
+"!d3ca10f","MRPH","🔴 Morpheus 🔵","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!afb066e5","NAT2","Meshtastic 66e5","CLIENT","NRF52_UNKNOWN","false",0,0
+"!9ea1e820","","","CLIENT_BASE","","false",0,0
+"!9e9d2a34","","","CLIENT_BASE","","false",0,0
+"!ae7d04cd","","","CLIENT_MUTE","","false",0,0
+"!2ede40c","TP05","NODO 5 868 IW9FRA TP","CLIENT_BASE","HELTEC_V3","false",0,0
+"!9e77979c","ZKO1","Zecko8-979c-1","CLIENT","HELTEC_V3","false",0,0
+"!6f93238","TGF","IU0TGF🔥","CLIENT_BASE","TLORA_V2_1_1P6","false",0,0
+"!a0cab6e4","","","CLIENT","","false",0,0
+"!8fa628f8","28f8","Kipters 28f8","CLIENT","HELTEC_V4","false",0,0
+"!9ea3da30","","","ROUTER","","false",0,0
+"!6984e674","ALT3","IV3GIW mobile","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!433b9538","","","CLIENT","","false",0,0
+"!9eeff2c0","CRP1","CORDENONS PROVA 1","CLIENT","TLORA_T3_S3","false",0,0
+"!2ed0a7c","","","CLIENT_BASE","","false",0,0
+"!857a4892","AVT4","AVT4","CLIENT","XIAO_NRF52_KIT","false",0,0
+"!acb62fc","","","CLIENT","","false",0,0
+"!7fc08a7c","","","CLIENT","","false",0,0
+"!1ba59fa4","JBZA","jack.bz.appiano","CLIENT_BASE","HELTEC_V4","false",0,0
+"!849a2e38","","","CLIENT","","false",0,0
+"!bba81dfc","","","CLIENT","","false",0,0
+"!9e772a64","","","CLIENT","","false",0,0
+"!9f98969a","969a","Meshtastic 969a","CLIENT","NRF52_PROMICRO_DIY","false",0,0
+"!1e2fe88c","","","CLIENT","","false",0,0
+"!49b596dc","","","CLIENT_BASE","","false",0,0
+"!d45aa468","","","CLIENT","","false",0,0
+"!168cd396","","","CLIENT_BASE","","false",0,0
+"!da5ade10","de10","Meshtastic de10","CLIENT","TLORA_T3_S3","false",0,0
+"!4ed1e160","TDek","T-DECK","CLIENT","T_DECK","false",0,0
+"!69854948","","","CLIENT","","false",0,0
+"!62d9f458","","","CLIENT","","false",0,0
+"!33917655","yvn0","n@yvn.no","CLIENT","TRACKER_T1000_E","false",0,0
+"!f6fa74a8","HK","Iw0hk","CLIENT","HELTEC_V3","false",0,0
+"!a0a5e6c8","TLH1","TheLastHop1","CLIENT","T_DECK","false",0,0
+"!2eaee44","Elm2","Elmas 2","CLIENT","HELTEC_V3","false",0,0
+"!db587b54","","","CLIENT","","false",0,0
+"!2eb8e38","M.1","majo1","CLIENT","HELTEC_V3","false",0,0
+"!435901c8","rLr2","ruzzoLora2 📡","ROUTER","HELTEC_V3","false",0,0
+"!49b69160","SO01","SO01 Mobile Calabria 9160","CLIENT","HELTEC_V4","false",0,0
+"!f66f69a8","PZRT","PZ-RT-V4","CLIENT","HELTEC_V4","false",0,0
+"!ac9f978","🏡","🏡 DariOne ⚾ ","CLIENT_BASE","HELTEC_V4","false",0,0
+"!ce61d118","tkDA","Trekking DA","TRACKER","SEEED_WIO_TRACKER_L1","false",0,0
+"!ce59ee7e","","","CLIENT","","false",0,0
+"!1ba56c1c","","","CLIENT_MUTE","","false",0,0
+"!e0d38ee0","","","CLIENT","","false",0,0
+"!699c264c","ALDO","Aldo","CLIENT","HELTEC_V4","false",0,0
+"!9e5b38d6","CAR2","Ceres_Arveir_1000mt_3","CLIENT","RAK4631","false",0,0
+"!d44e7d68","Ucia","ARI Brescia Ucia ⛰️","ROUTER","HELTEC_MESH_NODE_T114","false",0,0
+"!db2ac690","c690","Pac c690","CLIENT","HELTEC_V3","false",0,0
+"!9ea2a86c","","","CLIENT","","false",0,0
+"!da7407d0","kwbs","KluWestBaseStation","CLIENT","SEEED_XIAO_S3","false",0,0
+"!2ec7944","KAY3","KAYLAB V3","CLIENT","HELTEC_V3","false",0,0
+"!535a0372","","","TRACKER","","false",0,0
+"!a8db88a9","4RQY","IU4RQY Tracker","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!dd7accf3","lt02","Marostica","CLIENT_BASE","T_ECHO","false",0,0
+"!2ede904","e904","Meshtastic e904","CLIENT","HELTEC_V3","false",0,0
+"!433c243c","243c","Meshtastic 243c","CLIENT","HELTEC_V3","false",0,0
+"!f66f9318","","","CLIENT_MUTE","","false",0,0
+"!a43d2aaf","","","CLIENT","","false",0,0
+"!3a33722b","STG1","📡 Repeater St.Georgen","ROUTER","HELTEC_MESH_NODE_T114","false",0,0
+"!1ba59a10","","","CLIENT","","false",0,0
+"!849ae69c","Ludo","Ludo L.","CLIENT","HELTEC_V3","false",0,0
+"!4070138","TRKN","IW6AMC TT114","TRACKER","HELTEC_WIRELESS_TRACKER","false",0,0
+"!1b58025","NAT1","Meshtastic 8025","TRACKER","WISMESH_TAG","false",0,0
+"!433c95d8","","","CLIENT_BASE","","false",0,0
+"!4c5d01af","5eac","Meshtastic 5eac","CLIENT","HELTEC_V3","false",0,0
+"!b03d5de4","VALD","Valdipino_RPT_5de4","ROUTER","HELTEC_V3","false",0,0
+"!698225a4","3VFR","3VFR nodo","CLIENT","HELTEC_V4","false",0,0
+"!a1762553","","","CLIENT","","false",0,0
+"!433c53e8","53e8","Meshtastic 53e8 HAIM","CLIENT","HELTEC_V3","false",0,0
+"!f6f95e2c","genx","Generazione X7080","CLIENT","HELTEC_V3","false",0,0
+"!d480a168","🐧","LaPeste","CLIENT","TLORA_T3_S3","false",0,0
+"!9e77a21c","","","CLIENT","","false",0,0
+"!8fa78f30","8f30","Meshtastic 8f30","CLIENT","HELTEC_V4","false",0,0
+"!acaa6bf4","","","CLIENT_MUTE","","false",0,0
+"!6984bafc","TON1","ITH325!6984bafc","CLIENT_BASE","HELTEC_V4","false",0,0
+"!25044c29","TRNZ","Airone UDINE SUD","CLIENT","RAK4631","false",0,0
+"!9e76a1d4","","","CLIENT","","false",0,0
+"!ac4021ed","","","CLIENT_MUTE","","false",0,0
+"!a6962880","TAB","Tab","CLIENT","HELTEC_V4","false",0,0
+"!4c56328","MM01","1 Meshtastic Mods","","HELTEC_V4","false",0,0
+"!c62b880c","","","CLIENT","","false",0,0
+"!9e76a1a8","TIH1","IU8TIH Portatile","CLIENT","HELTEC_V3","false",0,0
+"!1ba2a6a4","","","CLIENT","","false",0,0
+"!3b4c27ee","","","CLIENT","","false",0,0
+"!8a6d7d5","","","CLIENT","","false",0,0
+"!ba6aa854","","","CLIENT","","false",0,0
+"!9e780420","Fix1","MeshBeeFix1","CLIENT","HELTEC_V3","false",0,0
+"!b03d72b4","Carv","Ceres_Arveir_1000mt","CLIENT","HELTEC_V3","false",0,0
+"!400ad94","AZ03","ponderano03MOB","CLIENT","HELTEC_V4","false",0,0
+"!b520e473","SCR2","SCR2 Chris (IN3GOJ)","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!b03caff4","aff4","IK0EHZ_868_aff4","CLIENT","HELTEC_V3","false",0,0
+"!ae0f79fa","","","CLIENT_MUTE","","false",0,0
+"!73b1937","nag4","hidaba04","ROUTER","RP2040_LORA","false",0,0
+"!1ba5a650","","","CLIENT_BASE","","false",0,0
+"!e79ad928","GarX","GarX","CLIENT","RAK4631","false",0,0
+"!b2a7c264","rdvH","iw0rdv SPELLO PG","CLIENT_BASE","HELTEC_V4","false",0,0
+"!8477db6d","SGM4","🧗M4 FERMO MARCHE SGIE ","CLIENT","THINKNODE_M4","false",0,0
+"!a0cc1e30","","","CLIENT_BASE","","false",0,0
+"!f66acefc","","","CLIENT_BASE","","false",0,0
+"!b2a6ff68","XUMC","IK0XUM","CLIENT_BASE","HELTEC_V4","false",0,0
+"!4d2c67b6","","","ROUTER","","false",0,0
+"!6d77c6f5","","","CLIENT","","false",0,0
+"!8ad0d54","","","CLIENT","","false",0,0
+"!f669d718","","","CLIENT","","false",0,0
+"!ba61d490","DLK1","DLK1_d490","CLIENT","HELTEC_V3","false",0,0
+"!734aec45","Ts1","ToSud1","ROUTER","SEEED_SOLAR_NODE","false",0,0
+"!70af40f5","40f5","gw_capua2_40f5","CLIENT","RAK4631","false",0,0
+"!400b7fc","ROS1","IU2VWJ-BASE ","CLIENT","HELTEC_V3","false",0,0
+"!df12330d","330d","Meshtastic 330d","CLIENT","RAK4631","false",0,0
+"!77f2efeb","c824","Meshtastic c824","CLIENT","HELTEC_V4","false",0,0
+"!3f1f28ac","","","CLIENT_BASE","","false",0,0
+"!9e7621f8","","","CLIENT","","false",0,0
+"!404fabc","fabc","Mauka","CLIENT_BASE","HELTEC_V3","false",0,0
+"!f66f6b04","","","CLIENT","","false",0,0
+"!322530e5","TCNP","RM-TCNPL-HUB-01","CLIENT_BASE","RAK4631","false",0,0
+"!49b7a6f8","AQ10","AQ10_IK6DEN","CLIENT","HELTEC_V4","false",0,0
+"!90965de4","MS","M.te Soratte","CLIENT","TLORA_T3_S3","false",0,0
+"!d4bd2350","JFM2","Marina Palmense FM","CLIENT_BASE","TLORA_T3_S3","false",0,0
+"!6c72eb08","","","CLIENT","","false",0,0
+"!433c048c","048c","Meshtastic 048c","CLIENT","HELTEC_WIRELESS_TRACKER","false",0,0
+"!2e6599c","","","ROUTER","","false",0,0
+"!43abb08","P120","P120_RRP120🏡","CLIENT_BASE","HELTEC_WSL_V3","false",0,0
+"!a35b8798","AL01","ALF01","CLIENT","HELTEC_V4","false",0,0
+"!2ee0d18","RDX2","DINO 5RDX🏠🇮🇹💀","CLIENT_BASE","HELTEC_V3","false",0,0
+"!2ed9490","","","CLIENT_MUTE","","false",0,0
+"!1de9e114","RQH0","IW0RQH Home","CLIENT_MUTE","SEEED_XIAO_S3","false",0,0
+"!2073dc67","","","ROUTER","","false",0,0
+"!91e8f41b","","","CLIENT_BASE","","false",0,0
+"!2ee6440","","","CLIENT","","false",0,0
+"!9ee85404","5404","Meshtastic 5404","TRACKER","HELTEC_WIRELESS_TRACKER","false",0,0
+"!b1279d4e","","","CLIENT","","false",0,0
+"!9eeb21a4","IT01","Meshtastic Italia ","CLIENT","HELTEC_V3","false",0,0
+"!b1751efd","","","CLIENT","","false",0,0
+"!a696101c","","","CLIENT_BASE","","false",0,0
+"!4093298","MiiQ","IZ0MII tracker 1","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!8ad158c","","","CLIENT","","false",0,0
+"!fd8ca64","","","CLIENT_MUTE","","false",0,0
+"!1ba669ac","","","CLIENT","","false",0,0
+"!8b74da33","","","CLIENT","","false",0,0
+"!ed3091d4","","","ROUTER","","false",0,0
+"!db5ee4f4","OSNT","Nodo Atessa Piana Osento ","CLIENT_BASE","TLORA_T3_S3","false",0,0
+"!b03c48f4","3vil","3Viglio🏠","CLIENT","HELTEC_V3","false",0,0
+"!f1b61f88","Griz","Grizzly","TAK_TRACKER","T_DECK","false",0,0
+"!209da06f","","","ROUTER","","false",0,0
+"!404ff20","atuF","BASE_CASA","CLIENT","HELTEC_V3","false",0,0
+"!9ea08140","8140","Meshtastic 8140","CLIENT","HELTEC_V3","false",0,0
+"!da5adebc","","","CLIENT_MUTE","","false",0,0
+"!49b7ac04","SO04","SO04 Calabria ac04","CLIENT","HELTEC_V4","false",0,0
+"!2eabcf8","FABD","FABD bcf8","CLIENT","HELTEC_V3","false",0,0
+"!699c0a00","","","CLIENT_BASE","","false",0,0
+"!fd44252d","252d","}-Guru-{","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!70df729b","qeg","Iz3qeg/p","CLIENT","TRACKER_T1000_E","false",0,0
+"!a35b11f4","","","CLIENT","","false",0,0
+"!95eaf139","FP4","SOS Italia FP4","CLIENT","TRACKER_T1000_E","false",0,0
+"!db295800","Epic","EpicMario71","CLIENT","HELTEC_V3","false",0,0
+"!9ea6778c","VGER","IK4MBO Tampi","CLIENT","SEEED_WIO_TRACKER_L1_EINK","false",0,0
+"!a0cb5244","","","CLIENT_BASE","","false",0,0
+"!f66ff124","","","CLIENT_BASE","","false",0,0
+"!756f9914","9914","Meshtastic 9914","CLIENT","RAK3312","false",0,0
+"!b03d3154","","","CLIENT","","false",0,0
+"!279f0a03","THR3","THR.1003 mobile","","SEEED_WIO_TRACKER_L1","false",0,0
+"!69844454","TERM","t-CP/M","CLIENT","HELTEC_V4","false",0,0
+"!65a1941e","Bird","🦅Falco🦅","CLIENT","RAK4631","false",0,0
+"!9e76b3dc","","","CLIENT","","false",0,0
+"!69858588","8588","Hbadda! Mesh 8588","CLIENT","HELTEC_V4","false",0,0
+"!1ba5db5c","🦎","Geko","CLIENT","HELTEC_V4","false",0,0
+"!90b0b6a8","CSSS","CSSS","CLIENT_BASE","XIAO_NRF52_KIT","false",0,0
+"!a0ccd3cc","RESS","RESS IU4LHV 🇮🇹","CLIENT","HELTEC_V3","false",0,0
+"!5cadc53c","c53c","PALM","CLIENT","SEEED_SOLAR_NODE","false",0,0
+"!f6fc011c","","","CLIENT","","false",0,0
+"!dd581e98","TOS1","TOS001","ROUTER","HELTEC_MESH_NODE_T114","false",0,0
+"!aca9eb34","TR03","Francesco TR03🪖","CLIENT","HELTEC_V3","false",0,0
+"!c326f209","","","CLIENT_BASE","","false",0,0
+"!c0c31a50","","","CLIENT","","false",0,0
+"!43587e4c","","","CLIENT","","false",0,0
+"!9e77ea68","","","CLIENT","","false",0,0
+"!6984f22c","NOW","Nowhere","CLIENT","HELTEC_V4","false",0,0
+"!433ea02c","","","CLIENT","","false",0,0
+"!9e77ec88","DATA","🔱Datagram Nettuno🔱","CLIENT","HELTEC_V3","false",0,0
+"!6984c824","LBB","littleBBS_test c824","CLIENT","HELTEC_V4","false",0,0
+"!7bb9fdd0","fdd0","Meshtastic fdd0","CLIENT","RAK4631","false",0,0
+"!351f5116","","","CLIENT","","false",0,0
+"!43569834","","","CLIENT","","false",0,0
+"!823d2b2","wsky","Whiskey_Main","CLIENT_MUTE","WISMESH_TAG","false",0,0
+"!699ae708","BEN","Benhur","CLIENT","HELTEC_V4","false",0,0
+"!f66fbe68","Hph","IW0HPH","CLIENT","HELTEC_V4","false",0,0
+"!5bdde2fe","MaPi","Mauro Mobile GR 🇮🇹","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!9e9f2bd4","MEL1","MEL74","CLIENT","HELTEC_V3","false",0,0
+"!2f9fb7d0","KRY","Meshtastic b7d0","CLIENT","TLORA_V2_1_1P6","false",0,0
+"!379cbd8f","DEV7","MESHT_DEV7","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!acb089c","DCHM","Deca home","CLIENT_BASE","HELTEC_V4","false",0,0
+"!eafbc9f7","","","CLIENT","","false",0,0
+"!49b5f650","f650","IU2VWJ-PORTATILE","CLIENT","HELTEC_V4","false",0,0
+"!433a6c24","teo1","teo1","CLIENT","HELTEC_V3","false",0,0
+"!f66b0878","0878","Maxtastic 0878","CLIENT","HELTEC_V4","false",0,0
+"!404c84c","TP07","NODO 7 433 IW9FRA TP","CLIENT_BASE","HELTEC_V3","false",0,0
+"!f6fb8da0","VIX","Valcanneto HA🏡","CLIENT","HELTEC_V3","false",0,0
+"!369cd5ab","kame","KAME#BASE","CLIENT","HELTEC_V4","false",0,0
+"!a1f1fbb8","","","CLIENT","","false",0,0
+"!433d2648","","","CLIENT","","false",0,0
+"!b03bc3c4","🦎","Lyzard ","CLIENT","HELTEC_V3","false",0,0
+"!aca94ee8","tlcc","TLC_cesen","CLIENT","HELTEC_V3","false",0,0
+"!bba83d14","","","CLIENT","","false",0,0
+"!f6902288","","","CLIENT","","false",0,0
+"!2e8b694","Base","🚀 👽Enterprise🚀👽","CLIENT_BASE","HELTEC_V3","false",0,0
+"!4397eec","CA84","CabCal84","CLIENT","HELTEC_V3","false",0,0
+"!bba8d488","FRA3","Tracker 433 IW9FRA","TRACKER","TBEAM","false",0,0
+"!f66b7970","7970","Valmarana 7970","ROUTER","HELTEC_V4","false",0,0
+"!6fa4d4ac","d4ac","Granarolo d4ac","CLIENT","RAK4631","false",0,0
+"!9e77e23c","GUIN","Gubbio Ingino","CLIENT_BASE","HELTEC_V3","false",0,0
+"!30327b4c","7b4c","Preziosissimo Zavaglio 🔩","CLIENT","HELTEC_V3","false",0,0
+"!f9b4b3e8","","","ROUTER","","false",0,0
+"!88ab730","","","ROUTER","","false",0,0
+"!2e4226f1","","","CLIENT","","false",0,0
+"!aca44f8","LGQf","IU0LGQ FAGGETA ","CLIENT","HELTEC_V4","false",0,0
+"!296cd49","","","CLIENT","","false",0,0
+"!850385bc","4550","Asso33","CLIENT","TRACKER_T1000_E","false",0,0
+"!1816abdc","8btG","8bit🌊Gaeta","ROUTER_LATE","DIY_V1","false",0,0
+"!439dca8","","","CLIENT","","false",0,0
+"!9e9d1a70","","","CLIENT","","false",0,0
+"!33692a6c","HPE0","Andy-QTH📡","CLIENT","HELTEC_WSL_V3","false",0,0
+"!aa21098c","TAC1","TAC1 - Field Unit","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!408e210","","","CLIENT","","false",0,0
+"!409ce461","A9","IZ3VEI-18_e461 ☀️","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!1d1d5a85","mdd","Meshtastic 5a85 pocket itinerante","CLIENT","HELTEC_MESH_POCKET","false",0,0
+"!9eecf904","","","CLIENT_BASE","","false",0,0
+"!130a48cc","48cc","Meshtastic 48cc","CLIENT","CDEBYTE_EORA_S3","false",0,0
+"!7004081b","","","CLIENT","","false",0,0
+"!96b3455f","Ab07","SOS Italia - Telespazio","ROUTER","RAK4631","false",0,0
+"!9e75e0fc","e0fc","Meshtastic e0fc","CLIENT","HELTEC_V3","false",0,0
+"!3236ff22","","","CLIENT","","false",0,0
+"!400cdbc","tbba","TommyBlue's base cdbc","CLIENT_BASE","HELTEC_V3","false",0,0
+"!ea4594d4","","","CLIENT","","false",0,0
+"!409fa5c","SVP1","🇮🇹SVP1-SMCV-Port🇮🇹","CLIENT","HELTEC_V3","false",0,0
+"!f68f8e70","8e70","Meshtastic 8e70","CLIENT","THINKNODE_M5","false",0,0
+"!f66f6c34","ALFA","ALFA TS 6c34 ⛵","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!1328011c","P005","Plane_wifi","CLIENT","SEEED_XIAO_S3","false",0,0
+"!4ece8044","","","CLIENT","","false",0,0
+"!f9ad7110","","","CLIENT_BASE","","false",0,0
+"!8fa79d84","","","CLIENT","","false",0,0
+"!f66f99e8","","","CLIENT","","false",0,0
+"!f66ff0fc","KAY4","KAYLAB V4","CLIENT","HELTEC_V4","false",0,0
+"!2ee1568","","","CLIENT","","false",0,0
+"!6c741ddc","1ddc","Meshtastic 1ddc WF-T","CLIENT_MUTE","TBEAM","false",0,0
+"!a0cb4d70","Q5BL","IQ5BL Poggio Valicaia","CLIENT","HELTEC_V3","false",0,0
+"!b03da9fc","","","CLIENT","","false",0,0
+"!da5add38","","","CLIENT","","false",0,0
+"!2ec022c","","","CLIENT","","false",0,0
+"!efae6a55","","","CLIENT","","false",0,0
+"!9e9ed9d0","10TE","IV3OTE/01","CLIENT","HELTEC_V3","false",0,0
+"!db2b2d40","","","CLIENT_BASE","","false",0,0
+"!4fc8b5c3","","","TRACKER","","false",0,0
+"!c372493d","","","CLIENT_MUTE","","false",0,0
+"!43318d4","HVO1","HVO","CLIENT","HELTEC_V3","false",0,0
+"!408d584","","","CLIENT","","false",0,0
+"!a69628a8","GM26","Santa Rita (TO)","CLIENT","HELTEC_V4","false",0,0
+"!f9b3c304","TV3","TV3 Pian Femene 1125","ROUTER","TLORA_V2_1_1P6","false",0,0
+"!193579f3","3EM4","🗼3emmeIV-SailBoat🗼T114-GPS","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!a85fd4dc","d4dc","Meshtastic d4dc","CLIENT","TLORA_V1","false",0,0
+"!a845d378","baku","baku","CLIENT","TRACKER_T1000_E","false",0,0
+"!acb0e20","","","CLIENT_BASE","","false",0,0
+"!3b26d14c","","","ROUTER","","false",0,0
+"!aca4cc4","","","CLIENT_BASE","","false",0,0
+"!1ba144c0","Co3k","Guado Di Coccia 3kIn04","ROUTER_LATE","HELTEC_V4","false",0,0
+"!2eb796c","","","CLIENT","","false",0,0
+"!e86bf68c","","","ROUTER_LATE","","false",0,0
+"!2ec24fc","24fc","Meshtastic 24fc","CLIENT","HELTEC_V3","false",0,0
+"!6984de7c","","","CLIENT_MUTE","","false",0,0
+"!404f0fc","PD01","Padova 01 - ccc","CLIENT","HELTEC_V3","false",0,0
+"!2b5cc7c5","","","CLIENT","","false",0,0
+"!49b3d5fc","","","ROUTER","","false",0,0
+"!4c368c6d","red","Redwood","CLIENT","RPI_PICO2","false",0,0
+"!da75c480","","","CLIENT_MUTE","","false",0,0
+"!4093240","","","CLIENT","","false",0,0
+"!db517838","FEA1","iw8fea base","CLIENT","HELTEC_V3","false",0,0
+"!60d3eac","","","TRACKER","","false",0,0
+"!4357bf70","","","ROUTER","","false",0,0
+"!ae01942","1942","Meshtastic 1942","CLIENT","CROWPANEL","false",0,0
+"!433c0a2c","","","CLIENT","","false",0,0
+"!4331f60","TP01","NODO 1 IT9JWZ Trapani","CLIENT_BASE","HELTEC_V3","false",0,0
+"!dca09de5","VM00","Villasmundo00","CLIENT","RAK4631","false",0,0
+"!9e779568","","","CLIENT_BASE","","false",0,0
+"!f6625568","5568","Colomba5568","CLIENT","HELTEC_V4","false",0,0
+"!88c28fc","","","CLIENT","","false",0,0
+"!5a6ef9fe","","","CLIENT_MUTE","","false",0,0
+"!69827228","","","CLIENT_MUTE","","false",0,0
+"!4358b138","","","CLIENT","","false",0,0
+"!c731f258","AVT2","Pitocca-RPT","CLIENT","XIAO_NRF52_KIT","false",0,0
+"!cd274e08","4MBL","MBL Veroli","ROUTER","HELTEC_MESH_NODE_T114","false",0,0
+"!f9ae1058","0RIN","IQ0WXK www.nodicas.org Ariccia (RM)","CLIENT_BASE","TLORA_V2_1_1P6","false",0,0
+"!4093cf0","","","CLIENT","","false",0,0
+"!a1d98198","8198","BaldiMeshTasticWfG","CLIENT","SEEED_XIAO_S3","false",0,0
+"!f6fc0110","AND","Portable ","CLIENT","HELTEC_V3","false",0,0
+"!6695c25e","","","TAK","","false",0,0
+"!db51bcf4","TEC","Meshtastic bcf4","CLIENT","HELTEC_V3","false",0,0
+"!9ea09308","","","CLIENT","","false",0,0
+"!9ea1bd54","P002","Viaggiatore RRP002","CLIENT_BASE","HELTEC_V3","false",0,0
+"!4395cd0","La50","SOS Italia - Roma Brava (RM) Gateway","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!db527d4c","7d4c","Meshtastic 7d4c","CLIENT","HELTEC_V3","false",0,0
+"!407f550","","","CLIENT","","false",0,0
+"!a1d98394","","","CLIENT","","false",0,0
+"!433b4398","","","CLIENT","","false",0,0
+"!e2e2d8a0","GWSI","GW l'etrusco Si🐗","CLIENT","HELTEC_V3","false",0,0
+"!d4a89584","MBS1","Mbss1","CLIENT","SEEED_XIAO_S3","false",0,0
+"!fd8e02c","h23e","home23e","CLIENT","TBEAM","false",0,0
+"!da639264","da00","Dave","CLIENT","HELTEC_V3","false",0,0
+"!49b6d96c","Pa02","Palena Dx","CLIENT","HELTEC_V4","false",0,0
+"!7f7efe73","","","CLIENT","","false",0,0
+"!b03d4e10","MSta","Max_Station","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!699cb3bc","","","CLIENT_BASE","","false",0,0
+"!b03c7dc0","7dc0","Meshtastic 7dc0","CLIENT","HELTEC_V3","false",0,0
+"!f669c948","c948","Meshtastic c948","CLIENT","HELTEC_V4","false",0,0
+"!cbae3fc","","","CLIENT","","false",0,0
+"!9eecbedc","BEDC","NODO-bedc","CLIENT","HELTEC_V3","false",0,0
+"!3801d192","","","ROUTER_LATE","","false",0,0
+"!e2e51c2c","RN-2","RIMINI-2","CLIENT","HELTEC_WSL_V3","false",0,0
+"!2edb388","Az","francesco","CLIENT","HELTEC_V3","false",0,0
+"!c63ccac","ORNZ","Orte NZ ccac","CLIENT_BASE","PRIVATE_HW","false",0,0
+"!4ed2f51c","","","CLIENT","","false",0,0
+"!849a5130","Angl","Angel","CLIENT","HELTEC_WIRELESS_PAPER","false",0,0
+"!9e9d49f0","Home","INSIDE","CLIENT","HELTEC_V3","false",0,0
+"!fe5c043f","043f","Meshtastic 043f","CLIENT_BASE","HELTEC_MESH_NODE_T114","false",0,0
+"!a0cc55a0","55a0","Meshtastic 55a0","ROUTER","HELTEC_V3","false",0,0
+"!432b304","","","CLIENT_BASE","","false",0,0
+"!1e715a26","5a26","MarizTN V mobile","","THINKNODE_M1","false",0,0
+"!2eb13f0","RCTr","Meshtastic 13f0","TRACKER","HELTEC_WIRELESS_TRACKER","false",0,0
+"!b7bf7635","","","CLIENT","","false",0,0
+"!aca94a60","AT66","And Trevi 🎹","CLIENT","HELTEC_V3","false",0,0
+"!c890d83b","BRO","BRIDGE ROMA OVEST","CLIENT_BASE","RAK4631","false",0,0
+"!f9ad218c","","","CLIENT_BASE","","false",0,0
+"!a809284","","","CLIENT","","false",0,0
+"!b1b8c14c","","","CLIENT","","false",0,0
+"!699b316c","316c","Meshtastic 316c","CLIENT","HELTEC_V4","false",0,0
+"!7ffced1f","orto","ortofrutta potentissima","CLIENT","NRF52_PROMICRO_DIY","false",0,0
+"!db2b694c","Sym3","Spezzigu","CLIENT_BASE","HELTEC_V3","false",0,0
+"!3573bef1","FUMB","IV3LEX","CLIENT","XIAO_NRF52_KIT","false",0,0
+"!336a8564","","","CLIENT","","false",0,0
+"!2ee7720","OSI1","Osimo 1","CLIENT","HELTEC_V3","false",0,0
+"!8fcccb20","","","TRACKER","","false",0,0
+"!606b4ed4","💀","CONTAX PRO","CLIENT","T_DECK","false",0,0
+"!9e7619a4","19a4","FCO_T1","CLIENT","HELTEC_V3","false",0,0
+"!9e77d22c","d22c","Meshtastic d22c","CLIENT","HELTEC_V3","false",0,0
+"!9e78049c","ARGO","Meshtastic ARGO","CLIENT","HELTEC_V3","false",0,0
+"!1ba2a808","","","CLIENT_MUTE","","false",0,0
+"!f696d448","TLEM","TLEX67 Mobile","ROUTER","T_DECK","false",0,0
+"!9ee70744","IWD","Meshtastic 0744🇮🇹","CLIENT","HELTEC_V3","false",0,0
+"!a35bb380","b380","OROSEI b380","CLIENT_BASE","HELTEC_V4","false",0,0
+"!9ea2a824","AFHA","AirFranz HA","CLIENT","HELTEC_V3","false",0,0
+"!f6912f14","K999","Maximus K999","CLIENT","T_DECK","false",0,0
+"!7aa6d194","ErFa","ErFaMesh","CLIENT","HELTEC_V2_0","false",0,0
+"!49b7306c","GABc","Meshtastic 306c","CLIENT","HELTEC_V4","false",0,0
+"!a6961dac","Zoe","Zoe da Orte 1dac","CLIENT","HELTEC_V4","false",0,0
+"!49b3d84c","BTZ1","Bertozzi","CLIENT_BASE","HELTEC_V4","false",0,0
+"!b03c47f8","47f8","MAC-TR-CNTR","CLIENT","HELTEC_V3","false",0,0
+"!6ae59436","","","CLIENT","","false",0,0
+"!ac9f790","","","CLIENT_MUTE","","false",0,0
+"!4a135e44","","","CLIENT","","false",0,0
+"!2eb1b40","SLS2","smart_lab_siena_SI 💻","CLIENT","HELTEC_WIRELESS_TRACKER","false",0,0
+"!a1535f9b","","","CLIENT","","false",0,0
+"!6ad0b089","P.S.","BTS LoRa Mantova🇮🇹📡","CLIENT","PORTDUINO","false",0,0
+"!433d7080","7080","Meshtastic 7080","CLIENT_MUTE","HELTEC_WIRELESS_TRACKER","false",0,0
+"!6984c8d8","","","CLIENT_BASE","","false",0,0
+"!8afdbc66","bc66","Meshtastic bc66","CLIENT","TRACKER_T1000_E","false",0,0
+"!a1d8436c","","","CLIENT","","false",0,0
+"!9eecfb3c","","","CLIENT","","false",0,0
+"!49b57c80","","","CLIENT_BASE","","false",0,0
+"!849b68f8","","","CLIENT","","false",0,0
+"!db2b5e04","","","CLIENT","","false",0,0
+"!78d7356a","","","CLIENT_BASE","","false",0,0
+"!1ba56fd4","","","CLIENT_BASE","","false",0,0
+"!8652f96c","","","CLIENT","","false",0,0
+"!8246e29e","EUS1","1GEU Solar 1","CLIENT","RAK4631","false",0,0
+"!6982bffc","bffc","Meshtastic bffc WF-V4M","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!2cf1ce75","Ab52","🗼SOS Abruzzo m.te Arazecca🗼","ROUTER","RAK4631","false",0,0
+"!1ba5f92c","","","CLIENT_BASE","","false",0,0
+"!b03d6e10","","","CLIENT_BASE","","false",0,0
+"!a0cb2424","","","CLIENT","","false",0,0
+"!49b67b70","","","CLIENT","","false",0,0
+"!9ee793d8","","","CLIENT","","false",0,0
+"!11cdf0c0","f0c0","Meshtastic f0c0","CLIENT","RAK4631","false",0,0
+"!43c53c0","BALU","Scampi giganti e Timbuctù","CLIENT_BASE","HELTEC_V3","false",0,0
+"!1d42f1c0","","","CLIENT","","false",0,0
+"!8876cf1a","For1","Formignano1 FC Static For1","CLIENT","RAK4631","false",0,0
+"!a0b6aeb4","3kIn","3kIn04","CLIENT_MUTE","SEEED_WIO_TRACKER_L1","false",0,0
+"!db58ba64","Cp59","SOS Italia - Sessa Cilento (SA)","CLIENT_BASE","HELTEC_WIRELESS_TRACKER","false",0,0
+"!409090c","Ayd","AlbusAyd🐶","CLIENT_BASE","HELTEC_V3","false",0,0
+"!408e4a4","e4a4","Meshtastic e4a4","ROUTER","HELTEC_V3","false",0,0
+"!9c7c0cf7","0cf7","Xiao 0cf7","CLIENT","XIAO_NRF52_KIT","false",0,0
+"!9ea3e750","","","CLIENT","","false",0,0
+"!aca0390","0390","sc0390","CLIENT","HELTEC_V4","false",0,0
+"!69832248","","","CLIENT","","false",0,0
+"!acb5c30","5c30","Meshtastic 5c30","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!64b12533","BP02","Boga26 Portable02","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!f68f9ee8","","","CLIENT","","false",0,0
+"!f9b39098","Vitt","Giumello-iw2huz","ROUTER_LATE","TLORA_V2_1_1P6","false",0,0
+"!f66f5d00","","","CLIENT_BASE","","false",0,0
+"!33e4432f","","","CLIENT_BASE","","false",0,0
+"!9e7734d4","ISH3","Portuense3 IU0ISH","CLIENT","HELTEC_V3","false",0,0
+"!a07a0b08","","","CLIENT","","false",0,0
+"!7d2cb724","🥭","🌐🥭T Deck Pro MangolinkMOD🥭🌐","CLIENT","T_DECK_PRO","false",0,0
+"!69837974","brew","nightly brew","CLIENT","HELTEC_V4","false",0,0
+"!12be475a","AlLi","Alpi Liguri","CLIENT","MESHLINK","false",0,0
+"!f9b1ebc4","","","CLIENT","","false",0,0
+"!2c64add5","","","CLIENT_BASE","","false",0,0
+"!9eecb47c","LOIO","Loist - 1FVG332","CLIENT","HELTEC_V3","false",0,0
+"!849c3a10","🌉","CipIt 53 🇮🇹","CLIENT","HELTEC_V3","false",0,0
+"!d6fb6724","TCNP","RM-TCNPL-HUB-03","CLIENT_BASE","RAK4631","false",0,0
+"!b5834ca7","","","CLIENT","","false",0,0
+"!cf2b2d44","","","CLIENT","","false",0,0
+"!a0ccdb08","ITL1","ITLabs 01","CLIENT","HELTEC_V3","false",0,0
+"!1300f508","4333","IK0MMI433","CLIENT","T_DECK","false",0,0
+"!db587970","TmkT","Tomark Tracker IU8UUV","CLIENT","HELTEC_WIRELESS_TRACKER","false",0,0
+"!acb54d0","","","CLIENT","","false",0,0
+"!701e3e4d","","","ROUTER","","false",0,0
+"!93171cd7","nino","portatile","CLIENT","TRACKER_T1000_E","false",0,0
+"!849a051c","Rgr2","Radiogr3c2","CLIENT","HELTEC_V3","false",0,0
+"!4c5b5ec","b5ec","Taku","CLIENT","HELTEC_V4","false",0,0
+"!acab8a58","","","CLIENT_BASE","","false",0,0
+"!db517204","CRM1","CORDENONS Mobile 1","CLIENT","HELTEC_V3","false",0,0
+"!99b12b3a","FAKE","FAKE 🎯","CLIENT_MUTE","CHATTER_2","false",0,0
+"!35052f8","LEMO","LoramE Mobile","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!975e3138","","","CLIENT","","false",0,0
+"!39a75e36","TSN1","RPT-TSN1","ROUTER","HELTEC_MESH_NODE_T114","false",0,0
+"!49b5f188","3EOP","CE3EOP","CLIENT","HELTEC_V4","false",0,0
+"!1ba625e4","LL02","Monte Grosso (MS)","CLIENT","HELTEC_V4","false",0,0
+"!81500018","LH","LanzettaHope","CLIENT","M5STACK_C6L","false",0,0
+"!f9ad2880","","","CLIENT","","false",0,0
+"!db517614","MRTG","Mort Gateway 7614","CLIENT","HELTEC_V3","false",0,0
+"!f1a6b228","","","CLIENT","","false",0,0
+"!49b3dbf4","DUAB","Panko DUAB","CLIENT_BASE","HELTEC_V4","false",0,0
+"!756f28b0","ATE1","ATESSA RPT Crpl","CLIENT_BASE","RAK3312","false",0,0
+"!db51e718","e718","Meshtastic e718","CLIENT","HELTEC_V3","false",0,0
+"!f9ad703c","RQY0","IU4RQY Solar Gateway","CLIENT_BASE","TLORA_V2_1_1P6","false",0,0
+"!400b604","","","CLIENT","","false",0,0
+"!9e761aa4","1aa4","Meshtastic 1aa4","CLIENT","HELTEC_V3","false",0,0
+"!1168842","","","CLIENT_BASE","","false",0,0
+"!6984ec80","📡","📡 DariOne ⚾ ","CLIENT","HELTEC_V4","false",0,0
+"!60da968d","CDS1","🗼Castel di Sangro 1🗼? ","CLIENT","NRF52_UNKNOWN","false",0,0
+"!a1d3e9ac","","","CLIENT","","false",0,0
+"!6275b07","","","CLIENT_MUTE","","false",0,0
+"!b2a7e4f0","","","CLIENT_BASE","","false",0,0
+"!3b776a64","Bab2","Babysun2Plt_2","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!2af03a2b","8272","Meshtastic 8272","CLIENT","T_WATCH_S3","false",0,0
+"!28b53d48","","","CLIENT_BASE","","false",0,0
+"!6984f5f0","","","CLIENT","","false",0,0
+"!43068d86","NvR","ernattaCLI","CLIENT_BASE","PRIVATE_HW","false",0,0
+"!5a1abd52","Bald","Baldi srl - forklifts","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!acab79c0","79c0","zAiro 79c0🇮🇹","CLIENT","HELTEC_V3","false",0,0
+"!7670500d","WLAN","CONTAX RAK","CLIENT","RAK4631","false",0,0
+"!db518578","","","CLIENT","","false",0,0
+"!f9b1f430","","","CLIENT","","false",0,0
+"!2edb178","ALHO","ALBY HOME 🏠","CLIENT_BASE","HELTEC_V3","false",0,0
+"!acb46b0","CTda","Caltagirone - CTda","CLIENT","HELTEC_V4","false",0,0
+"!2ecd474","📡","√2×[¥OD∆]×","CLIENT_BASE","HELTEC_V3","false",0,0
+"!2e73fe0","","","CLIENT_BASE","","false",0,0
+"!9e756684","","","CLIENT","","false",0,0
+"!4e594890","","","CLIENT","","false",0,0
+"!1c5f5538","POuL","POuL.org","CLIENT","TBEAM","false",0,0
+"!9ea67578","SIKq","sik-track","CLIENT","THINKNODE_M5","false",0,0
+"!6f68e74","YYY","Meshtastic YYY","CLIENT","TLORA_V2_1_1P6","false",0,0
+"!ed3add79","","","CLIENT_BASE","","false",0,0
+"!9e9df964","UUK/","IZ2UUK/P","CLIENT","HELTEC_V3","false",0,0
+"!33d660e2","REAB","REAPER-BASE ☠️","CLIENT_BASE","HELTEC_MESH_NODE_T114","false",0,0
+"!43ad664","","","CLIENT","","false",0,0
+"!ef636252","GRU","GRU-SM_RPT","CLIENT","RAK4631","false",0,0
+"!9e75d0f0","","","CLIENT","","false",0,0
+"!acab7828","","","CLIENT","","false",0,0
+"!ee47398b","Nanu","Brugolo","CLIENT_MUTE","SEEED_WIO_TRACKER_L1","false",0,0
+"!9e7657e4","57e4","Meshtastic 57e4","CLIENT","HELTEC_V3","false",0,0
+"!f9ad3bd0","","","ROUTER","","false",0,0
+"!48a89bd7","","","CLIENT","","false",0,0
+"!49b5a1b0","ETH1","IN3ETH1 a1b0","CLIENT","HELTEC_V4","false",0,0
+"!49b67d38","COUN","CountryJeeno","CLIENT","HELTEC_V4","false",0,0
+"!f6fba3d8","Casa","Roma casa","CLIENT","HELTEC_V3","false",0,0
+"!e2e5b888","","","CLIENT","","false",0,0
+"!49b5e59c","","","CLIENT","","false",0,0
+"!d0dae251","e251","LorAndrea Solar","CLIENT","RAK4631","false",0,0
+"!ba0ca500","","","CLIENT","","false",0,0
+"!2a3a1360","1BXL","1BXL_RAK_SOLAR","CLIENT","RAK4631","false",0,0
+"!4134cb8","8TXC","Eugenio IZ8TXC ","CLIENT","EBYTE_ESP32_S3","false",0,0
+"!409fc90","ALTA","Mario Alta mobile","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!49b5b0d4","","","CLIENT_BASE","","false",0,0
+"!49b61260","1260","weather station","CLIENT","HELTEC_V3","false",0,0
+"!f1bcecd0","","","TRACKER","","false",0,0
+"!f9b48cb4","","","CLIENT","","false",0,0
+"!433afc10","","","CLIENT","","false",0,0
+"!5bed2317","","","CLIENT","","false",0,0
+"!b23015e7","","","CLIENT","","false",0,0
+"!f1bc18b4","","","CLIENT","","false",0,0
+"!40b8b30c","TRME","Track me if you can 🧭","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!7dc7297a","","","CLIENT","","false",0,0
+"!4d182b39","c95e","Meshtastic c95e","CLIENT","NANO_G1","false",0,0
+"!9e7619e8","","","CLIENT_BASE","","false",0,0
+"!433aa7b0","","","CLIENT","","false",0,0
+"!f1b895fc","","","CLIENT","","false",0,0
+"!8fa0db8c","ZEUS","APOLLO","CLIENT","HELTEC_V4","false",0,0
+"!406ea44","fwp","fiz-wp-node","CLIENT","HELTEC_WIRELESS_PAPER","false",0,0
+"!69aecea1","","","CLIENT","","false",0,0
+"!fd2579c5","dkx9","🇭🇺 HA1DKX Solar Portable Base","CLIENT","RAK4631","false",0,0
+"!40843bc","43bc","Meshtastic 43bc","CLIENT","HELTEC_V3","false",0,0
+"!49b5818c","","","CLIENT","","false",0,0
+"!f66af2b8","PNOG","MIB-TASTIC-2 Porto Nogaro","CLIENT","HELTEC_V4","false",0,0
+"!f66b6de0","","","CLIENT","","false",0,0
+"!9e75e470","","","CLIENT_BASE","","false",0,0
+"!31bbf964","MNP3","Portatile3","CLIENT","T_ECHO","false",0,0
+"!9ea0a2bc","PAVR","PARCO ADIGE","CLIENT","HELTEC_WSL_V3","false",0,0
+"!5a6465c2","d7c5","Meshtastic d7c5","CLIENT","LILYGO_TBEAM_S3_CORE","false",0,0
+"!9ee85924","N7RS","N7RSM-Matteo-868","CLIENT_MUTE","HELTEC_WIRELESS_TRACKER","false",0,0
+"!433d932c","","","CLIENT","","false",0,0
+"!d48144e0","put1","Putignano 01","ROUTER","TLORA_T3_S3","false",0,0
+"!399acf5c","Riva","Rivarolo cf5c","CLIENT","RAK4631","false",0,0
+"!f68f50bc","","","CLIENT","","false",0,0
+"!da9ebc6c","","","CLIENT","","false",0,0
+"!3369dd8c","","","ROUTER","","false",0,0
+"!4086da0","AC1D","Acidburn","CLIENT","HELTEC_V3","false",0,0
+"!43ada78","Fab1","fabioEXT","CLIENT_BASE","HELTEC_V3","false",0,0
+"!f670086c","086c","Meshtastic 086c","CLIENT","HELTEC_V4","false",0,0
+"!acb4d10","CBA1","Ciccillo Busto Arsizio Ground Plane #1","CLIENT","HELTEC_V4","false",0,0
+"!75e069c0","69c0","Meshtastic 69c0","CLIENT","TLORA_T3_S3","false",0,0
+"!87972531","Pu52","SOS-Italia Gargano-01","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!2eabdec","bdec","CPFX bdec","CLIENT_BASE","HELTEC_V3","false",0,0
+"!a1b3b240","","","CLIENT_MUTE","","false",0,0
+"!619ca7ef","TMRs","TAMOROsailboat/a7ef","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!435711d8","RCMM","RCS MOBILE MAIN","CLIENT","LILYGO_TBEAM_S3_CORE","false",0,0
+"!407e7c4","LSO3","Iw2lsoV3","CLIENT_BASE","HELTEC_V3","false",0,0
+"!1ba62aa8","AQ26","IW6MPO mobile","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!acaab908","INX","IW3INX","CLIENT","HELTEC_V3","false",0,0
+"!43594e38","","","CLIENT","","false",0,0
+"!435a8858","","","CLIENT","","false",0,0
+"!2a566145","TFIX","TFIX","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!8814368d","","","ROUTER_LATE","","false",0,0
+"!f661efc8","","","CLIENT","","false",0,0
+"!6fcb2d4","RIC","Meshtastic b2d4 RIC","CLIENT","TLORA_V2_1_1P6","false",0,0
+"!8de5aa9c","tzn","tzn","CLIENT","TRACKER_T1000_E","false",0,0
+"!e4f2c0c","2c0c","Meshtastic 2c0c","CLIENT","SEEED_SOLAR_NODE","false",0,0
+"!43577688","","","CLIENT_MUTE","","false",0,0
+"!ba62009c","","","CLIENT","","false",0,0
+"!a8738602","","","CLIENT","","false",0,0
+"!1b10ea7f","","","ROUTER","","false",0,0
+"!aebde816","","","CLIENT","","false",0,0
+"!f69695d0","","","CLIENT","","false",0,0
+"!b03cc57c","rdvB","Biscina","CLIENT_BASE","HELTEC_V3","false",0,0
+"!2ec20b4","20b4","Meshtastic 20b4","CLIENT","HELTEC_V3","false",0,0
+"!698448c8","","","CLIENT_MUTE","","false",0,0
+"!a0cc11d4","FLR3","Fablab Romagna 3","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!4c5b7ea0","","","CLIENT_BASE","","false",0,0
+"!9714c1b4","Shu0","Shurillu Elmas","CLIENT","PRIVATE_HW","false",0,0
+"!507395c7","","","CLIENT","","false",0,0
+"!f9b3912c","912c","Meshtastic 912c","CLIENT","TLORA_V2_1_1P6","false",0,0
+"!b5e1d904","DUAP","Panko DUAP","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!110c9cd3","","","ROUTER","","false",0,0
+"!8eea1ea3","Bebt","Bebbio ⛰️ Tracker ","CLIENT_MUTE","WISMESH_TAG","false",0,0
+"!49b69b08","","","CLIENT","","false",0,0
+"!69852868","ENIO","🚕ENIO🚗IU6QQI 🚘","CLIENT","HELTEC_V4","false",0,0
+"!408e248","","","CLIENT_MUTE","","false",0,0
+"!433c27d8","","","CLIENT","","false",0,0
+"!433e32a8","","","CLIENT","","false",0,0
+"!1ba1fd68","VEST","VICENZA EST","ROUTER","HELTEC_V4","false",0,0
+"!9eecfc38","","","CLIENT","","false",0,0
+"!acb6284","","","CLIENT","","false",0,0
+"!6983e084","CR2","Cremona 2","CLIENT","HELTEC_V4","false",0,0
+"!8fcde3cc","Toz","TozTastic_24","CLIENT","THINKNODE_M5","false",0,0
+"!bb210daf","","","ROUTER","","false",0,0
+"!43ad308","8FQU","GIANNINOFQU ","CLIENT","HELTEC_V3","false",0,0
+"!1f807334","","","ROUTER","","false",0,0
+"!b367e99b","T114","Radio Littorio BitPirate 1","CLIENT_BASE","HELTEC_MESH_NODE_T114","false",0,0
+"!435746a8","","","CLIENT","","false",0,0
+"!6ff8c4f0","c4f0","Meshtastic c4f0 WF-1","CLIENT_MUTE","HELTEC_MESH_NODE_T114","false",0,0
+"!2ec4808","TFox","Red Fox_4800","CLIENT","HELTEC_V3","false",0,0
+"!a9f452fe","","","CLIENT_BASE","","false",0,0
+"!db516c24","6c24","Meshtastic 6c24","CLIENT","HELTEC_V3","false",0,0
+"!8fa638d8","VALC","Valcanneto (RM) 🏛","CLIENT_BASE","HELTEC_V4","false",0,0
+"!49b5f748","BP01","Boga26 Portable01","CLIENT","HELTEC_V4","false",0,0
+"!a55caaf0","A6","Meshlink5 A6 aaf0☀️⛰️","CLIENT","MESHLINK","false",0,0
+"!8a9ac808","","","CLIENT_BASE","","false",0,0
+"!83eaad7a","","","ROUTER","","false",0,0
+"!1aa01cbf","","","CLIENT","","false",0,0
+"!de687df3","8ERA","Antonio IU8ERA ","CLIENT","TRACKER_T1000_E","false",0,0
+"!e00cdf50","","","CLIENT","","false",0,0
+"!6c741478","","","CLIENT","","false",0,0
+"!b03bedb0","","","CLIENT","","false",0,0
+"!88c2640","V⚓","Varazze ⚓⛵","ROUTER_LATE","TLORA_V2_1_1P6","false",0,0
+"!a0cb79dc","","","CLIENT","","false",0,0
+"!b03d71c0","","","CLIENT","","false",0,0
+"!4069ad8","","","CLIENT","","false",0,0
+"!6e43800b","BH","Boccon Hop","CLIENT","RAK4631","false",0,0
+"!291a0b48","LOMA","Look Ma, No Wires! 🎇","CLIENT_MUTE","HELTEC_MESH_POCKET","false",0,0
+"!53d5acda","","","CLIENT","","false",0,0
+"!a61af093","","","CLIENT_BASE","","false",0,0
+"!9beb1150","","","CLIENT","","false",0,0
+"!7b3e7717","7717","Meshtastic 7717","CLIENT","TRACKER_T1000_E","false",0,0
+"!699cf7bc","","","CLIENT_BASE","","false",0,0
+"!f66f0e74","RIN2","Christian Portatile ","CLIENT","HELTEC_V4","false",0,0
+"!1ba135a0","","","TRACKER","","false",0,0
+"!1ba3c320","Enry","6VLB","CLIENT","HELTEC_V4","false",0,0
+"!3499f2ca","","","CLIENT_BASE","","false",0,0
+"!9e78a7bc","","","CLIENT_BASE","","false",0,0
+"!a6961080","1080","Meshtastic 1080","CLIENT_BASE","HELTEC_V4","false",0,0
+"!fa74c9b0","","","CLIENT","","false",0,0
+"!a0cb7140","FLR2","Fablab Romagna 2","CLIENT","HELTEC_V3","false",0,0
+"!4b74d8fa","","","CLIENT","","false",0,0
+"!1ba57814","","","CLIENT_MUTE","","false",0,0
+"!69828138","8138","Meshtastic 8138","CLIENT","HELTEC_V4","false",0,0
+"!b03df5d8","CAH1","Nodo Fisso Rimini_CAH1","CLIENT","HELTEC_V3","false",0,0
+"!6906fd94","fd94","Meshtastic fd94","CLIENT","EBYTE_ESP32_S3","false",0,0
+"!db51b288","SUJ","IU5SUJ 🏠","CLIENT","HELTEC_V3","false",0,0
+"!f66b7860","","","CLIENT_BASE","","false",0,0
+"!a98bd64","CA01","Alessio | CARLINO (UD) | client","CLIENT","M5STACK_CARDPUTER_ADV","false",0,0
+"!698260f8","","","CLIENT","","false",0,0
+"!78f2a530","","","CLIENT","","false",0,0
+"!f66b79b4","BR1","⚓Bruno QKB🚻☎","CLIENT_BASE","HELTEC_V4","false",0,0
+"!88aab8c","MCVC","M.te Cucetto ⛰️ Val Chisone","ROUTER","TLORA_V2_1_1P6","false",0,0
+"!10c6bbb9","","","CLIENT_BASE","","false",0,0
+"!fa6baed0","TWR1","TWR1-Nord","CLIENT_BASE","HELTEC_V3","false",0,0
+"!924122c1","QFHm","IZ3QFH","CLIENT","THINKNODE_M1","false",0,0
+"!4083ce4","","","CLIENT","","false",0,0
+"!75c8ed04","BliN","SeedBlins","","SEEED_SOLAR_NODE","false",0,0
+"!433ef100","CROW","Crow-----V3 🐦‍🔥","CLIENT","HELTEC_V3","false",0,0
+"!8ad19f4","A5","IZ3VEI-14_19f4☀️","CLIENT","TLORA_V2_1_1P6","false",0,0
+"!40a05cc","","","CLIENT_MUTE","","false",0,0
+"!4ed2b098","Bari","Giando","CLIENT","T_DECK","false",0,0
+"!f9b1cdc8","P175","ReteRadioPrepper175 868Mhz","CLIENT","TLORA_V2_1_1P6","false",0,0
+"!849ae618","Ad04","SOS Italia - SOS-AI","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!b29fc098","R0FO","IR0FO⁴ª Ari Foligno M.Serano PG 📡","ROUTER","HELTEC_V4","false",0,0
+"!f66f1b48","","","CLIENT_MUTE","","false",0,0
+"!807b167b","","","CLIENT_BASE","","false",0,0
+"!ba6557fc","MMI1","Meshtastic Heltec V3 GPS","CLIENT","HELTEC_WIRELESS_TRACKER","false",0,0
+"!8fa7b850","Umit","SOS Italia - GiuMit84","CLIENT","HELTEC_V4","false",0,0
+"!acab7aa0","hmh1","IW3HMH 1 7aa0","CLIENT","HELTEC_V3","false",0,0
+"!da9e4df8","","","CLIENT","","false",0,0
+"!db581bf4","1bf4","ORGW2","CLIENT","HELTEC_V3","false",0,0
+"!9cfa172a","","","CLIENT","","false",0,0
+"!f66f939c","","","CLIENT","","false",0,0
+"!49b545e8","Edo0","Bari centro citta' 📡🔌","CLIENT_BASE","HELTEC_V4","false",0,0
+"!400ce28","","","CLIENT_BASE","","false",0,0
+"!9eecfdc4","🛰","Diemme Base - On Line","CLIENT","HELTEC_V3","false",0,0
+"!43cb70c","","","CLIENT_BASE","","false",0,0
+"!69854264","PM1","T77PM 1","CLIENT","HELTEC_V4","false",0,0
+"!ef8762e7","","","CLIENT","","false",0,0
+"!ae6097f8","","","CLIENT","","false",0,0
+"!acaab580","AQ1","IK6QOO L'Aquila ","CLIENT_BASE","HELTEC_V3","false",0,0
+"!1eb10bc7","Lamp","Lampione ","CLIENT","NRF52_PROMICRO_DIY","false",0,0
+"!ccb125e1","25e1","Meshtastic 25e1","CLIENT","XIAO_NRF52_KIT","false",0,0
+"!1cd3f0e8","PRVG","Prali ⛷️ Val Germanasca","ROUTER_LATE","XIAO_NRF52_KIT","false",0,0
+"!9ea13674","","","CLIENT","","false",0,0
+"!f68f5008","TAT1","TATANKA 1","TRACKER","THINKNODE_M5","false",0,0
+"!760eb16d","AQ30","AQ30_IK6DEN_MONTE_CALVO","ROUTER","XIAO_NRF52_KIT","false",0,0
+"!69498f67","💀","CONTAX PRO","CLIENT","T_DECK","false",0,0
+"!6430618d","0e47","Meshtastic 0e47","CLIENT","NANO_G1","false",0,0
+"!49b70b88","pisa","giuseppe tos90 fisso","CLIENT_BASE","HELTEC_V4","false",0,0
+"!b74656b3","Cara","Caraglio","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!bbad0f6c","","","CLIENT","","false",0,0
+"!9e76b428","Mv78","Meshtastic Mv78","CLIENT_BASE","HELTEC_V3","false",0,0
+"!ac9ed74","TS27","Trieste 27 ⚜📡RPT","CLIENT_BASE","HELTEC_V4","false",0,0
+"!1b2c5895","JM01","Joseph 01","CLIENT_MUTE","T_ECHO","false",0,0
+"!b03c9904","9904","Meshtastic 9904","CLIENT","HELTEC_V3","false",0,0
+"!b03bec60","","","CLIENT","","false",0,0
+"!447130fb","a2d9","Meshtastic a2d9","CLIENT","T_WATCH_S3","false",0,0
+"!a7ade910","e910","77i e910","CLIENT_BASE","NOMADSTAR_METEOR_PRO","false",0,0
+"!9ea1a530","UVO1","IU8UVO Pomigliano","CLIENT","HELTEC_V3","false",0,0
+"!f68f8efc","Adry","IZ0367SWL Foligno 8efc","CLIENT","THINKNODE_M5","false",0,0
+"!4056180","6180","Meshtastic 6180","CLIENT","HELTEC_V3","false",0,0
+"!fef173eb","GEL2","IT9JWD Gela Node 2","CLIENT_BASE","XIAO_NRF52_KIT","false",0,0
+"!433bb50c","","","CLIENT","","false",0,0
+"!400a494","","","CLIENT","","false",0,0
+"!4066e9c","6e9c","Meshtastic 6e9c","","HELTEC_WSL_V3","false",0,0
+"!409d510","","","CLIENT_BASE","","false",0,0
+"!32e6be3c","MCR1","🏎MONTE-CIMONE_RPT📡","CLIENT_BASE","HELTEC_MESH_NODE_T114","false",0,0
+"!1ba22fcc","1701","Enterprise RRP120","CLIENT","HELTEC_V4","false",0,0
+"!49b5e7b4","e7b4","Meshtastic e7b4","CLIENT","HELTEC_V4","false",0,0
+"!408df98","","","CLIENT","","false",0,0
+"!43b7bef4","bef4","Meshtastic bef4","CLIENT","HELTEC_V3","false",0,0
+"!4059824","Test","Nodo Test","CLIENT_BASE","HELTEC_V3","false",0,0
+"!57502de7","","","CLIENT_BASE","","false",0,0
+"!389a3498","","","CLIENT_BASE","","false",0,0
+"!4ecf7890","P108","1VNT108 Portatile","CLIENT","T_DECK","false",0,0
+"!7c5ad500","d500","Meshtastic d500","CLIENT","HELTEC_WSL_V3","false",0,0
+"!a0ccda4c","A00c","A00_l","CLIENT","HELTEC_V3","false",0,0
+"!9e766e60","586i","1FVG173 mobile","TRACKER","HELTEC_WIRELESS_TRACKER","false",0,0
+"!a402c3f1","","","CLIENT","","false",0,0
+"!1ba59a8c","","","CLIENT_MUTE","","false",0,0
+"!db2b2ef8","2ef8","RCBL-GW1-2ef8","CLIENT","HELTEC_V3","false",0,0
+"!a1d84808","","","SENSOR","","false",0,0
+"!1ba1ecbc","Kyll","Kyller2ndTV","CLIENT","HELTEC_V4","false",0,0
+"!699aeaf8","","","CLIENT","","false",0,0
+"!fe6ab477","FAKE","FAKE 🎯","CLIENT_MUTE","CHATTER_2","false",0,0
+"!7f02169","","","ROUTER","","false",0,0
+"!4789481b","c824","Meshtastic c824","CLIENT","HELTEC_V4","false",0,0
+"!849c1b4c","","","CLIENT","","false",0,0
+"!da5c7b44","7b44","PkbD","CLIENT","HELTEC_V3","false",0,0
+"!7375e4cf","","","CLIENT","","false",0,0
+"!a02d57b2","57b2","iw2evh/p","TRACKER","SEEED_WIO_TRACKER_L1","false",0,0
+"!435bb12c","","","CLIENT","","false",0,0
+"!428c8a4e","3GQK","IV3GQK Pocket 8a4e","","TRACKER_T1000_E","false",0,0
+"!9ee98fc0","","","CLIENT_BASE","","false",0,0
+"!336034ac","DMJ","DaMjJ","CLIENT","LILYGO_TBEAM_S3_CORE","false",0,0
+"!5f6c99b9","AOC0","IK0AOC-0","CLIENT","SEEED_SOLAR_NODE","false",0,0
+"!3081eb0","","","CLIENT_BASE","","false",0,0
+"!2e8b71c","","","CLIENT_MUTE","","false",0,0
+"!a696464c","","","CLIENT_BASE","","false",0,0
+"!9d3c280","ORTI","[VR] Orti Insorti","CLIENT_BASE","HELTEC_V3","false",0,0
+"!d4a8a3b0","Mbs1","Mbs1 ","CLIENT","SEEED_XIAO_S3","false",0,0
+"!7618d91a","","","CLIENT","","false",0,0
+"!6984d448","","","CLIENT_MUTE","","false",0,0
+"!3190143b","La52","SOS-Italia Roma Talenti (Rm)","CLIENT_BASE","RAK4631","false",0,0
+"!756f97f4","","","CLIENT_BASE","","false",0,0
+"!db5825f8","RSAT","ROBERTO_NODE","CLIENT","HELTEC_V3","false",0,0
+"!acbade02","","","ROUTER","","false",0,0
+"!8fa678c4","4MBL","MBL Veroli Ovest","CLIENT_BASE","HELTEC_V4","false",0,0
+"!a1f7ff48","","","CLIENT","","false",0,0
+"!421f043d","","","CLIENT","","false",0,0
+"!bbad088c","","","CLIENT_BASE","","false",0,0
+"!69849ee8","KON2","KON Robi Muggia","CLIENT_BASE","HELTEC_V4","false",0,0
+"!95aa7c50","7c50","IW1PPB-G03_GW_868_7c50","ROUTER_CLIENT","TLORA_V2_1_1P6","false",0,0
+"!db2b24fc","24fc","Meshtastic 24fc","ROUTER","HELTEC_V3","false",0,0
+"!24901ea2","","","CLIENT","","false",0,0
+"!387aaf4","Ab05","SOS Italia - Tagliacozzo","CLIENT","RAK4631","false",0,0
+"!9e758b74","8b74","8b74","CLIENT","HELTEC_WIRELESS_TRACKER","false",0,0
+"!699c8004","OnTo","Onion----Tower🧅","CLIENT","HELTEC_V4","false",0,0
+"!9e9f1514","SNK/","IZ2SNK /P","CLIENT","HELTEC_V3","false",0,0
+"!81a386a6","","","CLIENT_BASE","","false",0,0
+"!4094290","","","ROUTER","","false",0,0
+"!698442e0","","","CLIENT_BASE","","false",0,0
+"!b03da47c","Geko","Geko 🦎Ladispoli (Rm) ","CLIENT","HELTEC_V3","false",0,0
+"!407020c","","","CLIENT","","false",0,0
+"!f476740d","RENO","IR4UCA Reno BO  ⛵","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!f66247f4","VLT1","SOS-Velletri 1","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!e1820fa0","LG66"," ☀️ Linea Gotica sixt ☀️","SENSOR","MESHLINK","false",0,0
+"!f36160df","RG2T","RG2T-60df","CLIENT","WISMESH_TAG","false",0,0
+"!90a0f8b0","f8b0","DVR.f8b0","CLIENT","SEEED_XIAO_S3","false",0,0
+"!9eecb8a4","b8a4","Meshtastic b8a4","CLIENT","HELTEC_V3","false",0,0
+"!5b631ce7","CHN1","Cecchina1 mesh","CLIENT","XIAO_NRF52_KIT","false",0,0
+"!ae8c4225","HCDL","HCD L1 Tracker","CLIENT_MUTE","SEEED_WIO_TRACKER_L1","false",0,0
+"!1225a704","BR01","IZ7ZKR","ROUTER","TBEAM","false",0,0
+"!97a5b49d","b49d","Marieddu_b49d","CLIENT","TRACKER_T1000_E","false",0,0
+"!4d202a45","","","CLIENT_MUTE","","false",0,0
+"!1ba21fc8","APJ4","APJ T","CLIENT_BASE","HELTEC_V4","false",0,0
+"!6da7e54","","","CLIENT","","false",0,0
+"!f67009fc","8NQV","SOS Italia - Niko IZ8NQV ","CLIENT","HELTEC_V4","false",0,0
+"!72ba96d8","mar1","mar01","CLIENT","THINKNODE_M1","false",0,0
+"!8fa7774c","Max","Massimiliano ","CLIENT","HELTEC_V4","false",0,0
+"!965db9db","","","CLIENT","","false",0,0
+"!33515898","","","CLIENT","","false",0,0
+"!f6954690","ZEUS","LEONIDA ","CLIENT","T_DECK","false",0,0
+"!9ee78c34","ch02","chiavris02","CLIENT","HELTEC_V3","false",0,0
+"!404fb00","","","CLIENT","","false",0,0
+"!aedee7b0","","","CLIENT","","false",0,0
+"!43b5827c","BA01","ALDO🧑‍🦳","CLIENT","HELTEC_V3","false",0,0
+"!6de36213","","","CLIENT","","false",0,0
+"!9e762b2c","AD01","ADELFIA ROUTER 🗼☀️🔋","ROUTER","HELTEC_V3","false",0,0
+"!29454c22","","","CLIENT","","false",0,0
+"!bb3db53e","Um53","SOS Italia Colfiorito","ROUTER","SEEED_SOLAR_NODE","false",0,0
+"!76c89f94","POCN","MIB041","CLIENT","RAK4631","false",0,0
+"!e7279623","","","ROUTER_LATE","","false",0,0
+"!a0caada4","🦉","SOS ABRUZZO","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!815010e4","rtn0","retronerd node0","ROUTER_LATE","M5STACK_C6L","false",0,0
+"!6c72f0f1","","","ROUTER","","false",0,0
+"!7ce62a50","","","CLIENT","","false",0,0
+"!1ba5f5a8","","","CLIENT_BASE","","false",0,0
+"!1ba60ffc","0ffc","giovi 0ffc🦫 ","CLIENT","HELTEC_V4","false",0,0
+"!bd5b9cb4","","","CLIENT_MUTE","","false",0,0
+"!408d300","TAL0","Taranto (MQTT) 🔌","CLIENT","HELTEC_V3","false",0,0
+"!a0cc75c8","📡","https://www.oe8hsf.at","CLIENT","HELTEC_V3","false",0,0
+"!8fdee66c","3LAN","3Lan Teo","CLIENT","T_DECK","false",0,0
+"!fa60878e","878e","SOS Italia 878e","CLIENT","TRACKER_T1000_E","false",0,0
+"!8fcdec88","REA1","IU0VAA","CLIENT","THINKNODE_M5","false",0,0
+"!433e1adc","","","CLIENT","","false",0,0
+"!d9e351d4","","","CLIENT","","false",0,0
+"!205c02d","SKIZ","Skizzo 14 🏍","CLIENT","TRACKER_T1000_E","false",0,0
+"!6984efa8","NOD1","NODO 1 Fermo Marche SGIE","CLIENT_BASE","HELTEC_V4","false",0,0
+"!7e35b031","","","CLIENT_MUTE","","false",0,0
+"!2a78f239","","","CLIENT_BASE","","false",0,0
+"!ba655bc4","5bc4","Solarbeam VIH St. Martin 5bc4","CLIENT","HELTEC_WIRELESS_TRACKER","false",0,0
+"!d9ab9ff5","","","CLIENT","","false",0,0
+"!6983be58","TS90","ERNIA🥴","CLIENT_BASE","HELTEC_V4","false",0,0
+"!6984b688","josy","giuseppe","CLIENT","HELTEC_V4","false",0,0
+"!ab00001a","Br51","IZ5KHP (base) ilbarone.net","CLIENT_BASE","HELTEC_V3","false",0,0
+"!849c4ab8","Rgr1","Radiogr3c1","CLIENT","HELTEC_V3","false",0,0
+"!f6708cdc","","","CLIENT_BASE","","false",0,0
+"!9258110e","0376","MN 0376","CLIENT_BASE","HELTEC_MESH_NODE_T114","false",0,0
+"!92297ab2","","","CLIENT","","false",0,0
+"!a1fd79cb","P002","Plane_mobile","SENSOR","HELTEC_MESH_NODE_T114","false",0,0
+"!1ba5714c","","","ROUTER","","false",0,0
+"!2edd0e8","🦄","√1×[¥OD∆]×","CLIENT","HELTEC_V3","false",0,0
+"!ea8f9e28","","","CLIENT","","false",0,0
+"!b5961ebe","prft","Profeta","CLIENT","TRACKER_T1000_E","false",0,0
+"!c9ed0755","","","CLIENT_BASE","","false",0,0
+"!9ee99500","","","CLIENT","","false",0,0
+"!408a838","","","CLIENT","","false",0,0
+"!a1b3b364","","","CLIENT","","false",0,0
+"!4058444","VALF","STAZIONE METEO VALFERONE","CLIENT","HELTEC_V3","false",0,0
+"!98d76fb","","","CLIENT","","false",0,0
+"!433e3e3c","IU4R","IU4RYJ","CLIENT","HELTEC_V3","false",0,0
+"!b03cde3c","","","CLIENT","","false",0,0
+"!fa2af0ef","","","CLIENT_MUTE","","false",0,0
+"!2edbca8","sens","sensore","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!49b66274","Mkc1","🚶‍♂Iw6mkc-1","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!4096e5c","VR01","🇮🇹 Verona Uno 🇮🇹","CLIENT","HELTEC_V3","false",0,0
+"!bba9631c","631c","Meshtastic 631c","CLIENT_BASE","TBEAM","false",0,0
+"!acaa7418","AQ2","AQ2 IZ6LQW","CLIENT","HELTEC_V3","false",0,0
+"!bba940dc","40dc","Lilygo Nave 40dc","CLIENT","TBEAM","false",0,0
+"!b03c7b88","","","CLIENT","","false",0,0
+"!9e752e78","","","CLIENT_BASE","","false",0,0
+"!9e9f6abc","","","CLIENT","","false",0,0
+"!7d286a5b","MTN2","MTN2 Monte Calisio","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!f1b63420","","","CLIENT_MUTE","","false",0,0
+"!69849c68","","","CLIENT","","false",0,0
+"!9eaffe5e","","","CLIENT","","false",0,0
+"!f67089e8","IR4J","Monte Ghebbio","ROUTER","HELTEC_V4","false",0,0
+"!da548ea4","8ea4","Meshtastic 8ea4","CLIENT","HELTEC_V3","false",0,0
+"!edae5825","","","CLIENT","","false",0,0
+"!cbbda67b","C3PT","CAPP3_PISTOIA","ROUTER","SEEED_SOLAR_NODE","false",0,0
+"!f66f925c","Pa04","Palena Sx","CLIENT","HELTEC_V4","false",0,0
+"!acb4d1c","","","CLIENT","","false",0,0
+"!9e772584","","","CLIENT_BASE","","false",0,0
+"!27e67ea3","","","CLIENT","","false",0,0
+"!f6623b68","","","CLIENT","","false",0,0
+"!7a524a7c","","","CLIENT_MUTE","","false",0,0
+"!b2a7329c","","","CLIENT_BASE","","false",0,0
+"!6985b31c","TS69","DARIO BKN/M","CLIENT","HELTEC_V4","false",0,0
+"!eb20b8ad","","","CLIENT_BASE","","false",0,0
+"!407c400","c400","Ssart c400","CLIENT","HELTEC_V3","false",0,0
+"!aca9ec8c","","","CLIENT","","false",0,0
+"!b2a7307c","","","CLIENT","","false",0,0
+"!9a0f3832","","","CLIENT","","false",0,0
+"!c1232b20","2b20","Meshtastic 2b20 WF-V","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!c4a608d4","","","CLIENT","","false",0,0
+"!b5d5f78e","Ab02","SOS Italia - Marsica","ROUTER","RAK4631","false",0,0
+"!2ec195c","","","CLIENT","","false",0,0
+"!acaba98c","PETT","IU6SVB_heltecV3📡","CLIENT","HELTEC_V3","false",0,0
+"!295e794c","","","CLIENT_MUTE","","false",0,0
+"!49b69a20","1MBL","MBL Velletri 1","CLIENT_BASE","HELTEC_V4","false",0,0
+"!c17aaddc","","","CLIENT_MUTE","","false",0,0
+"!aca9e628","","","CLIENT","","false",0,0
+"!2ebf664","","","CLIENT","","false",0,0
+"!f661eb14","","","CLIENT","","false",0,0
+"!6aa46c71","6c71","T114_ADP","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!75462760","ZDPP","zDiplo Portatile 🇮🇹","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!a0cb7670","SVBN","Savona Bosco delle Ninfe","CLIENT","HELTEC_V3","false",0,0
+"!4c675ac","75ac","Meshtastic 75ac","CLIENT","HELTEC_V4","false",0,0
+"!6a410ce2","","","CLIENT","","false",0,0
+"!aca4954","6CPZ","IW6CPZ","CLIENT","HELTEC_V4","false",0,0
+"!9d3f9cc","f9cc","Meshtastic f9cc","CLIENT","HELTEC_V3","false",0,0
+"!5a965bb2","5bb2","RPT-5bb2","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!433ba688","Ces","Cesen a688","CLIENT","HELTEC_WIRELESS_TRACKER","false",0,0
+"!7244f123","XMRq","XMR (Mobile)","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!fd8e204","3SRY","IU3SRY","CLIENT","TBEAM","false",0,0
+"!b2a7f0e4","f0e4","Pietro","CLIENT","HELTEC_V4","false",0,0
+"!bba81ac8","","","CLIENT","","false",0,0
+"!b94f6091","","","CLIENT_MUTE","","false",0,0
+"!aca9e2ac","","","CLIENT","","false",0,0
+"!39ce51f3","","","CLIENT","","false",0,0
+"!3369d3a0","","","CLIENT","","false",0,0
+"!849b9f3c","9f3c","Meshtastic 9f3c","CLIENT","HELTEC_V3","false",0,0
+"!402c257","Iug1","Iugin Portable","CLIENT","T_ECHO","false",0,0
+"!9ee78d40","","","CLIENT","","false",0,0
+"!da9e5b5c","5b5c","Luca73 Settimo T.se_868_🏠","CLIENT","TLORA_V2_1_1P6","false",0,0
+"!a56fb8e1","","","CLIENT","","false",0,0
+"!19799ab","TS50","MUSATO🦟💤","CLIENT","THINKNODE_M1","false",0,0
+"!2eb0a90","DER","DER @ RINUX (0a90)","CLIENT","HELTEC_WIRELESS_TRACKER","false",0,0
+"!acaae0d8","","","CLIENT","","false",0,0
+"!9ee9943c","SRV","IZ8FAV","CLIENT","HELTEC_V3","false",0,0
+"!432a7f0","a7f0","Meshtastic a7f0","CLIENT","HELTEC_V3","false",0,0
+"!181569f8","","","CLIENT_BASE","","false",0,0
+"!b03da3b4","","","CLIENT","","false",0,0
+"!aacdb3eb","FAKE","FAKE 🎯","CLIENT_MUTE","CHATTER_2","false",0,0
+"!4c2d0a20","","","CLIENT_BASE","","false",0,0
+"!b5d8b46b","PUM1","Meshtastic CABRAK01","CLIENT","RAK4631","false",0,0
+"!439cb38","","","CLIENT_BASE","","false",0,0
+"!e5e9e8d3","Msh1","Nodo Padova 1","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!49b5591c","Ale2","SOS Amalfi 🇮🇪","CLIENT_BASE","HELTEC_V4","false",0,0
+"!f6700f78","4ZZU","Monte Romano","ROUTER","HELTEC_V4","false",0,0
+"!4e8147e0","fbbs","FizBBS send /bbs as DM","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!f2517c96","","","CLIENT_MUTE","","false",0,0
+"!f66f0850","FRA4","Tracker 4 IW9FRA","TRACKER","HELTEC_V4","false",0,0
+"!2e5926c","","","CLIENT","","false",0,0
+"!1ea7f70c","","","CLIENT_MUTE","","false",0,0
+"!9e9fc6f4","Uvo3","IU8UVO Licignano","CLIENT","HELTEC_V3","false",0,0
+"!6cb0a4c","OGSM","OGAS Molniya","CLIENT","TLORA_V2_1_1P6","false",0,0
+"!bba950e0","UUK","IZ2UUK ROUTER GPS (MQTT)","ROUTER_LATE","TBEAM","false",0,0
+"!a35bb064","lup0","1FVG336","TRACKER","HELTEC_V4","false",0,0
+"!ebc64e63","","","CLIENT_BASE","","false",0,0
+"!b03c9864","PZT3","Vinc IU1PZT","CLIENT","HELTEC_V3","false",0,0
+"!43aaabc","","","CLIENT","","false",0,0
+"!6985e958","","","CLIENT_MUTE","","false",0,0
+"!1169905f","BC04","ATLAVOX BC04 905f🏖","ROUTER","RAK4631","false",0,0
+"!77dfb958","8COT","IU8COT/P","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!9ea29d08","","","CLIENT_MUTE","","false",0,0
+"!7bbc77a7","","","CLIENT","","false",0,0
+"!336a16c4","16c4","Meshtastic 16c4","CLIENT","HELTEC_V3","false",0,0
+"!49b5b73c","","","CLIENT","","false",0,0
+"!baf79bd","","","CLIENT","","false",0,0
+"!6984a684","","","CLIENT","","false",0,0
+"!ee7690d","GEMT","Mizio2🚑","CLIENT","TRACKER_T1000_E","false",0,0
+"!f9b4b434","b434","Meshtastic b434","CLIENT","TLORA_V2_1_1P6","false",0,0
+"!bd54d1da","","","ROUTER","","false",0,0
+"!432c980","","","CLIENT","","false",0,0
+"!8fa0d6dc","","","CLIENT","","false",0,0
+"!6c9d344","","","CLIENT","","false",0,0
+"!49b66680","🚙","MOB 6680 SGIE ","CLIENT_BASE","HELTEC_V4","false",0,0
+"!7ae4ce78","ce78","<gfz> Meshtastic ce78","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!43b6a5ac","LAXh","I2LAX- JN44MW ","CLIENT","HELTEC_V3","false",0,0
+"!2ed08a0","08a0","mauPOR 08a0","CLIENT","HELTEC_V3","false",0,0
+"!33d04249","8VHZ","SOS Italia - Vittorio IZ8VHZ","CLIENT","TRACKER_T1000_E","false",0,0
+"!316a6aad","Pic0","Pic00-Monte Quarin","CLIENT","XIAO_NRF52_KIT","false",0,0
+"!12b13238","3238","Meshtastic 3238","CLIENT","TLORA_V2_1_1P6","false",0,0
+"!9e763734","GEMQ","Mizio","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!90965318","TRRZ","TORRAZZO","CLIENT","TLORA_T3_S3","false",0,0
+"!5a525603","Ab53","🗼SOS Abruzzo Roccaraso ⛷️ Test","ROUTER","RAK4631","false",0,0
+"!493aaea8","MeK","MeK BASE 00","CLIENT_BASE","RAK3401","false",0,0
+"!4396ed0","S4XM","SaXeee IT/NAP","CLIENT","HELTEC_V3","false",0,0
+"!4c57998","7998","Meshtastic 7998","CLIENT","HELTEC_V4","false",0,0
+"!9e7665c0","","","ROUTER","","false",0,0
+"!fa5259bb","","","CLIENT","","false",0,0
+"!88c3e04","pAce","Torino-Falchera_868","CLIENT","TLORA_V2_1_1P6","false",0,0
+"!f68f4f88","CMPS","COMPASS CALL","CLIENT","THINKNODE_M5","false",0,0
+"!aca9f4a4","","","CLIENT","","false",0,0
+"!70a88178","N3T1","NETTUNO_02","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!f2491903","SCR1","SCR1 Chris (IN3GOJ)","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!9e9d8708","","","ROUTER_LATE","","false",0,0
+"!c8cd664b","TUK2","Tukory Mobile 🚘","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!4c710e79","🫈","ShortyPG Tracker 🫈","CLIENT","TRACKER_T1000_E","false",0,0
+"!ae616e78","🚌","XiAO_ZXH","CLIENT","SEEED_XIAO_S3","false",0,0
+"!9305e733","","","CLIENT","","false",0,0
+"!8fa62724","MF00","Monti Lepini  MF00 📡","CLIENT_BASE","HELTEC_V4","false",0,0
+"!bbad0f20","","","CLIENT","","false",0,0
+"!d4a89474","MS02","Marco-MS02","CLIENT_BASE","SEEED_XIAO_S3","false",0,0
+"!3551901a","901a","OL01","CLIENT_BASE","XIAO_NRF52_KIT","false",0,0
+"!f9b093b4","5iom","IZ5IOM","CLIENT","TLORA_V2_1_1P6","false",0,0
+"!698540a0","40a0","Router_Anzio","ROUTER","HELTEC_V4","false",0,0
+"!a35bb1c8","","","CLIENT_BASE","","false",0,0
+"!fd8b490","","","CLIENT","","false",0,0
+"!237f091f","091f","Branca solar 091f","CLIENT","NRF52_PROMICRO_DIY","false",0,0
+"!435bfc80","","","CLIENT","","false",0,0
+"!433d93ec","","","CLIENT","","false",0,0
+"!843fcc3d","","","CLIENT_MUTE","","false",0,0
+"!b03db8b8","","","CLIENT","","false",0,0
+"!9ef0cab8","DFT3","Daniele T3S3 cab8","CLIENT","TLORA_T3_S3","false",0,0
+"!9e772364","LsaM","Meshtastic 2364 MATTIA","CLIENT","HELTEC_V3","false",0,0
+"!1ba35fa8","MBL5","MBL 🏡 Bebbio Isola del Liri ","CLIENT_BASE","HELTEC_V4","false",0,0
+"!faefeba3","","","CLIENT","","false",0,0
+"!9e9d2520","GHST","👻 Fantasma 👻","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!52eaaa8b","","","CLIENT_BASE","","false",0,0
+"!4061610","","","CLIENT","","false",0,0
+"!ea39671c","671c","Meshtastic 671c","CLIENT","XIAO_NRF52_KIT","false",0,0
+"!b03cfae4","fbs0","fbase 0 Ferrara","CLIENT_BASE","HELTEC_V3","false",0,0
+"!668a4a04","","","CLIENT_MUTE","","false",0,0
+"!cf3d6897","","","CLIENT","","false",0,0
+"!51b5449a","449a","C1CN3T-0","CLIENT","HELTEC_V3","false",0,0
+"!433c09fc","77MM","Mauro Montanari","CLIENT","HELTEC_WIRELESS_TRACKER","false",0,0
+"!6984a3b4","","","CLIENT_BASE","","false",0,0
+"!f3c51388","","","CLIENT_MUTE","","false",0,0
+"!9eeb2098","MW1","Mr. White 1","CLIENT","HELTEC_V3","false",0,0
+"!b55ba3c7","BeT2","Bebbio⛰️Tracker II","CLIENT","TRACKER_T1000_E","false",0,0
+"!409fcac","","","CLIENT","","false",0,0
+"!e00ceaa4","eaa4","Meshtastic eaa4","CLIENT","HELTEC_V3","false",0,0
+"!6ecd59e4","59e4","Meshtastic 59e4","CLIENT","TLORA_T3_S3","false",0,0
+"!74202ad5","c824","Meshtastic c824","CLIENT","HELTEC_V4","false",0,0
+"!a0cc7318","","","CLIENT_BASE","","false",0,0
+"!1ba630ec","TON2","Meshtastic 30ec","CLIENT","HELTEC_V4","false",0,0
+"!215bc017","mcf1","faketec mc1","CLIENT","NRF52_PROMICRO_DIY","false",0,0
+"!909652e4","MOC0","IU5MOC_mobile","CLIENT","TLORA_T3_S3","false",0,0
+"!d45b82a0","CEM1","CampagnolaEmilia1","CLIENT","SEEED_XIAO_S3","false",0,0
+"!9e77fd38","MBL0","MBL0🏡IU0TGF👾Sora","CLIENT_BASE","HELTEC_V3","false",0,0
+"!8fa677b4","77b4","Meshtastic 77b4","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!404e99c","0JGW","🏘Labaro city RM Nord🛰 IU0JGW🧭","CLIENT","HELTEC_V3","false",0,0
+"!7c5b0c0c","BDT1","Bandit1🏴‍☠️","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!a1f7f07c","","","CLIENT_BASE","","false",0,0
+"!ea8f8c30","","","CLIENT","","false",0,0
+"!9eed104c","1MAG","Imagnamesh","ROUTER","HELTEC_V3","false",0,0
+"!cf75f5c5","","","CLIENT","","false",0,0
+"!bba83b70","8JEW","IU8JEW Davide ","CLIENT","TBEAM","false",0,0
+"!acaaa4b4","","","CLIENT","","false",0,0
+"!bffd5420","","","CLIENT_MUTE","","false",0,0
+"!2eb81bc","","","CLIENT","","false",0,0
+"!5f4f6dc5","WOLF","Wolf-----RC 🐺","CLIENT","NOMADSTAR_METEOR_PRO","false",0,0
+"!33468b70","For2","FizbanOnTheRoad  🚘 🗺️","CLIENT_MUTE","T_DECK","false",0,0
+"!c5e1448b","","","CLIENT","","false",0,0
+"!b29f9f00","ENIO","🐍Vipera IK6FGX ","CLIENT","HELTEC_V4","false",0,0
+"!acb0ccc","","","CLIENT_BASE","","false",0,0
+"!aca3a4c","Mac1","Mac Giver House","CLIENT","HELTEC_V4","false",0,0
+"!438e280","","","CLIENT","","false",0,0
+"!dccdcb86","","","CLIENT","","false",0,0
+"!4c5a334","","","CLIENT_BASE","","false",0,0
+"!bbad0f98","BIT","ALPHABiT","CLIENT_BASE","TBEAM","false",0,0
+"!c2063c64","","","ROUTER","","false",0,0
+"!43c2cc0","EL84","Elwood84","CLIENT","HELTEC_V3","false",0,0
+"!25c0da58","MS","Mannaggia Sparso","CLIENT","TLORA_V2_1_1P6","false",0,0
+"!5f133b1a","c3f8","Meshtastic c3f8","CLIENT","LILYGO_TBEAM_S3_CORE","false",0,0
+"!2e1c6041","6041","Meshtastic 6041","CLIENT","XIAO_NRF52_KIT","false",0,0
+"!1ba3cac0","SC3k","Serra Carracina 3kIn04","ROUTER","HELTEC_V4","false",0,0
+"!2ee80b8","RFW1","RFW1_Afr_Na🌐 ","CLIENT","HELTEC_V3","false",0,0
+"!f6fac1a8","UQFM","IZ2UQF mobile","CLIENT","HELTEC_V3","false",0,0
+"!2eda7ec","","","CLIENT","","false",0,0
+"!d244646f","FLGL","FLGL WIO Tracker L1","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!67746d08","","","CLIENT","","false",0,0
+"!fd8e0ec","h23c","home23c","CLIENT","TBEAM","false",0,0
+"!1ba5fa58","AF33","Andrea","CLIENT","HELTEC_V4","false",0,0
+"!8ad0448","","","CLIENT","","false",0,0
+"!9ee99ff0","","","CLIENT","","false",0,0
+"!9e9e1cbc","Losk","Loskindividuo Roof","CLIENT","HELTEC_V3","false",0,0
+"!9eecf844","","","CLIENT","","false",0,0
+"!336e77a6","","","ROUTER","","false",0,0
+"!2ecb448","","","CLIENT","","false",0,0
+"!6c7412d8","AM02","Meshtastic IK0NWF #2","CLIENT","TBEAM","false",0,0
+"!9ee99dc0","9dc0","EHC 9dc0","CLIENT","HELTEC_V3","false",0,0
+"!1554bb4b","","","TRACKER","","false",0,0
+"!a7aeb294","b294","📡URPINU_RPT📶","CLIENT_BASE","RAK4631","false",0,0
+"!433321c","MIK1","MIKUICE_cucina","CLIENT","HELTEC_V3","false",0,0
+"!9e769c38","","","CLIENT","","false",0,0
+"!378fb214","","","CLIENT","","false",0,0
+"!9ea3d6c8","LFXD","leoFixed","CLIENT_BASE","HELTEC_V3","false",0,0
+"!849a1f88","Losk","Loskindividuo Ext","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!849b69f4","RSf4","ROS 69f4","CLIENT_BASE","HELTEC_V3","false",0,0
+"!14ba537c","","","CLIENT_MUTE","","false",0,0
+"!6c740ea8","0ea8","Meshtastic 0ea8","CLIENT","TBEAM","false",0,0
+"!76f5bfeb","STB","Shintaro_T114_Base","CLIENT_BASE","HELTEC_MESH_NODE_T114","false",0,0
+"!8fcdddc8","MIRO","LUIGI PORTATILE CV","CLIENT","THINKNODE_M5","false",0,0
+"!a0cb2368","","","CLIENT","","false",0,0
+"!fb543d42","VAB2","VAB ER Giordano B.","CLIENT","TRACKER_T1000_E","false",0,0
+"!2ed4a40","","","CLIENT_BASE","","false",0,0
+"!47618fa4","GEL1","IT9JWD GELA Node 1 🕸️","CLIENT_BASE","HELTEC_MESH_NODE_T114","false",0,0
+"!2eaf9a8","","","CLIENT","","false",0,0
+"!b1aaacf8","MAQU","Maquis","CLIENT_BASE","RAK4631","false",0,0
+"!9ee84a28","4a28","FOOTPRINTS 👣 🟥 ","CLIENT","HELTEC_WIRELESS_TRACKER","false",0,0
+"!334eb8e0","","","CLIENT","","false",0,0
+"!4069c0c","","","CLIENT","","false",0,0
+"!699c0e68","","","CLIENT","","false",0,0
+"!144820b2","20b2","Meshtastic 20b2","CLIENT","TRACKER_T1000_E","false",0,0
+"!9ee70af4","UDY","UDY 0af4","CLIENT","HELTEC_V3","false",0,0
+"!669428c5","","","CLIENT","","false",0,0
+"!9eaa2852","","","CLIENT","","false",0,0
+"!43b5aa6c","UGW1","PILONICO UGW1🌳","CLIENT","HELTEC_V3","false",0,0
+"!426827de","GiGi","CyberGigi - Ischia 🪷","CLIENT","T_ECHO","false",0,0
+"!1881cc73","XLM1","XLM1 Bagnolo (CN)","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!9e77f838","Cp51","ARI Avellino 🗼🆘 🇮🇹","CLIENT","HELTEC_V3","false",0,0
+"!f6930da4","","","CLIENT","","false",0,0
+"!8fa7b9bc","0HSR","IZ0HSR Jader ","CLIENT","HELTEC_V4","false",0,0
+"!9737f081","f081","Meshtastic f081","CLIENT","RAK4631","false",0,0
+"!7369fb6a","SVKa","Sv Katarina (S56TK)","ROUTER_LATE","RAK4631","false",0,0
+"!9e77a784","a784","Meshtastic a784","TRACKER","HELTEC_WIRELESS_TRACKER","false",0,0
+"!c74c1605","","","CLIENT_BASE","","false",0,0
+"!ea67cfee","","","CLIENT","","false",0,0
+"!49756616","","","CLIENT","","false",0,0
+"!2ee0524","V3S","V3_0524","CLIENT","HELTEC_V3","false",0,0
+"!407bf18","Maur","Meshtastic mauro","CLIENT","HELTEC_V3","false",0,0
+"!1745348c","","","CLIENT","","false",0,0
+"!69850d1c","","","CLIENT","","false",0,0
+"!9e9b5ee0","5ee0","Meshtastic 5ee0","CLIENT","HELTEC_V3","false",0,0
+"!9eeb1cfc","","","CLIENT","","false",0,0
+"!a1cd3f14","","","CLIENT_BASE","","false",0,0
+"!16678cd4","Gugu","Gugu 8cd4","CLIENT","TRACKER_T1000_E","false",0,0
+"!90b4a434","","","CLIENT","","false",0,0
+"!1dfeb7a4","","","CLIENT","","false",0,0
+"!2ecf194","f194","Meshtastic f194","CLIENT","HELTEC_V3","false",0,0
+"!ac9d6f8","KON1","KON Robi TS","CLIENT","HELTEC_V4","false",0,0
+"!508fd0ed","","","CLIENT","","false",0,0
+"!acb4940","","","CLIENT","","false",0,0
+"!404dae0","SLSM","SLS_MQTT 💻","CLIENT","HELTEC_WSL_V3","false",0,0
+"!756f2850","Cp50","SOS Italia - Bellizzi (SA)","CLIENT_BASE","RAK3312","false",0,0
+"!199a9901","PGbs","ThinkNode M6","CLIENT_BASE","THINKNODE_M6","false",0,0
+"!4c59094","9094","LorAndrea Base","ROUTER","HELTEC_V4","false",0,0
+"!eb0183e7","COR3","Andy Base Corato","CLIENT","SEEED_SOLAR_NODE","false",0,0
+"!802b2938","","","CLIENT","","false",0,0
+"!1874dbb1","PRP1","PREP_MOBILE","CLIENT_MUTE","SEEED_WIO_TRACKER_L1","false",0,0
+"!1ef979e9","5NLM","IU5NLM MeshNode","CLIENT_BASE","RAK4631","false",0,0
+"!8f695f4c","Br02","IZ5KHP (mobile)","CLIENT","HELTEC_V3","false",0,0
+"!1ba5a16c","AQ25","IW6MPO","ROUTER","HELTEC_V4","false",0,0
+"!bfad8e4c","","","CLIENT_BASE","","false",0,0
+"!43570224","0224","Meshtastic 0224","CLIENT","LILYGO_TBEAM_S3_CORE","false",0,0
+"!9ea3e858","mbv3","MbV3-LiSab-1","CLIENT","HELTEC_V3","false",0,0
+"!58a8d91b","CR3","Cremona PT","CLIENT","HELTEC_V3","false",0,0
+"!db2fa88c","","","CLIENT","","false",0,0
+"!43993a37","Ab08","SOS Italia - Rifugio del Diavolo","ROUTER_LATE","RAK4631","false",0,0
+"!9ea1c3f4","6DAK","Urbino IW6DAK","CLIENT_BASE","HELTEC_V3","false",0,0
+"!4069c84","4MTH","IZ4MTH nodo fisso Cesenatico 🏠","ROUTER_LATE","HELTEC_V3","false",0,0
+"!c3460e35","","","CLIENT","","false",0,0
+"!43df575f","AA01","ANDRIA01","CLIENT","RAK4631","false",0,0
+"!67169f89","fvn","fizban's virtual node","CLIENT","PORTDUINO","false",0,0
+"!9ef697f2","","","CLIENT_BASE","","false",0,0
+"!acab89f4","MIL","IU0TYA Albano Base","CLIENT_BASE","HELTEC_V3","false",0,0
+"!f66f9758","TaLx","Taranto (Ivan) Base🔋📡☀️","CLIENT_BASE","HELTEC_V4","false",0,0
+"!49b599a4","","","CLIENT","","false",0,0
+"!e2e51ff0","sb1","Sittenberg Base 1","CLIENT","HELTEC_WSL_V3","false",0,0
+"!698296a0","","","CLIENT","","false",0,0
+"!ac9ec34","ALPH","Box Acqua","CLIENT","HELTEC_V4","false",0,0
+"!4068d4c","","","CLIENT_MUTE","","false",0,0
+"!db2f5d70","","","ROUTER","","false",0,0
+"!b03dbebc","bebc","Meshtastic bebc","ROUTER","HELTEC_V3","false",0,0
+"!6982968c","","","CLIENT","","false",0,0
+"!56a7ea71","","","TRACKER","","false",0,0
+"!a8a577a7","","","CLIENT_MUTE","","false",0,0
+"!b6cf64bd","","","CLIENT","","false",0,0
+"!43311ac","","","CLIENT","","false",0,0
+"!82429688","WOLF","DireWolf (BO) 🐺","CLIENT","XIAO_NRF52_KIT","false",0,0
+"!4ed36ba8","NIC1","NICOLA_1_MALO","CLIENT","T_DECK","false",0,0
+"!408e620","e620","Meshtastic e620","CLIENT","HELTEC_V3","false",0,0
+"!9050f740","f740","Claus","CLIENT","TRACKER_T1000_E","false",0,0
+"!2eda320","a320","IU0FNN a320","CLIENT","HELTEC_V3","false",0,0
+"!f66a6e50","","","CLIENT","","false",0,0
+"!1b10e959","FAKE","FAKE 🎯","CLIENT_MUTE","CHATTER_2","false",0,0
+"!6f57578","","","CLIENT_MUTE","","false",0,0
+"!785e085","","","CLIENT","","false",0,0
+"!1ba57d2c","","","CLIENT","","false",0,0
+"!1de9dae4","Um50","SOS Italia Foligno GW","CLIENT_MUTE","SEEED_XIAO_S3","false",0,0
+"!b2a7cae4","LT01","🌐🥭LATINA_UNO🥭🌐🇮🇹","CLIENT_BASE","HELTEC_V4","false",0,0
+"!91b61459","","","CLIENT","","false",0,0
+"!bb831e48","ftti"," Fabietti 1e48","CLIENT","TBEAM","false",0,0
+"!da5cc834","CeBa","CervoAutistico's Base","CLIENT_BASE","HELTEC_V3","false",0,0
+"!3b069947","","","CLIENT","","false",0,0
+"!db2b1270","","","CLIENT_BASE","","false",0,0
+"!ac9f7a8","MshL","SanMaurizioCanavese","CLIENT","HELTEC_V4","false",0,0
+"!a0cb4b7c","","","CLIENT","","false",0,0
+"!44c59773","ERNI","I3QFC","CLIENT","TRACKER_T1000_E","false",0,0
+"!7cae1a3b","UGW4","PILONICO UGW4 🌳","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!f98db0cc","SBBS","Spritz_BBS_Padova","CLIENT_BASE","TLORA_V2_1_1P6","false",0,0
+"!fb3f4e17","","","CLIENT","","false",0,0
+"!e556f119","dan","iw2evh JN45TM","CLIENT","RAK4631","false",0,0
+"!bba82304","2304","Meshtastic 2304","CLIENT","TBEAM","false",0,0
+"!2e585b4","Msys","Msystem ","CLIENT","HELTEC_V3","false",0,0
+"!d9f7d8a9","","","CLIENT","","false",0,0
+"!e6091bf3","","","CLIENT","","false",0,0
+"!7254a380","🚫","🆔️🔄⛔️","CLIENT","HELTEC_V3","false",0,0
+"!b03db40c","","","CLIENT_MUTE","","false",0,0
+"!e708a64c","","","CLIENT","","false",0,0
+"!aca47f94","mcsn","📡MESH SANTORINI📡","CLIENT_MUTE","M5STACK_CARDPUTER_ADV","false",0,0
+"!f68dd8b0","APJ2","APJ2","CLIENT","THINKNODE_M5","false",0,0
+"!85053ac3","","","CLIENT","","false",0,0
+"!28f0a5c6","SM01","SantaMarinella01.nodo fisso.NO-MEX","CLIENT","SEEED_SOLAR_NODE","false",0,0
+"!11038b4d","Home","Muggia0-Bayer","CLIENT","RAK4631","false",0,0
+"!69854ecc","","","CLIENT","","false",0,0
+"!49b54928","AQ31","IK6QOO mobile ","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!dcfa1f0e","BFF+","M.te della Croce 1f0e","CLIENT_BASE","XIAO_NRF52_KIT","false",0,0
+"!cc9bab4a","","","CLIENT","","false",0,0
+"!435899f0","","","CLIENT","","false",0,0
+"!a1cc1da0","","","CLIENT","","false",0,0
+"!6f1a62c5","D201","dAm2K RomaEST 01","CLIENT_BASE","HELTEC_MESH_NODE_T114","false",0,0
+"!43a71c4","ZEUS","Eolo","CLIENT","HELTEC_V3","false",0,0
+"!f423f2d2","","","CLIENT_BASE","","false",0,0
+"!6d00f180","RN-1","RIMINI-1","CLIENT","TLORA_V2_1_1P6","false",0,0
+"!4357d308","JEDY","MARCO","CLIENT","LILYGO_TBEAM_S3_CORE","false",0,0
+"!ba0cbe60","be60","IW0RZP -Valerio_CLI -Cannara(PG) 🌍","CLIENT","HELTEC_V3","false",0,0
+"!df404745","","","CLIENT","","false",0,0
+"!33601c18","TBFZ","franceez","CLIENT","LILYGO_TBEAM_S3_CORE","false",0,0
+"!9e755024","TSAT","ROBERTO_TRACKER","CLIENT","HELTEC_WIRELESS_TRACKER","false",0,0
+"!7ade44e6","RepM","Repeater Mini","CLIENT","RAK4631","false",0,0
+"!400ae88","T154","Tos.154","CLIENT","HELTEC_V3","false",0,0
+"!f669caf4","","","CLIENT_BASE","","false",0,0
+"!699cb464","F.v4","F.Mesh.v4 📡","CLIENT_BASE","HELTEC_V4","false",0,0
+"!9e788010","","","CLIENT_BASE","","false",0,0
+"!a8390a12","Mic1","Miche_Mobile_1","CLIENT","XIAO_NRF52_KIT","false",0,0
+"!3687a6e8","","","CLIENT_BASE","","false",0,0
+"!433edcc8","dcc8","Meshtastic dcc8","CLIENT","HELTEC_V3","false",0,0
+"!1ba177ac","","","CLIENT_BASE","","false",0,0
+"!404f834","NsVv","Nodo Solare Vittorio Veneto","CLIENT_BASE","HELTEC_V3","false",0,0
+"!f1bc1b48","","","CLIENT","","false",0,0
+"!2ee64a0","TesT","TESTTESTTEST","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!43a6278","6278","Meshtastic 6278","CLIENT","HELTEC_V3","false",0,0
+"!4070170","Cp54","Sos Italia - Vietri sul Mare 🇮🇹 ","CLIENT","HELTEC_WIRELESS_TRACKER","false",0,0
+"!1c650ed8","","","CLIENT_MUTE","","false",0,0
+"!2eadc40","dc40","TestZ","CLIENT","HELTEC_V3","false",0,0
+"!ea8ee604","GNCS","Giannino","CLIENT","SEEED_XIAO_S3","false",0,0
+"!acb1494","","","CLIENT","","false",0,0
+"!c1fc9160","","","CLIENT","","false",0,0
+"!db295674","","","CLIENT","","false",0,0
+"!a88dfa76","NOW1","Bitlis sull'Alfettone 🚗🇮🇹","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!b03c7fbc","VKRb","IU5VKR-base","CLIENT","HELTEC_V3","false",0,0
+"!6c1d8b1c","","","CLIENT","","false",0,0
+"!bf7c363","c363","OL04","CLIENT_BASE","XIAO_NRF52_KIT","false",0,0
+"!9e754924","","","CLIENT","","false",0,0
+"!1ba167e4","","","CLIENT_MUTE","","false",0,0
+"!4ea660ce","","","CLIENT","","false",0,0
+"!d480a2b4","","","CLIENT","","false",0,0
+"!db2b30ac","30ac","principiante ! MQTT","CLIENT","HELTEC_V3","false",0,0
+"!69090e94","0e94","IU8REQ Monte Santa Cristina (AV)","CLIENT","EBYTE_ESP32_S3","false",0,0
+"!2ede93c","","","CLIENT_BASE","","false",0,0
+"!fd8b238","KON3","KON Muggia TS *test*","CLIENT_BASE","TBEAM","false",0,0
+"!da9784b4","LED0","IZ1LED-F00","CLIENT","TLORA_V2_1_1P6","false",0,0
+"!8e97d085","d085","SeeedSN-d085","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!1ee3d3b7","🐹","🐹_d3b7","CLIENT","TRACKER_T1000_E","false",0,0
+"!e2e1e1b0","e1b0","Meshtastic e1b0","CLIENT","HELTEC_V3","false",0,0
+"!433b49c0","49c0","Meshtastic 49c0 WF-V3R","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!6c7c158","BINF","BINF (Sesto Fiorentino)","CLIENT_BASE","TLORA_V2_1_1P6","false",0,0
+"!435aa530","a530","iw2evh","CLIENT","LILYGO_TBEAM_S3_CORE","false",0,0
+"!f598079","Lagu","Laguna Client","CLIENT_BASE","RAK4631","false",0,0
+"!6cb19b0","JKA","IV3JKA","CLIENT","TLORA_V2_1_1P6","false",0,0
+"!dad88480","","","CLIENT","","false",0,0
+"!9ae42ef5","","","CLIENT","","false",0,0
+"!9e9b6140","","","CLIENT","","false",0,0
+"!435afee4","bep","iu2mke","CLIENT","LILYGO_TBEAM_S3_CORE","false",0,0
+"!279db034","","","CLIENT_BASE","","false",0,0
+"!d9824fa0","","","CLIENT_BASE","","false",0,0
+"!87e3e85f","","","CLIENT_MUTE","","false",0,0
+"!408b2633","","","CLIENT_BASE","","false",0,0
+"!6f52c04","TV1","Col Visentin 1867","ROUTER","TLORA_V2_1_1P6","false",0,0
+"!2ebfda8","MBL8","MBL 🏡 IZ0AYD Frosinone ","CLIENT_BASE","HELTEC_V3","false",0,0
+"!4c5b7f0","TS88","CIUF CIUF ","CLIENT_BASE","HELTEC_V4","false",0,0
+"!1fe3b8c8","0d59","Meshtastic 0d59","CLIENT","HELTEC_V4","false",0,0
+"!69e05d41","e3bd","Meshtastic e3bd","CLIENT","HELTEC_WIRELESS_TRACKER","false",0,0
+"!f66a31f8","MshP","Nodo solare portatile","CLIENT","HELTEC_V4","false",0,0
+"!40907d8","Pers","Apocalisse Pers","CLIENT","HELTEC_V3","false",0,0
+"!26b8f612","Msh7","Tracker 02","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!f6fc055c","Alex","Amalfi 🇮🇪","CLIENT","HELTEC_V3","false",0,0
+"!aecd388b","","","CLIENT","","false",0,0
+"!d6524378","ndo2","iu0ndo 02","CLIENT","HELTEC_V2_0","false",0,0
+"!c930531a","0EIA","IK0EIA Civitavecchia","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!a768f87f","MTNM","MTNM Mobile","CLIENT_MUTE","T_ECHO","false",0,0
+"!432cb70","","","CLIENT","","false",0,0
+"!433ccfe8","","","CLIENT","","false",0,0
+"!408b098","","","CLIENT","","false",0,0
+"!a696232c","IZB","IU8IZB (Rino) 🇮🇹 ","CLIENT","HELTEC_V4","false",0,0
+"!ba60616c","","","CLIENT_BASE","","false",0,0
+"!6984f348","","","ROUTER","","false",0,0
+"!849a22a0","","","CLIENT","","false",0,0
+"!433d7504","Fx03","Fasax1284-Traker2","CLIENT_MUTE","HELTEC_WIRELESS_TRACKER","false",0,0
+"!ba6a6ee4","","","CLIENT","","false",0,0
+"!83558e4f","VEM2","VittorioEmanuele2 🇮🇹","CLIENT","RAK4631","false",0,0
+"!698539d4","AQ02","AQ02 IZ6LQW","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!fa6dcfae","(PP)","IV3KPX","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!a35a743c","DCM","DiegoMobile🍕","CLIENT","HELTEC_V4","false",0,0
+"!49b72e64","","","CLIENT","","false",0,0
+"!f50d60ef","Ar01","SOS-Italia air1","CLIENT","RAK4631","false",0,0
+"!438c9e0","","","CLIENT","","false",0,0
+"!41435ed","SAMA","IU3WNQ-SAMA","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!32119164","","","CLIENT_MUTE","","false",0,0
+"!6984b0c0","","","CLIENT_MUTE","","false",0,0
+"!49b76e08","ndo1","iu0ndo 01","CLIENT","HELTEC_V4","false",0,0
+"!4085100","5100","slu_5100","CLIENT","HELTEC_V3","false",0,0
+"!99bb4d3c","mulo","deCivvu🍻 SM01","CLIENT","T_DECK","false",0,0
+"!f2056f17","6f17","MasaSolar","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!11af8e1e","MIA","Mia","CLIENT","TRACKER_T1000_E","false",0,0
+"!5aa2c827","Car","Otacon c2490","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!c52cefce","RQH1","IW0RQH Tracker","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!4085dac","SQM","Shintaro_Mobile","CLIENT","HELTEC_V3","false",0,0
+"!38af4058","HRS1","Hamradioshop.it 🛜","CLIENT_MUTE","HELTEC_MESH_NODE_T114","false",0,0
+"!49b79b20","","","CLIENT","","false",0,0
+"!6c73e5fc","","","CLIENT","","false",0,0
+"!9e78e260","","","CLIENT_BASE","","false",0,0
+"!db2b4cfc","","","CLIENT","","false",0,0
+"!eb1ac8f5","3GXS","IW3GX-Solar","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!ba61ffbc","","","CLIENT","","false",0,0
+"!dadc0be6","4RTQ","IU4RTQ ","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!1cf38bdf","ARVL","ARVALIA","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!14eb43f2","Ab06","SOS Abruzzo - Briganti","ROUTER_LATE","RAK4631","false",0,0
+"!2f9fb95c","PraO","Prato Ovest b95c","CLIENT_BASE","TLORA_V2_1_1P6","false",0,0
+"!ba0cb28c","B28C","MYNAMEISJOE","CLIENT","HELTEC_V3","false",0,0
+"!78ae78a6","","","CLIENT","","false",0,0
+"!404ec28","2MBL","MBL 🏡 Nettuno","CLIENT_BASE","HELTEC_V3","false",0,0
+"!f66f6230","","","CLIENT_BASE","","false",0,0
+"!aca9fd7c","","","CLIENT","","false",0,0
+"!8611e889","GSSA","Gussa","ROUTER_LATE","HELTEC_MESH_NODE_T114","false",0,0
+"!1ba2d8ec","","","CLIENT","","false",0,0
+"!4391d30","RMW","ROMA OVEST","CLIENT_BASE","HELTEC_V3","false",0,0
+"!9e960c","RA02","IU4QTF-2","CLIENT_BASE","TBEAM","false",0,0
+"!9ea0848c","","","CLIENT_BASE","","false",0,0
+"!3c5079ee","Msh0","Nodo Padova 0","CLIENT_BASE","HELTEC_MESH_NODE_T114","false",0,0
+"!433dd360","TKMV","TK-MV🇮🇹","CLIENT","HELTEC_V3","false",0,0
+"!a0cab1cc","","","CLIENT_BASE","","false",0,0
+"!698322b0","croc","rip-croce","ROUTER","HELTEC_V4","false",0,0
+"!6985a0f0","","","ROUTER_LATE","","false",0,0
+"!5061e076","RIMT","📡 Rieti Monte Terminillo 🏔️","ROUTER","HELTEC_MESH_NODE_T114","false",0,0
+"!ea8f8ccc","Gek1","Mobile Gek1","CLIENT","SEEED_XIAO_S3","false",0,0
+"!1de9de9c","","","CLIENT","","false",0,0
+"!95cb7859","MESH","CONTAX TOWER🗼","CLIENT_MUTE","HELTEC_MESH_SOLAR","false",0,0
+"!6c98478","","","CLIENT","","false",0,0
+"!62f8b01c","b01c","Meshtastic b01c","CLIENT","SEEED_XIAO_S3","false",0,0
+"!9e761508","","","CLIENT","","false",0,0
+"!2b4b2af7","","","CLIENT","","false",0,0
+"!3862fdd6","fdd6","Roccamonfina (CE)","CLIENT","SEEED_SOLAR_NODE","false",0,0
+"!f0163c7d","3c7d","salgherik_mobile","CLIENT","T_ECHO","false",0,0
+"!f5943438","3438","Monza 🇮🇹","CLIENT_BASE","PRIVATE_HW","false",0,0
+"!af959ef3","Auro","Cureddabaidedda","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!dff4ef25","NJX8","SOS Italia - Silvano IU6NJX","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!b1ac4a6d","MTDM","MIB147 T114","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!f9ae74a8","","","CLIENT_BASE","","false",0,0
+"!9ea3f06c","","","ROUTER_LATE","","false",0,0
+"!699c1b98","🥸","🥸 DariOne ⚾","ROUTER","HELTEC_V4","false",0,0
+"!690975c3","FKFI","Pratolino City","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!ac17f417","","","CLIENT","","false",0,0
+"!6c236971","","","CLIENT","","false",0,0
+"!ac9e5a0","","","CLIENT_MUTE","","false",0,0
+"!49b5b638","","","CLIENT","","false",0,0
+"!f66af480","","","CLIENT_BASE","","false",0,0
+"!49b5edd8","Ale","IU0DKE Ale","CLIENT","HELTEC_V4","false",0,0
+"!a0b5831c","mbtd","mbtd","CLIENT","T_DECK","false",0,0
+"!9e9e1fb8","C1PT","CAPP1_PISTOIA","CLIENT_BASE","HELTEC_V3","false",0,0
+"!408de18","CRD1","CORDENONS1 BASE","CLIENT","HELTEC_V3","false",0,0
+"!4a30819c","819c","IW8ELN-22","CLIENT_MUTE","TLORA_T3_S3","false",0,0
+"!9e787f9c","","","CLIENT_MUTE","","false",0,0
+"!f6fc00ec","","","CLIENT_BASE","","false",0,0
+"!bba949f0","","","TRACKER","","false",0,0
+"!68fdb98f","","","CLIENT_BASE","","false",0,0
+"!2971c8c1","","","CLIENT","","false",0,0
+"!7d2b2b00","Sean","Meshtastic 2b00","CLIENT","T_LORA_PAGER","false",0,0
+"!4edd5502","896b","Meshtastic 896b","CLIENT","HELTEC_V1","false",0,0
+"!2ec3888","APJ1","Home APJ1","CLIENT_BASE","HELTEC_V3","false",0,0
+"!43a83a8","83a8","Meshtastic 83a8","CLIENT","HELTEC_V3","false",0,0
+"!8676c647","","","CLIENT","","false",0,0
+"!9ee9ad90","Casa","MMIEXT","CLIENT_BASE","HELTEC_V3","false",0,0
+"!7cc80f88","CIV2","🗼CIVITANOVA🤖MARCHE🗼IK6FGX🗼","CLIENT","XIAO_NRF52_KIT","false",0,0
+"!1ba20564","0564","Meshtastic 0564","ROUTER","HELTEC_V4","false",0,0
+"!9e9d7a0c","ALEX","Alpignano_TO🇮🇹","CLIENT","HELTEC_V3","false",0,0
+"!435a8384","","","CLIENT","","false",0,0
+"!407d48c","","","CLIENT_MUTE","","false",0,0
+"!60f3f317","","","ROUTER","","false",0,0
+"!90965de8","","","CLIENT","","false",0,0
+"!6984ae0c","","","CLIENT_BASE","","false",0,0
+"!6985641c","cht2","cht2","CLIENT","HELTEC_V4","false",0,0
+"!e1030bf3","","","CLIENT_BASE","","false",0,0
+"!53788122","","","CLIENT","","false",0,0
+"!14c298e4","Um55","SOS Italia Monte Subasio","CLIENT_MUTE","SEEED_SOLAR_NODE","false",0,0
+"!4c5753c","ToPo","ToPoMeSh","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!acb5dfc","","","CLIENT","","false",0,0
+"!4029d3c","TR01","IV3IIF MESH","TRACKER","M5STACK_CARDPUTER_ADV","false",0,0
+"!e71dc3bc","","","CLIENT_MUTE","","false",0,0
+"!1ba18418","","","ROUTER","","false",0,0
+"!699c4c64","","","CLIENT","","false",0,0
+"!ac7fe5c5","","","CLIENT","","false",0,0
+"!418e5447","","","ROUTER","","false",0,0
+"!400b7c4","","","CLIENT_MUTE","","false",0,0
+"!849c3ef8","","","CLIENT","","false",0,0
+"!a0cb1660","MK02","MeshKine-T02","CLIENT","HELTEC_V3","false",0,0
+"!f67015b8","","","CLIENT","","false",0,0
+"!da742780","","","CLIENT_MUTE","","false",0,0
+"!ba0cbd48","BD48","Dapi BD48","CLIENT","HELTEC_V3","false",0,0
+"!9e76b3a8","CRBS","Colmurano BASE","CLIENT_BASE","HELTEC_V3","false",0,0
+"!db29da44","","","CLIENT_MUTE","","false",0,0
+"!169b315a","8862","Meshtastic 8862","CLIENT","TBEAM_1_WATT","false",0,0
+"!2eaf940","","","CLIENT","","false",0,0
+"!ba73db08","","","CLIENT_BASE","","false",0,0
+"!f2dff83c","f83c","F83c ik1vni","","THINKNODE_M1","false",0,0
+"!64efca41","","","CLIENT","","false",0,0
+"!43a7ab0","7ab0","Meshtastic 7ab0","CLIENT","HELTEC_V3","false",0,0
+"!9eeeaa4c","mnrf","MercurioNrf","CLIENT","XIAO_NRF52_KIT","false",0,0
+"!d1b6b52d","","","CLIENT_BASE","","false",0,0
+"!da5c7d80","Pla","Pla☀️","CLIENT","HELTEC_V3","false",0,0
+"!acb5b3c","Port","Portatile 5b3c","CLIENT","HELTEC_V4","false",0,0
+"!f66ada80","ALTA","Fisso Muggia,TS JN65vo","CLIENT","HELTEC_V4","false",0,0
+"!f5025115","COR1","Andy Corato Centro","CLIENT","SEEED_SOLAR_NODE","false",0,0
+"!433ed134","","","CLIENT","","false",0,0
+"!9e78e100","e100","Meshtastic e100","CLIENT","HELTEC_V3","false",0,0
+"!f990de60","SNK","IZ2SNK ROUTER","ROUTER_LATE","TLORA_V2_1_1P6","false",0,0
+"!6a19dcef","","","CLIENT_BASE","","false",0,0
+"!f670a8e0","","","CLIENT_MUTE","","false",0,0
+"!fc920e7e","RRS","ResiRepeaterSaualm","ROUTER","XIAO_NRF52_KIT","false",0,0
+"!72164adb","","","CLIENT_MUTE","","false",0,0
+"!aca948c8","📡","IZ3EAW 🇮🇹 📡","CLIENT","HELTEC_V3","false",0,0
+"!699c9500","VEST","VICENZA EST","ROUTER","HELTEC_V4","false",0,0
+"!b26208dd","LBVC","M.te La Buffa 🌬️ Val Chisone","CLIENT","XIAO_NRF52_KIT","false",0,0
+"!9e76688c","","","CLIENT","","false",0,0
+"!2ee28a8","MaxD","Max Down Cologno MI","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!a1f7f610","","","CLIENT","","false",0,0
+"!c8ce5ab2","5ab2","Meshtastic 5ab2","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!f669db50","","","CLIENT_BASE","","false",0,0
+"!a35b8890","8890","FVG_El_pantiana","CLIENT","HELTEC_V4","false",0,0
+"!2ee3adc","MIK2","MIKUICE_mobile","CLIENT","HELTEC_V3","false",0,0
+"!4331cb8","","","CLIENT","","false",0,0
+"!eb80855d","ATST","Aquila-TST","ROUTER","PORTDUINO","false",0,0
+"!c8ec9fc8","","","ROUTER_LATE","","false",0,0
+"!9e773548","NOD3","NOD3 Fermo Marche SGIE ","CLIENT_BASE","HELTEC_V3","false",0,0
+"!408b7bc","","","CLIENT","","false",0,0
+"!b013642c","","","CLIENT","","false",0,0
+"!1b976c85","","","CLIENT","","false",0,0
+"!9e76227c","","","CLIENT","","false",0,0
+"!6168482d","","","CLIENT","","false",0,0
+"!f6fbf4d0","","","CLIENT","","false",0,0
+"!f9b011fc","","","CLIENT","","false",0,0
+"!433e2b84","POOV","PratoOvest 2b84","CLIENT_BASE","HELTEC_V3","false",0,0
+"!b2a7e784","","","TRACKER","","false",0,0
+"!849b7694","","","CLIENT","","false",0,0
+"!a2281173","Griz","Grizzlytrack ","CLIENT","TRACKER_T1000_E","false",0,0
+"!849b7678","HOPE","Speranza (BO)","CLIENT","HELTEC_V3","false",0,0
+"!573be72d","HQSP","Meshtastic HQS_P ","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!43cb510","","","CLIENT_BASE","","false",0,0
+"!f1b6929c","","","CLIENT","","false",0,0
+"!6c3fedbd","","","CLIENT","","false",0,0
+"!c2dc0e8d","JRY","SDS Tracker","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!9e7861ec","DRKT","DrkTnx","CLIENT","HELTEC_V3","false",0,0
+"!49b688e4","🐰","Animaletto","CLIENT_BASE","HELTEC_V4","false",0,0
+"!a1f809c0","","","CLIENT","","false",0,0
+"!bffd4418","dak1","Meshtastic 4418","CLIENT","HELTEC_V2_0","false",0,0
+"!f66ae93c","","","CLIENT","","false",0,0
+"!1d4c9101","","","CLIENT","","false",0,0
+"!4c544d0","LEBA","LoramE Base","ROUTER","HELTEC_V4","false",0,0
+"!ba73bd84","SOS1","SOS CAMPANIA 1 🔴 CONTAX ","CLIENT","TBEAM_1_WATT","false",0,0
+"!43a5bec","FABH","🦉FABH 5bec","CLIENT","HELTEC_V3","false",0,0
+"!c3397951","","","CLIENT","","false",0,0
+"!c9999c28","PUT1","IW6PUT","CLIENT","HELTEC_V2_0","false",0,0
+"!b2a791b0","🌐","🌐🥭MANGOLINKss148🥭🌐","CLIENT_BASE","HELTEC_V4","false",0,0
+"!2d9c9f36","OnBa","OnefBase","CLIENT_BASE","RAK4631","false",0,0
+"!a1ad6638","Max3","🌏 IW6MKC-3🚶‍♂","CLIENT_MUTE","T_DECK","false",0,0
+"!18f72add","","","CLIENT","","false",0,0
+"!ce388209","8209","Cima Tofana","CLIENT","RAK3401","false",0,0
+"!7b744b1a","","","CLIENT","","false",0,0
+"!9e768338","ZMEQ","IK0ZME Frank","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!602d6673","RCT3","RCS TRACKER 3","TRACKER","SEEED_WIO_TRACKER_L1","false",0,0
+"!cb73bacf","","","CLIENT","","false",0,0
+"!b03d60f8","60f8","temp box _868_👻","CLIENT","HELTEC_V3","false",0,0
+"!4f5e4331","Ab04","SOS Italia - Gioia Vecchio","CLIENT","RAK4631","false",0,0
+"!2ecfa80","","","CLIENT","","false",0,0
+"!6c80224","MXP","Volandia_Droni_0224","CLIENT","TLORA_V2_1_1P6","false",0,0
+"!69827f04","F.MB","F.Mobile 📟","CLIENT","HELTEC_V4","false",0,0
+"!c15c708f","708f","OL03","CLIENT_BASE","HELTEC_MESH_NODE_T114","false",0,0
+"!ba6af5a4","f5a4","IU7IFN traker f5a4","TRACKER","HELTEC_WIRELESS_TRACKER","false",0,0
+"!f7112818","3IHD","Meshtastic 2818","CLIENT","DIY_V1","false",0,0
+"!f66b2174","MARN","MIB-TASTIC-1 Marano L. ","CLIENT","HELTEC_V4","false",0,0
+"!9ea66ec8","","","CLIENT","","false",0,0
+"!c1fc80b4","SL01","Meshtastic San Leonado Valc","CLIENT","SEEED_XIAO_S3","false",0,0
+"!6b8b3575","","","CLIENT","","false",0,0
+"!4920c1b","1d67","Meshtastic 1d67","CLIENT","TLORA_V2","false",0,0
+"!a96e136d","MVZN","MVZN NRF52","CLIENT_MUTE","NRF52_PROMICRO_DIY","false",0,0
+"!43b6da44","","","CLIENT","","false",0,0
+"!9e9d7528","ATQ","ANCONA 1","CLIENT","HELTEC_V3","false",0,0
+"!9ea0f174","","","CLIENT_BASE","","false",0,0
+"!9eeb26c4","26c4","EHC 26c4","CLIENT","HELTEC_V3","false",0,0
+"!ab1a7c52","FP1","FP1","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!8d7dc841","c841","Meshtastic c841","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!413935c","Raf","IW8DDV Home","CLIENT","EBYTE_ESP32_S3","false",0,0
+"!57be8773","","","ROUTER_LATE","","false",0,0
+"!49b7acb8","6CPZ","IW6CPZ","CLIENT_BASE","HELTEC_V4","false",0,0
+"!4084edc","VM01","Villasmundo01","CLIENT","HELTEC_V3","false",0,0
+"!da633d68","","","CLIENT","","false",0,0
+"!49b619d0","6RNV","IZ6RNV Cese Pietro ","CLIENT","HELTEC_V4","false",0,0
+"!bff5acd8","acd8","chinderdersense acd8","CLIENT","TRACKER_T1000_E","false",0,0
+"!43aad30","3MBL","MBL 🏡 Monte S. Giovanni C. ","CLIENT_BASE","HELTEC_V3","false",0,0
+"!75e99218","cdl1","Castel di Leva 1 (fisso)","CLIENT","HELTEC_V3","false",0,0
+"!f1bd0734","LO76","Lorenzo1976","CLIENT","T_DECK","false",0,0
+"!4068b38","","","CLIENT","","false",0,0
+"!fd01cb6f","","","CLIENT","","false",0,0
+"!33691c60","","","CLIENT_BASE","","false",0,0
+"!b6a7e4cf","GRSJ","Gressoney St-Jean","CLIENT","RAK6421","false",0,0
+"!7c5cbb9c","","","CLIENT","","false",0,0
+"!6984ea28","TR04","Terni connessa","CLIENT","HELTEC_V4","false",0,0
+"!bbad085c","","","CLIENT","","false",0,0
+"!66bc2590","","","CLIENT_BASE","","false",0,0
+"!e46fb0da","PNS1","🇮🇹 IU8PNS NA","CLIENT","T_ECHO_LITE","false",0,0
+"!acb4d60","","","CLIENT_BASE","","false",0,0
+"!1fde3109","xude","Lorbu-up","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!96222d09","","","ROUTER_LATE","","false",0,0
+"!9f6a1729","OL02","OL02","CLIENT_BASE","RP2040_LORA","false",0,0
+"!2ecc2dc","","","CLIENT","","false",0,0
+"!849a5b3c","fli0","fliving 0 Ferrara","CLIENT_MUTE","HELTEC_WIRELESS_PAPER","false",0,0
+"!4085f2c","5VK1","IQ5VK - nodo Montieri 1062 m.","CLIENT_BASE","HELTEC_V3","false",0,0
+"!9ea1bb18","XIR1","AleXIR - Power on Agosto 2025","CLIENT","HELTEC_V3","false",0,0
+"!f1a6b694","b694"," giovi mob🏖️ tdeck","CLIENT","T_DECK","false",0,0
+"!8684e53c","mar2","mar02","CLIENT","THINKNODE_M1","false",0,0
+"!2ed0618","0618","Meshtastic 0618","CLIENT","HELTEC_V3","false",0,0
+"!43d32c8","32c8","mulo 32c8","CLIENT","HELTEC_V3","false",0,0
+"!db2b2028","2028","MasaNode","CLIENT","HELTEC_V3","false",0,0
+"!7c5b4160","BS","Blood Station","CLIENT","HELTEC_V3","false",0,0
+"!7ea6bd49","bd49","Meshtastic bd49","CLIENT","RAK4631","false",0,0
+"!9ea2ad38","POL","Paolo","CLIENT","HELTEC_V3","false",0,0
+"!2ee15e8","","","CLIENT","","false",0,0
+"!edaca1a5","Trak","💠Nomad 💠","CLIENT","TRACKER_T1000_E","false",0,0
+"!ba0ca6d4","","","CLIENT","","false",0,0
+"!2eace80","","","CLIENT","","false",0,0
+"!ac3c2960","","","CLIENT","","false",0,0
+"!a0cc1d48","BUCC","PIETRAMARINA-CARMIGNANO (PO)","ROUTER","HELTEC_V3","false",0,0
+"!a0ccd7c4","","","CLIENT_BASE","","false",0,0
+"!49b76f94","","","CLIENT","","false",0,0
+"!9ea21300","","","CLIENT","","false",0,0
+"!62d91578","LT89","LucaTastic89","CLIENT","TLORA_T3_S3","false",0,0
+"!a52f3afc","","","CLIENT_BASE","","false",0,0
+"!9e9a939c","","","CLIENT","","false",0,0
+"!49b54cd8","🔋","Knappenberg Base 🔋","CLIENT","HELTEC_V4","false",0,0
+"!5c33405","SGIM","10000 SGIM PWB FERMO Marche ","CLIENT","HELTEC_MESH_POCKET","false",0,0
+"!f9ad6468","NOW3","Autosalone Luxus_Fisso 🇮🇹📡 ","CLIENT_BASE","TLORA_V2_1_1P6","false",0,0
+"!f91ebe50","5UG","M.Altuccia RPT ARI Arezzo","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!fe9897b6","","","ROUTER_LATE","","false",0,0
+"!b471e276","C2PT","CAPP2_PISTOIA","CLIENT","TRACKER_T1000_E","false",0,0
+"!b03cfbe8","","","CLIENT","","false",0,0
+"!bffd4b94","6Peg","Sempronio Uno","CLIENT_MUTE","HELTEC_V2_0","false",0,0
+"!450c760d","SNRP","SKYNODE Rocca Priora 🏙️","ROUTER","HELTEC_MESH_NODE_T114","false",0,0
+"!9ea09bf8","RM70","Roma70🏡","CLIENT","HELTEC_WSL_V3","false",0,0
+"!e99ca936","","","TRACKER","","false",0,0
+"!87e34dba","EN60","⚡ENIO🌦️METEO⚡","CLIENT","XIAO_NRF52_KIT","false",0,0
+"!25227f40","7f40","Meshtastic 7f40","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!9e9e33c8","","","CLIENT","","false",0,0
+"!7fa3ee19","","","CLIENT_BASE","","false",0,0
+"!9ea0ae9c","","","CLIENT","","false",0,0
+"!4050904","0904","Kipters Base","CLIENT_BASE","HELTEC_V3","false",0,0
+"!4063c00","bot","Apocalisse bot","CLIENT_BASE","HELTEC_V3","false",0,0
+"!435a6f74","ISLA","Scaligera Mesh Node","CLIENT_BASE","LILYGO_TBEAM_S3_CORE","false",0,0
+"!43c62a4","62a4","giovi mob🏖️ ","CLIENT","HELTEC_V3","false",0,0
+"!2ed096c","1976","Stefano_IU2WAP","CLIENT","HELTEC_V3","false",0,0
+"!f1896cf4","c1p8","Antonio Loseto mobile","CLIENT_MUTE","THINKNODE_M5","false",0,0
+"!699bdef0","sf01","StevenIrons🦇","CLIENT","HELTEC_V4","false",0,0
+"!475d1464","GdG","Golfo di Gaeta 1464","ROUTER","DIY_V1","false",0,0
+"!4fcb51f1","c824","Meshtastic c824","CLIENT","HELTEC_V4","false",0,0
+"!f6696afc","","","CLIENT","","false",0,0
+"!acaa7508","","","CLIENT","","false",0,0
+"!acab7824","7824","Meshtastic 7824","CLIENT","HELTEC_V3","false",0,0
+"!66209e3e","P:S:","BTS LoRa Mantova🇮🇹📡","CLIENT","PORTDUINO","false",0,0
+"!35fbcae8","teo6"," iz5iot/m","CLIENT","XIAO_NRF52_KIT","false",0,0
+"!9ee717f0","Cas1","Castelplanio 1","SENSOR","HELTEC_V3","false",0,0
+"!89e5033d","","","CLIENT","","false",0,0
+"!497589ef","MI1","IU0TYA TRKR 1","CLIENT_MUTE","SEEED_WIO_TRACKER_L1","false",0,0
+"!db2a7484","1FVG","1FVG137 Tricesimo (UD}","CLIENT","HELTEC_V3","false",0,0
+"!d7739a09","M01A","Gabry-M01A","TAK","SEEED_WIO_TRACKER_L1","false",0,0
+"!f661a154","","","CLIENT","","false",0,0
+"!4396d3c","","","CLIENT","","false",0,0
+"!9ea03184","LuSo","Lullu In Soffitta 🕸️ 3184","CLIENT_BASE","HELTEC_WIRELESS_PAPER","false",0,0
+"!93628dbb","","","CLIENT_MUTE","","false",0,0
+"!6983dfa4","P006","Plane_V4","CLIENT","HELTEC_V4","false",0,0
+"!a4d4099c","Ab54","🗼SOS Abruzzo m.te Pratello ⛷️","ROUTER","RAK4631","false",0,0
+"!a0cc801c","801c","Meshtastic 801c","CLIENT_BASE","HELTEC_V3","false",0,0
+"!db5d86d8","0qre","IK6QRE/0","CLIENT_BASE","TLORA_T3_S3","false",0,0
+"!5671d496","uolo","Uollano","CLIENT_MUTE","TRACKER_T1000_E","false",0,0
+"!9e77d42c","","","CLIENT","","false",0,0
+"!2b308590","","","ROUTER","","false",0,0
+"!b5b6de37","","","CLIENT","","false",0,0
+"!1ba66424","daka","Meshtastic 6424","CLIENT_BASE","HELTEC_V4","false",0,0
+"!b7da06cb","SDS","Stazione Delta Sud","CLIENT","RAK4631","false",0,0
+"!db58b28c","b28c","Meshtastic b28c","CLIENT_BASE","HELTEC_WIRELESS_TRACKER","false",0,0
+"!4ede328","e328","TERMINIO","CLIENT","EBYTE_ESP32_S3","false",0,0
+"!6d0afca0","VEI","IZ3VEI-GW","CLIENT","TLORA_V2_1_1P6","false",0,0
+"!698271b0","","","CLIENT_MUTE","","false",0,0
+"!6b5a1668","Rzrb","Mesh1668Rzrb","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!7c5b069c","069c","Meshtastic 069c","ROUTER_LATE","HELTEC_V3","false",0,0
+"!db294b44","","","ROUTER_LATE","","false",0,0
+"!9e9d25c0","25c0","1FVG298-Giò ","CLIENT","HELTEC_V3","false",0,0
+"!e09997ce","","","ROUTER","","false",0,0
+"!c623becc","LGQ1","IU0LGQ base","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!ba7b5617","fmph","ITOS030_WioTracker","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!f66f7628","CMG3","Rino Portatile","CLIENT","HELTEC_V4","false",0,0
+"!dde4577b","RTE1","Giovanni IU0RTE - T1000 - 1","CLIENT","TRACKER_T1000_E","false",0,0
+"!aca3570","RC7N","📡RECANATI Fixed📡","CLIENT","HELTEC_V4","false",0,0
+"!bba82dcc","","","CLIENT","","false",0,0
+"!1ba30d7c",".. ",". ","CLIENT_BASE","HELTEC_V4","false",0,0
+"!6c73bccc","","","CLIENT","","false",0,0
+"!7f389f7d","Ab55","SOS Italia Nodo Nicola ","CLIENT","RAK4631","false",0,0
+"!69854820","","","CLIENT","","false",0,0
+"!6d08841c","","","CLIENT","","false",0,0
+"!400bebc","MBL9","MBL 🏡 Caleb Fontana Liri","CLIENT_BASE","HELTEC_V3","false",0,0
+"!9e7769c4","","","CLIENT","","false",0,0
+"!4b55b80f","","","SENSOR","","false",0,0
+"!f32a9f45","","","CLIENT","","false",0,0
+"!d7fb41a6","Tony","Eltony","CLIENT","THINKNODE_M5","false",0,0
+"!f9b39078","PAOL","paolettiradiocomunicazioni.it","CLIENT","TLORA_V2_1_1P6","false",0,0
+"!2ecae24","5VK2","IQ5VK Monte Caselle","CLIENT_BASE","HELTEC_V3","false",0,0
+"!f9b49c18","9c18","IW8ELN-23","CLIENT_MUTE","TLORA_V2_1_1P6","false",0,0
+"!9e75f384","zx85","zacx85","CLIENT","HELTEC_V3","false",0,0
+"!b33c40f3","","","CLIENT_BASE","","false",0,0
+"!9e776ec4","GEN1","GENNERUXI 6ec4","CLIENT_BASE","HELTEC_V3","false",0,0
+"!f66f6148","","","CLIENT","","false",0,0
+"!5d5d4c0e","Tom0","Tomita Solar","CLIENT","RAK4631","false",0,0
+"!43973ac","LINA","LINA 🚐📡 (MQTT)","CLIENT","HELTEC_V3","false",0,0
+"!27a9e219","T114","Stefano_Bo","CLIENT_MUTE","HELTEC_MESH_NODE_T114","false",0,0
+"!1d63b9ec","ARGO","ARGO MOBILE ","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!9e753e40","3e40","3e40","CLIENT","HELTEC_WIRELESS_TRACKER","false",0,0
+"!f92af7c8","","","CLIENT_MUTE","","false",0,0
+"!ae61478c","","","CLIENT_BASE","","false",0,0
+"!d31ea07","1d10","Meshtastic 1d10","CLIENT","PRIVATE_HW","false",0,0
+"!698299a4","99a4","Meshtastic 99a4","CLIENT","HELTEC_V4","false",0,0
+"!174d7309","","","CLIENT","","false",0,0
+"!64be655","","","CLIENT_MUTE","","false",0,0
+"!acaaa5b4","","","CLIENT","","false",0,0
+"!da75c280","gas","xiaogas_280","CLIENT","SEEED_XIAO_S3","false",0,0
+"!a7321234","","","CLIENT_MUTE","","false",0,0
+"!9e760a28","5XMK","IK5XMK (Sesto Fiorentino)","CLIENT","HELTEC_WIRELESS_TRACKER","false",0,0
+"!79212642","ESO","Esoterico","CLIENT_BASE","HELTEC_MESH_NODE_T114","false",0,0
+"!2e5f1e4","MMAH","Max Andria Home","CLIENT","HELTEC_V3","false",0,0
+"!25c21dac","2DGQ","Meshtastic IW2DGQ","CLIENT","TLORA_V2_1_1P6","false",0,0
+"!6f696fc","IBTM","IU0BTM","CLIENT","TLORA_V2_1_1P6","false",0,0
+"!1ba29fb0","Paul","Assemini 1","CLIENT","HELTEC_V4","false",0,0
+"!9e761c6c","DC1","DEC002","CLIENT","HELTEC_V3","false",0,0
+"!b03badb4","MAMO","MauMobile adb4","CLIENT","HELTEC_V3","false",0,0
+"!55b1e682","TALM","IV3JIX","TRACKER","T_ECHO","false",0,0
+"!1ba2871c","871c","IU3QFR","CLIENT","HELTEC_V4","false",0,0
+"!2ec2ca0","","","CLIENT_BASE","","false",0,0
+"!698442b8","hev4","gateway","CLIENT_BASE","HELTEC_V4","false",0,0
+"!c8cf4768","hW07","Meshtastic 4768","CLIENT","WISMESH_TAG","false",0,0
+"!3b3ca677","","","CLIENT","","false",0,0
+"!2ba3332c","DTZY","Idiotzzy 332c","CLIENT","TBEAM","false",0,0
+"!3c22925e","Ori!","Oreste 🐈 🐾","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!69827284","Mike","Mike AN M.d'Ago ","CLIENT","HELTEC_V4","false",0,0
+"!f669cbe8","PSM","Poggio San Marcello","CLIENT","HELTEC_V4","false",0,0
+"!1309d9e4","d9e4","Fakes","","TLORA_T3_S3","false",0,0
+"!acaa9de8","D_e8","Delta_9de8(I)📐","CLIENT","HELTEC_V3","false",0,0
+"!f9ae12ec","GIO2","GRF M.Giovi2 (Mugello)","ROUTER_LATE","TLORA_V2_1_1P6","false",0,0
+"!433ee30c","rLr1","ruzzoLora ☄️","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!2dd2bb2c","","","CLIENT","","false",0,0
+"!a69604d8","","","CLIENT_BASE","","false",0,0
+"!bd7bcc84","","","CLIENT","","false",0,0
+"!dec1c0fa","🌃","Andrea Roma IU0CRY","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!e31b9606","","","CLIENT_BASE","","false",0,0
+"!9eecfe20","","","CLIENT","","false",0,0
+"!a8cfdd3c","","","CLIENT","","false",0,0
+"!2ee9f24","9f24","IØABU 9f24","CLIENT","HELTEC_V3","false",0,0
+"!9a069f15","Ab01","SOS Italia - Fucino","CLIENT","RAK4631","false",0,0
+"!6983da20","","","CLIENT_BASE","","false",0,0
+"!90965f08","","","ROUTER","","false",0,0
+"!fe116095","6095","Max 6095","CLIENT","T_ECHO","false",0,0
+"!901d2d93","","","ROUTER","","false",0,0
+"!9e9fb20c","","","ROUTER_LATE","","false",0,0
+"!e8481063","","","CLIENT_MUTE","","false",0,0
+"!756f8714","Ve51","SOS-Veneto 51 in prova","CLIENT","RAK3312","false",0,0
+"!f1a7bfa8","BP","big wlw","CLIENT","TBEAM_1_WATT","false",0,0
+"!b03ca408","","","CLIENT","","false",0,0
+"!9ea0f0a8","D_a8","Delta_f0a8📐","CLIENT","HELTEC_V3","false",0,0
+"!91c3f1fa","","","CLIENT","","false",0,0
+"!49b54ab8","AQ20","AQ20_IK6DEN-portable","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!2eb1420","1420","beppe2","CLIENT_BASE","HELTEC_WIRELESS_TRACKER","false",0,0
+"!43597484","","","CLIENT","","false",0,0
+"!acb10d0","","","CLIENT","","false",0,0
+"!a49bf362","","","CLIENT","","false",0,0
+"!4357ff64","TS23","IV3KPX","CLIENT","LILYGO_TBEAM_S3_CORE","false",0,0
+"!c3e7c159","","","CLIENT_BASE","","false",0,0
+"!1ba276f0","QPP","QPP_PVC","CLIENT_BASE","HELTEC_V4","false",0,0
+"!bd503cec","3cec","Meshtastic 3cec WF-V3V","CLIENT","HELTEC_V3","false",0,0
+"!81500b10","","","ROUTER","","false",0,0
+"!f66f66b8","RILU","Mesh5ILU","ROUTER_LATE","HELTEC_V4","false",0,0
+"!433b96ac","","","CLIENT","","false",0,0
+"!f690265c","GIGI","EIA LUIGI Civitavecchia","CLIENT","THINKNODE_M5","false",0,0
+"!4c589b4","","","CLIENT_BASE","","false",0,0
+"!9d38470","MAU1","Mau San Bartolo (RA)","CLIENT","HELTEC_V3","false",0,0
+"!6c7fb0c","GIO1","GRF Monte Giovi (Mugello)","ROUTER","TLORA_V2_1_1P6","false",0,0
+"!699be6a0","Rpt1","🥶 Rpt-Fiemme1🥶 ","ROUTER_LATE","HELTEC_V4","false",0,0
+"!81399b2b","Fefe","Federico elettrica","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!c6e7f8e7","FLOI","FabLabOssImp","CLIENT","RAK4631","false",0,0
+"!a0cb1778","","","CLIENT","","false",0,0
+"!4747a909","GORT","Marino","CLIENT_MUTE","SEEED_WIO_TRACKER_L1","false",0,0
+"!2eccdc8","","","CLIENT_BASE","","false",0,0
+"!2bdcfdf1","","","CLIENT","","false",0,0
+"!a3e97cca","atr2","MeshColleGiustizia","CLIENT_BASE","HELTEC_MESH_NODE_T114","false",0,0
+"!f6fcb10c","","","CLIENT","","false",0,0
+"!63ad15a","99d4","Meshtastic 99d4","CLIENT","T_DECK","false",0,0
+"!91158650","","","CLIENT","","false",0,0
+"!d6523de4","3de4","Meshtastic 3de4","CLIENT","HELTEC_V2_0","false",0,0
+"!160e4d8e","4d8e","Mameli 🇮🇹","CLIENT_BASE","RAK4631","false",0,0
+"!f68dcdb0","","","CLIENT","","false",0,0
+"!49b5f0d8","","","CLIENT","","false",0,0
+"!acaab390","ZOM","Meshtastic ZOM","CLIENT","HELTEC_V3","false",0,0
+"!80fde51a","jjo","Airone Tracker","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!aca9ee84","MF01","Fontana Candida MF01 📡","CLIENT_BASE","HELTEC_V3","false",0,0
+"!b37a3414","","","CLIENT","","false",0,0
+"!d48146e8","NA00","🇮🇹 IU8PNS BASE","CLIENT","TLORA_T3_S3","false",0,0
+"!4c58484","👽","👽 DariOne ⚾","ROUTER","HELTEC_V4","false",0,0
+"!f1b88d30","TBM1","Mbtb-mobile","CLIENT","TBEAM_1_WATT","false",0,0
+"!9e753354","Dv01","Dvfarm Orte","CLIENT_BASE","HELTEC_V3","false",0,0
+"!f6fbf4f0","MTOB","Meshtastic TOB","CLIENT","HELTEC_V3","false",0,0
+"!1ba30150","","","CLIENT_BASE","","false",0,0
+"!9e779c60","MARU","MarMesh1","CLIENT","HELTEC_V3","false",0,0
+"!1de9d6b4","","","CLIENT","","false",0,0
+"!1de4d7a","","","CLIENT_MUTE","","false",0,0
+"!4c67aa8","","","CLIENT","","false",0,0
+"!12b11a78","","","ROUTER_LATE","","false",0,0
+"!e2e51f70","","","CLIENT","","false",0,0
+"!2232359c","","","ROUTER","","false",0,0
+"!89e76493","Um51","SOS Italia Foligno","CLIENT_BASE","SEEED_SOLAR_NODE","false",0,0
+"!1f9fe040","MGIA","Muggia","ROUTER","TBEAM","false",0,0
+"!9e7800c4","","","CLIENT","","false",0,0
+"!407c1e4","4MTH","IZ4MTH nodo fisso Cervia RA 🔊","ROUTER_LATE","HELTEC_V3","false",0,0
+"!a0cccfc4","HLB","HLB Home","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!43cb718","UELA","Meshtastic b718","CLIENT","HELTEC_V3","false",0,0
+"!f68f9000","","","CLIENT","","false",0,0
+"!4329fe0","","","CLIENT","","false",0,0
+"!fdfc540d","","","ROUTER_LATE","","false",0,0
+"!433ec78c","iz5t","iz5iot ","CLIENT","HELTEC_V3","false",0,0
+"!49b66970","HV4","Stefano-Bo","CLIENT","HELTEC_V4","false",0,0
+"!1f5c09a5","","","CLIENT","","false",0,0
+"!6418c850","","","CLIENT_BASE","","false",0,0
+"!acb06d0","","","CLIENT_BASE","","false",0,0
+"!b978a352","ISH8","Portuense8 IU0ISH","CLIENT_BASE","RAK4631","false",0,0
+"!a0ccd828","","","CLIENT_BASE","","false",0,0
+"!a1cd87c0","","","CLIENT","","false",0,0
+"!62b7eaf8","","","CLIENT_BASE","","false",0,0
+"!2e5a2b0","J.P.","John Paul","CLIENT","HELTEC_V3","false",0,0
+"!ba69aef0","SAC1","Sacile1 IV3LEL","CLIENT","HELTEC_WIRELESS_TRACKER","false",0,0
+"!da9d5c74","DEV4","MESHT_DEV4","TRACKER","TLORA_V2_1_1P6","false",0,0
+"!5a96f87","BASE","Marco BASE","CLIENT_BASE","RAK4631","false",0,0
+"!6891f263","","","CLIENT","","false",0,0
+"!433eb774","LWRE","Ledway RE MSG","CLIENT","HELTEC_V3","false",0,0
+"!9e9d8ae8","8ae8","Falco Grigio","CLIENT","HELTEC_V3","false",0,0
+"!9e778ce0","QUIL","Francesco 8ce0","CLIENT_BASE","HELTEC_V3","false",0,0
+"!ce4fc6bf","","","CLIENT","","false",0,0
+"!9d40d24","0d24","Meshtastic 0d24","CLIENT","HELTEC_V3","false",0,0
+"!a0cc3014","LWRC","LedWay RC FPU","ROUTER","HELTEC_V3","false",0,0
+"!336923e0","","","ROUTER_LATE","","false",0,0
+"!2eb3fb0","","","CLIENT_BASE","","false",0,0
+"!b03c4c1c","","","CLIENT","","false",0,0
+"!f6f78218","","","CLIENT","","false",0,0
+"!4eb8a696","","","CLIENT","","false",0,0
+"!bbad04f0","04f0","Lora-Basel-Stadt-Gateway","CLIENT","TBEAM","false",0,0
+"!e6124f66","","","CLIENT","","false",0,0
+"!5df65e9b","🚫","🆔️🔄⛔️","CLIENT","HELTEC_V3","false",0,0
+"!69829ddc","SCON","Meshtastic 9ddc","CLIENT","HELTEC_V4","false",0,0
+"!b03df7d0","SbtC","SBT Centro","CLIENT","HELTEC_V3","false",0,0
+"!9e77dfe8","LoTa","lotan","CLIENT","HELTEC_V3","false",0,0
+"!f6624d54","RDL1","RDLNET – Verona Nord Ovest","CLIENT_BASE","HELTEC_V4","false",0,0
+"!433d1ae0","","","CLIENT","","false",0,0
+"!b03ce430","77AU","T77DB AU","CLIENT","HELTEC_WIRELESS_TRACKER","false",0,0
+"!f244bd1c","MTB","Mannaggia TBeam","CLIENT","TBEAM","false",0,0
+"!bba937a8","Luk","Luk_37a8","CLIENT","TBEAM","false",0,0
+"!da6559d4","OLE1","Stazione Olevano Meteo","CLIENT","HELTEC_V3","false",0,0
+"!a98bd12a","BIRB","Drone del Governo 🐦","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!4ed28c90","8d2e","Meshtastic 8d2e","CLIENT","T_WATCH_S3","false",0,0
+"!92713915","BC03","ATLAVOX BC03 3915🏡","ROUTER","RAK4631","false",0,0
+"!a0cc8750","VAL","Valmaura","CLIENT","HELTEC_V3","false",0,0
+"!db5eece4","","","CLIENT_BASE","","false",0,0
+"!b2a748e0","MBV4","MbV4-LiSab1","CLIENT","HELTEC_V4","false",0,0
+"!435a7e60","","","CLIENT","","false",0,0
+"!bffd383c","VOID","VoidWolf","CLIENT","HELTEC_V2_0","false",0,0
+"!8fb288c4","88c4","RCBL-ERE-88c4","ROUTER","HELTEC_MESH_NODE_T114","false",0,0
+"!65ac2537","","","CLIENT","","false",0,0
+"!432b984","b984","Meshtastic b984","ROUTER","HELTEC_V3","false",0,0
+"!849c72f4","CiFr","CipFr 54 🇨🇵 (via LF FR)","CLIENT","HELTEC_V3","false",0,0
+"!699c7dd8","7dd8","Delta_d8","CLIENT","HELTEC_V4","false",0,0
+"!acaa5bd0","SVP0","🇮🇹IZ8SVP_Home_SMCV","CLIENT_MUTE","HELTEC_V3","false",0,0
+"!69826c48","GUA","IU2QAV","CLIENT","HELTEC_V4","false",0,0
+"!699c9c04","","","CLIENT_BASE","","false",0,0
+"!699cb564","RHX4","RHEX 4️⃣ b564","CLIENT_BASE","HELTEC_V4","false",0,0
+"!f1b7732c","4MBO","Tampi IK4MBO","CLIENT","T_DECK","false",0,0
+"!59bc053","VBxp","🚶‍➡️VB eXPloring","CLIENT","TRACKER_T1000_E","false",0,0
+"!14ac19cf","BIT1","Bitritto-01 📡🔋🔆","CLIENT_BASE","HELTEC_MESH_NODE_T114","false",0,0
+"!f145c68","V1PT","VIVAR1_PISTOIA","CLIENT_BASE","TLORA_V2_1_1P6","false",0,0
+"!ac9fc00","","","CLIENT","","false",0,0
+"!f670a354","VEGA","VEGA TS a354 🏠","CLIENT_BASE","HELTEC_V4","false",0,0
+"!3c0b4d30","SARD","IU3WNQ-SARD","CLIENT_BASE","HELTEC_MESH_NODE_T114","false",0,0
+"!614bc9c8","","","CLIENT","","false",0,0
+"!c0087573","MBL6","MBL6 🏡VRX Alatri","ROUTER_LATE","RAK4631","false",0,0
+"!113a864a","JWD2","IT9JWD 864a","CLIENT","THINKNODE_M1","false",0,0
+"!f66b70bc","","","CLIENT_BASE","","false",0,0
+"!b6f2c0cf","8XOI","IW8XOI","CLIENT_MUTE","SEEED_WIO_TRACKER_L1","false",0,0
+"!acb15c8","KVZ","Ivan KVZ","CLIENT","HELTEC_V4","false",0,0
+"!b2a7dcd0","fzr","iw1fzr","CLIENT","HELTEC_V4","false",0,0
+"!aca947ec","FAE1","Meshtastic FAE1","CLIENT","HELTEC_V3","false",0,0
+"!689e1e6b","","","CLIENT","","false",0,0
+"!49b5e484","Lpz","Lopez","CLIENT_BASE","HELTEC_V4","false",0,0
+"!1ba184e4","TuxB","Tux_B","CLIENT","HELTEC_V4","false",0,0
+"!6dabfcfd","","","CLIENT","","false",0,0
+"!a1cc2ff0","1BXL","1BXL_T-DECK","CLIENT","T_DECK","false",0,0
+"!acaa9780","ANG2","Anguillara Sabazia IU0RTE 02","CLIENT_BASE","HELTEC_V3","false",0,0
+"!403c7c71","🎯","Andreas-P1-M1🍺✅️","CLIENT","THINKNODE_M1","false",0,0
+"!735d324f","","","CLIENT","","false",0,0
+"!2e6c6b8","","","CLIENT","","false",0,0
+"!b10bdfb7","","","CLIENT","","false",0,0
+"!b5ed82a2","TCNP","RM-TCNPL-SMRT-00","CLIENT_MUTE","RAK4631","false",0,0
+"!9b667542","Fiss"," fisso7542","CLIENT_BASE","THINKNODE_M6","false",0,0
+"!776d36c8","","","CLIENT_MUTE","","false",0,0
+"!d2a98dbd","8dbd","Meshtastic 8dbd","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!49b54830","MOC1","IU5MOC base","CLIENT_BASE","HELTEC_V4","false",0,0
+"!2fa8ca0c","","","CLIENT","","false",0,0
+"!e7d37dfe","D203","dAm2K M","TRACKER","HELTEC_MESH_NODE_T114","false",0,0
+"!10712190","BUG","BUG🪲🆘🇮🇹","CLIENT","TRACKER_T1000_E","false",0,0
+"!a33cbf6f","","","CLIENT","","false",0,0
+"!69825ec0","5ec0","ChinderMeshtastic 5ec0","CLIENT","HELTEC_V4","false",0,0
+"!8fa62d38","2d38","QX-CLIENT-VIP","CLIENT","HELTEC_V4","false",0,0
+"!1ca526d4","","","CLIENT","","false",0,0
+"!160e08a","ORYX","Dronraptor","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!81b70150","FP5","FP5 rakcard","CLIENT","WISMESH_TAG","false",0,0
+"!2ecf840","QTR","Meshtastic f840","CLIENT","HELTEC_V3","false",0,0
+"!7fafe20f","","","CLIENT","","false",0,0
+"!9e760ba4","NET1","NETTUNO_01 RM","CLIENT_BASE","HELTEC_V3","false",0,0
+"!a0cc1404","1404","RBRT 1404","CLIENT","HELTEC_V3","false",0,0
+"!a0cb78c8","","","CLIENT","","false",0,0
+"!f6eeeafa","","","CLIENT_BASE","","false",0,0
+"!82c3e760","Enri","Enrico-IU6MOW","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!699c1bc8","M83V","Megaloman83v4","CLIENT_MUTE","HELTEC_V4","false",0,0
+"!f28e7b72","","","CLIENT_MUTE","","false",0,0
+"!e7b739c","GNKt","Genko_ T-Deck Mobile","CLIENT","T_DECK","false",0,0
+"!6983dff8","","","CLIENT","","false",0,0
+"!8fa47784","Trix","F.Trix-0","CLIENT","HELTEC_V4","false",0,0
+"!43574714","","","CLIENT","","false",0,0
+"!a1f7fee8","","","CLIENT","","false",0,0
+"!699c9fa4","","","CLIENT_BASE","","false",0,0
+"!9eb1ae6","","","CLIENT","","false",0,0
+"!99b481a","GI9","GioIacca9","CLIENT","T_ECHO","false",0,0
+"!849450f0","","","CLIENT_MUTE","","false",0,0
+"!756f9234","Ad01","SOS Italia - Admin 1","CLIENT_MUTE","RAK3312","false",0,0
+"!33688a98","","","CLIENT","","false",0,0
+"!9752f0ab","SVP","🇮🇹 IZ8SVP-📟-Nodo SMCV","CLIENT_BASE","HELTEC_MESH_NODE_T114","false",0,0
+"!dad8fe9c","","","TRACKER","","false",0,0
+"!40646c0","CF_B","CFerretti Base","CLIENT_BASE","HELTEC_V3","false",0,0
+"!f9b15020","MQTT","IZ2UUK ROUTER","ROUTER_LATE","TLORA_V2_1_1P6","false",0,0
+"!e6816082","","","CLIENT","","false",0,0
+"!b03cb41c","","","CLIENT","","false",0,0
+"!a0c68259","","","CLIENT_MUTE","","false",0,0
+"!699c24dc","CRB2","Colmurano Base 2","CLIENT_BASE","HELTEC_V4","false",0,0
+"!f6f60689","","","CLIENT","","false",0,0
+"!26f457d4","","","CLIENT","","false",0,0
+"!b112fac5","fac5","Liuk EnvShare.com fac5","CLIENT_MUTE","HELTEC_MESH_NODE_T114","false",0,0
+"!9eecfd0c","","","CLIENT","","false",0,0
+"!433e33fc","TK06","TK-06🇮🇹","CLIENT","HELTEC_V3","false",0,0
+"!b49e45","","","CLIENT","","false",0,0
+"!194c6d52","6d52","Gruppo Monte Coglians","CLIENT","RAK4631","false",0,0
+"!f670884c","","","CLIENT_BASE","","false",0,0
+"!bd9cdec","","","CLIENT","","false",0,0
+"!756f2914","","","CLIENT_MUTE","","false",0,0
+"!f6fa0c80","Z3R0","Zerocool","CLIENT","HELTEC_V3","false",0,0
+"!6984c6e8","","","CLIENT","","false",0,0
+"!2fa681e0","🦁","BRB-868-MF","CLIENT","TLORA_V2_1_1P6","false",0,0
+"!406499c","","","CLIENT","","false",0,0
+"!4ee15cc","Filo","IZ8QAD H  (MQTT)","CLIENT_MUTE","EBYTE_ESP32_S3","false",0,0
+"!9eecf704","0DGQ","IW0DGQ Roberto 🇮🇹","CLIENT","HELTEC_V3","false",0,0
+"!69832674","","","CLIENT","","false",0,0
+"!de393a3a","3a3a","Meshtastic 3a3a","CLIENT","THINKNODE_M6","false",0,0
+"!918125e2","","","CLIENT","","false",0,0
+"!a62e22ad","","","CLIENT","","false",0,0
+"!e2e511e4","","","ROUTER","","false",0,0
+"!815009e0","ITN1","IosTN1","CLIENT","M5STACK_C6L","false",0,0
+"!f5664f76","GUSB","Gubbio San Bartolomeo ","CLIENT_BASE","RAK4631","false",0,0
+"!dc4c17d","TLH","TheLastHop","CLIENT_MUTE","T_ECHO","false",0,0
+"!d8cd4794","","","CLIENT_MUTE","","false",0,0
+"!407bfac","","","CLIENT","","false",0,0
+"!69825ab8","","","CLIENT","","false",0,0
+"!849a8ce0","","","CLIENT_BASE","","false",0,0
+"!da56f814","","","CLIENT","","false",0,0
+"!8fa59c5c","","","CLIENT","","false",0,0
+"!e2e1e128","","","CLIENT","","false",0,0
+"!98130309","","","CLIENT","","false",0,0
+"!ac5ffe90","Trin","Trinita' Corciano Lato Trasimeno (PG)","ROUTER","RAK4631","false",0,0
+"!c2498687","","","CLIENT_BASE","","false",0,0
+"!dee8b344","Roof","Roof b344 - R2R","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!49b5e290","E 29","😎 E290","CLIENT","HELTEC_V4","false",0,0
+"!407ede8","ede8","Meshtastic ede8","CLIENT","HELTEC_V3","false",0,0
+"!909653b8","Mssm","Massimina(RM)","CLIENT","TLORA_T3_S3","false",0,0
+"!ba2a841c","🧭","IZ3EAW🚶🏻‍♂🇮🇹","CLIENT","HELTEC_MESH_NODE_T114","false",0,0
+"!13a44434","00ZZ","Mimm00ZZ","CLIENT_BASE","XIAO_NRF52_KIT","false",0,0
+"!16dda8d9","8IAW","IZ8IAW ","CLIENT","SEEED_WIO_TRACKER_L1","false",0,0
+"!9e75417c","Carl","Carlo","CLIENT","HELTEC_V3","false",0,0
+"!699c4c0c","","","CLIENT_BASE","","false",0,0
+"!ba66f688","","","CLIENT_MUTE","","false",0,0
+"!35ecba40","","","CLIENT","","false",0,0
+"!9eeccec0","","","CLIENT","","false",0,0
+"!4c559359","","","ROUTER","","false",0,0
+"!ae609c2c","LG03","03FENISMF8ClY","CLIENT","SEEED_XIAO_S3","false",0,0
+"!4329b48","9b48","Meshtastic 9b48","CLIENT","HELTEC_V3","false",0,0
+"!7f13456e","GTT1","Gatteo_01","CLIENT_BASE","RAK4631","false",0,0
+"!5cc8ebbc","","","CLIENT","","false",0,0
+"!49e79a02","","","ROUTER","","false",0,0
+"!db2b2410","","","CLIENT","","false",0,0
+"!b2a7c778","","","CLIENT","","false",0,0
+"!9e77810c","Tr01","Terni connessa 01","CLIENT","HELTEC_V3","false",0,0
+"!a1d89a88","9a88","Meshtastic 9a88","CLIENT","SEEED_XIAO_S3","false",0,0
+"!29c293a4","CINZ","Meshtastic CINZ","CLIENT","TRACKER_T1000_E","false",0,0
+"!a3696422","","","CLIENT_BASE","","false",0,0
+"!f66b6e08","","","CLIENT","","false",0,0
+"!a9970fde","","","CLIENT_MUTE","","false",0,0
+"!95aa7c00","Vaie","Vayes ⛪🪨⛲","CLIENT","TLORA_V2_1_1P6","false",0,0
+"!4063be8","3be8","Meshtastic 3be8","CLIENT","HELTEC_V3","false",0,0
+"!bdd1edc0","","","CLIENT_MUTE","","false",0,0
+"!7451758f","b67c","Meshtastic b67c","CLIENT","HELTEC_WIRELESS_PAPER","false",0,0
+"!5b22b225","FAKE","FAKE 🎯","CLIENT_MUTE","CHATTER_2","false",0,0
+"!433c3da4","","","CLIENT","","false",0,0
+"!9e9d7a38","","","CLIENT","","false",0,0
+"!435a5f0c","JWZ2","Tracker 2 IT9JWZ ","TRACKER","LILYGO_TBEAM_S3_CORE","false",0,0
+"!9eeb1678","TRK","IZ8FAV-10","CLIENT","HELTEC_V3","false",0,0

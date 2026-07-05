@@ -143,12 +143,12 @@ ax.text((xs[0] + wall_x) / 2 - 0.3, 0.68,
         "g strictly decreases at every hop:  12 \u2192 11 \u2192 \u2026",
         ha="center", fontsize=9, color=GREEN)
 ax.text(9.98, 0.62,
-        "\u2026 \u2192 1 \u2192 0.  GradCor continues:\na finite integer cannot decrease forever,\nso termination and loop freedom are\narithmetic facts \u2014 no counter needed",
+        "\u2026 \u2192 1 \u2192 0.  GradCor continues:\nstrict descent on a finite integer\nmust terminate; widened corridors stay\nbounded by packet-ID dedup \u2014 no counter needed",
         ha="right", fontsize=8.8, color=GREEN, va="bottom", linespacing=1.3)
 
 ax.text(0.55, 0.10,
         "The packet travels exactly as far as justified progress exists \u2014 12, 20, 50 hops \u2014 and no further:  a node whose neighbourhood\n"
-        "offers no eligible receiver at any corridor level is a certified local minimum \u2192 deterministic drop + route error, never a silent loop.",
+        "offers no eligible receiver at any corridor level is a locally-verified dead end \u2192 deterministic drop + route error, never a silent loop.",
         fontsize=9, va="top", color="#333", linespacing=1.4)
 
 fig.suptitle("GradCor at a glance: route with whatever knowledge exists, locally, for as long as progress is real",

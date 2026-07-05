@@ -48,7 +48,7 @@ for role in ROLE_COLORS:
         ax.scatter(xs, ys, s=28 if big else 9, c=ROLE_COLORS[role],
                    label=f"{role} ({len(xs)})", zorder=3 if big else 2,
                    edgecolors="white" if big else "none", linewidths=0.5)
-ax.set_title(f"Norway mesh — real 7d topology from production Memgraph\n"
+ax.set_title(f"Norway mesh — real 7d topology from production traceroutes\n"
              f"{len(nodes)} nodes, {len(links)} directed links "
              f"({len(pos)} nodes with GPS shown, {drawn} links)")
 ax.set_xlabel("lon"); ax.set_ylabel("lat")
@@ -88,7 +88,7 @@ b = ax.bar(x, dr, color=[PROTO_COLORS[p] for p in order])
 ax.bar_label(b, fmt="%.1f%%", fontsize=10)
 ax.set_xticks(list(x)); ax.set_xticklabels(order)
 ax.set_ylabel("delivery rate %"); ax.set_ylim(0, 100)
-ax.set_title("Delivery rate — 30 real traceroute pairs, 168 real hours, 3 seeds")
+ax.set_title("Delivery rate — 30 real traceroute pairs, 168 real hours, 10 seeds")
 ax2 = ax.twinx()
 ax2.plot(x, tpd, "kD--", ms=8, label="tx per delivered pkt")
 for xi, v in zip(x, tpd):

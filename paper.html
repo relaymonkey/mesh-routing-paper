@@ -67,17 +67,19 @@ firmware 2.6, all traffic &mdash; by managed flooding; 2.6 added cached next hop
 messages, with flood as the fallback; MeshCore source-routes. This paper proposes a fourth
 strategy &mdash;
 <i>gradient-corridor anycast</i> (GradCor): one byte of state per active destination,
-receiver-side anycast forwarding, and <b>no hop limit</b> &mdash; termination and loop freedom
-follow from strict gradient descent, so a packet travels as far as real progress exists and
-stops only at delivery or a certified local minimum. Replayed on the <b>real topology of the
+receiver-side anycast forwarding, and <b>no hop limit</b> &mdash; strict gradient descent gives
+termination and loop freedom while the corridor is tight, per-packet duplicate suppression
+bounds it once widened, so a packet travels as far as real progress exists and stops at
+delivery or a locally-verified dead end. Replayed on the <b>real topology of the
 Norwegian Meshtastic mesh</b> (499 nodes, 1,423 directed links reconstructed from 18,919
 production traceroutes, SNR-calibrated link quality, real duty-cycle presence), the final
 clock-free specification <b>GradCor-R delivers 50.7%</b> of unicast packets at <b>21
 transmissions per delivered packet</b> vs flooding's 25.3% at 71&nbsp;tx &mdash; double the
 delivery at 3.3&times; less airtime &mdash; while a MeshCore-inspired source-routing model
 (deliberately not a MeshCore emulation; &sect;7) collapses to 4.0% under link asymmetry and
-next-hop caching reaches 30.4%. The ranking reproduces on five further production
-networks wherever traceroute evidence suffices. We also identify and fix a production
+next-hop caching reaches 30.4%. The ranking reproduces on four of five further production
+networks; the fifth, with too little traceroute evidence to plant gradients on, degrades to
+flood level and defines a measurable deployment precondition. We also identify and fix a production
 extraction defect (traceroute responses parsed as requests) that had inflated the topology
 graph 2.5&times; and understated link reciprocity (36% &rarr; 57%).
 </div>
@@ -168,12 +170,14 @@ form). <b>(a)</b> Flood and source routing are the two ends of a knowledge spect
 not a point on it but a slider, moved per-hop by direct failure evidence. <b>(b)</b> A node's
 complete view: one byte of state per active destination and five local rules evaluated on every
 decoded frame &mdash; eligibility is decided at the receivers, so one broadcast simultaneously
-probes every potential relay. <b>(c)</b> Forwarding requires the gradient to strictly decrease
-at every hop, so a
+probes every potential relay. <b>(c)</b> In the strict corridor, forwarding requires the
+gradient to strictly decrease at every hop, so a
 packet may legitimately travel 12, 20, or 50 hops &mdash; a finite integer cannot descend forever,
-making termination and loop freedom arithmetic facts rather than counter side-effects; the
-flood's hop limit, by contrast, amputates at a fixed radius regardless of progress. A packet
-stops only at delivery or at a certified local minimum (deterministic drop + route error).</div>
+making termination and loop freedom arithmetic facts rather than counter side-effects; in the
+widened corridors the walk stays bounded by the same per-packet dedup the flood relies on (each
+node forwards a given packet at most once). The flood's hop limit, by contrast, amputates at a
+fixed radius regardless of progress. A packet
+stops only at delivery or at a locally-verified dead end (deterministic drop + route error).</div>
 
 <h3>3.1&nbsp;&nbsp;State: two numbers per destination (one, in the final spec)</h3>
 <p>
@@ -208,7 +212,11 @@ position broadcast can double as a planting flood at zero extra cost). Every nod
 reaches records the hop count at which it first heard it: that <i>is</i> the gradient, age zero.
 One broadcast per node, once, amortised over every subsequent packet toward that destination.
 There is no periodic beaconing; the protocol never spends airtime maintaining state it is not
-using. Figure&nbsp;2 traces the two numbers through their whole life: stamped by the planting
+using. Nor does a gradient-less source need to solicit a plant: it can managed-flood the packet
+exactly as Meshtastic does today, and if that flood delivers, the refresh of &sect;3.5 plants
+the gradient along the proven path for every packet after it &mdash; the replay's on-demand
+planting shortcut and this deployable cold start are compared quantitatively in &sect;8.
+Figure&nbsp;2 traces the two numbers through their whole life: stamped by the planting
 wave (a), sitting as a two-byte table row (b) and re-stamped for free whenever a delivery
 proves what the true working distance is (c).
 </p>
@@ -426,7 +434,8 @@ been refreshed for days, purely as memory hygiene).
 </p>
 <p>
 The drop rule completes the lifecycle. A packet whose holder finds no eligible receiver at any
-corridor level is at a certified local minimum: the node knows nobody it can hear is closer.
+corridor level is at a locally-verified dead end: across the whole escalation ladder &mdash;
+strict, equal, any &mdash; no un-visited receiver decoded the packet at all.
 It drops the packet <i>there, deterministically</i> and can report a route error back toward
 the source (the RERR is specified but not exercised in &sect;6's evaluation). Contrast both
 alternatives: a hop-limit expiry drops at an arbitrary distance-driven point regardless of
@@ -447,11 +456,11 @@ Norway replay (<code>experiment_widening.py</code>; Figure&nbsp;5).
 </p>
 <p>
 Three findings. <b>First, staleness is real</b>: delivery through a 1&ndash;2-hour-old gradient
-runs at 71%, decaying smoothly to 22% at 13&ndash;23 hours with airtime cost rising in step
+runs at 70%, decaying smoothly to 17% at 13&ndash;23 hours with airtime cost rising in step
 (Figure&nbsp;5a) &mdash; a genuine hazard process with no cliff at any particular hour, so no
 specific threshold is &ldquo;correct.&rdquo; <b>Second, the wall-clock threshold barely
 matters</b>: sweeping the widening age from 0 (always widened) to never-widen moves delivery
-only between 48.0% and 52.2% (Figure&nbsp;5b). <b>Third, the clock is redundant</b>: a variant
+only between 47.2% and 50.6% (Figure&nbsp;5b). <b>Third, the clock is redundant</b>: a variant
 that removes wall-clock age from the eligibility rule entirely &mdash; per-hop escalation only,
 strict &rarr; equal &rarr; any &mdash; delivers 50.9% vs the 49.7% baseline over 10 seeds, at
 equal cost; even deleting the replant timer too leaves it at 50.9%. The explanation is that a
@@ -461,7 +470,7 @@ discover anyway. Following the same Trickle logic, reacting to the inconsistency
 scheduling it &mdash; and the &ldquo;two numbers&rdquo; of &sect;3.1 reduce to <b>one</b> (age
 survives only as an optional, insensitive replant hint). We also tested one adaptive variant in
 the opposite direction &mdash; a learned per-destination starting level that skips strict
-attempts a previous packet did not need &mdash; and it is <i>worse</i> (44.2%): skipping the
+attempts a previous packet did not need &mdash; and it is <i>worse</i> (43.1%): skipping the
 cheap strict probes forfeits their frequent wins. The simple deterministic rule survives its
 own ablation; the statistical refinement does not.
 </p>
@@ -491,10 +500,11 @@ or better than every fixed-clock configuration &mdash; both in the isolated abla
 cost).</div>
 
 <figure><img src="fig_ablation.png" style="width:100%"></figure>
-<div class="caption"><b>Figure 5.</b> Clock ablation on the Norway replay. <b>(a)</b> Outcome
-by gradient age at the source (baseline protocol, 3 seeds): usefulness decays smoothly &mdash;
+<div class="caption"><b>Figure 5.</b> Clock ablation on the Norway replay (10 seeds
+throughout). <b>(a)</b> Outcome
+by gradient age at the source (baseline protocol): usefulness decays smoothly &mdash;
 staleness is real but has no characteristic hour. <b>(b)</b> Delivery is nearly flat across the
-entire widening-threshold sweep (blue) and the clock-free reactive variant (green, 10 seeds)
+entire widening-threshold sweep (blue) and the clock-free reactive variant (green)
 matches or beats every fixed setting: the per-hop escalation already measures staleness at the
 moment it matters. One caveat: this network's churn is duty-cycle-dominated with a stable
 router backbone; in a high-mobility mesh, wall-clock aging could recover value.</div>
@@ -803,7 +813,13 @@ viability depends on.</li>
 <p>
 Best fit: x&#8320;&nbsp;=&nbsp;8&nbsp;dB, p<sub>max</sub>&nbsp;=&nbsp;0.8,
 p<sub>min</sub>&nbsp;=&nbsp;0.25, k&nbsp;=&nbsp;10, rev_p&nbsp;=&nbsp;0. Both anchors now fit
-well (Figure&nbsp;10; round trip 0.31 simulated vs 0.23 real). Notably the grid chose
+well (Figure&nbsp;10; round trip 0.31 simulated vs 0.23 real). One denominator caveat: the two
+round-trip rates are not the same statistic &mdash; the real 23% is the share of all observed
+traceroute rows carrying a <code>route_back</code>, while the simulated 31% is the fraction of
+<i>delivered</i> forward floods whose reverse flood also delivered &mdash; so this anchor is
+directional rather than exact. Under either reading the simulator treats reverse paths at least
+as generously as the trace shows, the direction that can only flatter PATH (&sect;8, item 1).
+Notably the grid chose
 rev_p&nbsp;=&nbsp;0 &mdash; with correctly-oriented links, the data is best explained by
 unobserved reverse directions simply <i>not existing</i>, so asymmetry is fully binding in the
 replay. The small remaining round-trip optimism can only <i>overstate</i> PATH (&sect;8).
@@ -848,7 +864,10 @@ nodes never rebroadcast in any protocol.
 </table>
 <div class="caption"><b>Table 2.</b> Fixed simulation parameters (from <code>sim_norway.py</code>).
 The hop limit is set to Meshtastic's protocol ceiling of 7 rather than the shipped default of 3
-&mdash; a choice that favours FLOOD, PATH and NEXTHOP, whose reach it bounds.</div>
+&mdash; a choice that favours FLOOD, PATH and NEXTHOP, whose reach it bounds. Planting floods
+obey the same limit, so the replay never exercises gradient descent beyond 7 hops: the
+unlimited-hop property of &sect;3 is a spec-level guarantee, not something this evaluation
+stresses.</div>
 <p>
 <b>PATH</b> discovers a route with one flood, returns the recorded path hop-by-hop over the
 reverse links (the discovery fails if the reply dies), then source-routes data strictly along
@@ -862,7 +881,13 @@ Figure&nbsp;4); <b>GRADCOR-R</b> implements Algorithm&nbsp;2, the clock-free fin
 specification. Both run in parallel in the head-to-head so the evolution claim of &sect;3.6 is
 tested in the same arena as the competing protocols, not only in isolation. For both, the
 contention race is resolved ideally (lowest gradient always wins, suppression never fails)
-&mdash; a simplification whose consequences are discussed in &sect;8.
+&mdash; a simplification whose consequences are discussed in &sect;8. A second GradCor-specific
+shortcut also needs flagging: a source with no gradient triggers the planting flood from the
+destination <i>at that instant</i>, charged to the triggering packet. Causally, nothing in a
+deployment tells a destination to flood on demand; the deployable cold-start paths are seeding
+by the destination's ordinary periodic broadcasts and the flood-the-packet fallback of
+&sect;3.2. &sect;8, item 7 replaces the shortcut with both deployable forms and measures the
+difference.
 </p>
 
 <h3>5.6&nbsp;&nbsp;Workload and metrics</h3>
@@ -891,8 +916,9 @@ transmissions per packet sent (offered-load cost) and transmissions per packet <
 <div class="caption"><b>Table 3.</b> Aggregate results over 10 seeds, 30 real pairs, 168 real
 hours, with both GradCor forms evaluated in parallel. Absolute percentages are model outputs;
 the ranking and the ratios are the robust findings. Per-seed delivery varies with the sampled
-traffic pairs (s.d. 4.5&ndash;5.4 points), but the <i>paired</i> per-seed differences are
-tight: GradCor-R beats FLOOD on all ten seeds (+19.5 to +29.9 points, mean +25.3, s.d. 3.4),
+traffic pairs (s.d. 4.5&ndash;5.4 points), but the per-seed differences are tight (a seed fixes
+the sampled pairs, presence and world for all protocols alike, though each protocol draws its
+channel outcomes independently): GradCor-R beats FLOOD on all ten seeds (+19.5 to +29.9 points, mean +25.3, s.d. 3.4),
 while R&nbsp;&minus;&nbsp;v1 is +2.1 &plusmn; 3.0 &mdash; a genuine tie within noise, slightly
 ahead, independently confirming the &sect;3.6 ablation in the full head-to-head.</div>
 
@@ -1060,6 +1086,23 @@ paths. This optimism is GradCor-specific. Its consequence is bounded &mdash; a m
 only leaves gradients staler, costing exploration rather than creating a black hole, and the
 v1&harr;R equivalence suggests low sensitivity to exactly how staleness is handled &mdash; but
 the refresh delivery rate belongs on the firmware-prototype checklist alongside contention.</li>
+<li><b>On-demand planting.</b> In the replay, a source with no gradient triggers a planting
+flood from the destination at that instant, charged to the triggering packet
+(&sect;5.5). Causally that is an oracle &mdash; nothing in a deployment tells the destination
+to flood on demand. We measured the shortcut by replacing it with the two deployable
+cold-start mechanisms (<code>experiment_plant.py</code>, 10 seeds): gradient seeding by the
+destination's ordinary periodic broadcasts (3-hourly / 6-hourly while online, NodeInfo-style)
+and, for a source still without a gradient, falling back to managed-flooding the data packet
+itself &mdash; today's Meshtastic behaviour &mdash; whose delivery lets the &sect;3.5 refresh
+plant the path. The result runs <i>against</i> the bias one would fear: the fully
+oracle-free form (no seeding at all, fallback + refresh only) delivers <b>55.0%</b> at
+23.0&nbsp;tx per delivered packet vs the shortcut's 49.3% at 22.2 in the same harness
+(FLOOD: 25.1% at 71.1) &mdash; the fallback flood delivers some cold packets itself, which
+the on-demand plant never does. Broadcast seeding lands in between (51.7&ndash;52.2%,
+23.7&ndash;24.1&nbsp;tx/dlv packet-charged; 26.7&ndash;29.9 if the seeding floods &mdash;
+traffic the mesh sends anyway &mdash; are fully charged to GradCor). The headline tables keep
+the shortcut, which this run shows to be the <i>conservative</i> choice for delivery; no
+conclusion changes.</li>
 <li><b>Independent link trials and no end-to-end retries.</b> Every transmission is an
 independent Bernoulli draw from the fitted link probability; real LoRa links fail in correlated
 bursts (fading, temporary obstructions), which penalises rapid per-hop retries more than
@@ -1082,10 +1125,10 @@ packets of managed flooding at 40% less per-packet airtime and 3.3&times; less a
 delivered packet, while
 source routing was structurally non-viable and next-hop caching was only marginally better than
 flooding. The ordering matches the synthetic study's prediction; the corrected, sparser real
-topology <i>widened</i> the margin. And the ordering is not Norway's: five further production
-networks, independently calibrated, reproduce it wherever traceroute evidence is dense enough
-to plant gradients &mdash; with the one evidence-starved network degrading gracefully to flood
-level rather than failing and defining a measurable eligibility criterion (usable links per
+topology <i>widened</i> the margin. And the ordering is not Norway's: four of the five further
+production networks, independently calibrated, reproduce it &mdash; the fifth, too
+evidence-starved to plant gradients on, degrades gracefully to flood level rather than failing,
+defining a measurable eligibility criterion (usable links per
 node) for deployment. The same replay also simplified the design itself: the
 clock ablation (&sect;3.6) showed the wall-clock thresholds the method started with are
 redundant and the head-to-head (Table&nbsp;3) confirms it &mdash; the specification the paper
@@ -1134,6 +1177,7 @@ network, 2026-06-27&ndash;07-04. Reproduction package
 (data exports and all simulation, experiment and figure code: <code>sim_norway.py</code>,
 <code>experiment_asymmetry.py</code>, <code>experiment_widening.py</code>,
 <code>experiment_multinet.py</code>, <code>experiment_cancellation.py</code>,
+<code>experiment_plant.py</code>,
 <code>fig_*.py</code>; cross-network exports under
 <code>data_networks/</code>) is published alongside this paper.</li>
 <li>P. Levis, T. Clausen, J. Hui, O. Gnawali, J. Ko, &ldquo;The Trickle Algorithm,&rdquo; RFC 6206

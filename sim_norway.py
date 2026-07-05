@@ -2,13 +2,14 @@
 Routing-strategy simulation on the REAL Norway mesh topology.
 
 Data sources (production, 2026-06-27 .. 2026-07-04):
-- data/nodes.csv          Memgraph :Node  (499 nodes, roles, positions)
-- data/edges.csv          Memgraph :HEARD (3613 directed links, old D-267 extraction)
-- data/traceroutes_v2.tsv raw TRACEROUTE_APP packets from ClickHouse (18919 pkts,
-                          incl. hop_start/hop_limit for request/response
-                          classification). Link extraction mirrors builder.go
-                          D-280: response-row orientation flip, evidence-gated
-                          endpoints, route_back return legs, INT8_MIN sentinel.
+- data/nodes.csv          node inventory (499 nodes, roles, positions)
+- data/edges.csv          legacy link extraction (3613 directed links, pre-fix)
+- data/traceroutes_v2.tsv raw TRACEROUTE_APP packets (18919 pkts, incl.
+                          hop_start/hop_limit for request/response
+                          classification). Link extraction mirrors the
+                          corrected production pipeline: response-row
+                          orientation flip, evidence-gated endpoints,
+                          route_back return legs, INT8_MIN sentinel.
 - data/activity_hourly.tsv per-node hourly message counts (real presence/churn)
 
 Improvements over the toy unit-square sim:
@@ -113,7 +114,8 @@ def is_response(t):
     (still requester->responder order). Classified by payload shape
     (route_back/snr_back present) or hop accounting (hop counters restart
     at the responder, so a forward-complete row observed at fewer hops than
-    its route length can only be a response). Mirrors builder.go D-280."""
+    its route length can only be a response). Mirrors the corrected
+    production extraction."""
     fwd_complete = len(t["snr_t"]) == len(t["route"]) + 1
     return bool(t["back"]) or bool(t["snr_b"]) or (
         fwd_complete and t["hops_taken"] >= 0 and t["hops_taken"] != len(t["route"]))
@@ -133,7 +135,7 @@ def leg_links(links, path, snrs, ts):
 
 def links_from_traceroutes(trs):
     """Directed link inventory from both traceroute legs, with correct
-    response orientation and evidence-gated endpoints (D-280).
+    response orientation and evidence-gated endpoints.
     Returns {(u,v): [obs_count, [snr_raw...], set(obs_ts)]} in radio
     direction u->v."""
     links = defaultdict(lambda: [0, [], set()])

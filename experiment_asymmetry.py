@@ -99,7 +99,7 @@ def main():
     longer_all = [0, 0]
     over_hops = []
     for seed in (1, 2, 3):
-        # calibration of the D-280 corrected extraction; rev_p=0 means
+        # calibration of the corrected link extraction; rev_p=0 means
         # unobserved reverse links do not exist -- asymmetry fully binding
         world = S.World(links, nodes, presence, hours,
                         x0=8, pmax=0.8, pmin=0.25, kobs=10, rev_p=0.0, seed=seed)

@@ -67,7 +67,7 @@ firmware 2.6, all traffic &mdash; by managed flooding; 2.6 added cached next hop
 messages, with flood as the fallback; MeshCore source-routes. This paper proposes a fourth
 strategy &mdash;
 <i>gradient-corridor anycast</i> (GradCor): one byte of state per active destination,
-receiver-side anycast forwarding, and <b>no hop limit</b> &mdash; strict gradient descent gives
+receiver-side anycast forwarding and <b>no hop limit</b> &mdash; strict gradient descent gives
 termination and loop freedom while the corridor is tight, per-packet duplicate suppression
 bounds it once widened, so a packet travels as far as real progress exists and stops at
 delivery or a locally-verified dead end. Replayed on the <b>real topology of the
@@ -107,7 +107,7 @@ Norwegian national Meshtastic mesh, then cross-validates
 on five further production networks (&sect;6.1) &mdash; to our knowledge the first evaluation
 of these four strategies on fully empirical LoRa mesh topologies at this scale. Along the way
 the real data pushes back on the design itself: an ablation (&sect;3.6) shows the original
-wall-clock staleness thresholds are unnecessary, and the paper's final specification is the
+wall-clock staleness thresholds are unnecessary and the paper's final specification is the
 simpler, clock-free form that survives it.
 </p>
 
@@ -213,7 +213,7 @@ reaches records the hop count at which it first heard it: that <i>is</i> the gra
 One broadcast per node, once, amortised over every subsequent packet toward that destination.
 There is no periodic beaconing; the protocol never spends airtime maintaining state it is not
 using. Nor does a gradient-less source need to solicit a plant: it can managed-flood the packet
-exactly as Meshtastic does today, and if that flood delivers, the refresh of &sect;3.5 plants
+exactly as Meshtastic does today and if that flood delivers, the refresh of &sect;3.5 plants
 the gradient along the proven path for every packet after it &mdash; the replay's on-demand
 planting shortcut and this deployable cold start are compared quantitatively in &sect;8.
 Figure&nbsp;2 traces the two numbers through their whole life: stamped by the planting
@@ -275,12 +275,12 @@ overwrites the field with its <i>own</i> stored gradient before rebroadcasting, 
 always reads &ldquo;the current holder believes it is N hops away.&rdquo; Under the strict rule
 the value falls at every hop &mdash; which is what provides the termination a TTL normally
 buys &mdash; but it falls because each node stamps its own better knowledge, can snap downward
-mid-flight when the packet reaches a node with a shortcut, and (in the widened corridors) may
+mid-flight when the packet reaches a node with a shortcut and (in the widened corridors) may
 hold or rise where a countdown would already have killed the packet. Second, <b>the winner's
 forward transmission is itself the per-hop acknowledgment</b>: the holder overhears it and goes
 quiet &mdash; the same passive-ack-by-rebroadcast the managed flood uses today, so no explicit
 ACK packet exists at any hop. Silence within the contention window is therefore the holder's
-failure signal, and it is exactly what arms the escalation of &sect;3.4: hear nothing, retry;
+failure signal and it is exactly what arms the escalation of &sect;3.4: hear nothing, retry;
 still nothing, widen the corridor and broadcast again. Figure&nbsp;3(d) traces one complete
 race on the time axis.
 </p>
@@ -462,7 +462,7 @@ quiet.</div>
 <p>
 In the final specification the lifecycle therefore simplifies as the lower band of
 Figure&nbsp;4 shows: the delivery refresh survives unchanged, the FRESH/AGED/DEAD clock states
-disappear because eligibility no longer consults age, and replanting degenerates to &ldquo;plant
+disappear because eligibility no longer consults age and replanting degenerates to &ldquo;plant
 if you have no gradient at all&rdquo; (an optional coarse timer may evict rows that have not
 been refreshed for days, purely as memory hygiene).
 </p>
@@ -551,7 +551,7 @@ timers is ExOR<sup>[2]</sup>; destination-rooted gradients go back to directed d
 sensor networks. The composition is what is new: coupling <i>eligibility width to the
 protocol's own evidence of staleness</i> &mdash; wall-clock age in v1, per-hop failure
 escalation in the final spec &mdash; so the protocol occupies the whole flood&harr;unicast
-spectrum continuously instead of switching between brittle modes, and refreshing its state
+spectrum continuously instead of switching between brittle modes and refreshing its state
 opportunistically from delivered traffic instead of periodic control packets.
 </p>
 <p>
@@ -1025,6 +1025,65 @@ extreme &mdash; while the evidence-free NEXTHOP cache takes the lead. Evidence d
 a measurable eligibility criterion for deploying gradient routing on a given mesh.
 </p>
 
+<h3>6.2&nbsp;&nbsp;What would 99% delivery take? The ceiling and a reliability ladder</h3>
+<p>
+A natural next question is how far delivery could be pushed &mdash; say, to 99%. The replay can
+answer this honestly because it can first measure what no algorithm can exceed: the fraction of
+attempts for which a forward path over online, relay-capable nodes <i>exists at all</i>. On the
+Norway world that <b>instant-reachability ceiling is 93.2%</b> and patience barely moves it: a
+packet held and retried for up to 24&nbsp;hours can reach at most 95.6% of attempts, because
+4.4% of them never see a forward path in the entire week
+(<code>experiment_target99.py</code>, <code>experiment_custody.py</code>; 10 seeds). <b>99%
+absolute delivery is therefore not a protocol problem on this network</b> &mdash; it is
+unreachable by any routing scheme whatsoever &mdash; and the meaningful question becomes
+distance to the ceiling.
+</p>
+<p>
+That distance can be closed almost entirely with three additions, each a single rule that
+leaves the one-byte state and the forwarding walk untouched (Figure&nbsp;14a). First, the
+<b>fallback-flood cold start</b> already measured in &sect;8, item 7 (+4 points). Second, a
+<b>rescue flood at the local minimum</b>: instead of the deterministic drop, the stuck holder
+floods the packet from where it stands (+5 points) &mdash; philosophically consistent, since
+the drop point is by construction the node that has just proven, across the whole escalation
+ladder, that its knowledge is exhausted and a flood from <i>there</i> is the narrowest flood
+that can still help. Third &mdash; the single biggest lever &mdash; <b>end-to-end retries</b>:
+re-sending the packet up to k times on failure lifts delivery to 75.3% (k=1), 84.9% (k=3) and
+88.0% (k=5), i.e. 94.4% of everything reachable. Each retry draws fresh channel outcomes and
+benefits from whatever gradients the failed attempts refreshed; the machinery is not
+hypothetical &mdash; Meshtastic's reliable-delivery layer already retransmits unacknowledged
+DMs today and the headline evaluation deliberately granted no protocol this help (&sect;8,
+item 8). Finally, <b>custody</b> &mdash; holding a failed packet and retrying hourly for up to
+24&nbsp;h, the one genuinely new architectural element (a store-and-forward queue with expiry)
+&mdash; reaches <b>94.5%: 98.9% of the temporal ceiling</b>. The anatomy of what still fails at
+k=5 confirms the diagnosis (Figure&nbsp;14b): 56.6% of remaining failures are physically
+unreachable that hour, versus 23.9% mid-walk losses and 19.5% failed cold starts.
+</p>
+<p>
+The price is stated just as plainly: transmissions per delivered packet rise from 21.5
+(published spec) to 42.7 at k=5 and 79.7 with custody &mdash; at the extreme, airtime per
+delivered packet returns to flood's level (71) while delivering 3.7&times; more. The efficient
+knee is k=3&ndash;5 without custody: 85&ndash;88% delivery at 38&ndash;43&nbsp;tx per delivered
+packet, still well ahead of flood on both axes simultaneously. Three caveats bound the claim:
+the replay's independent per-transmission link draws flatter retries relative to real
+correlated fading (&sect;8, item 8); no duty-cycle budget is modelled and 38&ndash;75
+transmissions of offered load per packet may be regionally infeasible; and custody changes the
+application contract (deliveries arriving hours late). The structural conclusion survives all
+three: <b>simple reliability envelopes take GradCor essentially to the network's own ceiling,
+and the ceiling itself &mdash; the last five to seven points &mdash; is an operations problem</b>,
+router coverage and evidence density, the same deployment precondition &sect;6.1's
+evidence-starved network surfaced.
+</p>
+
+<figure><img src="fig_target99.png" class="fullbleed"></figure>
+<div class="caption"><b>Figure 14.</b> The road toward 99% on the Norway replay (10 seeds).
+<b>(a)</b> Delivery (bars) and airtime per delivered packet (diamonds) as reliability
+mechanisms stack: cold-start fallback, rescue flood at the dead end, end-to-end retries,
+store-and-forward custody. The dashed lines are the network's own limits &mdash; 93.2% of
+attempts have a forward path at send time and only 95.6% gain one within 24&nbsp;h &mdash; so
+the final rung stands at 98.9% of what is physically deliverable. <b>(b)</b> Remaining failures
+at k=5 by cause: the majority are attempts with no existing forward path &mdash; capacity the
+network does not have, which no routing change can add.</div>
+
 <h2>7&nbsp;&nbsp;Discussion</h2>
 <p>
 <b>The real topology strengthens the synthetic result.</b> On the synthetic mesh GradCor matched
@@ -1102,7 +1161,7 @@ hole ROUTER_LATE exists to patch. Net effect on the headline: GradCor-R's delive
 widens slightly (2.0&times;&nbsp;&rarr;&nbsp;2.1&times;) and its airtime-per-delivered
 advantage compresses modestly (3.3&times;&nbsp;&rarr;&nbsp;3.0&times;). No conclusion
 changes. The headline tables deliberately keep the baseline flood: the link model was
-calibrated so baseline floods reproduce real traceroute statistics, and those real floods
+calibrated so baseline floods reproduce real traceroute statistics and those real floods
 already ran <i>with</i> cancellation &mdash; its aggregate effect is partially absorbed into
 the fitted link probabilities, so layering explicit cancellation on top without recalibrating
 would double-count the suppression. This run is therefore a bias bound, not a better
@@ -1117,7 +1176,7 @@ GradCor-R and the first thing to prototype in firmware.</li>
 packet's path instantly and at zero cost; in firmware the refresh rides the delivery
 confirmation, which travels real links and can be lost &mdash; particularly on asymmetric
 paths. This optimism is GradCor-specific. Its consequence is bounded &mdash; a missed refresh
-only leaves gradients staler, costing exploration rather than creating a black hole, and the
+only leaves gradients staler, costing exploration rather than creating a black hole and the
 v1&harr;R equivalence suggests low sensitivity to exactly how staleness is handled &mdash; but
 the refresh delivery rate belongs on the firmware-prototype checklist alongside contention.</li>
 <li><b>On-demand planting.</b> In the replay, a source with no gradient triggers a planting
@@ -1140,7 +1199,7 @@ conclusion changes.</li>
 <li><b>Independent link trials and no end-to-end retries.</b> Every transmission is an
 independent Bernoulli draw from the fitted link probability; real LoRa links fail in correlated
 bursts (fading, temporary obstructions), which penalises rapid per-hop retries more than
-receiver diversity, and no protocol was granted end-to-end retransmissions (a real Meshtastic
+receiver diversity and no protocol was granted end-to-end retransmissions (a real Meshtastic
 DM retries several times). Both simplifications apply to all five protocols equally, but they
 mean absolute delivery rates should not be compared with field ACK statistics.</li>
 <li><b>Unicast scope.</b> Every claim in this paper concerns unicast traffic (DMs, ACKs,
@@ -1197,7 +1256,7 @@ simulation and experiment code, ran the data extraction and analysis, generated 
 drafted the text. The author directed the research questions, supplied the production data
 access, reviewed intermediate results, challenged and corrected the methodology at several
 points (including the link-extraction fix of &sect;5.1 and the decision to ablate the state
-clocks), and takes full responsibility for the final content. All numbers are reproducible from
+clocks) and takes full responsibility for the final content. All numbers are reproducible from
 the published code and data exports [5] independent of any AI involvement.</p>
 
 <h2>References</h2>
@@ -1211,7 +1270,8 @@ network, 2026-06-27&ndash;07-04. Reproduction package
 (data exports and all simulation, experiment and figure code: <code>sim_norway.py</code>,
 <code>experiment_asymmetry.py</code>, <code>experiment_widening.py</code>,
 <code>experiment_multinet.py</code>, <code>experiment_cancellation.py</code>,
-<code>experiment_plant.py</code>,
+<code>experiment_plant.py</code>, <code>experiment_target99.py</code>,
+<code>experiment_custody.py</code>,
 <code>fig_*.py</code>; cross-network exports under
 <code>data_networks/</code>) is published alongside this paper.</li>
 <li>P. Levis, T. Clausen, J. Hui, O. Gnawali, J. Ko, &ldquo;The Trickle Algorithm,&rdquo; RFC 6206

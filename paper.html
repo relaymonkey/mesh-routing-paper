@@ -281,7 +281,8 @@ forward transmission is itself the per-hop acknowledgment</b>: the holder overhe
 quiet &mdash; the same passive-ack-by-rebroadcast the managed flood uses today, so no explicit
 ACK packet exists at any hop. Silence within the contention window is therefore the holder's
 failure signal, and it is exactly what arms the escalation of &sect;3.4: hear nothing, retry;
-still nothing, widen the corridor and broadcast again.
+still nothing, widen the corridor and broadcast again. Figure&nbsp;3(d) traces one complete
+race on the time axis.
 </p>
 <pre class="algo"><span class="kw">send</span>(src, dst):
   <span class="kw">if</span> no gradient for dst at src <span class="kw">or</span> age &ge; AGE_DEAD (24 h):
@@ -339,7 +340,13 @@ in v1. <b>(a)</b> Strict: only strictly-descending receivers (green) may forward
 near-unicast cost. <b>(b)</b> Equal-g receivers admitted, allowing lateral escapes.
 <b>(c)</b> Any receiver eligible &mdash; including the g=4 neighbour that points <i>away</i>
 from the destination, which no narrower corridor admits &mdash; graceful degradation into
-flood.</div>
+flood. <b>(d)</b> The contention race among (a)'s three eligible g=2 receivers on the time
+axis: all decode the same broadcast, each arms a one-shot millisecond-scale delay keyed on
+(own g, tie-broken by SNR), the first to fire forwards &mdash; stamping its <i>own</i> g &mdash;
+and the others cancel on overhearing it, so normally exactly one of the three transmits. The
+holder's overhearing of that forward is the per-hop acknowledgment; a loser outside the
+winner's radio range forwards a duplicate, absorbed downstream by packet-ID dedup (&sect;8,
+item 5).</div>
 
 <h3>3.5&nbsp;&nbsp;Lifecycle: free refresh, honest death, deterministic drop</h3>
 <p>

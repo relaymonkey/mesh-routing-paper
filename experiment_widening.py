@@ -16,7 +16,7 @@ from collections import defaultdict
 import sim_norway as S
 
 PARAMS = dict(x0=8, pmax=0.8, pmin=0.25, kobs=10, rev_p=0.0)
-SEEDS = (1, 2, 3)
+SEEDS = tuple(range(1, 11))
 
 
 def run_proto(make_proto, age_widen=None, age_dead=None, hook=None):
@@ -229,4 +229,5 @@ if __name__ == "__main__":
     print("\n== 3. variants ==")
     show("baseline (age-widened, 3/24)", run_proto(S.GradProto))
     show("reactive-only (no wall-clock widening)", run_proto(ReactiveGrad))
+    show("reactive + replant timer removed", run_proto(ReactiveGrad, age_dead=10**9))
     show("adaptive start level (learned prior)", run_proto(AdaptiveGrad))

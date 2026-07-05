@@ -10,11 +10,11 @@ BLUE = "#1f77b4"
 
 fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12.6, 4.2))
 
-# ---- (a) hazard: outcome vs gradient age at source (baseline 3/24, 3 seeds) ----
+# ---- (a) hazard: outcome vs gradient age at source (baseline 3/24, 10 seeds) ----
 labels = ["0\n(just\nrefreshed)", "1-2 h", "3-6 h", "7-12 h", "13-23 h", "dead\n(replant)"]
-dlv = [32.0, 70.8, 44.0, 32.0, 21.6, 4.1]
-txd = [58.9, 13.8, 29.6, 45.6, 82.1, 281.7]
-sent = [394, 5275, 925, 337, 204, 1940]
+dlv = [35.4, 69.6, 41.4, 28.0, 17.0, 3.1]
+txd = [48.5, 14.8, 32.5, 51.4, 90.6, 249.3]
+sent = [752, 18141, 3496, 1246, 816, 5739]
 x = range(len(labels))
 bars = ax1.bar(x, dlv, color=[GRAY, GREEN, "#7bbf7b", "#a8d0a8", "#cfe3cf", RED])
 for xi, (d, s) in enumerate(zip(dlv, sent)):
@@ -34,7 +34,7 @@ ax12.set_ylabel("tx per delivered (log)")
 # ---- (b) ...but the wall-clock threshold barely matters ----
 widen = [0, 1, 3, 6, 12, 24]
 widen_lbl = ["0", "1", "3\n(baseline)", "6", "12", "never"]
-w_dlv = [48.0, 48.1, 49.6, 52.2, 49.6, 48.0]
+w_dlv = [47.2, 48.6, 49.7, 50.6, 49.7, 49.3]
 ax2.plot(range(len(widen)), w_dlv, "o-", color=BLUE, lw=2, ms=7,
          label="age-based widening, AGE_WIDEN swept")
 ax2.axhline(50.9, color=GREEN, lw=2.2, ls="--")

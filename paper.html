@@ -268,6 +268,21 @@ and it is what converts LoRa's broadcast medium from a liability into the protoc
 one transmission simultaneously probes every potential relay, so the packet advances if <i>any</i>
 of them is awake and heard it &mdash; where unicast schemes stall if <i>the</i> named one didn't.
 </p>
+<p>
+Two mechanics deserve spelling out, because both differ from the hop-count intuition a reader
+may carry in. First, <b>g<sub>h</sub> is not a TTL</b>: no one decrements it. Each forwarder
+overwrites the field with its <i>own</i> stored gradient before rebroadcasting, so the header
+always reads &ldquo;the current holder believes it is N hops away.&rdquo; Under the strict rule
+the value falls at every hop &mdash; which is what provides the termination a TTL normally
+buys &mdash; but it falls because each node stamps its own better knowledge, can snap downward
+mid-flight when the packet reaches a node with a shortcut, and (in the widened corridors) may
+hold or rise where a countdown would already have killed the packet. Second, <b>the winner's
+forward transmission is itself the per-hop acknowledgment</b>: the holder overhears it and goes
+quiet &mdash; the same passive-ack-by-rebroadcast the managed flood uses today, so no explicit
+ACK packet exists at any hop. Silence within the contention window is therefore the holder's
+failure signal, and it is exactly what arms the escalation of &sect;3.4: hear nothing, retry;
+still nothing, widen the corridor and broadcast again.
+</p>
 <pre class="algo"><span class="kw">send</span>(src, dst):
   <span class="kw">if</span> no gradient for dst at src <span class="kw">or</span> age &ge; AGE_DEAD (24 h):
       plant(dst)                          <span class="cm"># one flood from dst; abort if src unreached</span>
@@ -304,7 +319,10 @@ knowledge now suspect &mdash; equal-gradient receivers are admitted, buying late
 a sleeping relay or a newly-dead link at modest extra cost. If even that fails, or the gradient
 is very old, any receiver qualifies: the packet is now effectively flooding, which is exactly
 the right behaviour when the node knows nothing &mdash; and it is reached <i>gradually</i>,
-packet by packet, not by a mode switch that must itself be signalled. Uncertainty in GradCor is
+hop by hop, not by a mode switch that must itself be signalled. The widening is strictly local:
+the source never decides to &ldquo;send as flood,&rdquo; and a corridor opened to ANY at one
+troubled hop does not stay open &mdash; the next holder starts again at STRICT, so the packet
+re-tightens the moment it is past the gap. Uncertainty in GradCor is
 not an error state; it is a dial that trades airtime for reach in proportion to how much the
 state deserves to be trusted. Note that v1 drives this dial with <i>two</i> triggers &mdash;
 wall-clock age and per-hop failure escalation &mdash; which are redundant with each other;
@@ -330,7 +348,14 @@ on the path it took is stamped with its true distance-to-destination along that 
 age zero (Figure&nbsp;2c; in firmware this rides the existing delivery ACK). Active conversations therefore keep
 their own gradients fresh <i>for free</i> and the corridor stays tight exactly where traffic
 flows &mdash; the state/freshness trade-off (&sect;1) is paid only for destinations nobody is
-talking to. A gradient that reaches 24&nbsp;h without a refresh is declared dead and the next
+talking to. One asymmetry consequence is worth naming: the confirmation travels its own reverse
+path, which on an asymmetric mesh need not retrace the data's forward path &mdash; forward-path
+nodes out of earshot of the return leg simply miss that refresh. The miss is benign by
+construction: a node that misses a refresh merely keeps a staler g &mdash; there is no named
+next hop to be <i>wrong</i> about &mdash; and the cost is a little extra escalation on a later
+packet, precisely the failure the &sect;3.3/&sect;3.4 ladder absorbs (the replay's idealization
+of this refresh is disclosed in &sect;8, item 6). A gradient that reaches 24&nbsp;h without a
+refresh is declared dead and the next
 send replants it; Figure&nbsp;4 summarises the states.
 </p>
 

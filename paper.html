@@ -110,12 +110,17 @@ simpler, clock-free form that survives it.
 
 <h2>2&nbsp;&nbsp;The four strategies</h2>
 <ul>
-<li><b>FLOOD</b> &mdash; Meshtastic's managed flood, the transport for all broadcast traffic and
-the fallback (pre-2.6: the only path) for unicast. &ldquo;Managed&rdquo; means the flood is
-disciplined, not blind: every node rebroadcasts each new packet at most once (duplicate
-suppression by packet ID), rebroadcasts are staggered by SNR so distant nodes go first, a hop
-limit (7 here, the protocol ceiling) bounds reach and roles gate participation &mdash;
-<span style="white-space:nowrap">CLIENT_MUTE</span> nodes never rebroadcast.</li>
+<li><b>FLOOD</b> &mdash; Meshtastic's Managed Flood Routing<sup>[7]</sup>, the transport for all
+broadcast traffic and the fallback (pre-2.6: the only path) for unicast. &ldquo;Managed&rdquo;
+means the flood is disciplined, not blind: each node relays a packet at most once (duplicate
+suppression by packet ID) and &mdash; the mechanism the name refers to &mdash; it first waits in
+an SNR-weighted contention window (worse SNR &rarr; shorter wait, so distant nodes relay first)
+and <i>cancels its own rebroadcast if it overhears another node relay the packet meanwhile</i>.
+Roles gate participation: ROUTER/REPEATER relay with priority even after hearing a duplicate,
+ROUTER_LATE defers to a late window and
+<span style="white-space:nowrap">CLIENT_MUTE</span> never relays. A hop limit (7 here, the
+protocol ceiling) bounds reach. Our replay models the dedup, roles and hop limit but not the
+overhear-cancellation &mdash; see &sect;8, item 4.</li>
 <li><b>PATH</b> &mdash; MeshCore-inspired source routing: flood-based route discovery, destination
 returns the recorded path over the reverse links, data then follows the strict source route with
 3 retries per hop; on failure the path is invalidated and rediscovered once. PATH is a
@@ -1023,7 +1028,24 @@ only rankings and ratios should be quoted.</li>
 <li><b>MAC simplification.</b> Same-round collision with 0.8 capture is crude; there is no
 inter-packet airtime contention or duty-cycle budget. Real broadcast storms are
 collision-dominated, so this likely still flatters FLOOD, i.e. the real gap would widen in
-GradCor's favour &mdash; but that remains unproven here, as it was in the synthetic pilot.</li>
+GradCor's favour &mdash; but that remains unproven here, as it was in the synthetic pilot.
+One simplification cuts the other way: the replay's baseline flood omits Managed Flood
+Routing's overhear-cancellation (a node cancelling its queued rebroadcast when it hears another
+node relay first), which understates flood's real airtime efficiency &mdash; while GradCor's
+analogous suppression is granted ideally (item 5). We measured this bias by re-running the
+head-to-head with a cancellation-aware flood (contention-ordered: routers first, clients
+worst-SNR-first, ROUTER_LATE last; <code>experiment_cancellation.py</code>): cancellation saves
+flood 15% of transmissions but also <i>costs</i> it 2.0 points of delivery (25.3&nbsp;&rarr;
+23.3%) &mdash; cancelled rebroadcasts are sometimes the only path to edge nodes, the coverage
+hole ROUTER_LATE exists to patch. Net effect on the headline: GradCor-R's delivery advantage
+widens slightly (2.0&times;&nbsp;&rarr;&nbsp;2.1&times;) and its airtime-per-delivered
+advantage compresses modestly (3.3&times;&nbsp;&rarr;&nbsp;3.0&times;). No conclusion
+changes. The headline tables deliberately keep the baseline flood: the link model was
+calibrated so baseline floods reproduce real traceroute statistics, and those real floods
+already ran <i>with</i> cancellation &mdash; its aggregate effect is partially absorbed into
+the fitted link probabilities, so layering explicit cancellation on top without recalibrating
+would double-count the suppression. This run is therefore a bias bound, not a better
+model.</li>
 <li><b>Contention-timer realism.</b> GradCor's anycast suppression (&ldquo;lowest gradient wins,
 others overhear and mute&rdquo;) is assumed perfect. Near-simultaneous forwarders within capture
 range are the mechanism most likely to misbehave on real radios. Note this is the one timing
@@ -1101,10 +1123,15 @@ candidate fail to hear the winner and forward a duplicate?</li>
 network, 2026-06-27&ndash;07-04. Reproduction package
 (data exports and all simulation, experiment and figure code: <code>sim_norway.py</code>,
 <code>experiment_asymmetry.py</code>, <code>experiment_widening.py</code>,
-<code>experiment_multinet.py</code>, <code>fig_*.py</code>; cross-network exports under
+<code>experiment_multinet.py</code>, <code>experiment_cancellation.py</code>,
+<code>fig_*.py</code>; cross-network exports under
 <code>data_networks/</code>) is published alongside this paper.</li>
 <li>P. Levis, T. Clausen, J. Hui, O. Gnawali, J. Ko, &ldquo;The Trickle Algorithm,&rdquo; RFC 6206
 (suppress on consistency, react to inconsistency &mdash; not to a schedule).</li>
+<li>Meshtastic documentation: &ldquo;<a href="https://meshtastic.org/docs/overview/mesh-algo/">Mesh
+Broadcast Algorithm</a>&rdquo; and &ldquo;<a
+href="https://meshtastic.org/blog/why-meshtastic-uses-managed-flood-routing/">Why Meshtastic
+Uses Managed Flood Routing</a>.&rdquo;</li>
 </ol>
 
 </body>

@@ -61,8 +61,10 @@ and Gradient-Corridor Forwarding on Real Meshtastic Networks</h1>
 <div class="date">July 4, 2026 &middot; Data window: 2026-06-27 to 2026-07-04 (UTC)</div>
 
 <div class="abstract">
-<span class="lbl">Abstract.</span> Meshtastic floods every packet; MeshCore source-routes;
-Meshtastic&nbsp;2.6 caches next hops. This paper proposes a fourth strategy &mdash;
+<span class="lbl">Abstract.</span> Meshtastic carries broadcast traffic &mdash; and, before
+firmware 2.6, all traffic &mdash; by managed flooding; 2.6 added cached next hops for direct
+messages, with flood as the fallback; MeshCore source-routes. This paper proposes a fourth
+strategy &mdash;
 <i>gradient-corridor anycast</i> (GradCor): one byte of state per active destination,
 receiver-side anycast forwarding, and <b>no hop limit</b> &mdash; termination and loop freedom
 follow from strict gradient descent, so a packet travels as far as real progress exists and
@@ -83,8 +85,9 @@ graph 2.5&times; and understated link reciprocity (36% &rarr; 57%).
 <p>
 LoRa mesh networks operate under one binding constraint: airtime on a shared, duty-cycled,
 ~kilobit-per-second channel is the only currency that matters. Meshtastic's managed flood is
-robust and stateless but spends the whole neighbourhood's airtime on every packet; deterministic
-schemes promise cheaper unicast but import state that rots as nodes sleep, move and reboot.
+robust and stateless but spends the whole neighbourhood's airtime on every packet it carries;
+deterministic schemes promise cheaper unicast but import state that rots as nodes sleep, move
+and reboot.
 A preliminary design exploration of ours argued from first principles that a protocol should move
 <i>continuously</i> along the knowledge spectrum between flood (zero knowledge) and source
 routing (total assumed knowledge) and proposed gradient-corridor anycast: per-destination
@@ -107,9 +110,12 @@ simpler, clock-free form that survives it.
 
 <h2>2&nbsp;&nbsp;The four strategies</h2>
 <ul>
-<li><b>FLOOD</b> &mdash; Meshtastic's managed flood: every node rebroadcasts each new packet once,
-hop limit 7, duplicate suppression by packet ID. <span style="white-space:nowrap">CLIENT_MUTE</span>
-nodes never rebroadcast.</li>
+<li><b>FLOOD</b> &mdash; Meshtastic's managed flood, the transport for all broadcast traffic and
+the fallback (pre-2.6: the only path) for unicast. &ldquo;Managed&rdquo; means the flood is
+disciplined, not blind: every node rebroadcasts each new packet at most once (duplicate
+suppression by packet ID), rebroadcasts are staggered by SNR so distant nodes go first, a hop
+limit (7 here, the protocol ceiling) bounds reach and roles gate participation &mdash;
+<span style="white-space:nowrap">CLIENT_MUTE</span> nodes never rebroadcast.</li>
 <li><b>PATH</b> &mdash; MeshCore-inspired source routing: flood-based route discovery, destination
 returns the recorded path over the reverse links, data then follows the strict source route with
 3 retries per hop; on failure the path is invalidated and rediscovered once. PATH is a

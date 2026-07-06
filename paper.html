@@ -207,8 +207,11 @@ constant and linear per-packet cost in path length.
 <h3>3.2&nbsp;&nbsp;Planting: one flood buys a whole gradient field</h3>
 <p>
 Gradients are created by a single flood from the destination (or equivalently, by the reverse
-view of any flood the destination originates &mdash; in Meshtastic practice, a NodeInfo or
-position broadcast can double as a planting flood at zero extra cost). Every node the flood
+view of any flood the destination originates &mdash; in Meshtastic practice, a NodeInfo,
+position, or ordinary channel-message broadcast can double as a planting flood at zero extra
+cost). There is no dedicated announce packet type and no transmission the mesh would not
+otherwise carry: planting is a side effect of whatever the destination already sends. Every
+node the flood
 reaches records the hop count at which it first heard it: that <i>is</i> the gradient, age zero.
 One broadcast per node, once, amortised over every subsequent packet toward that destination.
 There is no periodic beaconing; the protocol never spends airtime maintaining state it is not

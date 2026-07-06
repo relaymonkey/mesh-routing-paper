@@ -928,7 +928,11 @@ The hop limit is set to Meshtastic's protocol ceiling of 7 rather than the shipp
 &mdash; a choice that favours FLOOD, PATH and NEXTHOP, whose reach it bounds. Planting floods
 obey the same limit, so the replay never exercises gradient descent beyond 7 hops: the
 unlimited-hop property of &sect;3 is a spec-level guarantee, not something this evaluation
-stresses.</div>
+stresses. The limit's value matters asymmetrically for GradCor's internal floods
+(<code>experiment_hoplimit_flood.py</code>): raising it to unlimited gains almost nothing
+(50.9&nbsp;&rarr;&nbsp;51.3%, and an unlimited flood costs only ~9% more transmissions than
+hop-7, since dedup already bounds it), but lowering it to the shipped default of 3 starves
+planting reach and costs 13 delivery points (50.9&nbsp;&rarr;&nbsp;37.9%).</div>
 <p>
 <b>PATH</b> discovers a route with one flood, returns the recorded path hop-by-hop over the
 reverse links (the discovery fails if the reply dies), then source-routes data strictly along
@@ -1232,9 +1236,12 @@ mean absolute delivery rates should not be compared with field ACK statistics.</
 <li><b>Unicast scope.</b> Every claim in this paper concerns unicast traffic (DMs, ACKs,
 traceroute-class exchanges). Broadcast traffic &mdash; positions, telemetry, channel messages,
 the majority of load on many meshes &mdash; is inherently flood-shaped and is neither helped
-nor harmed by GradCor; the replay also carries no background broadcast load contending for
-airtime. The airtime savings shown here apply to the unicast fraction of a mesh's traffic
-only.</li>
+nor harmed by GradCor: it keeps its managed flood and its hop limit unchanged (the
+no-hop-limit property belongs to gradient descent only, which broadcasts do not use). The one
+interaction is positive &mdash; every destination-originated broadcast doubles as a free
+planting wave (&sect;3.2), so public traffic keeps the unicast routing state fresh. The replay
+carries no background broadcast load contending for airtime, and the airtime savings shown
+here apply to the unicast fraction of a mesh's traffic only.</li>
 </ol>
 
 <h2>9&nbsp;&nbsp;Conclusions and next steps</h2>

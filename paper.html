@@ -309,7 +309,9 @@ race on the time axis.
 its clock-free successor in &sect;6 (constants from Table&nbsp;2). In firmware the
 <code>visited</code> set is not carried in the packet: Meshtastic's existing packet-ID duplicate
 suppression plays the same role, since a node that already forwarded a packet ignores it
-thereafter.</div>
+thereafter. Note the key is <i>forwarded</i>, not <i>seen</i>: a contention loser that muted
+(Figure&nbsp;3d) never transmitted and must stay eligible for later broadcasts of the same
+packet &mdash; &sect;3.7 explains why this distinction carries real recovery value.</div>
 
 <h3>3.4&nbsp;&nbsp;The corridor: uncertainty widens eligibility, never blocks it</h3>
 <p>
@@ -573,6 +575,22 @@ slot choice on (gradient, SNR) instead of SNR alone; no new timing machinery is 
 The genuinely open engineering risk is contention-race correctness when several eligible
 receivers sit inside mutual capture range &mdash; duplicate forwards cost airtime but are
 absorbed by dedup; missed suppression is the case to instrument first (&sect;8, item 5).
+</p>
+<p>
+One dedup semantic needs deliberate care in the port. Meshtastic's
+<code>wasSeenRecently</code> drops a packet the node has <i>seen</i>; GradCor's visited-set
+equivalent must drop only what the node has <i>forwarded</i>. The difference is the protocol's
+self-recovery path: a contention loser that muted (&sect;3.3) has seen the packet but never
+carried it &mdash; if the winner's branch dead-ends a few hops later and a widened-corridor
+broadcast reaches that loser again, it must be allowed to pick the packet up. Under seen-keyed
+dedup every raced-and-lost candidate is permanently consumed and a packet that commits to a
+failing branch cannot wander back to the branch that would have worked; under forwarded-keyed
+dedup only the actual chain of forwarders is burned. The replay models forwarded-keyed dedup
+throughout, and its recovery behaviour is visible in the data &mdash; 22.8% of gradient-guided
+deliveries took more hops than the sender's gradient promised (&sect;3.2), i.e. walks that
+detoured and still arrived. A seen-keyed port would silently forfeit exactly those deliveries;
+the change is one predicate, but it belongs on the firmware-prototype checklist next to the
+contention race.
 </p>
 
 <h2>4&nbsp;&nbsp;Data: the Norwegian mesh, one production week</h2>

@@ -189,7 +189,7 @@ claims &ldquo;I am about N hops away,&rdquo; a far weaker statement that many di
 neighbours can satisfy. Weak claims rot slower than strong ones. Forwarding is also
 independent of the node database: a relay never identifies, addresses, or decrypts for the
 destination &mdash; it only compares its own g against the g in the packet header &mdash; so a
-relay can carry traffic toward destinations it has never heard of as nodes, and routing state
+relay can carry traffic toward destinations it has never heard of as nodes and routing state
 grows with the node's <i>active conversations</i>, not with mesh size. Only the sending
 endpoint needs the destination's identity (to address the packet and encrypt), exactly as it
 does today.
@@ -595,7 +595,7 @@ broadcast reaches that loser again, it must be allowed to pick the packet up. Un
 dedup every raced-and-lost candidate is permanently consumed and a packet that commits to a
 failing branch cannot wander back to the branch that would have worked; under forwarded-keyed
 dedup only the actual chain of forwarders is burned. The replay models forwarded-keyed dedup
-throughout, and its recovery behaviour is visible in the data &mdash; 22.8% of gradient-guided
+throughout and its recovery behaviour is visible in the data &mdash; 22.8% of gradient-guided
 deliveries took more hops than the sender's gradient promised (&sect;3.2), i.e. walks that
 detoured and still arrived. A seen-keyed port would silently forfeit exactly those deliveries;
 the change is one predicate, but it belongs on the firmware-prototype checklist next to the
@@ -930,7 +930,7 @@ obey the same limit, so the replay never exercises gradient descent beyond 7 hop
 unlimited-hop property of &sect;3 is a spec-level guarantee, not something this evaluation
 stresses. The limit's value matters asymmetrically for GradCor's internal floods
 (<code>experiment_hoplimit_flood.py</code>): raising it to unlimited gains almost nothing
-(50.9&nbsp;&rarr;&nbsp;51.3%, and an unlimited flood costs only ~9% more transmissions than
+(50.9&nbsp;&rarr;&nbsp;51.3% and an unlimited flood costs only ~9% more transmissions than
 hop-7, since dedup already bounds it), but lowering it to the shipped default of 3 starves
 planting reach and costs 13 delivery points (50.9&nbsp;&rarr;&nbsp;37.9%).</div>
 <p>
@@ -1115,6 +1115,127 @@ the final rung stands at 98.9% of what is physically deliverable. <b>(b)</b> Rem
 at k=5 by cause: the majority are attempts with no existing forward path &mdash; capacity the
 network does not have, which no routing change can add.</div>
 
+<h3>6.3&nbsp;&nbsp;The broadcast side: what the hop limit actually costs</h3>
+<p>
+GradCor removes the hop limit only where strict descent certifies progress &mdash; unicast. The
+majority of a mesh's load (positions, telemetry, NodeInfo, channel texts) is broadcast and
+keeps managed flooding (&sect;8, item 9), so a fair question is whether <i>that</i> traffic
+could shed its hop limit too. Structurally it can, safely: duplicate suppression, not the
+counter, is what terminates a flood &mdash; every node relays a given packet at most once, so
+an unlimited flood is bounded by mesh size. Whether it is <i>worth</i> anything is an
+empirical question and the answer across all six networks is: almost nothing
+(<code>experiment_hoplimit_multinet.py</code>, Table&nbsp;5). Raising the limit from 7 to
+unlimited adds at most 2.2 points of reachable-node coverage (Norway) for 11&ndash;25% more
+transmissions; on four of the six networks the gain is under one point. The limit does still
+<i>bind</i> at 7 &mdash; on 8&ndash;38% of floods the frontier is alive when the counter cuts
+it &mdash; but that surviving frontier is so attenuated by per-link loss that letting it run
+adds little. Floods die of link loss, not of the counter.
+</p>
+<p>
+The consequential knob sits at the other end: Meshtastic's <i>shipped default of 3</i>. On
+every network with usable link evidence, hop limit 3 forfeits between a third and two thirds
+of the flood coverage that limit 7 achieves (Norway 20.8% &rarr; 32.2% of reachable nodes,
+SoCal 4.3% &rarr; 12.8%, Portugal 6.3% &rarr; 15.2%) &mdash; and it starves GradCor's planting
+floods (Table&nbsp;2: &minus;13 delivery points). For broadcast, then, hop-limit <i>removal</i>
+is safe but immaterial, while raising the default toward the protocol ceiling of 7 is the
+change that matters &mdash; both for classic flood reach and as the planting substrate gradient
+routing stands on.
+</p>
+<table>
+<tr><th>Network</th><th class="num">Reachable covered, hl 3</th><th class="num">hl 7</th>
+<th class="num">unlimited</th><th class="num">Tx/flood 7 &rarr; unlim</th>
+<th class="num">Limit binds at 7</th></tr>
+<tr><td>Norway</td><td class="num">20.8%</td><td class="num">32.2%</td><td class="num">34.4%</td><td class="num">16.3 &rarr; 18.1</td><td class="num">22%</td></tr>
+<tr><td>Meshtastic PT</td><td class="num">6.3%</td><td class="num">15.2%</td><td class="num">15.8%</td><td class="num">22.4 &rarr; 25.3</td><td class="num">38%</td></tr>
+<tr><td>SoCal Mesh</td><td class="num">4.3%</td><td class="num">12.8%</td><td class="num">14.2%</td><td class="num">21.0 &rarr; 26.3</td><td class="num">37%</td></tr>
+<tr><td>Bay Area Mesh</td><td class="num">2.2%</td><td class="num">4.8%</td><td class="num">4.9%</td><td class="num">12.9 &rarr; 14.3</td><td class="num">17%</td></tr>
+<tr><td>Florida Mesh</td><td class="num">1.1%</td><td class="num">1.9%</td><td class="num">2.0%</td><td class="num">6.1 &rarr; 6.8</td><td class="num">8%</td></tr>
+<tr><td>Meshtastic Italia</td><td class="num">30.3%</td><td class="num">30.3%</td><td class="num">30.3%</td><td class="num">1.2 &rarr; 1.2</td><td class="num">0%</td></tr>
+</table>
+<div class="caption"><b>Table 5.</b> Broadcast flood coverage of BFS-reachable online nodes at
+hop limit 3 / 7 / unlimited (250 real sources at real hours, 2 seeds, per-network calibration).
+&ldquo;Limit binds&rdquo; = floods whose frontier was still alive when the hop-7 counter cut
+it. The 3&nbsp;&rarr;&nbsp;7 step is large everywhere the graph has depth; the
+7&nbsp;&rarr;&nbsp;unlimited step is marginal everywhere. Italia's 146-link graph is too
+shallow for any limit to matter. Coverage of <i>online</i> nodes is additionally bounded by
+connectivity itself (on Norway only ~35% of online nodes are reachable from a typical source
+at all &mdash; the same evidence-density ceiling as &sect;6.1/&sect;6.2).</div>
+<p>
+If not the hop limit, can broadcast reach be bought at all? Only with redundancy: the flood's
+one structural deficit is that every link gets a <i>single</i> transmission trial, so every
+remedy is some placement of retransmissions &mdash; and the pricing is roughly linear
+(Table&nbsp;6; <code>experiment_broadcast.py</code>, Norway, 900 floods).
+</p>
+<table>
+<tr><th>Variant</th><th>Rule</th><th class="num">Covers reachable</th><th class="num">Tx/flood</th><th>Verdict</th></tr>
+<tr><td>Baseline</td><td>one tx per relay</td><td class="num">32%</td><td class="num">16</td><td>reference</td></tr>
+<tr><td>ROUTER &times;2</td><td>backbone relays send twice</td><td class="num">41%</td><td class="num">25</td><td>best coverage per tx; one firmware predicate</td></tr>
+<tr><td>SRC &times;2</td><td>source resends (new packet ID)</td><td class="num">48%</td><td class="num">33</td><td>no firmware change; for broadcasts that matter</td></tr>
+<tr><td>ECHO</td><td>relay retransmits only on hearing no onward echo</td><td class="num">46%</td><td class="num">35</td><td>adaptive rule loses to dumb resend &mdash; see below</td></tr>
+<tr><td>RELAY &times;2</td><td>every relay sends twice</td><td class="num">57%</td><td class="num">58</td><td>max reach, worst efficiency; invites collisions</td></tr>
+</table>
+<div class="caption"><b>Table 6.</b> Broadcast redundancy ladder (coverage of BFS-reachable
+online nodes; Norway calibration, 300 real sources &times; 3 seeds).</div>
+<p>
+The ECHO row is the recorded negative result: redundancy targeted at coverage frontiers &mdash;
+GradCor's silence-arms-retry applied to flooding &mdash; does not beat resending from the
+source. Without a destination there is no direction to be smart about and in a loss-dominated
+mesh nearly every relay is a frontier, so the targeted rule degenerates into blanket
+retransmission with bookkeeping. Of GradCor's three assets &mdash; persistence, steering,
+concentration &mdash; only persistence transfers to one-to-all traffic; steering is undefined
+and concentration (suppression) trades reach for airtime (&sect;8, item 4). Managed flood is,
+in this precise sense, already the broadcast-optimal form of the same machinery.
+</p>
+
+<h3>6.4&nbsp;&nbsp;One price curve: the all-to-all strategy space</h3>
+<p>
+To make sure this is not an artifact of the particular variants we picked, we swept the
+strategy space systematically, starting from the objective rather than from any protocol:
+<i>deliver one message to every reachable node, at minimum airtime</i>. Every known scheme
+decomposes into three orthogonal variables &mdash; <b>who relays</b> (all relay-capable nodes,
+as Meshtastic does; or dedicated infrastructure only, as MeshCore does &mdash; its clients
+never relay and its group channels flood via repeaters alone), <b>persistence</b> (each relay
+transmits k times) and <b>source repeats</b> (the sender re-floods s times, re-rolling every
+link) &mdash; plus the adaptive gatings already tested. We simulated the grid on the Norway
+replay (<code>experiment_alltoall.py</code>; Figure&nbsp;15).
+</p>
+<p>
+The result is one finding: <b>on a log-airtime axis, every strategy family collapses onto a
+single price curve</b> &mdash; on Norway roughly eleven points of reachable-node coverage per
+doubling of transmissions &mdash; and nothing rides above it, while both adaptive rules sit
+slightly below it. The collapse itself reproduces on all six networks
+(<code>experiment_alltoall_multinet.py</code>: log-linear fit R&sup2; 0.87&ndash;0.98), but the
+<i>slope</i> &mdash; the network's airtime-to-coverage exchange rate &mdash; is a network
+property, ranging from 10.7 points per doubling (Norway) down to 1.6 (Florida) in the same
+evidence-density order as Table&nbsp;4: the sparser the usable link graph, the less any amount
+of airtime can buy. The MeshCore pattern is not a better curve but a different <i>point</i> on
+the same one:
+with Norway's organic role mix (30 backbone nodes) it is the cheapest configuration measured
+(2.7&nbsp;tx per message) at correspondingly low coverage (12.6%); its real-world efficiency
+comes from engineered repeater placement, which is topology, not protocol. The same collapse
+settles whether broadcast could be folded under GradCor as the special case
+dst&nbsp;=&nbsp;everyone: with every node a destination the gradient is zero everywhere, the
+corridor admits every receiver and GradCor <i>reduces to</i> managed flood exactly. Unicast
+and all-to-all are the two ends of Figure&nbsp;1's knowledge spectrum and each end is already
+at its optimum &mdash; corridors cannot help a flood, floods cannot match corridors for a named
+destination. What remains is menu pricing per message class (beacons at k=1 and hop limit 7;
+higher-value broadcasts one rung up: backbone &times;2 or a source re-flood) and the one lever
+that moves the whole curve instead of sliding along it: connectivity itself.
+</p>
+
+<figure><img src="fig_alltoall.png" class="fullbleed"></figure>
+<div class="caption"><b>Figure 15.</b> The all-to-all delivery strategy space. <b>(a)</b>
+Norway (900 floods per point): coverage of BFS-reachable online nodes vs transmissions per
+message (log scale). Families: blanket persistence (every relay k times), infrastructure-only
+relaying (MeshCore pattern, with and without fixed base stations), source re-floods, targeted
+and gated variants and combos. All families track one Pareto frontier (dashed): placement
+chooses a point on the curve, persistence climbs it and no adaptive rule beats it &mdash;
+consistent with &sect;6.3's finding that without a destination there is nothing to steer by.
+<b>(b)</b> The same reduced grid on all six networks: the log-linear shape is universal
+(fitted lines, R&sup2; 0.87&ndash;0.98) while the slope &mdash; what a doubling of airtime
+buys &mdash; is a network property, ordered exactly by the evidence density of
+Table&nbsp;4.</div>
+
 <h2>7&nbsp;&nbsp;Discussion</h2>
 <p>
 <b>The real topology strengthens the synthetic result.</b> On the synthetic mesh GradCor matched
@@ -1240,7 +1361,7 @@ nor harmed by GradCor: it keeps its managed flood and its hop limit unchanged (t
 no-hop-limit property belongs to gradient descent only, which broadcasts do not use). The one
 interaction is positive &mdash; every destination-originated broadcast doubles as a free
 planting wave (&sect;3.2), so public traffic keeps the unicast routing state fresh. The replay
-carries no background broadcast load contending for airtime, and the airtime savings shown
+carries no background broadcast load contending for airtime and the airtime savings shown
 here apply to the unicast fraction of a mesh's traffic only.</li>
 </ol>
 
@@ -1305,7 +1426,9 @@ network, 2026-06-27&ndash;07-04. Reproduction package
 <code>experiment_asymmetry.py</code>, <code>experiment_widening.py</code>,
 <code>experiment_multinet.py</code>, <code>experiment_cancellation.py</code>,
 <code>experiment_plant.py</code>, <code>experiment_target99.py</code>,
-<code>experiment_custody.py</code>,
+<code>experiment_custody.py</code>, <code>experiment_hoplimit_multinet.py</code>,
+<code>experiment_broadcast.py</code>, <code>experiment_alltoall.py</code>,
+<code>experiment_alltoall_multinet.py</code>,
 <code>fig_*.py</code>; cross-network exports under
 <code>data_networks/</code>) is published alongside this paper.</li>
 <li>P. Levis, T. Clausen, J. Hui, O. Gnawali, J. Ko, &ldquo;The Trickle Algorithm,&rdquo; RFC 6206

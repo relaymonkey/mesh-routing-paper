@@ -1,0 +1,17 @@
+strategy,family,cover_reachable,tx_per_flood
+all k=1,blanket,32.4,16.4
+all k=2,blanket,57.3,58.0
+all k=3,blanket,68.1,102.6
+all k=4,blanket,73.6,146.6
+backbone k=1,meshcore,12.6,2.7
+backbone+base k=1,meshcore+,23.9,8.2
+backbone k=2,meshcore,26.2,9.0
+backbone+base k=2,meshcore+,44.4,27.5
+backbone k=3,meshcore,35.0,15.9
+backbone+base k=3,meshcore+,53.9,48.1
+src x2,src-repeat,47.4,32.7
+src x3,src-repeat,56.6,49.4
+router x2,targeted,41.9,25.8
+gated (1-copy -> x2),targeted,46.3,40.7
+router x2 + src x2,combo,57.8,51.1
+gated + src x2,combo,63.7,82.2

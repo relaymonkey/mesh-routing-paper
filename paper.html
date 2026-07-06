@@ -1236,6 +1236,48 @@ consistent with &sect;6.3's finding that without a destination there is nothing 
 buys &mdash; is a network property, ordered exactly by the evidence density of
 Table&nbsp;4.</div>
 
+<h3>6.5&nbsp;&nbsp;Message classes: quantizing the price curve</h3>
+<p>
+A smooth curve offers no natural breakpoints, so any operational split into &ldquo;message
+classes&rdquo; is a policy quantization &mdash; but three empirical facts pin where a small set
+of classes should sit. First, <b>temporal repetition rides the same curve</b>: the union
+coverage of m successive baseline floods from the same source grows 13.5% (m=1) &rarr; 24%
+(m=3) &rarr; 39% (m=12) &mdash; about six points per doubling of cumulative airtime
+(<code>experiment_temporal.py</code>), inside the family band of Figure&nbsp;15. Periodic
+traffic &mdash; positions, telemetry, NodeInfo, the bulk of a mesh's load &mdash; therefore
+already climbs the curve by repeating; granting it per-flood redundancy would pay for the same
+coverage twice. Second, one step has distinctly best marginal efficiency (backbone &times;2:
+nine points for +56% airtime, one firmware predicate). Third, returns diminish steeply past
+about two doublings (blanket k&ge;3 spends 100+ transmissions to stay under 75%) &mdash;
+beyond that is not a class but an emergency action. Three classes, spaced roughly one
+airtime-doubling apart, exhaust the useful range (Table&nbsp;7); finer splits are not
+resolvable against seed noise (&plusmn;0.5&ndash;1 point) and would pretend a precision the
+network-specific slope (1.6&ndash;10.7 points per doubling) cannot honour. The class labels
+generalize across networks; the absolute coverage each buys does not.
+</p>
+<table>
+<tr><th>Class</th><th>Mechanism</th><th class="num">Norway point</th><th>Default assignment</th></tr>
+<tr><td>BULK</td><td>k=1, hop limit 7</td><td class="num">32% per flood, compounding over repeats</td><td>periodic broadcasts: position, telemetry, NodeInfo</td></tr>
+<tr><td>STANDARD</td><td>+ backbone relays &times;2</td><td class="num">~41%</td><td>one-shot human broadcasts: channel texts</td></tr>
+<tr><td>ASSURED</td><td>+ source re-flood (&times;2)</td><td class="num">~58%</td><td>alert-class traffic</td></tr>
+</table>
+<div class="caption"><b>Table 7.</b> A three-class quantization of Figure&nbsp;15's price
+curve. Each class costs roughly one airtime doubling more than the previous; coverage figures
+are Norway model outputs &mdash; on sparser networks the same classes buy proportionally less
+(Figure&nbsp;15b).</div>
+<p>
+Should classes be pre-assigned per message type, or user-selectable? The economics are
+asymmetric: the class multiplier is paid by the <i>neighbourhood's</i> airtime, not the
+sender's, so unconstrained user choice is a commons problem. The defensible middle is defaults
+by port/type (the Table&nbsp;7 assignment) plus a rate-limited per-node override &mdash; a user
+may pin, say, a critical telemetry stream one class up, within a budget of above-BULK sends
+per hour; an exhausted budget degrades the sender back to BULK rather than degrading the mesh.
+Implementation is small: the class fits in two header bits &mdash; and can share the field
+GradCor already uses, since a packet is either unicast (the bits carry corridor level) or
+broadcast (they carry the redundancy rung), never both &mdash; relays act on it locally
+(backbone doubles at STANDARD and above) and only the source acts on ASSURED's re-flood.
+</p>
+
 <h2>7&nbsp;&nbsp;Discussion</h2>
 <p>
 <b>The real topology strengthens the synthetic result.</b> On the synthetic mesh GradCor matched
@@ -1428,7 +1470,7 @@ network, 2026-06-27&ndash;07-04. Reproduction package
 <code>experiment_plant.py</code>, <code>experiment_target99.py</code>,
 <code>experiment_custody.py</code>, <code>experiment_hoplimit_multinet.py</code>,
 <code>experiment_broadcast.py</code>, <code>experiment_alltoall.py</code>,
-<code>experiment_alltoall_multinet.py</code>,
+<code>experiment_alltoall_multinet.py</code>, <code>experiment_temporal.py</code>,
 <code>fig_*.py</code>; cross-network exports under
 <code>data_networks/</code>) is published alongside this paper.</li>
 <li>P. Levis, T. Clausen, J. Hui, O. Gnawali, J. Ko, &ldquo;The Trickle Algorithm,&rdquo; RFC 6206

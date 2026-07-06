@@ -186,7 +186,13 @@ to that destination (the <i>gradient</i>, g) and, in v1, the <i>age</i> of that 
 Nothing else &mdash; no next-hop pointer, no path, no per-neighbour table. This is deliberate: a
 next-hop pointer names one specific relay and fails when that relay sleeps; a gradient only
 claims &ldquo;I am about N hops away,&rdquo; a far weaker statement that many different
-neighbours can satisfy. Weak claims rot slower than strong ones.
+neighbours can satisfy. Weak claims rot slower than strong ones. Forwarding is also
+independent of the node database: a relay never identifies, addresses, or decrypts for the
+destination &mdash; it only compares its own g against the g in the packet header &mdash; so a
+relay can carry traffic toward destinations it has never heard of as nodes, and routing state
+grows with the node's <i>active conversations</i>, not with mesh size. Only the sending
+endpoint needs the destination's identity (to address the packet and encrypt), exactly as it
+does today.
 </p>
 <table>
 <tr><th>Field</th><th>Type</th><th>Meaning</th><th>Fate in final spec</th></tr>

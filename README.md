@@ -67,7 +67,7 @@ python3 fig_paper.py && python3 fig_method.py && python3 fig_summary.py \
   && python3 fig_plant.py && python3 fig_ablation.py && python3 fig_multinet.py \
   && python3 fig_target99.py && python3 fig_alltoall.py && python3 fig_depth.py \
   && python3 fig_pressure.py && python3 fig_pressure_multinet.py \
-  && python3 fig_pressure_tradeoff.py
+  && python3 fig_pressure_tradeoff.py && python3 fig_hoplimit.py
 ```
 
 Render the PDF (any Chromium browser):

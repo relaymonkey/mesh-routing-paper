@@ -1143,14 +1143,14 @@ routing stands on.
 </p>
 <table>
 <tr><th>Network</th><th class="num">Reachable covered, hl 3</th><th class="num">hl 7</th>
-<th class="num">unlimited</th><th class="num">Tx/flood 7 &rarr; unlim</th>
+<th class="num">unlimited</th><th class="num">Tx/flood 3 &rarr; 7 &rarr; unlim</th>
 <th class="num">Limit binds at 7</th></tr>
-<tr><td>Norway</td><td class="num">20.8%</td><td class="num">32.2%</td><td class="num">34.4%</td><td class="num">16.3 &rarr; 18.1</td><td class="num">22%</td></tr>
-<tr><td>Meshtastic PT</td><td class="num">6.3%</td><td class="num">15.2%</td><td class="num">15.8%</td><td class="num">22.4 &rarr; 25.3</td><td class="num">38%</td></tr>
-<tr><td>SoCal Mesh</td><td class="num">4.3%</td><td class="num">12.8%</td><td class="num">14.2%</td><td class="num">21.0 &rarr; 26.3</td><td class="num">37%</td></tr>
-<tr><td>Bay Area Mesh</td><td class="num">2.2%</td><td class="num">4.8%</td><td class="num">4.9%</td><td class="num">12.9 &rarr; 14.3</td><td class="num">17%</td></tr>
-<tr><td>Florida Mesh</td><td class="num">1.1%</td><td class="num">1.9%</td><td class="num">2.0%</td><td class="num">6.1 &rarr; 6.8</td><td class="num">8%</td></tr>
-<tr><td>Meshtastic Italia</td><td class="num">30.3%</td><td class="num">30.3%</td><td class="num">30.3%</td><td class="num">1.2 &rarr; 1.2</td><td class="num">0%</td></tr>
+<tr><td>Norway</td><td class="num">20.8%</td><td class="num">32.2%</td><td class="num">34.4%</td><td class="num">6.5 &rarr; 16.3 &rarr; 18.1</td><td class="num">22%</td></tr>
+<tr><td>Meshtastic PT</td><td class="num">6.3%</td><td class="num">15.2%</td><td class="num">15.8%</td><td class="num">5.6 &rarr; 22.4 &rarr; 25.3</td><td class="num">38%</td></tr>
+<tr><td>SoCal Mesh</td><td class="num">4.3%</td><td class="num">12.8%</td><td class="num">14.2%</td><td class="num">4.3 &rarr; 21.0 &rarr; 26.3</td><td class="num">37%</td></tr>
+<tr><td>Bay Area Mesh</td><td class="num">2.2%</td><td class="num">4.8%</td><td class="num">4.9%</td><td class="num">3.9 &rarr; 12.9 &rarr; 14.3</td><td class="num">17%</td></tr>
+<tr><td>Florida Mesh</td><td class="num">1.1%</td><td class="num">1.9%</td><td class="num">2.0%</td><td class="num">2.9 &rarr; 6.1 &rarr; 6.8</td><td class="num">8%</td></tr>
+<tr><td>Meshtastic Italia</td><td class="num">30.3%</td><td class="num">30.3%</td><td class="num">30.3%</td><td class="num">1.2 &rarr; 1.2 &rarr; 1.2</td><td class="num">0%</td></tr>
 </table>
 <div class="caption"><b>Table 5.</b> Broadcast flood coverage of BFS-reachable online nodes at
 hop limit 3 / 7 / unlimited (250 real sources at real hours, 2 seeds, per-network calibration).
@@ -1159,7 +1159,16 @@ it. The 3&nbsp;&rarr;&nbsp;7 step is large everywhere the graph has depth; the
 7&nbsp;&rarr;&nbsp;unlimited step is marginal everywhere. Italia's 146-link graph is too
 shallow for any limit to matter. Coverage of <i>online</i> nodes is additionally bounded by
 connectivity itself (on Norway only ~35% of online nodes are reachable from a typical source
-at all &mdash; the same evidence-density ceiling as &sect;6.1/&sect;6.2).</div>
+at all &mdash; the same evidence-density ceiling as &sect;6.1/&sect;6.2). Figure&nbsp;15 shows
+the same data side by side.</div>
+
+<figure><img src="fig_hoplimit.png" class="fullbleed"></figure>
+<div class="caption"><b>Figure 15.</b> Table&nbsp;5 visualized: broadcast flood coverage of
+reachable online nodes (bars) and transmissions per flood (inset) at hop limit 3 / 7 /
+unlimited on all six networks. The shipped default of 3 is the costly setting &mdash; it
+forfeits a third to two thirds of achievable coverage wherever the graph has depth &mdash;
+while removing the limit beyond 7 changes almost nothing on either axis. Italia's shallow
+146-link graph is indifferent to every limit.</div>
 <p>
 If not the hop limit, can broadcast reach be bought at all? Only with redundancy: the flood's
 one structural deficit is that every link gets a <i>single</i> transmission trial, so every
@@ -1197,7 +1206,7 @@ as Meshtastic does; or dedicated infrastructure only, as MeshCore does &mdash; i
 never relay and its group channels flood via repeaters alone), <b>persistence</b> (each relay
 transmits k times) and <b>source repeats</b> (the sender re-floods s times, re-rolling every
 link) &mdash; plus the adaptive gatings already tested. We simulated the grid on the Norway
-replay (<code>experiment_alltoall.py</code>; Figure&nbsp;15).
+replay (<code>experiment_alltoall.py</code>; Figure&nbsp;16).
 </p>
 <p>
 The result is one finding: <b>on a log-airtime axis, every strategy family collapses onto a
@@ -1224,7 +1233,7 @@ that moves the whole curve instead of sliding along it: connectivity itself.
 </p>
 
 <figure><img src="fig_alltoall.png" class="fullbleed"></figure>
-<div class="caption"><b>Figure 15.</b> The all-to-all delivery strategy space. <b>(a)</b>
+<div class="caption"><b>Figure 16.</b> The all-to-all delivery strategy space. <b>(a)</b>
 Norway (900 floods per point): coverage of BFS-reachable online nodes vs transmissions per
 message (log scale). Families: blanket persistence (every relay k times), infrastructure-only
 relaying (MeshCore pattern, with and without fixed base stations), source re-floods, targeted
@@ -1243,7 +1252,7 @@ classes&rdquo; is a policy quantization &mdash; but three empirical facts pin wh
 of classes should sit. First, <b>temporal repetition rides the same curve</b>: the union
 coverage of m successive baseline floods from the same source grows 13.5% (m=1) &rarr; 24%
 (m=3) &rarr; 39% (m=12) &mdash; about six points per doubling of cumulative airtime
-(<code>experiment_temporal.py</code>), inside the family band of Figure&nbsp;15. Periodic
+(<code>experiment_temporal.py</code>), inside the family band of Figure&nbsp;16. Periodic
 traffic &mdash; positions, telemetry, NodeInfo, the bulk of a mesh's load &mdash; therefore
 already climbs the curve by repeating; granting it per-flood redundancy would pay for the same
 coverage twice. Second, one step has distinctly best marginal efficiency (backbone &times;2:
@@ -1261,10 +1270,10 @@ generalize across networks; the absolute coverage each buys does not.
 <tr><td>STANDARD</td><td>+ backbone relays &times;2</td><td class="num">~41%</td><td>one-shot human broadcasts: channel texts</td></tr>
 <tr><td>ASSURED</td><td>+ source re-flood (&times;2)</td><td class="num">~58%</td><td>alert-class traffic</td></tr>
 </table>
-<div class="caption"><b>Table 7.</b> A three-class quantization of Figure&nbsp;15's price
+<div class="caption"><b>Table 7.</b> A three-class quantization of Figure&nbsp;16's price
 curve. Each class costs roughly one airtime doubling more than the previous; coverage figures
 are Norway model outputs &mdash; on sparser networks the same classes buy proportionally less
-(Figure&nbsp;15b).</div>
+(Figure&nbsp;16b).</div>
 <p>
 Should classes be pre-assigned per message type, or user-selectable? The economics are
 asymmetric: the class multiplier is paid by the <i>neighbourhood's</i> airtime, not the
@@ -1291,7 +1300,7 @@ parallel lanes per column (the receiver diversity anycast feeds on); and <b>p</b
 per-transmission delivery probability on every link. Full links connect consecutive columns,
 every node is always on, so depth is isolated from churn. We then measured GradCor-R at depths
 the replay never sees
-(<code>experiment_depth.py</code>; Figure&nbsp;16).
+(<code>experiment_depth.py</code>; Figure&nbsp;17).
 </p>
 <p>
 <b>The walk is not the thing that breaks at depth.</b> With warm gradients on a two-lane braid
@@ -1348,13 +1357,13 @@ collectors. Large networks never flood measurements; they aggregate &mdash; this
 </table>
 <div class="caption"><b>Table 8.</b> Echo-persistent flooding on the two-lane braid (300
 packets per cell): delivery to the far end when each relay retransmits up to R times until it
-overhears an onward arrival. R=1 is the plain flood of Figure&nbsp;16a. Persistence converts
+overhears an onward arrival. R=1 is the plain flood of Figure&nbsp;17a. Persistence converts
 depth from a survival problem into a linear cost multiplier (~2.5&times; per relay at R=3) &mdash;
 but the mesh-wide bill per deep packet (last column) is what confines this to rare,
 alert-class traffic.</div>
 
 <figure><img src="fig_depth.png" class="fullbleed"></figure>
-<div class="caption"><b>Figure 16.</b> Depth stress test on synthetic braids (300 packets per
+<div class="caption"><b>Figure 17.</b> Depth stress test on synthetic braids (300 packets per
 point). <b>(a)</b> Two-lane braid: warm-gradient corridor delivery (solid) vs unlimited-hop
 flood transport (dashed) as true path length grows from 7 to 200 hops, per link quality.
 Persistence per hop survives depth at linear cost; front-survival flooding decays
@@ -1385,7 +1394,7 @@ transmissions keep reaching someone new</i> &mdash; which is precisely the defin
 bridge.
 </p>
 <p>
-The test is falsifiable and three-legged (<code>experiment_pressure.py</code>; Figure&nbsp;17,
+The test is falsifiable and three-legged (<code>experiment_pressure.py</code>; Figure&nbsp;18,
 Table&nbsp;9): one config-free rule must match the best static policy in <i>every</i> regime,
 where each regime's best static differs. It does. On a dense world (three 20-node cliques
 joined by two single bridges &mdash; the regime where suppression wins) pressure reaches 93%
@@ -1419,7 +1428,7 @@ without any per-world tuning, which is the point: the best <i>static</i> column 
 knowing the regime in advance.</div>
 
 <figure><img src="fig_pressure.png" class="fullbleed"></figure>
-<div class="caption"><b>Figure 17.</b> Relay pressure. <b>(a)</b> Effectiveness (bars) and
+<div class="caption"><b>Figure 18.</b> Relay pressure. <b>(a)</b> Effectiveness (bars) and
 airtime (inset) for three static policies and the pressure rule across the three regimes
 &mdash; each regime's best static differs, pressure tracks it everywhere. <b>(b)</b> The dense
 world after 330 packets, node colour = learned pressure: clique interiors fade toward silence
@@ -1428,12 +1437,12 @@ while all four bridge endpoints self-promote to maximum pressure. The role syste
 
 <p>
 Running the same head-to-head on all six production networks
-(<code>experiment_pressure_multinet.py</code>; Figure&nbsp;18) adds the cross-network check:
+(<code>experiment_pressure_multinet.py</code>; Figure&nbsp;19) adds the cross-network check:
 pressure matches the best static policy on every network &mdash; which is persistence on all
 six, since every evidence-sparse organic mesh is a persistence regime &mdash; while spending
 less airtime wherever local redundancy exists (Florida &minus;19%, Italia &minus;32%). The six
 real networks therefore validate the rule's safety, not its full range: none of them is dense
-enough to exercise the suppression side, which is exactly the urban regime Figure&nbsp;17's
+enough to exercise the suppression side, which is exactly the urban regime Figure&nbsp;18's
 synthetic dense world covers and the regime a firmware trial in a city core would test
 first. A persistence-only-off variant sharpens the boundary: with muting as the only lever,
 pressure reproduces plain flood's coverage and airtime almost exactly on all six networks
@@ -1441,6 +1450,13 @@ pressure reproduces plain flood's coverage and airtime almost exactly on all six
 near-efficient, because suppression can only harvest redundancy and sparse meshes have almost
 none. The airtime dividend lives in density, where pressure collects it automatically.
 </p>
+
+<figure><img src="fig_pressure_multinet.png" class="fullbleed"></figure>
+<div class="caption"><b>Figure 19.</b> Relay pressure on the six production networks
+(per-network calibration, every node allowed to relay, 30-packet warm-up). Bars: coverage of
+BFS-reachable online nodes; insets: transmissions per flood. The self-calibrating rule tracks
+the best static policy on each network without knowing which network it is on.</div>
+
 <p>
 Two governors bound the rule in deployment. First, <b>pressure composes with the message
 classes of &sect;6.5</b>: pressure decides <i>who</i> relays and with what priority, the class
@@ -1456,12 +1472,12 @@ R<sub>budget</sub>), where R<sub>budget</sub> derates toward 1 as either signal 
 its ceiling. The hard budget guarantees regulatory compliance; the surplus, where it exists,
 is spent exactly where pressure says it buys coverage. No user knob is required &mdash; and
 none should be offered, since the airtime being spent is the neighbourhood's, not the
-sender's (&sect;6.5). Figure&nbsp;19 compresses the whole trade into one view: the direction
+sender's (&sect;6.5). Figure&nbsp;20 compresses the whole trade into one view: the direction
 the pressure rule moves each world's operating point reveals its regime.
 </p>
 
 <figure><img src="fig_pressure_tradeoff.png" class="fullbleed"></figure>
-<div class="caption"><b>Figure 19.</b> What the pressure rule does to the plain flood's
+<div class="caption"><b>Figure 20.</b> What the pressure rule does to the plain flood's
 operating point, per world (arrow: flood &rarr; pressure in airtime/coverage space). On all
 six sparse production networks the arrow climbs the price curve &mdash; coverage is bought
 with persistence airtime, never free &mdash; and the mute-only variant (open circles) lands
@@ -1469,12 +1485,6 @@ exactly on the flood point, confirming sparse floods are already near-efficient.
 world &mdash; a synthetic construction, since no network in our dataset exhibits this regime
 &mdash; the arrow turns up-and-left: suppression harvests redundancy, and only density has
 redundancy to harvest. The rule needs no telling which case it is in.</div>
-
-<figure><img src="fig_pressure_multinet.png" class="fullbleed"></figure>
-<div class="caption"><b>Figure 18.</b> Relay pressure on the six production networks
-(per-network calibration, every node allowed to relay, 30-packet warm-up). Bars: coverage of
-BFS-reachable online nodes; insets: transmissions per flood. The self-calibrating rule tracks
-the best static policy on each network without knowing which network it is on.</div>
 
 <h2>7&nbsp;&nbsp;Discussion</h2>
 <p>

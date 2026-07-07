@@ -1486,6 +1486,66 @@ world &mdash; a synthetic construction, since no network in our dataset exhibits
 &mdash; the arrow turns up-and-left: suppression harvests redundancy, and only density has
 redundancy to harvest. The rule needs no telling which case it is in.</div>
 
+<h3>6.8&nbsp;&nbsp;Headroom control: sliding the operating point by channel state</h3>
+<p>
+The governors of &sect;6.7 only <i>derate</i> near breach. The full form of the idea is a
+bidirectional controller: since the price curve (&sect;6.4) is a menu, no node should pick one
+point on it forever &mdash; it should slide along it with the channel's current state,
+spending surplus airtime on coverage when the medium is idle and retreating below plain flood
+as it fills. The signal is again one the firmware already measures: local channel utilization
+u. The controller tested here is three thresholds referenced to the 25% community health cap
+&mdash; u&nbsp;&lt;&nbsp;18%: full persistence, never cancel (top of the curve);
+u&nbsp;&lt;&nbsp;24%: R=2, cancel after two echoes; beyond: R=1, cancel on the first echo
+(below plain flood). For the test to be fair, congestion must cost something, so reception in
+this experiment suffers utilization-coupled interference (extra loss
+min(0.6,&nbsp;0.8u)); offered load is then swept from quiet to saturating on the dense world
+(<code>experiment_headroom.py</code>; Figure&nbsp;21, Table&nbsp;10).
+</p>
+<p>
+The controller does what it promises, and its first version taught a design lesson worth
+recording. At idle both versions are indistinguishable from the best static policy &mdash; the
+surplus is spent, nothing is left on the table. The lesson emerged at moderate load: our first
+ladder retreated from full persistence to (R=2, cancel after two echoes), coupling every
+persistence reduction with <i>more cancellation</i> &mdash; and since cancellation starves
+bridge feeding, that ladder skipped the plain flood's operating point entirely, covering 65%
+at a load where plain flood managed 74%. The corrected ladder descends <i>through the Pareto
+frontier</i> &mdash; full persistence &rarr; plain flood (R=1, never cancel) &rarr; emergency
+cancel@1 &mdash; and at moderate load matches plain flood's coverage exactly (74.1%) while
+staying compliant. At saturating load the trade becomes genuine and no ladder abolishes it:
+<b>every static policy breaches the health cap</b> (plain flood included: 29% mean
+utilization, 100% of nodes over), and the controller must choose what to protect &mdash; the
+frontier ladder preserves more coverage (55.9%) at partial compliance, the strict
+(cancellation-coupled) ladder enforces the cap almost perfectly (98.3% of nodes under) at
+52.3%. Cap strictness is thus the one genuine policy choice in the stack; everything else
+self-calibrates. Two further disclosures: on the sparse production networks the controller is
+a no-op &mdash; even 120 broadcasts per hour cannot push Norway past 0.7% utilization, so it
+sits at full persistence permanently &mdash; and the thresholds needed one referencing pass
+against the cap. With this, the governor stack is complete: <b>pressure</b> decides who
+relays (topology), <b>class</b> decides how much a packet may buy (value), <b>headroom</b>
+decides how much the channel can afford right now (state) &mdash; three dials, three
+already-measured signals, zero user knobs.
+</p>
+<table>
+<tr><th class="num">Load (floods/h)</th><th>Persist R=3</th><th>Plain flood</th>
+<th>Headroom (frontier ladder)</th><th>Headroom strict</th></tr>
+<tr><td class="num">10</td><td>85.0% @ 72 tx, u=2%</td><td>80.1% @ 48 tx, u=2%</td><td>85.0% @ 72 tx</td><td>85.0% @ 72 tx</td></tr>
+<tr><td class="num">40</td><td>83.6% @ 68 tx, u=9%</td><td>78.0% @ 47 tx, u=8%</td><td>83.6% @ 68 tx</td><td>83.6% @ 68 tx</td></tr>
+<tr><td class="num">90</td><td>78.7% @ 64 tx, u=19%</td><td>74.0% @ 44 tx, u=18%</td><td><b>74.1% @ 49 tx</b>, u=18%</td><td>65.2% @ 46 tx, u=15%</td></tr>
+<tr><td class="num">160</td><td>73.7% @ 63 tx, <b>all nodes over cap</b></td><td>68.4% @ 41 tx, <b>all nodes over cap</b></td><td>55.9% @ 20 tx, 67% over</td><td>52.3% @ 24 tx, <b>1.7% over</b></td></tr>
+</table>
+<div class="caption"><b>Table 10.</b> Load sweep on the dense world under utilization-coupled
+interference (24 hours per cell): coverage @ transmissions per flood, u = mean node channel
+utilization. The statics ride their fixed point into the cap. The frontier ladder tracks the
+best affordable static at every load below saturation; at saturation, cap enforcement is a
+policy choice between the two ladders &mdash; coverage or compliance &mdash; that no
+controller design removes.</div>
+
+<figure><img src="fig_headroom.png" class="fullbleed"></figure>
+<div class="caption"><b>Figure 21.</b> Headroom control under rising offered load (dense
+world). <b>(a)</b> Coverage: identical to the best static policy while the channel is idle;
+deliberate retreat as it fills. <b>(b)</b> Mean channel utilization against the 25% health
+cap: every static policy crosses it at saturating load, the controller alone stays under.</div>
+
 <h2>7&nbsp;&nbsp;Discussion</h2>
 <p>
 <b>The real topology strengthens the synthetic result.</b> On the synthetic mesh GradCor matched
@@ -1681,6 +1741,7 @@ network, 2026-06-27&ndash;07-04. Reproduction package
 <code>experiment_alltoall_multinet.py</code>, <code>experiment_temporal.py</code>,
 <code>experiment_depth.py</code>, <code>experiment_persist.py</code>,
 <code>experiment_pressure.py</code>, <code>experiment_pressure_multinet.py</code>,
+<code>experiment_headroom.py</code>,
 <code>fig_*.py</code>; cross-network exports under
 <code>data_networks/</code>) is published alongside this paper.</li>
 <li>P. Levis, T. Clausen, J. Hui, O. Gnawali, J. Ko, &ldquo;The Trickle Algorithm,&rdquo; RFC 6206

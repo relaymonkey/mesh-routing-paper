@@ -1284,9 +1284,13 @@ One bias in the replay deserves its own experiment: the link graph is built from
 traceroutes and all floods obey the wire's hop field, so <b>gradient descent beyond seven hops
 is never exercised on real data</b> &mdash; the no-hop-limit property of &sect;3 is proven at
 the spec level, not stress-tested. We therefore built synthetic &ldquo;braid&rdquo; topologies
-with controlled true distance (w parallel lanes of length d, full links between consecutive
-positions, one per-transmission delivery probability p everywhere, every node always on so
-depth is isolated from churn) and measured GradCor-R at depths the replay never sees
+with three controlled parameters: <b>d</b>, the <i>depth</i> &mdash; the true hop distance from
+source to destination, which the construction fixes exactly (the source sits in column 0, the
+destination in column d, and a packet must cross every column); <b>w</b>, the number of
+parallel lanes per column (the receiver diversity anycast feeds on); and <b>p</b>, one
+per-transmission delivery probability on every link. Full links connect consecutive columns,
+every node is always on, so depth is isolated from churn. We then measured GradCor-R at depths
+the replay never sees
 (<code>experiment_depth.py</code>; Figure&nbsp;16).
 </p>
 <p>
@@ -1306,7 +1310,8 @@ dense enough to span 20 hops provides.
 <b>Cold start at depth exposes a wall, and it is not GradCor's.</b> With no prior state, the
 first packet falls back to a discovery flood &mdash; and today's 3-bit wire hop field caps
 that flood at 7, so a fresh 20-hop conversation delivers <b>zero, for every protocol</b>,
-ours included. Grant the fallback flood unlimited depth and the ramp is quick: at d=20 the
+ours included. Grant the fallback flood unlimited depth and the ramp is quick: at depth
+d=20 the
 first packet delivers 47% and packets 4 onward ~95&ndash;99% as each success re-stamps true
 distances; at d=50, 20% ramps to 80% by the tenth packet. The practical reading for deep
 meshes: the corridor removes the per-packet hop ceiling today, within the existing packet
@@ -1314,6 +1319,39 @@ format; extending <i>discovery</i> beyond 7 needs a header change that any 20-ho
 requires regardless of routing scheme. Caveats: the braid is synthetic and fully awake &mdash;
 it isolates depth, deliberately excluding the churn and asymmetry the Norway replay covers.
 </p>
+<p>
+<b>And broadcast itself can be fixed the same way the corridor was.</b> The corridor survives
+depth because of per-hop persistence, and that mechanism transplants directly into the flood:
+let a relay retransmit (up to R times) until it <i>overhears an onward arrival</i> &mdash; the
+same implicit-ack primitive as the contention race of &sect;3.3 and the managed flood's
+overhear-cancellation, with the policy inverted: repeat-until-heard instead of mute-when-heard.
+Measured on the same braids (<code>experiment_persist.py</code>; Table&nbsp;8): today's flood
+(R=1) delivers 7.7% of packets to the 200-hop far end at p=0.7; <b>R=3 delivers 100%</b>, at
+~2.5 transmissions per relay &mdash; geometric decay converted to a linear cost factor, exactly
+as in the unicast walk, and even weak links reach 99.7% at R=5. Depth is therefore solved
+in <i>mechanism</i> for broadcast too; what remains unsolved is <i>arithmetic</i>: one packet
+crossing 200 hops costs ~500 transmissions mesh-wide, fine for a rare alert, catastrophic for
+periodic telemetry from every node in a mesh large enough to have such a diameter (O(N)
+transmissions per beacon, N beaconing nodes). No forwarding mechanism fixes that; only scoping
+does &mdash; aggregation at region boundaries, interest-based forwarding toward subscribers
+(which quietly turns the traffic back into unicast, where the corridor already operates), or
+accepting that beacons are a neighbourhood fact and long-haul telemetry travels to named
+collectors. Large networks never flood measurements; they aggregate &mdash; this is why.
+</p>
+<table>
+<tr><th>Depth</th><th class="num">Link p</th><th class="num">R=1 (today's flood)</th>
+<th class="num">R=3</th><th class="num">R=5</th><th class="num">Tx/packet at R=3</th></tr>
+<tr><td>20 hops</td><td class="num">0.7</td><td class="num">74.3%</td><td class="num">99.3%</td><td class="num">100%</td><td class="num">55</td></tr>
+<tr><td>50 hops</td><td class="num">0.7</td><td class="num">53.0%</td><td class="num">100%</td><td class="num">100%</td><td class="num">127</td></tr>
+<tr><td>200 hops</td><td class="num">0.7</td><td class="num">7.7%</td><td class="num">100%</td><td class="num">100%</td><td class="num">487</td></tr>
+<tr><td>200 hops</td><td class="num">0.5</td><td class="num">0.0%</td><td class="num">88.0%</td><td class="num">99.7%</td><td class="num">572</td></tr>
+</table>
+<div class="caption"><b>Table 8.</b> Echo-persistent flooding on the two-lane braid (300
+packets per cell): delivery to the far end when each relay retransmits up to R times until it
+overhears an onward arrival. R=1 is the plain flood of Figure&nbsp;16a. Persistence converts
+depth from a survival problem into a linear cost multiplier (~2.5&times; per relay at R=3) &mdash;
+but the mesh-wide bill per deep packet (last column) is what confines this to rare,
+alert-class traffic.</div>
 
 <figure><img src="fig_depth.png" class="fullbleed"></figure>
 <div class="caption"><b>Figure 16.</b> Depth stress test on synthetic braids (300 packets per
@@ -1518,7 +1556,7 @@ network, 2026-06-27&ndash;07-04. Reproduction package
 <code>experiment_custody.py</code>, <code>experiment_hoplimit_multinet.py</code>,
 <code>experiment_broadcast.py</code>, <code>experiment_alltoall.py</code>,
 <code>experiment_alltoall_multinet.py</code>, <code>experiment_temporal.py</code>,
-<code>experiment_depth.py</code>,
+<code>experiment_depth.py</code>, <code>experiment_persist.py</code>,
 <code>fig_*.py</code>; cross-network exports under
 <code>data_networks/</code>) is published alongside this paper.</li>
 <li>P. Levis, T. Clausen, J. Hui, O. Gnawali, J. Ko, &ldquo;The Trickle Algorithm,&rdquo; RFC 6206

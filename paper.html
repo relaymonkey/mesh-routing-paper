@@ -1278,6 +1278,53 @@ broadcast (they carry the redundancy rung), never both &mdash; relays act on it 
 (backbone doubles at STANDARD and above) and only the source acts on ASSURED's re-flood.
 </p>
 
+<h3>6.6&nbsp;&nbsp;Does the walk survive real depth? A synthetic stress test</h3>
+<p>
+One bias in the replay deserves its own experiment: the link graph is built from hop&le;7
+traceroutes and all floods obey the wire's hop field, so <b>gradient descent beyond seven hops
+is never exercised on real data</b> &mdash; the no-hop-limit property of &sect;3 is proven at
+the spec level, not stress-tested. We therefore built synthetic &ldquo;braid&rdquo; topologies
+with controlled true distance (w parallel lanes of length d, full links between consecutive
+positions, one per-transmission delivery probability p everywhere, every node always on so
+depth is isolated from churn) and measured GradCor-R at depths the replay never sees
+(<code>experiment_depth.py</code>; Figure&nbsp;16).
+</p>
+<p>
+<b>The walk is not the thing that breaks at depth.</b> With warm gradients on a two-lane braid
+at p&nbsp;=&nbsp;0.7, delivery is 100% at 7 hops, 99% at 100 and <b>97% at 200 hops</b>, with
+cost staying <i>linear</i> at roughly 1.4 transmissions per hop &mdash; per-hop anycast
+persistence (up to five broadcasts across parallel candidates) makes each hop nearly certain,
+so depth only multiplies cost, not risk. Carrying the same packets by unlimited-hop flood
+instead decays geometrically &mdash; 74%&nbsp;&rarr;&nbsp;43%&nbsp;&rarr;&nbsp;3%&nbsp;&rarr;&nbsp;0%
+over the same depths &mdash; because a flood front gets one trial per link and must survive
+every stage. The honest failure regime is equally visible: a single chain (w=1) of weak links
+(p=0.5) collapses at depth (77%&nbsp;&rarr;&nbsp;0%); anycast diversity is the load-bearing
+ingredient, and GradCor needs some receiver redundancy per hop &mdash; which any real mesh
+dense enough to span 20 hops provides.
+</p>
+<p>
+<b>Cold start at depth exposes a wall, and it is not GradCor's.</b> With no prior state, the
+first packet falls back to a discovery flood &mdash; and today's 3-bit wire hop field caps
+that flood at 7, so a fresh 20-hop conversation delivers <b>zero, for every protocol</b>,
+ours included. Grant the fallback flood unlimited depth and the ramp is quick: at d=20 the
+first packet delivers 47% and packets 4 onward ~95&ndash;99% as each success re-stamps true
+distances; at d=50, 20% ramps to 80% by the tenth packet. The practical reading for deep
+meshes: the corridor removes the per-packet hop ceiling today, within the existing packet
+format; extending <i>discovery</i> beyond 7 needs a header change that any 20-hop ambition
+requires regardless of routing scheme. Caveats: the braid is synthetic and fully awake &mdash;
+it isolates depth, deliberately excluding the churn and asymmetry the Norway replay covers.
+</p>
+
+<figure><img src="fig_depth.png" class="fullbleed"></figure>
+<div class="caption"><b>Figure 16.</b> Depth stress test on synthetic braids (300 packets per
+point). <b>(a)</b> Two-lane braid: warm-gradient corridor delivery (solid) vs unlimited-hop
+flood transport (dashed) as true path length grows from 7 to 200 hops, per link quality.
+Persistence per hop survives depth at linear cost; front-survival flooding decays
+geometrically. <b>(b)</b> Cold start on a fresh mesh (w=2, p=0.7): per-packet delivery as the
+refresh plants state &mdash; fast ramp to steady state once the discovery flood can reach at
+all; at today's hop-7 wire ceiling, depth&nbsp;&gt;&nbsp;7 cold start is zero for any
+protocol.</div>
+
 <h2>7&nbsp;&nbsp;Discussion</h2>
 <p>
 <b>The real topology strengthens the synthetic result.</b> On the synthetic mesh GradCor matched
@@ -1471,6 +1518,7 @@ network, 2026-06-27&ndash;07-04. Reproduction package
 <code>experiment_custody.py</code>, <code>experiment_hoplimit_multinet.py</code>,
 <code>experiment_broadcast.py</code>, <code>experiment_alltoall.py</code>,
 <code>experiment_alltoall_multinet.py</code>, <code>experiment_temporal.py</code>,
+<code>experiment_depth.py</code>,
 <code>fig_*.py</code>; cross-network exports under
 <code>data_networks/</code>) is published alongside this paper.</li>
 <li>P. Levis, T. Clausen, J. Hui, O. Gnawali, J. Ko, &ldquo;The Trickle Algorithm,&rdquo; RFC 6206

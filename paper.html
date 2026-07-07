@@ -1520,31 +1520,67 @@ frontier ladder preserves more coverage (55.9%) at partial compliance, the stric
 self-calibrates. Two further disclosures: on the sparse production networks the controller is
 a no-op &mdash; even 120 broadcasts per hour cannot push Norway past 0.7% utilization, so it
 sits at full persistence permanently &mdash; and the thresholds needed one referencing pass
-against the cap. With this, the governor stack is complete: <b>pressure</b> decides who
-relays (topology), <b>class</b> decides how much a packet may buy (value), <b>headroom</b>
-decides how much the channel can afford right now (state) &mdash; three dials, three
-already-measured signals, zero user knobs.
+against the cap.
+</p>
+<p>
+The completed form of the idea inverts the framing once more: do not <i>defend</i> the cap,
+<b>fill it</b>. The setpoint controller drops thresholds entirely &mdash; each node
+hill-climbs a rung ladder ordered by airtime appetite (emergency &rarr; plain flood &rarr;
+persist R=2&hellip;5), climbing while its measured utilization sits below 80% of a target
+just under the cap and descending above it. Coverage is then <i>whatever the allowed airtime
+buys</i>, and it matches or beats every static and every threshold ladder at every load
+(Table&nbsp;10, last column): above the best static at idle (86.1% vs 85.0%, having climbed
+past R=3 on its own), above full persistence at moderate load while compliant (79.0% vs
+78.7%, where plain flood manages 74.0%), and the best compliant coverage at saturation
+(58.2%). One honest caveat: a cap-filler is optimal for &ldquo;maximize coverage subject to
+u&nbsp;&le;&nbsp;cap,&rdquo; not per-transmission efficiency &mdash; at idle it spends 30%
+more airtime than persist R=3 for one extra point, because the price curve's diminishing
+returns are invisible to a controller that only watches utilization; a deployment wanting
+frugality would add a marginal-gain floor. With this, the governor stack is complete:
+<b>pressure</b> decides who relays (topology), <b>class</b> decides how much a packet may buy
+(value), <b>headroom/setpoint</b> decides how much the channel can afford right now (state)
+&mdash; three dials, three already-measured signals, zero user knobs.
 </p>
 <table>
 <tr><th class="num">Load (floods/h)</th><th>Persist R=3</th><th>Plain flood</th>
-<th>Headroom (frontier ladder)</th><th>Headroom strict</th></tr>
-<tr><td class="num">10</td><td>85.0% @ 72 tx, u=2%</td><td>80.1% @ 48 tx, u=2%</td><td>85.0% @ 72 tx</td><td>85.0% @ 72 tx</td></tr>
-<tr><td class="num">40</td><td>83.6% @ 68 tx, u=9%</td><td>78.0% @ 47 tx, u=8%</td><td>83.6% @ 68 tx</td><td>83.6% @ 68 tx</td></tr>
-<tr><td class="num">90</td><td>78.7% @ 64 tx, u=19%</td><td>74.0% @ 44 tx, u=18%</td><td><b>74.1% @ 49 tx</b>, u=18%</td><td>65.2% @ 46 tx, u=15%</td></tr>
-<tr><td class="num">160</td><td>73.7% @ 63 tx, <b>all nodes over cap</b></td><td>68.4% @ 41 tx, <b>all nodes over cap</b></td><td>55.9% @ 20 tx, 67% over</td><td>52.3% @ 24 tx, <b>1.7% over</b></td></tr>
+<th>Headroom (frontier ladder)</th><th>Headroom strict</th><th>Setpoint (fill the cap)</th></tr>
+<tr><td class="num">10</td><td>85.0% @ 72 tx, u=2%</td><td>80.1% @ 48 tx, u=2%</td><td>85.0% @ 72 tx</td><td>85.0% @ 72 tx</td><td><b>86.1%</b> @ 94 tx</td></tr>
+<tr><td class="num">40</td><td>83.6% @ 68 tx, u=9%</td><td>78.0% @ 47 tx, u=8%</td><td>83.6% @ 68 tx</td><td>83.6% @ 68 tx</td><td>83.5% @ 85 tx</td></tr>
+<tr><td class="num">90</td><td>78.7% @ 64 tx, u=19%</td><td>74.0% @ 44 tx, u=18%</td><td>74.1% @ 49 tx, u=18%</td><td>65.2% @ 46 tx, u=15%</td><td><b>79.0%</b> @ 80 tx, u=18%</td></tr>
+<tr><td class="num">160</td><td>73.7% @ 63 tx, <b>all nodes over cap</b></td><td>68.4% @ 41 tx, <b>all nodes over cap</b></td><td>55.9% @ 20 tx, 67% over</td><td>52.3% @ 24 tx, <b>1.7% over</b></td><td><b>58.2%</b> @ 27 tx, 67% over</td></tr>
 </table>
 <div class="caption"><b>Table 10.</b> Load sweep on the dense world under utilization-coupled
 interference (24 hours per cell): coverage @ transmissions per flood, u = mean node channel
-utilization. The statics ride their fixed point into the cap. The frontier ladder tracks the
-best affordable static at every load below saturation; at saturation, cap enforcement is a
-policy choice between the two ladders &mdash; coverage or compliance &mdash; that no
-controller design removes.</div>
+utilization. The statics ride their fixed point into the cap. The threshold ladders defend
+the cap; the setpoint controller fills it, taking the best compliant coverage at every load
+&mdash; at saturation the residual choice between coverage (setpoint/frontier) and
+near-perfect compliance (strict) is a policy decision no controller design removes.</div>
 
 <figure><img src="fig_headroom.png" class="fullbleed"></figure>
 <div class="caption"><b>Figure 21.</b> Headroom control under rising offered load (dense
-world). <b>(a)</b> Coverage: identical to the best static policy while the channel is idle;
-deliberate retreat as it fills. <b>(b)</b> Mean channel utilization against the 25% health
-cap: every static policy crosses it at saturating load, the controller alone stays under.</div>
+world). <b>(a)</b> Coverage: the setpoint controller fills the allowed airtime and takes the
+best compliant coverage at every load; the threshold ladders defend the cap and retreat
+earlier. <b>(b)</b> Mean channel utilization against the 25% health cap: every static policy
+crosses it at saturating load, the controllers stay under.</div>
+
+<p>
+Cross-network validation closes the section (<code>experiment_setpoint_multinet.py</code>;
+Figure&nbsp;22): on all six production networks, under the same utilization-tracked harness,
+the setpoint controller takes the best coverage on every network &mdash; Norway 46.0% vs the
+best static's 40.4%, and ahead on all five others &mdash; while utilization never exceeds
+0.2% anywhere: sparse meshes cannot approach the cap, so the controller correctly never
+retreats and simply spends the abundant headroom. The same caveat scales with it: the top
+rungs buy those extra points at steep marginal cost (Norway: +5.6 points for +57% airtime),
+which is optimal against the cap objective and wasteful against a frugality objective &mdash;
+the choice of objective, like cap strictness, is the deployment's one real decision.
+</p>
+
+<figure><img src="fig_setpoint_multinet.png" class="fullbleed"></figure>
+<div class="caption"><b>Figure 22.</b> The setpoint controller on all six production networks
+(20 broadcasts/hour, per-network calibration, utilization-tracked): best coverage everywhere,
+cap never approached (utilization &le; 0.2% on every network), dense-regime retreat never
+triggered &mdash; the controller validates as safe on real sparse meshes while its
+cap-enforcement value lives in the dense regime of Figure&nbsp;21.</div>
 
 <h2>7&nbsp;&nbsp;Discussion</h2>
 <p>
@@ -1697,6 +1733,24 @@ existing managed flood and no statistical estimation anywhere in the forwarding 
 began as &ldquo;two numbers and two thresholds&rdquo; ends as &ldquo;one number and one
 rule.&rdquo;
 </p>
+<p>
+Figure&nbsp;23 assembles the full system that &sect;3&ndash;&sect;6 built and measured piece by
+piece &mdash; gradient-corridor unicast, the flood kept where it is optimal, relay pressure
+choosing who relays, message classes and the setpoint controller choosing how much and how
+fast &mdash; alongside the gains over managed flooding each piece was measured to buy. The
+through-line is a single design rule applied five times: <b>every mechanism reads a signal the
+radio already provides, and nothing else</b>. What that rule removed along the way &mdash; the
+hop counter, the state clocks, the role enum, every user knob &mdash; is the measure of how
+much of today's configuration was standing in for measurement.
+</p>
+
+<figure><img src="fig_stack.png" class="fullbleed"></figure>
+<div class="caption"><b>Figure 23.</b> The complete stack and its measured gains. <b>(a)</b>
+All mechanisms of &sect;3&ndash;&sect;6 as one system, each annotated with its section:
+unicast routing, its reliability envelope, the broadcast side, and the three self-calibrating
+governors, resting on the one thing no protocol changes &mdash; physical placement.
+<b>(b)</b> Gains over managed flood, one line per claim, each traceable to a table in the
+body. Absolute values are model outputs; rankings and ratios are the findings.</div>
 <p>Recommended next steps, in order of information value:</p>
 <ol>
 <li>Close the decoder-engine <code>request_id</code> gap (extract it at ingest, optionally
@@ -1741,7 +1795,7 @@ network, 2026-06-27&ndash;07-04. Reproduction package
 <code>experiment_alltoall_multinet.py</code>, <code>experiment_temporal.py</code>,
 <code>experiment_depth.py</code>, <code>experiment_persist.py</code>,
 <code>experiment_pressure.py</code>, <code>experiment_pressure_multinet.py</code>,
-<code>experiment_headroom.py</code>,
+<code>experiment_headroom.py</code>, <code>experiment_setpoint_multinet.py</code>,
 <code>fig_*.py</code>; cross-network exports under
 <code>data_networks/</code>) is published alongside this paper.</li>
 <li>P. Levis, T. Clausen, J. Hui, O. Gnawali, J. Ko, &ldquo;The Trickle Algorithm,&rdquo; RFC 6206

@@ -77,6 +77,49 @@ class HeadroomStrict(HeadroomFlood):
         return 3 if u < 0.18 else 2 if u < 0.24 else 1
 
 
+RUNGS = [(2, 1, 1),        # emergency: cancel@1
+         (1, None, 1),     # plain flood
+         (0, None, 2), (0, None, 3), (0, None, 4), (0, None, 5)]
+SETPOINT_TARGET = 0.22     # margin under the 25% cap
+
+
+class SetpointFlood(HeadroomFlood):
+    """Cap-filling controller: maximize coverage subject to u <= cap.
+
+    Instead of thresholds that retreat, each node hill-climbs a rung
+    ladder ordered by airtime appetite (emergency -> plain flood ->
+    persist R=2..5): climb while own utilization < 0.8*target, descend
+    above target. The channel is kept exactly as full as allowed and the
+    coverage is whatever that budget buys -- above every static policy
+    wherever headroom exists."""
+
+    def __init__(self):
+        super().__init__()
+        from collections import defaultdict as _dd
+        self.rung = _dd(lambda: 3)
+        self._util = {}
+
+    @property
+    def util(self):
+        return self._util
+
+    @util.setter
+    def util(self, u):
+        self._util = u
+        for n, x in u.items():
+            if x > SETPOINT_TARGET:
+                self.rung[n] = max(0, self.rung[n] - 1)
+            elif x < 0.8 * SETPOINT_TARGET:
+                self.rung[n] = min(len(RUNGS) - 1, self.rung[n] + 1)
+
+    def _policy(self, n):
+        s, c, _ = RUNGS[self.rung[n]]
+        return s, c
+
+    def persist_R(self, n):
+        return RUNGS[self.rung[n]][2]
+
+
 def run(policy_factory, label, lam, hours=24, seed=1):
     nodes = S.load_nodes()
     trs = S.load_traceroutes()
@@ -203,4 +246,5 @@ if __name__ == "__main__":
         run_dense(lambda: StaticFlood(1, None, 3), "static persist R=3", lam)
         run_dense(HeadroomFlood, "HEADROOM (via flood rung)", lam)
         run_dense(HeadroomStrict, "HEADROOM strict", lam)
+        run_dense(SetpointFlood, "SETPOINT (fill the cap)", lam)
         print()

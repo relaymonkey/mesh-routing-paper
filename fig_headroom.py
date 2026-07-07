@@ -7,22 +7,22 @@ LOADS = [10, 40, 90, 160]
 POLICIES = {
     "static plain flood":  ("#7f7f7f", "o",
                             [(80.1, 1.9), (78.0, 8.0), (74.0, 17.7), (68.4, 28.9)]),
-    "static cancel@1":     ("#1f77b4", "s",
-                            [(56.8, 1.6), (58.1, 6.2), (56.1, 13.4), (53.8, 23.3)]),
     "static persist R=3":  ("#9467bd", "D",
                             [(85.0, 2.1), (83.6, 8.8), (78.7, 18.8), (73.7, 31.0)]),
-    "HEADROOM (frontier ladder)": ("#2ca02c", "*",
+    "HEADROOM (frontier ladder)": ("#7bbf7b", "*",
                             [(85.0, 2.1), (83.6, 8.8), (74.1, 17.6), (55.9, 23.1)]),
     "HEADROOM strict":     ("#1a5c1a", "^",
                             [(85.0, 2.1), (83.6, 8.8), (65.2, 14.9), (52.3, 21.1)]),
+    "SETPOINT (fill the cap)": ("#2ca02c", "*",
+                            [(86.1, 2.3), (83.5, 8.8), (79.0, 18.2), (58.2, 23.3)]),
 }
 
 fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(10.8, 7.2), sharex=True,
                                gridspec_kw={"hspace": 0.30})
 
 for label, (color, marker, vals) in POLICIES.items():
-    lw = 2.6 if label.startswith("HEADROOM (") else 1.6
-    ls = "--" if label == "HEADROOM strict" else "-"
+    lw = 2.8 if label.startswith("SETPOINT") else 1.6
+    ls = "--" if label.startswith("HEADROOM") else "-"
     ms = 13 if marker == "*" else 7
     ax1.plot(LOADS, [v[0] for v in vals], marker + ls, color=color, lw=lw,
              ms=ms, label=label)
@@ -33,14 +33,15 @@ ax1.set_ylabel("coverage of all nodes  %")
 ax1.set_ylim(45, 95)
 ax1.grid(alpha=0.3)
 ax1.legend(fontsize=8.8, loc="lower left")
-ax1.set_title("(a)  coverage: at idle the controllers spend the surplus; the frontier ladder holds\n"
-              "plain-flood coverage at moderate load, both retreat only at saturation",
+ax1.set_title("(a)  coverage: the setpoint controller fills the allowed airtime and takes the best\n"
+              "compliant coverage at every load; threshold ladders defend the cap instead",
               fontsize=10, loc="left")
-ax1.annotate("identical to\npersist R=3", (40, 83.6), textcoords="offset points",
-             xytext=(-70, -40), fontsize=8.4, color="#2ca02c",
+ax1.annotate("climbs past R=3 on its own:\nbest coverage wherever headroom exists", (10, 86.1),
+             textcoords="offset points", xytext=(16, 6), fontsize=8.4,
+             color="#2ca02c",
              arrowprops=dict(arrowstyle="->", color="#2ca02c", lw=1.1))
-ax1.annotate("matches plain flood,\nstill compliant", (90, 74.1),
-             textcoords="offset points", xytext=(14, 10), fontsize=8.4,
+ax1.annotate("beats full persistence,\nstill compliant", (90, 79.0),
+             textcoords="offset points", xytext=(14, 8), fontsize=8.4,
              color="#2ca02c",
              arrowprops=dict(arrowstyle="->", color="#2ca02c", lw=1.1))
 

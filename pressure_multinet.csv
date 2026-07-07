@@ -1,0 +1,25 @@
+network,proto,cover_reachable,tx_per_flood
+norway,plain flood,32.8,18.5
+norway,cancel@1,30.6,15.4
+norway,persist R=3,53.6,58.7
+norway,pressure,54.2,59.0
+bay-area,plain flood,4.3,11.7
+bay-area,cancel@1,3.7,10.0
+bay-area,persist R=3,9.9,53.8
+bay-area,pressure,9.9,53.4
+florida,plain flood,1.9,6.8
+florida,cancel@1,1.7,5.6
+florida,persist R=3,4.8,33.8
+florida,pressure,4.2,27.3
+socal,plain flood,14.6,25.2
+socal,cancel@1,11.2,18.0
+socal,persist R=3,26.1,87.1
+socal,pressure,25.7,81.5
+meshtastic-pt,plain flood,13.4,20.3
+meshtastic-pt,cancel@1,11.2,15.3
+meshtastic-pt,persist R=3,24.7,69.7
+meshtastic-pt,pressure,24.9,67.2
+italia,plain flood,33.3,1.2
+italia,cancel@1,33.3,1.2
+italia,persist R=3,39.6,3.7
+italia,pressure,36.5,2.5

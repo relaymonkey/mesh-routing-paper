@@ -1363,6 +1363,119 @@ refresh plants state &mdash; fast ramp to steady state once the discovery flood 
 all; at today's hop-7 wire ceiling, depth&nbsp;&gt;&nbsp;7 cold start is zero for any
 protocol.</div>
 
+<h3>6.7&nbsp;&nbsp;Relay pressure: replacing roles with two measured numbers</h3>
+<p>
+Sections 6.3&ndash;6.6 leave the flood with a structural tension: the right relay policy is
+<i>regime-dependent</i> &mdash; sparse meshes reward persistence (&sect;6.6), dense
+neighbourhoods reward suppression (&sect;8, item 4), and a few well-placed nodes carry outsized
+value (the backbone rungs of Table&nbsp;6) &mdash; yet the mechanism that assigns policy today
+is a hand-configured role enum, the last piece of human-guessed structure in the system.
+Physical placement is the constant no protocol can change; everything above it should
+calibrate itself. We tested whether it can, with the same move GradCor applied to unicast:
+replace configured structure with evidence the radio already provides. Each node maintains two
+numbers, both free of control traffic: <b>crowding</b> c, an EWMA of how many duplicate copies
+of each packet it decodes (&ldquo;how covered is my neighbourhood without me?&rdquo;), and
+<b>novelty</b>, an EWMA of whether its own relays still produce first-copy receivers
+(&ldquo;does my transmission create coverage that would not otherwise exist?&rdquo;). Its
+<i>relay pressure</i> is the maximum of the two terms, and pressure alone sets the policy
+ladder: contention slot (high pressure transmits first), cancellation threshold (low pressure
+mutes on the first overheard relay, high pressure never mutes) and echo-persistence
+(&sect;6.6's R, from 1 to 3). A node in a crowd fades toward silence <i>unless its
+transmissions keep reaching someone new</i> &mdash; which is precisely the definition of a
+bridge.
+</p>
+<p>
+The test is falsifiable and three-legged (<code>experiment_pressure.py</code>; Figure&nbsp;17,
+Table&nbsp;9): one config-free rule must match the best static policy in <i>every</i> regime,
+where each regime's best static differs. It does. On a dense world (three 20-node cliques
+joined by two single bridges &mdash; the regime where suppression wins) pressure reaches 93%
+of the best coverage at <b>a quarter of its airtime</b>, Pareto-dominating the plain flood on
+both axes, and the twelve nodes that self-promote to high pressure include all four bridge
+endpoints &mdash; discovered by passive listening, with no role ever assigned. On the sparse
+braid (the regime where persistence wins) it matches blanket persistence, 97.7% vs 96.3% at
+equal cost. On the Norway replay it matches the best static policy (54.1% vs 53.9%) &mdash;
+21 points above today's flood &mdash; with every node allowed to relay and no CLIENT_MUTE
+configuration consulted. The mechanism also failed informatively along the way: crowding alone
+suppresses the bridges together with the crowd (dense coverage collapses to 34%), and an
+active variant that probed by occasionally staying silent learned too slowly; the signal that
+works is passive outbound novelty. Caveats mirror the section's others: the simulator observes
+first-copy receptions directly, while firmware must infer novelty from onward relays and acks
+&mdash; under-crediting nodes that serve silent leaves is the design problem to solve in a
+port &mdash; and the dense world's slotted contention model is still gentler than a truly
+congested channel, which is the regime where suppression's value should grow further.
+</p>
+<table>
+<tr><th>World (regime)</th><th>Best static policy</th><th class="num">Best static</th>
+<th class="num">Pressure (no config)</th></tr>
+<tr><td>Dense: cliques + bridges (suppression)</td><td>blanket persist R=3</td><td class="num">90.4% @ 80.0 tx</td><td class="num">83.7% @ 18.4 tx</td></tr>
+<tr><td>Braid d=50 (persistence)</td><td>blanket persist R=3</td><td class="num">96.3% @ 134.0 tx</td><td class="num">97.7% @ 133.2 tx</td></tr>
+<tr><td>Norway replay (mixed)</td><td>blanket persist R=3</td><td class="num">53.9% @ 59.0 tx</td><td class="num">54.1% @ 58.3 tx</td></tr>
+</table>
+<div class="caption"><b>Table 9.</b> Relay pressure vs the best static configuration per
+world (300 packets after a 30-packet learning warm-up; Norway: 200 real sources, 2 seeds,
+coverage of BFS-reachable nodes). The self-calibrating rule matches the best static
+effectiveness everywhere and beats it on airtime exactly where suppression matters &mdash;
+without any per-world tuning, which is the point: the best <i>static</i> column requires
+knowing the regime in advance.</div>
+
+<figure><img src="fig_pressure.png" class="fullbleed"></figure>
+<div class="caption"><b>Figure 17.</b> Relay pressure. <b>(a)</b> Effectiveness (bars) and
+airtime (inset) for three static policies and the pressure rule across the three regimes
+&mdash; each regime's best static differs, pressure tracks it everywhere. <b>(b)</b> The dense
+world after 330 packets, node colour = learned pressure: clique interiors fade toward silence
+while all four bridge endpoints self-promote to maximum pressure. The role system's job
+&mdash; deciding who relays with what priority &mdash; has been performed by measurement.</div>
+
+<p>
+Running the same head-to-head on all six production networks
+(<code>experiment_pressure_multinet.py</code>; Figure&nbsp;18) adds the cross-network check:
+pressure matches the best static policy on every network &mdash; which is persistence on all
+six, since every evidence-sparse organic mesh is a persistence regime &mdash; while spending
+less airtime wherever local redundancy exists (Florida &minus;19%, Italia &minus;32%). The six
+real networks therefore validate the rule's safety, not its full range: none of them is dense
+enough to exercise the suppression side, which is exactly the urban regime Figure&nbsp;17's
+synthetic dense world covers and the regime a firmware trial in a city core would test
+first. A persistence-only-off variant sharpens the boundary: with muting as the only lever,
+pressure reproduces plain flood's coverage and airtime almost exactly on all six networks
+(Norway 32.8% at 18.3&nbsp;tx vs 32.8% at 18.5) &mdash; sparse floods are already
+near-efficient, because suppression can only harvest redundancy and sparse meshes have almost
+none. The airtime dividend lives in density, where pressure collects it automatically.
+</p>
+<p>
+Two governors bound the rule in deployment. First, <b>pressure composes with the message
+classes of &sect;6.5</b>: pressure decides <i>who</i> relays and with what priority, the class
+caps <i>how much</i> persistence a packet may buy (BULK at R=1 &mdash; periodic traffic is
+already self-redundant, &sect;6.5 &mdash; STANDARD at 2, ASSURED at 3), so the multi-fold
+airtime of full persistence is spent only on traffic that warrants it. Second, an <b>airtime
+governor</b> makes &ldquo;best effort without breach&rdquo; self-calibrating rather than
+configured: the two required signals &mdash; the node's own duty-cycle spend and observed
+channel utilization &mdash; are already measured by the firmware for regulatory accounting,
+and effective persistence is simply
+R<sub>eff</sub>&nbsp;=&nbsp;min(R<sub>pressure</sub>, R<sub>class</sub>,
+R<sub>budget</sub>), where R<sub>budget</sub> derates toward 1 as either signal approaches
+its ceiling. The hard budget guarantees regulatory compliance; the surplus, where it exists,
+is spent exactly where pressure says it buys coverage. No user knob is required &mdash; and
+none should be offered, since the airtime being spent is the neighbourhood's, not the
+sender's (&sect;6.5). Figure&nbsp;19 compresses the whole trade into one view: the direction
+the pressure rule moves each world's operating point reveals its regime.
+</p>
+
+<figure><img src="fig_pressure_tradeoff.png" class="fullbleed"></figure>
+<div class="caption"><b>Figure 19.</b> What the pressure rule does to the plain flood's
+operating point, per world (arrow: flood &rarr; pressure in airtime/coverage space). On all
+six sparse production networks the arrow climbs the price curve &mdash; coverage is bought
+with persistence airtime, never free &mdash; and the mute-only variant (open circles) lands
+exactly on the flood point, confirming sparse floods are already near-efficient. In the dense
+world &mdash; a synthetic construction, since no network in our dataset exhibits this regime
+&mdash; the arrow turns up-and-left: suppression harvests redundancy, and only density has
+redundancy to harvest. The rule needs no telling which case it is in.</div>
+
+<figure><img src="fig_pressure_multinet.png" class="fullbleed"></figure>
+<div class="caption"><b>Figure 18.</b> Relay pressure on the six production networks
+(per-network calibration, every node allowed to relay, 30-packet warm-up). Bars: coverage of
+BFS-reachable online nodes; insets: transmissions per flood. The self-calibrating rule tracks
+the best static policy on each network without knowing which network it is on.</div>
+
 <h2>7&nbsp;&nbsp;Discussion</h2>
 <p>
 <b>The real topology strengthens the synthetic result.</b> On the synthetic mesh GradCor matched
@@ -1557,6 +1670,7 @@ network, 2026-06-27&ndash;07-04. Reproduction package
 <code>experiment_broadcast.py</code>, <code>experiment_alltoall.py</code>,
 <code>experiment_alltoall_multinet.py</code>, <code>experiment_temporal.py</code>,
 <code>experiment_depth.py</code>, <code>experiment_persist.py</code>,
+<code>experiment_pressure.py</code>, <code>experiment_pressure_multinet.py</code>,
 <code>fig_*.py</code>; cross-network exports under
 <code>data_networks/</code>) is published alongside this paper.</li>
 <li>P. Levis, T. Clausen, J. Hui, O. Gnawali, J. Ko, &ldquo;The Trickle Algorithm,&rdquo; RFC 6206

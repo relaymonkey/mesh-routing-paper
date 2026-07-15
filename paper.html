@@ -1245,7 +1245,114 @@ consistent with &sect;6.3's finding that without a destination there is nothing 
 buys &mdash; is a network property, ordered exactly by the evidence density of
 Table&nbsp;4.</div>
 
-<h3>6.5&nbsp;&nbsp;Message classes: quantizing the price curve</h3>
+<h3>6.5&nbsp;&nbsp;PIVOT: a self-organizing relay backbone</h3>
+<p>
+The price curve (&sect;6.4) prices <i>how much</i> redundancy to buy; it does not say <i>who</i>
+should spend it. Relay pressure (&sect;6.9) answers that per packet from duplicate counts, but
+it learns only <i>after</i> forwarding and cannot express the star-topology fact that one hub
+should relay for a hundred leaves. <b>PIVOT</b> (Pivot Relay Backbone) closes that gap with a
+local two-hop multipoint-relay heuristic adapted from OLSR MPRs: each node learns reliable
+one-hop neighbours from ordinary traffic; on every broadcast hop it computes which nodes are
+still uncovered in its two-hop horizon, marks relays that are the <i>only</i> path to any such
+node as mandatory, then greedily completes the set by greatest residual coverage, tie-breaking
+on bidirectional ETX, uptime, observed forwarding novelty and remaining channel headroom.
+Winners receive short relay leases; utilization lowers a hub&rsquo;s score so load migrates.
+Non-pivots wait for a pivot echo and relay only if residual coverage stays silent &mdash;
+direct reception always wins.
+</p>
+<p>
+Two digest modes bracket deployability. <b>PIVOT-exact</b> carries the full covered set (a
+simulation ceiling). <b>PIVOT-64/256</b> replaces it with a k-hash bloom sketch (8 or 32
+bytes) in the packet header, charging the byte overhead in every transmission. Edge cases
+confirm the rule: a 101-node star costs <b>1 transmission from the centre and 2 from a
+leaf</b> (vs 96 for managed flood); a three-node triangle suppresses the middle node when the
+direct link is strong and elects it when direct is weak (100% delivery at ~half the airtime in
+both cases, <code>experiment_pivot.py</code>). But the sketch has a hard limit worth stating
+plainly: <b>a 64-bit filter saturates once a neighbourhood exceeds a few dozen nodes</b>, and a
+saturated filter reports uncovered nodes as covered, so pivots under-relay. On the dense
+synthetic world this collapses coverage from <b>81% (exact) to 33% (64-bit)</b>; 256 bits
+recovers it to 62% at proportionally more header airtime. This is the honest separation of
+algorithmic gain from sketch cost the digest sweep was built to expose: PIVOT&rsquo;s ceiling
+is real, but a byte-bounded firmware sketch only reaches it in <i>sparse</i> neighbourhoods.
+</p>
+<p>
+That caveat is why the production result is a capacity gain, not a coverage gain. Across six
+networks (<code>experiment_pivot_multinet.py</code>; Figure&nbsp;17) all six are sparse enough
+that 64-bit suffices, and there <b>PIVOT does not beat the &sect;6.4 price curve &mdash; it
+picks a cheaper point on it.</b> On Norway it matches managed-flood coverage
+(31.5% vs 30.6% reachable) at similar airtime (14.2 vs 15.4&nbsp;tx), and sits far below relay
+pressure&rsquo;s 54% coverage &mdash; pressure simply buys a more expensive point (59&nbsp;tx).
+The value is capacity, and it is bought with reach: integrated end-to-end
+(<code>experiment_integrated_stack.py</code>, PIVOT replacing relay pressure with GradCor-R,
+message classes and setpoint unchanged), at today&rsquo;s mix p95 utilization falls
+17.3%&nbsp;&rarr;&nbsp;12.9% and the p99 hotspot warning rises from <b>445 (managed) to 634
+traffic-equivalent nodes (+42%)</b> &mdash; but <b>broadcast reach drops from 6.3 to 5.2
+receivers per packet</b> (unicast delivery is unchanged, 66.7% vs 66.1%). PIVOT trades
+coverage for capacity along the one curve; it does not escape it (Figure&nbsp;18a,b). PIVOT and
+pressure are complementary: pivots are persistent neighbourhood infrastructure, pressure the
+packet-local fallback when sketches saturate or topology is too sparse for two-hop summaries.
+</p>
+
+<figure><img src="fig_pivot.png" class="fullbleed"></figure>
+<div class="caption"><b>Figure 17.</b> PIVOT relay backbone. <b>(a)</b> Three-node rule:
+direct beats pivot on expected cost; weak direct elects the middle relay.
+<b>(b)</b> 101-node star: centre broadcast = 1&nbsp;tx, leaf = 2&nbsp;tx.
+<b>(c)</b> Six-network scorecard: PIVOT-64 vs managed flood and relay pressure.
+<b>(d)</b> Integrated stack at 499 nodes: fast+PIVOT lowers utilization with similar
+delivery; hotspot capacity ~634 nodes.</div>
+
+<h3>6.6&nbsp;&nbsp;The load axis: payload aggregation, and why capacity grows by factors not orders</h3>
+<p>
+A pattern now recurs across &sect;6.3&ndash;&sect;6.5: PIVOT, relay pressure and the price
+curve all reduce transmissions <i>per flooded packet</i>, and each buys a constant factor
+&mdash; PIVOT ~1.4&times; airtime on Norway, the whole stack ~1.5&times;. None of them reduces
+the <i>number</i> of packets, yet 79% of the traffic is periodic BULK broadcast (position,
+telemetry, NodeInfo) that is inherently aggregatable. That is a second, orthogonal axis: a hub
+can collect its neighbours&rsquo; reports over a short window and flood <b>one</b> packet
+carrying G reports instead of G separate floods (<code>experiment_aggregate.py</code>). We
+modelled LoRa time-on-air exactly (Semtech ToA, LongFast-like SF11/BW250) and accounted airtime
+<i>per node</i>, because the constraint that caps node count is the busiest node (&sect;6.11),
+not the channel total.
+</p>
+<p>
+The result draws the real boundary on how far software can go. Aggregation cuts the hotspot
+node&rsquo;s airtime, but the win is bounded by two things it cannot change. First, the
+<b>payload/preamble ratio</b>: an aggregate of G reports pays one preamble but G payloads, so
+with 20-byte reports the ceiling is ~<b>2&times;</b> (star, hub load 42&rarr;21&nbsp;s at
+G&ge;20) &mdash; and it only reaches ~4&times; if reports shrink to 4-byte deltas, where the
+preamble dominates (Figure&nbsp;18c). Second, and decisively, <b>density</b>: aggregation needs
+hubs that hear many neighbours. On the dense synthetic world it delivers 1.7&times; hotspot
+relief; <b>on the real, sparse Norway mesh it delivers essentially nothing (0.99&times;)</b>,
+because most nodes are their own best hub and batches never fill. Information coverage is
+preserved or slightly improved throughout (a receiver of the aggregate gets every report in
+it), and the price paid is latency &mdash; the window W is added to every report.
+</p>
+<p>
+This is the answer to &ldquo;why doesn&rsquo;t node count grow an order of magnitude?&rdquo;
+Coverage and capacity are not two goals but <b>two ends of one price curve</b> (Figure&nbsp;18a):
+every relay policy slides along it, so more capacity is bought with less reach and vice versa,
+and the curve&rsquo;s slope is fixed by physical placement, not protocol. Aggregation is the
+only lever that moves off that curve, by attacking offered load &mdash; but it is capped at a
+small factor by radio physics and pays out only where the mesh is already dense. The compounding
+that a large network needs (PIVOT&rsquo;s ~1.4&times; &times; aggregation&rsquo;s ~2&times;
+&times; the stack&rsquo;s governors) yields a few-fold headroom, not a decade. <b>An
+order-of-magnitude increase requires either byte-level change &mdash; delta/compressed telemetry
+that lifts the aggregation ceiling &mdash; or spatial reuse: more geography, not more logic on
+the same spectrum.</b>
+</p>
+
+<figure><img src="fig_tension.png" class="fullbleed"></figure>
+<div class="caption"><b>Figure 18.</b> The coverage&ndash;capacity&ndash;load tension.
+<b>(a)</b> Every Norway broadcast policy is a point on one airtime&rarr;coverage price curve;
+PIVOT is a cheaper point (more capacity, less coverage), not a better curve.
+<b>(b)</b> The integrated stack&rsquo;s explicit trade: fast+PIVOT raises node capacity but
+lowers broadcast reach; full mode raises reliability but cuts capacity.
+<b>(c)</b> Aggregation attacks a different axis &mdash; hotspot airtime reduction vs batch
+size G &mdash; but is bounded by the payload/preamble ratio (star 20&nbsp;B caps ~2&times;,
+4&nbsp;B deltas reach ~4&times;) and by density (sparse Norway gains nothing). Latency is the
+price of the window.</div>
+
+<h3>6.7&nbsp;&nbsp;Message classes: quantizing the price curve</h3>
 <p>
 A smooth curve offers no natural breakpoints, so any operational split into &ldquo;message
 classes&rdquo; is a policy quantization &mdash; but three empirical facts pin where a small set
@@ -1287,7 +1394,7 @@ broadcast (they carry the redundancy rung), never both &mdash; relays act on it 
 (backbone doubles at STANDARD and above) and only the source acts on ASSURED's re-flood.
 </p>
 
-<h3>6.6&nbsp;&nbsp;Does the walk survive real depth? A synthetic stress test</h3>
+<h3>6.8&nbsp;&nbsp;Does the walk survive real depth? A synthetic stress test</h3>
 <p>
 One bias in the replay deserves its own experiment: the link graph is built from hop&le;7
 traceroutes and all floods obey the wire's hop field, so <b>gradient descent beyond seven hops
@@ -1300,7 +1407,7 @@ parallel lanes per column (the receiver diversity anycast feeds on); and <b>p</b
 per-transmission delivery probability on every link. Full links connect consecutive columns,
 every node is always on, so depth is isolated from churn. We then measured GradCor-R at depths
 the replay never sees
-(<code>experiment_depth.py</code>; Figure&nbsp;17).
+(<code>experiment_depth.py</code>; Figure&nbsp;19).
 </p>
 <p>
 <b>The walk is not the thing that breaks at depth.</b> With warm gradients on a two-lane braid
@@ -1357,13 +1464,13 @@ collectors. Large networks never flood measurements; they aggregate &mdash; this
 </table>
 <div class="caption"><b>Table 8.</b> Echo-persistent flooding on the two-lane braid (300
 packets per cell): delivery to the far end when each relay retransmits up to R times until it
-overhears an onward arrival. R=1 is the plain flood of Figure&nbsp;17a. Persistence converts
+overhears an onward arrival. R=1 is the plain flood of Figure&nbsp;19a. Persistence converts
 depth from a survival problem into a linear cost multiplier (~2.5&times; per relay at R=3) &mdash;
 but the mesh-wide bill per deep packet (last column) is what confines this to rare,
 alert-class traffic.</div>
 
 <figure><img src="fig_depth.png" class="fullbleed"></figure>
-<div class="caption"><b>Figure 17.</b> Depth stress test on synthetic braids (300 packets per
+<div class="caption"><b>Figure 19.</b> Depth stress test on synthetic braids (300 packets per
 point). <b>(a)</b> Two-lane braid: warm-gradient corridor delivery (solid) vs unlimited-hop
 flood transport (dashed) as true path length grows from 7 to 200 hops, per link quality.
 Persistence per hop survives depth at linear cost; front-survival flooding decays
@@ -1372,10 +1479,13 @@ refresh plants state &mdash; fast ramp to steady state once the discovery flood 
 all; at today's hop-7 wire ceiling, depth&nbsp;&gt;&nbsp;7 cold start is zero for any
 protocol.</div>
 
-<h3>6.7&nbsp;&nbsp;Relay pressure: replacing roles with two measured numbers</h3>
+<h3>6.9&nbsp;&nbsp;Relay pressure: replacing roles with two measured numbers</h3>
 <p>
-Sections 6.3&ndash;6.6 leave the flood with a structural tension: the right relay policy is
-<i>regime-dependent</i> &mdash; sparse meshes reward persistence (&sect;6.6), dense
+&sect;6.5's PIVOT backbone elects persistent neighbourhood pivots from two-hop coverage;
+this section tests the complementary per-packet rule that needs no topology summary &mdash;
+useful when digest sketches collide or evidence is too sparse for MPR convergence.
+Sections 6.3&ndash;6.7 leave the flood with a structural tension: the right relay policy is
+<i>regime-dependent</i> &mdash; sparse meshes reward persistence (&sect;6.8), dense
 neighbourhoods reward suppression (&sect;8, item 4), and a few well-placed nodes carry outsized
 value (the backbone rungs of Table&nbsp;6) &mdash; yet the mechanism that assigns policy today
 is a hand-configured role enum, the last piece of human-guessed structure in the system.
@@ -1389,12 +1499,12 @@ of each packet it decodes (&ldquo;how covered is my neighbourhood without me?&rd
 <i>relay pressure</i> is the maximum of the two terms, and pressure alone sets the policy
 ladder: contention slot (high pressure transmits first), cancellation threshold (low pressure
 mutes on the first overheard relay, high pressure never mutes) and echo-persistence
-(&sect;6.6's R, from 1 to 3). A node in a crowd fades toward silence <i>unless its
+(&sect;6.8's R, from 1 to 3). A node in a crowd fades toward silence <i>unless its
 transmissions keep reaching someone new</i> &mdash; which is precisely the definition of a
 bridge.
 </p>
 <p>
-The test is falsifiable and three-legged (<code>experiment_pressure.py</code>; Figure&nbsp;18,
+The test is falsifiable and three-legged (<code>experiment_pressure.py</code>; Figure&nbsp;20,
 Table&nbsp;9): one config-free rule must match the best static policy in <i>every</i> regime,
 where each regime's best static differs. It does. On a dense world (three 20-node cliques
 joined by two single bridges &mdash; the regime where suppression wins) pressure reaches 93%
@@ -1428,7 +1538,7 @@ without any per-world tuning, which is the point: the best <i>static</i> column 
 knowing the regime in advance.</div>
 
 <figure><img src="fig_pressure.png" class="fullbleed"></figure>
-<div class="caption"><b>Figure 18.</b> Relay pressure. <b>(a)</b> Effectiveness (bars) and
+<div class="caption"><b>Figure 20.</b> Relay pressure. <b>(a)</b> Effectiveness (bars) and
 airtime (inset) for three static policies and the pressure rule across the three regimes
 &mdash; each regime's best static differs, pressure tracks it everywhere. <b>(b)</b> The dense
 world after 330 packets, node colour = learned pressure: clique interiors fade toward silence
@@ -1437,12 +1547,12 @@ while all four bridge endpoints self-promote to maximum pressure. The role syste
 
 <p>
 Running the same head-to-head on all six production networks
-(<code>experiment_pressure_multinet.py</code>; Figure&nbsp;19) adds the cross-network check:
+(<code>experiment_pressure_multinet.py</code>; Figure&nbsp;21) adds the cross-network check:
 pressure matches the best static policy on every network &mdash; which is persistence on all
 six, since every evidence-sparse organic mesh is a persistence regime &mdash; while spending
 less airtime wherever local redundancy exists (Florida &minus;19%, Italia &minus;32%). The six
 real networks therefore validate the rule's safety, not its full range: none of them is dense
-enough to exercise the suppression side, which is exactly the urban regime Figure&nbsp;18's
+enough to exercise the suppression side, which is exactly the urban regime Figure&nbsp;20's
 synthetic dense world covers and the regime a firmware trial in a city core would test
 first. A persistence-only-off variant sharpens the boundary: with muting as the only lever,
 pressure reproduces plain flood's coverage and airtime almost exactly on all six networks
@@ -1452,16 +1562,16 @@ none. The airtime dividend lives in density, where pressure collects it automati
 </p>
 
 <figure><img src="fig_pressure_multinet.png" class="fullbleed"></figure>
-<div class="caption"><b>Figure 19.</b> Relay pressure on the six production networks
+<div class="caption"><b>Figure 21.</b> Relay pressure on the six production networks
 (per-network calibration, every node allowed to relay, 30-packet warm-up). Bars: coverage of
 BFS-reachable online nodes; insets: transmissions per flood. The self-calibrating rule tracks
 the best static policy on each network without knowing which network it is on.</div>
 
 <p>
 Two governors bound the rule in deployment. First, <b>pressure composes with the message
-classes of &sect;6.5</b>: pressure decides <i>who</i> relays and with what priority, the class
+classes of &sect;6.7</b>: pressure decides <i>who</i> relays and with what priority, the class
 caps <i>how much</i> persistence a packet may buy (BULK at R=1 &mdash; periodic traffic is
-already self-redundant, &sect;6.5 &mdash; STANDARD at 2, ASSURED at 3), so the multi-fold
+already self-redundant, &sect;6.7 &mdash; STANDARD at 2, ASSURED at 3), so the multi-fold
 airtime of full persistence is spent only on traffic that warrants it. Second, an <b>airtime
 governor</b> makes &ldquo;best effort without breach&rdquo; self-calibrating rather than
 configured: the two required signals &mdash; the node's own duty-cycle spend and observed
@@ -1472,12 +1582,12 @@ R<sub>budget</sub>), where R<sub>budget</sub> derates toward 1 as either signal 
 its ceiling. The hard budget guarantees regulatory compliance; the surplus, where it exists,
 is spent exactly where pressure says it buys coverage. No user knob is required &mdash; and
 none should be offered, since the airtime being spent is the neighbourhood's, not the
-sender's (&sect;6.5). Figure&nbsp;20 compresses the whole trade into one view: the direction
+sender's (&sect;6.7). Figure&nbsp;22 compresses the whole trade into one view: the direction
 the pressure rule moves each world's operating point reveals its regime.
 </p>
 
 <figure><img src="fig_pressure_tradeoff.png" class="fullbleed"></figure>
-<div class="caption"><b>Figure 20.</b> What the pressure rule does to the plain flood's
+<div class="caption"><b>Figure 22.</b> What the pressure rule does to the plain flood's
 operating point, per world (arrow: flood &rarr; pressure in airtime/coverage space). On all
 six sparse production networks the arrow climbs the price curve &mdash; coverage is bought
 with persistence airtime, never free &mdash; and the mute-only variant (open circles) lands
@@ -1486,9 +1596,9 @@ world &mdash; a synthetic construction, since no network in our dataset exhibits
 &mdash; the arrow turns up-and-left: suppression harvests redundancy, and only density has
 redundancy to harvest. The rule needs no telling which case it is in.</div>
 
-<h3>6.8&nbsp;&nbsp;Headroom control: sliding the operating point by channel state</h3>
+<h3>6.10&nbsp;&nbsp;Headroom control: sliding the operating point by channel state</h3>
 <p>
-The governors of &sect;6.7 only <i>derate</i> near breach. The full form of the idea is a
+The message-class and pressure governors above only <i>derate</i> near breach. The full form of the idea is a
 bidirectional controller: since the price curve (&sect;6.4) is a menu, no node should pick one
 point on it forever &mdash; it should slide along it with the channel's current state,
 spending surplus airtime on coverage when the medium is idle and retreating below plain flood
@@ -1499,7 +1609,7 @@ u&nbsp;&lt;&nbsp;24%: R=2, cancel after two echoes; beyond: R=1, cancel on the f
 (below plain flood). For the test to be fair, congestion must cost something, so reception in
 this experiment suffers utilization-coupled interference (extra loss
 min(0.6,&nbsp;0.8u)); offered load is then swept from quiet to saturating on the dense world
-(<code>experiment_headroom.py</code>; Figure&nbsp;21, Table&nbsp;10).
+(<code>experiment_headroom.py</code>; Figure&nbsp;23, Table&nbsp;10).
 </p>
 <p>
 The controller does what it promises, and its first version taught a design lesson worth
@@ -1557,7 +1667,7 @@ the cap; the setpoint controller fills it, taking the best compliant coverage at
 near-perfect compliance (strict) is a policy decision no controller design removes.</div>
 
 <figure><img src="fig_headroom.png" class="fullbleed"></figure>
-<div class="caption"><b>Figure 21.</b> Headroom control under rising offered load (dense
+<div class="caption"><b>Figure 23.</b> Headroom control under rising offered load (dense
 world). <b>(a)</b> Coverage: the setpoint controller fills the allowed airtime and takes the
 best compliant coverage at every load; the threshold ladders defend the cap and retreat
 earlier. <b>(b)</b> Mean channel utilization against the 25% health cap: every static policy
@@ -1565,7 +1675,7 @@ crosses it at saturating load, the controllers stay under.</div>
 
 <p>
 Cross-network validation closes the section (<code>experiment_setpoint_multinet.py</code>;
-Figure&nbsp;22): on all six production networks, under the same utilization-tracked harness,
+Figure&nbsp;24): on all six production networks, under the same utilization-tracked harness,
 the setpoint controller takes the best coverage on every network &mdash; Norway 46.0% vs the
 best static's 40.4%, and ahead on all five others &mdash; while utilization never exceeds
 0.2% anywhere: sparse meshes cannot approach the cap, so the controller correctly never
@@ -1576,11 +1686,61 @@ the choice of objective, like cap strictness, is the deployment's one real decis
 </p>
 
 <figure><img src="fig_setpoint_multinet.png" class="fullbleed"></figure>
-<div class="caption"><b>Figure 22.</b> The setpoint controller on all six production networks
+<div class="caption"><b>Figure 24.</b> The setpoint controller on all six production networks
 (20 broadcasts/hour, per-network calibration, utilization-tracked): best coverage everywhere,
 cap never approached (utilization &le; 0.2% on every network), dense-regime retreat never
 triggered &mdash; the controller validates as safe on real sparse meshes while its
-cap-enforcement value lives in the dense regime of Figure&nbsp;21.</div>
+cap-enforcement value lives in the dense regime of Figure&nbsp;23.</div>
+
+<h3>6.11&nbsp;&nbsp;When is a mesh too large? A traffic-equivalent bound</h3>
+<p>
+Node count alone has no physical limit: what fills the channel is airtime within one
+interference neighbourhood, so geographic expansion can add nodes while reusing the same
+spectrum elsewhere. A useful Norway-specific answer must therefore hold the RF footprint and
+per-node behaviour fixed. We deduplicated the study week's production rows by canonical
+<code>(source_node_id, packet_id)</code>: 51,892 packets, 309 per hour on average and 387 in
+the p95 hour, from 96.1 active sources per hour among 499 known nodes; 79.2% were broadcast.
+The integrated replay (<code>experiment_integrated_stack.py</code>) fixes the calibrated
+Norway topology and presence trace, multiplies that p95 offered load, and reports the
+multiplier as &ldquo;traffic-equivalent nodes.&rdquo; It preserves the canonical packet mix:
+78.93% BULK broadcast, 0.25% STANDARD broadcast, 14.17% <code>want_ack</code> addressed and
+6.65% best-effort addressed. <b>Managed current</b> floods both kinds and gives ACKed traffic
+three end-to-end retries. <b>Integrated fast</b> executes the stack jointly: relay pressure (or PIVOT backbone in the
+fast+PIVOT variant), message-class caps and the utilization setpoint govern broadcast; GradCor-R with
+fallback-flood cold start, local rescue and the same ACK retries carries addressed traffic.
+<b>Integrated full</b> adds the final reliability-envelope step: failed ACKed packets enter
+24-hour custody and retry hourly when both endpoints are online. Identical event schedules run
+for three seeds; 0.5&nbsp;s transmissions feed the utilization-coupled loss proxy of
+&sect;6.11. Thus every box in Figure&nbsp;26 executes, but the reliability envelope is measured
+as an optional operating mode rather than assumed free.
+</p>
+<p>
+At today's 499-node equivalent, <b>integrated fast+PIVOT</b> is the capacity winner:
+transmissions per offered packet fall 11.3&nbsp;&rarr;&nbsp;8.7, p95 utilization
+17.3%&nbsp;&rarr;&nbsp;12.9% and p99 27.8%&nbsp;&rarr;&nbsp;20.1%, while unicast delivery
+rises 41.0%&nbsp;&rarr;&nbsp;66.7% (vs 66.1% for integrated-fast without PIVOT). Its p99
+hotspot warning moves from <b>445 to 634 traffic-equivalent known nodes (+42%)</b>, and its
+p95 broad-pressure point from <b>833 to 1079 (+30%)</b>. Integrated-fast without PIVOT still
+beats managed current (+19% / +16%) but leaves broadcast airtime on the table. Integrated-full
+raises unicast delivery again to <b>79.1%</b>, but costs 15.0 transmissions per offered packet
+and moves the two capacity thresholds <i>inward</i> to 312 / 565 nodes. Custody is doing its
+job &mdash; spending later airtime on packets the present topology could not carry &mdash;
+but that makes the design rule empirical rather than stylistic: <b>the fast+PIVOT stack is the
+default; 24-hour custody belongs only to rate-limited ASSURED traffic</b>. Turning it on for
+every ACKed exchange converts reliability into congestion. For this footprint the operational
+fast-mode answer is therefore ~630 nodes as the local warning and ~1080 as broadly loaded, not
+a universal Meshtastic ceiling; geographic spread can reuse airtime, while denser overlap or
+bursty traffic lowers the bound.
+</p>
+
+<figure><img src="fig_capacity.png" class="fullbleed"></figure>
+<div class="caption"><b>Figure 25.</b> The complete stack under production-shaped load
+(identical event schedules, three seeds). <b>(a)</b> P95 local utilization: integrated
+fast+PIVOT combines every airtime-saving mechanism and stays lowest; integrated-full adds
+24-hour custody and trades capacity for reliability. <b>(b)</b> The 25% thresholds make the
+policy boundary explicit: fast+PIVOT expands hotspot / broad capacity 42% / 30%; universal
+custody contracts them 30% / 32%. Counts assume the same RF footprint and per-node traffic;
+geographic growth with spatial reuse does not obey this x-axis.</div>
 
 <h2>7&nbsp;&nbsp;Discussion</h2>
 <p>
@@ -1643,8 +1803,10 @@ equally and understates true connectivity.</li>
 <li><b>Observation bias.</b> Ground truth comes from MQTT gateways; RF events no gateway heard
 are invisible. Absolute delivery rates are therefore model outputs, not measurements &mdash;
 only rankings and ratios should be quoted.</li>
-<li><b>MAC simplification.</b> Same-round collision with 0.8 capture is crude; there is no
-inter-packet airtime contention or duty-cycle budget. Real broadcast storms are
+<li><b>MAC simplification.</b> Same-round collision with 0.8 capture is crude; the headline
+replay has no inter-packet airtime contention or duty-cycle budget. The capacity sweep of
+&sect;6.11 adds an aggregate utilization-coupled loss proxy, not a packet-level channel
+scheduler. Real broadcast storms are
 collision-dominated, so this likely still flatters FLOOD, i.e. the real gap would widen in
 GradCor's favour &mdash; but that remains unproven here, as it was in the synthetic pilot.
 One simplification cuts the other way: the replay's baseline flood omits Managed Flood
@@ -1734,10 +1896,12 @@ began as &ldquo;two numbers and two thresholds&rdquo; ends as &ldquo;one number 
 rule.&rdquo;
 </p>
 <p>
-Figure&nbsp;23 assembles the full system that &sect;3&ndash;&sect;6 built and measured piece by
-piece &mdash; gradient-corridor unicast, the flood kept where it is optimal, relay pressure
-choosing who relays, message classes and the setpoint controller choosing how much and how
-fast &mdash; alongside the gains over managed flooding each piece was measured to buy. The
+Figure&nbsp;26 assembles the full system that &sect;3&ndash;&sect;6 built piece by piece and
+Figure&nbsp;25 then exercised jointly &mdash; gradient-corridor unicast, the flood kept where
+it is optimal, PIVOT backbone and relay pressure choosing who relays, message classes and the setpoint controller
+choosing how much and how fast, with the ASSURED reliability envelope explicitly outside the
+default fast path &mdash; alongside the gains over managed flooding each piece was measured
+to buy. The
 through-line is a single design rule applied five times: <b>every mechanism reads a signal the
 radio already provides, and nothing else</b>. What that rule removed along the way &mdash; the
 hop counter, the state clocks, the role enum, every user knob &mdash; is the measure of how
@@ -1745,10 +1909,11 @@ much of today's configuration was standing in for measurement.
 </p>
 
 <figure><img src="fig_stack.png" class="fullbleed"></figure>
-<div class="caption"><b>Figure 23.</b> The complete stack and its measured gains. <b>(a)</b>
+<div class="caption"><b>Figure 26.</b> The complete stack and its measured gains. <b>(a)</b>
 All mechanisms of &sect;3&ndash;&sect;6 as one system, each annotated with its section:
-unicast routing, its reliability envelope, the broadcast side, and the three self-calibrating
-governors, resting on the one thing no protocol changes &mdash; physical placement.
+unicast routing, its rate-limited ASSURED reliability envelope, the broadcast side, and the
+three self-calibrating governors, resting on the one thing no protocol changes &mdash;
+physical placement.
 <b>(b)</b> Gains over managed flood, one line per claim, each traceable to a table in the
 body. Absolute values are model outputs; rankings and ratios are the findings.</div>
 <p>Recommended next steps, in order of information value:</p>
@@ -1760,7 +1925,8 @@ arrival-gated endpoints, <code>route_back</code> ingestion) already shipped to p
 during this work.</li>
 <li>Cross-validate reverse-link behaviour with NEIGHBORINFO edges where available and re-fit
 against the 23% round-trip anchor.</li>
-<li>Add concurrent-traffic airtime contention to test the collision-dominated regime.</li>
+<li>Replace the aggregate utilization-loss proxy of &sect;6.11 with packet-level concurrent
+traffic and duty-cycle scheduling to validate the collision-dominated capacity bound.</li>
 <li>Prototype the anycast contention race on hardware (two RAK4631s plus one Heltec V3 within
 capture range) before any firmware investment in the full protocol. With the state clocks gone,
 this millisecond backoff is GradCor-R's <i>entire</i> timing surface and the primitive to
@@ -1796,6 +1962,10 @@ network, 2026-06-27&ndash;07-04. Reproduction package
 <code>experiment_depth.py</code>, <code>experiment_persist.py</code>,
 <code>experiment_pressure.py</code>, <code>experiment_pressure_multinet.py</code>,
 <code>experiment_headroom.py</code>, <code>experiment_setpoint_multinet.py</code>,
+<code>experiment_capacity.py</code>, <code>experiment_capacity_compare.py</code>,
+<code>experiment_integrated_stack.py</code>,
+<code>experiment_pivot.py</code>, <code>experiment_pivot_multinet.py</code>,
+<code>experiment_aggregate.py</code>,
 <code>fig_*.py</code>; cross-network exports under
 <code>data_networks/</code>) is published alongside this paper.</li>
 <li>P. Levis, T. Clausen, J. Hui, O. Gnawali, J. Ko, &ldquo;The Trickle Algorithm,&rdquo; RFC 6206

@@ -1,0 +1,50 @@
+{
+  "inputs_version": "v4.2",
+  "network": "norway",
+  "window_start": "2026-07-09T21:00:00Z",
+  "window_end": "2026-07-11T21:00:00Z",
+  "nodes": 308,
+  "directed_edges": 773,
+  "links_per_node": 2.5097402597,
+  "modeled_originators": 119,
+  "verdict_distribution": {
+    "RAISE_HOP_LIMIT": 2,
+    "LOWER_HOP_LIMIT": 36,
+    "UNCHANGED": 81
+  },
+  "over_25_percent_projected_chu": 0,
+  "raises": [
+    {
+      "source_node_id": "!49d64e5f",
+      "current_hop_limit": 3,
+      "target_hop_limit": 4,
+      "reach_current": 38,
+      "reach_target": 44,
+      "reach_hop7": 47,
+      "local_chu_p95": 22.767,
+      "projected_chu_p95": 24.563,
+      "footprint_messages": 26644
+    },
+    {
+      "source_node_id": "!d6f8f838",
+      "current_hop_limit": 2,
+      "target_hop_limit": 3,
+      "reach_current": 71,
+      "reach_target": 95,
+      "reach_hop7": 100,
+      "local_chu_p95": 24.652,
+      "projected_chu_p95": 24.712,
+      "footprint_messages": 30398
+    }
+  ],
+  "method": {
+    "nodes": "Production ClickHouse per-originator msg_count, avg_hop_start, role, reporter p95 ChU and sample count.",
+    "edges": "Builder-equivalent TRACEROUTE_APP plus NEIGHBORINFO_APP directed edge extraction.",
+    "projection": "measured_chu * (footprint_messages + source_messages * candidate_relay_ops) / (footprint_messages + source_messages * current_relay_ops)"
+  },
+  "notes": [
+    "No device configuration was applied.",
+    "Observed retransmission amplification is unavailable because ingest deduplication prevents a defensible over-air lower bound.",
+    "Relay cost uses directed graph opportunities; zero-cost favorite-router legs are not inferable."
+  ]
+}
